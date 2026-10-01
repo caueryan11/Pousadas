@@ -18,6 +18,8 @@ Meta: 10 clientes até 15/11/2026.
 | `leads/publico-argentino.md` | **leads com dono ou público hispanofalante: começar por aqui** |
 | `leads/grupos.md` | **grupos com várias pousadas do mesmo dono** |
 | `leads/verificacao-whatsapp.md` | conferência de WhatsApp e Instagram dos leads top |
+| `rotas/rotas.md` e `rotas/calendario.md` | **21 dias de visita por zona + calendário até 15/11** |
+| `mensagens/` | **rascunhos de mensagem (Msg 1, D+2, D+5) e preparo de visita para cada A/A+** |
 | `leads/00-consolidado.md` e `leads/leads.csv` | todos os leads numa lista só, com status (gerado por `scripts/consolida.py`) |
 
 ## Critério de prioridade
