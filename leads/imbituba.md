@@ -26,3 +26,39 @@ Pesquisa: 01/10/2026. Fonte: só WebSearch. Os sites não puderam ser abertos po
 - IM08: instagram.com/pousada_belaspraia · booking.com/hotel/br/pousada-belas-praia-ribanceira.html
 - IM09: facebook.com/kitnetDaJuNaPraiaDaRibanceira
 - IM10: pousadaitapiruba.com.br/contato · tripadvisor d2441874
+
+---
+
+# Segunda leva (Imbituba)
+
+| # | Nome | Tipo | Bairro | Telefone / WhatsApp | Instagram | Site | WhatsApp? | Sinal estrangeiro | Avaliações | Prior. | Observação citável |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| IM11 | Pousada Cheiro de Mar | aptos para 4 pessoas, piscina | Vila Nova (Condomínio João Rimsa) | fixo (48) 3255-8466 | @pousadacheirodemar (conferir) | não | não sei | fraco | Booking 8,9 (75) | **B** | desde 2005; 300 m da Praia da Vila, varanda com vista para o mar; pet friendly. Visita |
+| IM12 | Zimba Hostel | hostel | perto da Praia do Surf | não encontrado | não encontrado | não (Booking) | não sei | não encontrado | não encontrado | **C** | check-in das 15h às 18h; sem contato público |
+| IM13 | Pousada do Mirante | econômica | Centro | fixo (48) 3255-3299 | não (Facebook) | não | não sei | não encontrado | Google 4,3 (~110) | **C** | ⚠ um dos CNPJ consta baixado; sem café |
+| IM14 | Silvestre Praia Hotel | hotel 3* (42 quartos) | Centro, Praia da Vila | WhatsApp (48) 99111-6165; fixos 48 3255-1404 / 1230 | @silvestrepraiahotel | sim, silvestrepraiahotel.com | sim | não encontrado | Booking (524), localização 9,4 | **B** (porte de hotel) | terraço no rooftop, 2 piscinas |
+| IM15 | Praia Hotel Imbituba | hotel 3–4* | em frente à Praia da Vila | fixo +55 48 3255-1700 | @praia.hotel.imbituba | não | não sei | não encontrado | Booking 9,3 (307–2.537, divergente) | **C** (hotel) | piscina aquecida coberta e spa |
+| IM16 | Austral Suítes a Beira-Mar | pousada (5 suítes) | Ribanceira (Av. Atlântica 255) | não encontrado | @austral.suites | não | não sei | não encontrado | Hotels.com 9,9 (12) | **A** (contato pelo Instagram) | pé na areia, 6 min a pé do mirante das baleias-francas da Ribanceira. Nova (0 avaliações no TripAdvisor) |
+| IM17 | Pousada Paraíso 26 | pousada + restaurante | perto da Praia d'Água/Ribanceira | WhatsApp no linktr.ee/paraiso26 (número não exibido) | @paraiso26_ | linktree | provável | não encontrado | **Booking 9,8 (119)** | **A** | vista para o mar em algumas unidades; restaurante family-friendly |
+| IM18 | Cabanas da Ribanceira | cabanas | Ribanceira/Mirim | não encontrado | não encontrado | não | não sei | não encontrado | Booking 9,4 | **B** | donos Guilherme e Clarissa, em Imbituba desde 2001; hóspedes elogiam "a hospitalidade e simplicidade". Visita |
+| IM19 | Cabanas Santa Riba | 2 cabanas | Ribanceira | +55 48 99678-4601 | @santariba | sim, santariba.com | provável | não encontrado | não encontrado | **B** | "cabanas lindas, seguras, pelo melhor preço da região"; operação pequena |
+| IM20 | Cabanas Hamarhavida | cabanas (2, 4 e 6 pessoas) | Ribanceira | 48 99188-8844; fixo 48 3255-1662 | @hamarhavida | não | provável | não encontrado | TripAdvisor (sem nota) | **A** | fogueira de frente para o mar; "ideal spot for whale watching" |
+| IM21 | Pousada Tio Bilia | pousada de estrada + restaurante (14 quartos) | Alto Arroio (BR-101 km 279) | (48) 99991-2980 / 99182-9943 | não encontrado | não | provável | não encontrado | Booking 8,3 | **B** | pet friendly ("equipe que ama animais"); recepção 24h. Outro público (viajante de estrada) |
+| IM22 | Hotel e Restaurante Alto Arroio | hotel de estrada | Alto Arroio (BR-101 km 276) | fixo (48) 3355-0141 | não encontrado | não | não sei | não encontrado | TripAdvisor 4/5 | **C** | desde 1985 |
+
+Pousada Praia Verde (Arroio) já está em `rosa-ibiraquera-extra.md` (RX39): aceita 1 pet sem taxa (BringFido); restaurante e piscina.
+Pousada Maria (Vila Nova, (48) 99103-7727): anunciada à venda, provavelmente fechada.
+
+## Fontes (segunda leva)
+- IM11: tripadvisor d2734503 · econodata 07753175000119
+- IM12: booking zimba-hostel-imbituba2
+- IM13: listaamarela pousada_do_mirante_9336353
+- IM14: silvestrepraiahotel.com/contato · booking silvestre-praia
+- IM15: turismo.imbituba.sc.gov.br/onde-ficar/item/praia-hotel-imbituba
+- IM16: hotels.com ho3802070720 · instagram.com/austral.suites
+- IM17: booking suite-atlantico · linktr.ee/paraiso26
+- IM18: booking cabanas-da-ribanceira · tripadvisor d21350506
+- IM19: santariba.com
+- IM20: barradeibiraquera.com.br/cabanas-hamarhavida-praia-da-ribanceira-imbituba · tripadvisor d16989776
+- IM21: booking pousada-tio-bilia-imbituba12
+- IM22: tripadvisor d6544481

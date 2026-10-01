@@ -131,3 +131,8 @@ Para expandir: Pousada Cantinho do Rosa (Ibiraquera, TripAdvisor 5/5), Pousada d
 - RX47: tripadvisor d12259002 · hoteles.com ho3469384256
 - RX48: villagedoluz.com · booking village-do-luz · tripadvisor d13145516
 - RX49: pousadavillabellasc.com.br/atrativos/kitesurf · reclameaqui pousada-villa-bella
+
+| RX50 | Morada Porto Verde | pousada | "coração da Praia do Rosa", 500 m da Lagoa do Meio | +55 48 99118-9221 | não encontrado | sim, moradaportoverde.com.br | provável | não encontrado | não encontrado | **A** | 1,1 km da praia; e-mail pousada.mportoverde@gmail.com (fonte: moradaportoverde.com.br/turismo-praia-do-rosa) |
+
+RX47 La Creación: site pousadalacreacion.com; e-mail lacreacionpousada@gmail.com; Estrada Geral do Rosa (fonte: pousadalacreacion.com, econodata 37124451000140).
+Para expandir: Haleakala, Bungalow, Albergue Explorer (Rosa); Mevlana Garden, Vila dos Coqueiros (Barra de Ibiraquera; Vila dos Coqueiros pode ser ligada à Casas Ibiraquera, IB12, pelo e-mail viladoscoqueiros@).
