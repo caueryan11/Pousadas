@@ -144,3 +144,13 @@ Surf Lodge Garopaba (Silveira) pertence à Silveira Ecovillage (GA02).
 - GA46: garopaba.tur.br/residencialserraemar.htm
 - GA47: turismo.garopaba.sc.gov.br/onde-ficar · macamp (Akampa Siriú)
 - GA48: airbnb.com/h/silveirabeachhouse
+
+---
+
+# Quinta leva (Garopaba Centro)
+
+| # | Nome | Tipo | Bairro | Telefone / WhatsApp | Instagram | Site | WhatsApp? | Sinal estrangeiro | Avaliações | Prior. | Observação citável |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| GA49 | Pousada Casa Californiana | pousada com piscina | Centro (R. Francisco Pacheco de Souza 788) | não encontrado | não encontrado | não | não sei | fraco (OTAs estrangeiras) | Booking 9,1 (75) | **B** | uma das mais completas do centro, a partir de R$ 247 (blog). Visita |
+| GA50 | Pousada Santa Terezinha | pousada | Centro, 2 quadras da praia | WhatsApp (48) 99979-9773; fixo 48 3254-3108 | não encontrado | sim, pousadasantaterezinha.com.br | sim | não encontrado | não encontrado | **A** | a partir de R$ 197, uma das mais baratas do centro |
+| GA51 | Pousada Moradas da Praia | pousada | Centro (R. Nereu Ramos 209), 100 m da praia | não encontrado | não encontrado | não | não sei | não encontrado | Booking (sem nota) | **B** | anfitriões Daniele e Roger. Visita |

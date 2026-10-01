@@ -80,3 +80,21 @@ Para expandir: Zangabai (@zangabaibarra), Beira Mar Ferrugem (@pousadabeiramarfe
 - FE27: booking morada-vista-da-lagoa
 - RX61: pousadasolardoslirios.com.br · tripadvisor d13342396
 - JJ: jjhotelsgroup.com/en/hospedagens
+
+---
+
+# Terceira leva (Ferrugem)
+
+| # | Nome | Tipo | Bairro | Telefone / WhatsApp | Instagram | Site | WhatsApp? | Sinal estrangeiro | Avaliações | Prior. | Observação citável |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| FE28 | Pedramarca Hostel Club | hostel + surf houses | Ferrugem, 50 m da praia | WhatsApp +55 48 98500-3760 | @pedramarcaferrugem | sim, pedramarca.com.br (EN) | sim | **sim**: site em inglês, Hostelworld | Booking 8,7 (60), equipe 9,8 | **A** | estúdio de música, academia e fogueiras |
+| FE29 | Pousada Medina Surf House | pousada surf (nova) | Ferrugem (R. Jardim da Lagoa 81) | WhatsApp (48) 99200-7272 | não (Facebook) | não | sim | fraco (TripAdvisor UK) | Booking (20) | **A** | nova: momento de montar o atendimento |
+
+Para próxima rodada: Ponta Ferrugem Guest House, Ferrugem Soul Surf Hostel, Residencial Ferraz, Garopaba Pousada-Hostel.
+
+## Fontes
+- GA49: booking pousada-casa-californiana · maladeaventuras.com/pousadas-em-garopaba
+- GA50: pousadasantaterezinha.com.br
+- GA51: booking pousada-moradas-da-praia
+- FE28: pedramarca.com.br/contacto · hostelworld 318095
+- FE29: booking reviews pousada-medina-surf-housa · tripadvisor d34233033

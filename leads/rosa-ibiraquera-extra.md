@@ -187,3 +187,45 @@ Não encontradas: Aldeia do Rosa, Vila Tamarindo (fica em Florianópolis), Ponta
 | RX66 | Pousada Vila dos Coqueiros | pousada rústica (quartos, flats, casas) | Barra de Ibiraquera (R. Custódia de Carvalho Ferreira 317) | WhatsApp 48 99154-8802 / 48 99184-1040; fixo 48 3255-1277 | @pousadaviladoscoqueiros (~7,7 mil) | sim, viladoscoqueiros.com.br | sim | não encontrado | TripAdvisor 3/5 | **A+ (grupo c/ IB12)** | do mesmo dono da Casas Ibiraquera (IB12): Pablo Griep, corretor CRECI 9.641 e advogado. Pousada + 40 casas = lead forte |
 | RX67 | Pousada Encantos do Rosa | 6 casas + 3 suítes | Av. Central do Rosa 1745 | +55 48 99174-4206; reservas 48 99977-6682 | @encantosdorosa (~16 mil) | sim, encantosdorosa.com.br | provável | não encontrado | Booking 9,4 | **A** | casas para até 6 pessoas com piscina e playground; **atende das 8h às 23h** |
 | RX68 | Pousada Maresia | econômica | Rosa/Ibiraquera | não encontrado | não encontrado | não | não sei | não encontrado | não encontrado | **C** | presença online fraca |
+
+---
+
+# Sétima leva (varredura geral: Rosa e Barra de Ibiraquera)
+
+📰 **Argumento de mercado (fonte pública):** o jornal argentino LA NACION publicou em 15/11/2025 uma matéria sobre preços de verão na Praia do Rosa, "este refugio que enamora a los argentinos", citando pousadas da região. Fonte: lanacion.com.ar/salud/praia-do-rosa-los-precios-del-verano-de-este-refugio-que-enamora-a-los-argentinos-nid15112025/. Dá para citar na conversa: "até o La Nación escreve sobre o Rosa para argentinos".
+
+| # | Nome | Tipo | Bairro | Telefone / WhatsApp | Instagram | Site | WhatsApp? | Sinal estrangeiro | Avaliações | Prior. | Observação citável |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| RX69 | Pousada Villa Seychelles | 4 cabanas + 2 suítes | Centro do Rosa, 50 m do centrinho | WhatsApp +55 48 99113-8120 | não encontrado | sim, villaseychelles.com.br | sim | não encontrado | **Google 4,9 (123)**; Booking 9,6 (56) | **A** | "small village-style pousada" a 50 m do centrinho |
+| RX70 | Soas Cabanas | 4 cabanas | Praia do Rosa, 100 m do mar | +55 48 99819-4520 | @soascabanas | não | provável | **citada pela LA NACION** (custo-benefício) | TripAdvisor 4/5 | **A** | cabanas com lareira e cozinha. Já foi citada para argentinos |
+| RX71 | Pousada Flor de Lótus | 16 quartos | Praia do Rosa (R. do Engenho) | +55 48 99673-4681 | não encontrado | sim, flordelotuspraiadorosa.com.br | provável | **citada pela LA NACION** | Kayak 8,8 (366); TripAdvisor 3/5 (12) | **A** | 400 m da praia pela trilha da Lagoa do Meio |
+| RX72 | Recanto do Spinoza | studios, chalés, casinhas (só casais) | Praia do Rosa | WhatsApp 48 99912-7608 | @recantodospinoza | sim, recantodospinoza.com | sim | **citado pela LA NACION**; anunciado no trivago argentino | Airbnb Superhost | **A** | nome em homenagem ao filósofo Spinoza; exclusivo para casais |
+| RX73 | Pousada Gauleses | pousada + restaurante | Av. Porto Novo | WhatsApp (48) 99147-2095 | @restaurantegauleses | sim, pousadagauleses.com.br | sim | não encontrado | **TripAdvisor 4,7 (84), 6º de 88; Booking (446)** | **A** | piscina aquecida e jacuzzi coberta para 8. No Booking aparece "by La Vem Férias": **possível gestora com outras unidades**, investigar |
+| RX74 | Pousada Rosa & Canela | 12 suítes e bangalôs | Av. Central | (48) 99982-5023; fixo 48 3355-6059 | não encontrado | sim, rosaecanela.com.br | provável | fraco (Kayak em espanhol) | Booking 9,4 | **A** | opção econômica (~R$ 180/dia) |
+| RX75 | Pousada Rosa | pioneira, anos 1980 | Av. Porto Novo | WhatsApp +55 48 99814-0433 | não encontrado | sim, pousadarosa.com.br | sim | **forte**: avaliações de argentinos de Formosa (jan/2026) e Rosário (jan/2025); hóspede cita o atendente "Martin, de la Argentina" | TripAdvisor 4,6 (43) | **A (top)** | pioneira do Rosa; já tem atendente argentino. Avaliação recente cita manutenção (não citar) |
+| RX76 | Pousada Sol & Sal | pousada | Praia do Rosa | WhatsApp +55 48 99613-4015; fixo 48 3355-7414 | não encontrado | sim, pousadasolesal.com.br | sim | não encontrado | **TripAdvisor 4,9 (371), 2º de 88, Travelers' Choice** | **A (top)** | 2º lugar no Rosa com 371 avaliações: muito volume de contato |
+| RX77 | Pousada Areias do Rosa | pousada | R. John Lennon 222 | fixo/WhatsApp (48) 3355-7267 | não encontrado | sim, pousadaareiasdorosa.com.br | sim (fixo) | fraco (Kayak ES/HE) | TripAdvisor (sem nº) | **B** | convênio com a CAASC (caixa de assistência dos advogados de SC) |
+| RX78 | Pousada Rosa da Praia | 10 acomodações | Centro do Rosa | 48 9680-0650 (formato antigo) | não encontrado | sim, rosadapraia.com.br | não sei | não encontrado | TripAdvisor (sem nº) | **B** | ~15 min a pé da praia |
+| RX79 | Pousada Recanto do Rosa | quartos para 4 a 6 + suítes | Centro do Rosa | WhatsApp +55 48 99219-9699 / 99200-1052; fixo 48 3355-6336 | não encontrado | sim, recantodorosa.com.br | sim | fraco | não encontrado | **A** | piscina e segurança noturna; **2 WhatsApps** (volume) |
+| RX80 | Pousada Dos Soles | cabanas | R. Aracuã | WhatsApp +55 48 99648-0051; fixo 48 3355-6090 | não encontrado | sim, pousadadossoles.com | sim | nome em espanhol | Booking 9,5 (localização 9,8) | **A** | vista para a montanha, piscina, cozinha nas unidades |
+| RX81 | Pousada Cravo e Canella | aptos e suítes, aceita cães | Barra de Ibiraquera, 500 m do mar | (48) 98833-6392; fixos 48 3255-5991 / 3355-0369 | não encontrado | sim, cravoecanella.com | provável | fraco | Booking 8,4 | **A** | aceita cães; 500 m do mar e 300 m da lagoa; consta no portal de turismo de Imbituba |
+| RX82 | Pousada Pouso das Águas | aptos de 1 a 3 quartos, frente ao mar | Barra de Ibiraquera | 48 99965-0440; fixo 48 3355-3036 | @pousadapousodasaguassc | não | provável | não encontrado | TripAdvisor (sem nº) | **A** | varandas com rede e vista para a Ilha da Batuta |
+
+Fazenda Verde (ver nota da RX31): também citada pela LA NACION; há anúncio "Fazenda Verde by Neco" no TripAdvisor.
+Para próxima rodada: Morada Carmem (Ouvidor), Moradas da Dalvina (Ibiraquera), Portal do Rosa, Rosa Maria, Beira Rosa, Recanto Zen, Recanto Bella Rosa (Rosa), Cabanas do Rosa (Booking 9,8, diferente da Cabanas no Rosa?), La Vem Férias (gestora?).
+
+## Fontes (sétima leva)
+- RX69: villaseychelles.com.br · booking reviews villa-seychelles
+- RX70: tripadvisor d2440719 · instagram.com/soascabanas · LA NACION
+- RX71: flordelotuspraiadorosa.com.br · tripadvisor d4214173 · kayak 563896
+- RX72: recantodospinoza.com · instagram.com/recantodospinoza
+- RX73: pousadagauleses.com.br · tripadvisor d4512351 · booking gauleses
+- RX74: rosaecanela.com.br/reservas-contato.php · maladeaventuras.com/pousadas-praia-do-rosa
+- RX75: pousadarosa.com.br/pt/pousada-rosa-praia-do-rosa · tripadvisor d7777037
+- RX76: pousadasolesal.com.br/sobre · tripadvisor d7198715
+- RX77: pousadaareiasdorosa.com.br/alojamento · caasc.org.br/convenio?convenio=3781
+- RX78: rosadapraia.com.br · tripadvisor d9795018
+- RX79: recantodorosa.com.br/sobre-nos
+- RX80: pousadadossoles.com · booking pousada-dos-soles
+- RX81: turismo.imbituba.sc.gov.br/onde-ficar/item/pousada-cravo-e-canella · cravoecanella.com
+- RX82: garopabaimbituba.tur.br/praia-da-barra-de-ibiraquera-pousada-aluguel · instagram.com/pousadapousodasaguassc
