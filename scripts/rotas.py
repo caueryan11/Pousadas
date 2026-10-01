@@ -70,7 +70,7 @@ for z in ordem:
         for j, r in enumerate(bloco, 1):
             junto = [k for k, v in grupos.items() if v == r["id"]]
             extra = f" (+ {', '.join(junto)})" if junto else ""
-            out.append(f"| {j} | {r['id']}{extra} | {r['nome']} | {r['bairro']} | {r['telefone'][:70]} | {r['prioridade']} | a visitar |")
+            out.append(f"| {j} | {r['id']}{extra} | {r['nome']} | {r['bairro']} | {r['telefone'][:140]} | {r['prioridade']} | a visitar |")
         if len(bloco) < 8:
             out.append("_Dia curto: complete com leads B da mesma zona (ver `leads/00-consolidado.md`) ou com retornos D+2/D+5._")
         out.append("")

@@ -38,7 +38,7 @@ Ordem dentro do dia: os **top** primeiro. Ajuste a ordem física pelo caminho re
 | 2 | RX28 | Pousada Cacau | Centro (R. Fruta do Conde) | WhatsApp +55 48 99160-7154 (linktree) | A (top volume) | a visitar |
 | 3 | RX75 | Pousada Rosa | Av. Porto Novo | WhatsApp +55 48 99814-0433 | A (top) | a visitar |
 | 4 | RX76 | Pousada Sol & Sal | Praia do Rosa | WhatsApp +55 48 99613-4015; fixo 48 3355-7414 | A (top) | a visitar |
-| 5 | RX83 | Fazenda Verde by Neco | Praia do Rosa | WhatsApp +55 48 99699-8074; fixo 48 3355-6060; **contato em Buenos Air | A (top) | a visitar |
+| 5 | RX83 | Fazenda Verde by Neco | Praia do Rosa | WhatsApp +55 48 99699-8074; fixo 48 3355-6060; **contato em Buenos Aires +54 9 11 5015-1928** | A (top) | a visitar |
 | 6 | RX97 | Pousada Kirana | Praia do Rosa (R. Fruta do Conde) | WhatsApp +55 48 99855-1995 / +55 48 99127-6662 | A (top) | a visitar |
 | 7 | RX98 | Pousada Além do Jardim | Av. Central do Rosa, 150 m da praia | tel./WhatsApp +55 48 99835-4397 | A (top) | a visitar |
 | 8 | AD02 | Imobiliária Trip | Av. Porto Novo; casas no Rosa, Rosa Norte e Alto Arroio | (48) 99152-7670 | A+ | a visitar |
@@ -120,7 +120,7 @@ Ordem dentro do dia: os **top** primeiro. Ajuste a ordem física pelo caminho re
 
 | # | ID | Lead | Endereço/bairro | Contato | Prior. | Status |
 |---|---|---|---|---|---|---|
-| 1 | RX01 | Pousada Rosa Negra | R. dos Poncianos, ~700 m do centro do Rosa | WhatsApp BR +55 48 99149-1716; **WhatsApp AR +54 9 351 746-3322** (⚠ * | A (top) | a visitar |
+| 1 | RX01 | Pousada Rosa Negra | R. dos Poncianos, ~700 m do centro do Rosa | WhatsApp BR +55 48 99149-1716; **WhatsApp AR +54 9 351 746-3322** (⚠ **o site oficial publica +55 48 99204-0521 e +54 11 3410-3990: use esse | A (top) | a visitar |
 | 2 | RN01 | Pousada Rosa Norte | Rosa Norte ⚠ | WhatsApp (48) 99167-3990 | A | a visitar |
 | 3 | RN02 | Pousada Lagoa do Rosa | Lagoa do Rosa ⚠ | +55 48 99152-8435 | A | a visitar |
 | 4 | RN06 | Pousada Sonho do Vale | Vale do Rosa | WhatsApp (48) 99155-3603 | A | a visitar |
@@ -212,7 +212,7 @@ _Dia curto: complete com leads B da mesma zona (ver `leads/00-consolidado.md`) o
 
 | # | ID | Lead | Endereço/bairro | Contato | Prior. | Status |
 |---|---|---|---|---|---|---|
-| 1 | AD11 (+ GA27) | Portal da Ferrugem / Diego Imóveis | Estrada Geral da Ferrugem 3399 | **Reservas (48) 99915-7464**; vendas (48) 99114-9635; fixos 48 3254-04 | A+ (top) | a visitar |
+| 1 | AD11 (+ GA27) | Portal da Ferrugem / Diego Imóveis | Estrada Geral da Ferrugem 3399 | **Reservas (48) 99915-7464**; vendas (48) 99114-9635; fixos 48 3254-0459 / 3254-0355 | A+ (top) | a visitar |
 | 2 | AD18 | Praia da Ferrugem Aluguel | Ferrugem | WhatsApp +55 48 98406-1437; fixo 48 3254-0077 | A+ (top) | a visitar |
 | 3 | AD19 (+ FE17, FE18, FE19, FE35) | PRAIADAFERRUGEM.net (Gabriel Jean Burg) | Ferrugem | WhatsApp +55 48 99691-0228; fixo 48 3254-0479 | A+ (top, grupo) | a visitar |
 | 4 | FE04 (+ FE08, FE14) | Ferrujão Pousada e Restaurante | R. das Garoupas 50, frente para o mar | WhatsApp (48) 99143-5465; fixo 48 3254-0050 | A+ (top, grupo c/ FE08 e FE14) | a visitar |
@@ -255,11 +255,11 @@ _Dia curto: complete com leads B da mesma zona (ver `leads/00-consolidado.md`) o
 
 | # | ID | Lead | Endereço/bairro | Contato | Prior. | Status |
 |---|---|---|---|---|---|---|
-| 1 | AD08 | Férias em Garopaba | Garopaba | Adriana Hermínia (48) 99933-1641; João Julião (48) 99917-7146; Carlos  | A+ (top) | a visitar |
+| 1 | AD08 | Férias em Garopaba | Garopaba | Adriana Hermínia (48) 99933-1641; João Julião (48) 99917-7146; Carlos Bebber (48) 99990-5891 | A+ (top) | a visitar |
 | 2 | GA11 (+ GA62) | Pousada GaropaSul | Centro, 600 m da praia | WhatsApp (48) 99183-1146; fixo 48 3254-3177 | A (top) | a visitar |
 | 3 | GA30 | Pousada As Quatro Estações | Centro (R. Aderbal Ramos da Silva 250) | WhatsApp +55 48 98439-2058; fixo 48 3254-4811 | A (top) | a visitar |
 | 4 | AD01 | Alexia Consultoria Imobiliária | Praia do Rosa (Estrada Geral); diz atuar também em Garopaba, Silveira e Ferrugem | (48) 99167-8144 / (48) 99125-8251 | A+ | a visitar |
-| 5 | AD09 | Garopaba Imóveis | Centro de Garopaba; Morrinhos, Ferrugem e Silveira | Carlos Golle (48) 99694-1616; Simone Falkembach (48) 99958-2979; fixo  | A+ | a visitar |
+| 5 | AD09 | Garopaba Imóveis | Centro de Garopaba; Morrinhos, Ferrugem e Silveira | Carlos Golle (48) 99694-1616; Simone Falkembach (48) 99958-2979; fixo (48) 3354-1999 | A+ | a visitar |
 | 6 | AD10 | Imobiliária Ilha Bela | Garopaba | (48) 99858-2379; fixos 48 3254-3293 / 1351 | A+ | a visitar |
 | 7 | AD12 | Ferrugem Imóveis | Garopaba (R. Paulino Furtado 32) e Ferrugem | Thiago Gomes (48) 99184-7854; Cristhian Fernandes (48) 99959-9912 | A+ | a visitar |
 | 8 | AD13 | Tosetto Imóveis | Centro de Garopaba | fixo (48) 3254-3161 | A+ | a visitar |
@@ -281,7 +281,7 @@ _Dia curto: complete com leads B da mesma zona (ver `leads/00-consolidado.md`) o
 
 | # | ID | Lead | Endereço/bairro | Contato | Prior. | Status |
 |---|---|---|---|---|---|---|
-| 1 | GA31 | Pousada Colina Verde | Palhocinha | (48) 3254-4625; celular em formato antigo (48 9176-2028, provavelmente | A | a visitar |
+| 1 | GA31 | Pousada Colina Verde | Palhocinha | (48) 3254-4625; celular em formato antigo (48 9176-2028, provavelmente 99176-2028) | A | a visitar |
 | 2 | GA32 | Pousada Garopaba | Centro (R. João Lino da Silva Neto 407) | WhatsApp (48) 99958-2790 / 99915-3331 | A | a visitar |
 | 3 | GA33 | Residencial da Praça | Centro, 300 m do mar | (48) 99112-0190; fixo 48 3254-4081 | A | a visitar |
 | 4 | GA34 | Pousada Costa Azul | Centro Histórico, uma quadra da praia | fixo 48 3254-3321; 48 9971-0575 (formato antigo) | A | a visitar |
