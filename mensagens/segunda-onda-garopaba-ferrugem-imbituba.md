@@ -248,7 +248,7 @@ Notas gerais:
 - Dor provável: pousada aberta há pouco, ainda montando processos de atendimento (hipótese).
 - Oferta: Plano Temporada; momento bom para já começar com o atendimento organizado.
 
-**Msg 1 (recado na recepção):** Oi, tudo bem? Sou o Caue, moro aqui do lado, no Rosa, e trabalho com tecnologia. Vi que a Estação Ferrugem abriu há pouco, com piscina, a 300 m da praia. Montei um atendente de WhatsApp que responde hóspede 24h (preço, café, check-in) e passa o pedido de reserva pronto. Como vocês estão montando o atendimento pro primeiro verão?
+**Msg 1 (recado na recepção):** Oi, tudo bem? Sou o Caue, moro aqui do lado, no Rosa, e trabalho com tecnologia. Vi que a Estação Ferrugem abriu há pouco, com piscina, a 300 m da praia. Montei um atendente de WhatsApp que responde hóspede 24h (preço, café, check-in) e passa o pedido de reserva pronto. Como vocês estão organizando o atendimento pro verão?
 **D+2:** Oi! Aqui é o Caue, do recado. Já têm um WhatsApp pras reservas?
 **D+5:** Último toque: até 15/11 tenho condição de pré-temporada, com 1 semana de garantia. Se quiser, passo aí 10 min e mostro ao vivo.
 
@@ -317,8 +317,8 @@ Notas gerais:
 - Dor provável: reabertura com pedidos acumulados e pouco tempo para responder (hipótese).
 - Oferta: Plano Temporada, já começando na reabertura.
 
-**Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui do lado, no Rosa, e trabalho com tecnologia. Vi no site que a Brisa do Mar está preparando a reabertura. Montei um atendente de WhatsApp que responde hóspede 24h (preço, vista, café, check-in) e passa o pedido de reserva pronto pra vocês. Faz sentido já reabrir com isso funcionando?
-**D+2:** Oi! Só pra ver se viu. Já têm data certa pra reabrir?
+**Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui do lado, no Rosa, e trabalho com tecnologia. Vi os aptos com vista pro mar da Brisa do Mar, em Itapirubá Norte. Montei um atendente de WhatsApp que responde hóspede 24h (preço, vista, café, check-in) e passa o pedido de reserva pronto pra vocês. Posso te mostrar em 1 minuto?
+**D+2:** Oi! Só pra ver se viu. Os pedidos pro verão já começaram a chegar?
 **D+5:** Último toque: até 15/11 tenho condição de pré-temporada, com 1 semana de garantia. Se agora não for o momento, tudo bem.
 
 ### [IM10] Pousada Itapirubá — Itapirubá Sul (Laguna)

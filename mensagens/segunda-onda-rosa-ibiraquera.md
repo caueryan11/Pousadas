@@ -68,7 +68,7 @@ Fontes: `leads/rosa-ibiraquera-extra.md`, `leads/rosa-norte-centro.md`, `leads/r
 - Dor provável: hipótese de atendimento sobrecarregado no pico (não citar avaliações); pergunta de pet é repetitiva.
 - Oferta: Plano Temporada.
 
-**Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que a Kaia Lua aceita pet, e essa é daquelas perguntas que chegam toda hora. Montei um atendente de WhatsApp que responde 24h em PT, ES e EN (pet, preço, check-in) e passa a reserva pronta pra vocês confirmarem. Quem cuida do WhatsApp aí?
+**Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que a Kaia Lua aceita pet e tem piscina nas cabanas duplex. Montei um atendente de WhatsApp que responde 24h em PT, ES e EN (pet, preço, check-in) e passa a reserva pronta pra vocês confirmarem. Quem cuida do WhatsApp aí?
 **D+2:** Oi! Só pra saber se viu. Já estão chegando perguntas de janeiro por aí?
 **D+5:** Último toque, sem pressão: até 15/11 tenho condição de pré-temporada com 1 semana de garantia. Se quiser ver ao vivo, passo aí.
 
@@ -79,7 +79,7 @@ Fontes: `leads/rosa-ibiraquera-extra.md`, `leads/rosa-norte-centro.md`, `leads/r
 - Dor provável: sem telefone público, reserva depende de Airbnb e DM; pode haver hóspede hispanofalante.
 - Oferta: Plano Temporada.
 
-**Msg 1 (DM):** Oi, pessoal da Alamanda! Sou o Caue, moro no Rosa e trabalho com tecnologia. Fogão a lenha e duas churrasqueiras na área gourmet é coisa rara por aqui. Montei um atendente de WhatsApp que responde hóspede 24h em português, espanhol e inglês e passa o pedido de reserva pronto. Vocês têm WhatsApp pra reservas?
+**Msg 1 (DM):** Oi, pessoal da Alamanda! Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi a área gourmet de vocês, com fogão a lenha e duas churrasqueiras. Montei um atendente de WhatsApp que responde hóspede 24h em português, espanhol e inglês e passa o pedido de reserva pronto. Vocês têm WhatsApp pra reservas?
 **D+2:** Oi! Passando pra ver se viram. Posso mandar um vídeo de 1 min?
 **D+5:** Último recado: até 15/11 tenho condição de pré-temporada com 1 semana de garantia. Se não for agora, tudo bem.
 
@@ -91,7 +91,7 @@ Fontes: `leads/rosa-ibiraquera-extra.md`, `leads/rosa-norte-centro.md`, `leads/r
 - Oferta: Plano Ano (volume, opera além do verão).
 - Atenção: uma nota em `rosa-ibiraquera-extra.md` liga "Fazenda do Rosa / Fazenda Verde" e diz "continua C". A Fazenda Verde (RX83) já é lead A com outro número. Confirmar se são o mesmo negócio antes de enviar, para não abordar o mesmo dono duas vezes.
 
-**Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Pousada beira-mar com restaurante próprio, como a Fazenda do Rosa com o Maram, deve receber pergunta de tudo no WhatsApp. Montei um atendente que responde 24h em PT, ES e EN e passa o pedido de reserva pronto pra equipe. Faz sentido conversar 10 min essa semana?
+**Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que a Fazenda do Rosa é beira-mar e tem restaurante próprio, o Maram. Montei um atendente de WhatsApp que responde hóspede 24h em PT, ES e EN e passa o pedido de reserva pronto pra equipe. Hoje as perguntas de reserva e do restaurante chegam no mesmo WhatsApp?
 **D+2:** Oi! Só reforçando. As perguntas de Réveillon já começaram a chegar aí?
 **D+5:** Último toque: até 15/11 tenho condição de pré-temporada com 1 semana de garantia. Se preferir ver ao vivo, passo aí.
 
@@ -102,7 +102,7 @@ Fontes: `leads/rosa-ibiraquera-extra.md`, `leads/rosa-norte-centro.md`, `leads/r
 - Dor provável: hipótese de dono atendendo sozinho; não citar notas de Wi-Fi ou conforto.
 - Oferta: Plano Temporada.
 
-**Msg 1:** Oi, tudo bem? Sou o Caue, vizinho aqui do Rosa, trabalho com tecnologia. A Cores do Rosa tem uma das localizações mais práticas do centrinho, atrás do Beleza Pura. Montei um atendente de WhatsApp que responde hóspede 24h em PT, ES e EN e te passa a reserva pronta pra confirmar. Posso te mostrar rapidinho?
+**Msg 1:** Oi, tudo bem? Sou o Caue, vizinho aqui do Rosa, trabalho com tecnologia. Vi a nota 9,6 de localização da Cores do Rosa no Booking, ali no centrinho atrás do Beleza Pura. Montei um atendente de WhatsApp que responde hóspede 24h em PT, ES e EN e te passa a reserva pronta pra confirmar. Posso te mostrar rapidinho?
 **D+2:** Oi! Viu minha mensagem? Te mando um vídeo curto?
 **D+5:** Último toque pra não te encher: até 15/11 tem condição de pré-temporada, 1 semana de garantia. Se quiser, passo aí, é pertinho.
 
@@ -179,7 +179,7 @@ Fontes: `leads/rosa-ibiraquera-extra.md`, `leads/rosa-norte-centro.md`, `leads/r
 - Dor provável: dono provavelmente no RS, atendendo à distância.
 - Oferta: Plano Temporada.
 
-**Msg 1:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi a Pousada dos Reis descrita como "a passos do mar, com ótimo custo-benefício". Montei um atendente de WhatsApp que responde hóspede 24h em PT, ES e EN e te passa o pedido de reserva pronto, mesmo de longe. Faz sentido te mostrar em 1 minuto?
+**Msg 1:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi a Pousada dos Reis descrita como "a passos do mar, com ótimo custo-benefício". Montei um atendente de WhatsApp que responde hóspede 24h em PT, ES e EN e te passa o pedido de reserva pronto. Faz sentido te mostrar em 1 minuto?
 **D+2:** Oi! Só confirmando se chegou. Você cuida das reservas daí do RS?
 **D+5:** Último toque: até 15/11 tenho condição de pré-temporada com 1 semana de garantia. Se não for o momento, sem problema.
 
@@ -212,7 +212,7 @@ Fontes: `leads/rosa-ibiraquera-extra.md`, `leads/rosa-norte-centro.md`, `leads/r
 - Dor provável: atendimento só por fixo; quem procura WhatsApp não acha.
 - Oferta: Plano Temporada.
 
-**Msg 1 (recado na recepção):** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. A Estalagem tem piscina e aceita pet, duas coisas que todo mundo pergunta. Montei um atendente de WhatsApp que responde hóspede 24h em PT, ES e EN e passa o pedido de reserva pronto pra vocês confirmarem. Hoje vocês têm WhatsApp pra reservas?
+**Msg 1 (recado na recepção):** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que a Estalagem tem piscina e aceita pet. Montei um atendente de WhatsApp que responde hóspede 24h em PT, ES e EN e passa o pedido de reserva pronto pra vocês confirmarem. Hoje vocês têm WhatsApp pra reservas?
 **D+2:** Oi! Passei aí outro dia. Posso voltar 10 min pra mostrar?
 **D+5:** Último toque: até 15/11 tenho condição de pré-temporada com 1 semana de garantia. Se não for o momento, tranquilo.
 
@@ -245,7 +245,7 @@ Fontes: `leads/rosa-ibiraquera-extra.md`, `leads/rosa-norte-centro.md`, `leads/r
 - Dor provável: grupo grande pergunta muito (capacidade, roupa de cama, regras); pode ter hóspede argentino.
 - Oferta: Plano Temporada.
 
-**Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Casa pra 8 a 10 pessoas com fogueira e churrasqueira coberta a 100 m do centro é coisa difícil de achar. Montei um atendente de WhatsApp que responde 24h em PT, ES e EN e passa o pedido de reserva pronto. Quem atende as reservas aí, você mesmo?
+**Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi as casas do Recanto Bella Rosa pra 8 a 10 pessoas, com piscina, fogueira e churrasqueira coberta, a 100 m do centro. Montei um atendente de WhatsApp que responde 24h em PT, ES e EN e passa o pedido de reserva pronto. Quem atende as reservas aí, você mesmo?
 **D+2:** Oi! Só pra ver se chegou. Te mando um vídeo de 1 min?
 **D+5:** Último toque: até 15/11 tenho condição de pré-temporada com 1 semana de garantia. Se não for agora, tudo bem.
 
@@ -335,7 +335,7 @@ Fontes: `leads/rosa-ibiraquera-extra.md`, `leads/rosa-norte-centro.md`, `leads/r
 - Dor provável: pousada pequena, dono atende sozinho; número antigo pode estar dificultando o contato.
 - Oferta: Plano Temporada.
 
-**Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Quarto com sacada de frente pro mar e pra Lagoa do Meio, como na Morada da Lagoa, é o que todo mundo procura. Montei um atendente de WhatsApp que responde 24h em PT, ES e EN e te passa a reserva pronta. Te mando um vídeo de 1 minuto?
+**Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que todos os quartos da Morada da Lagoa têm sacada com vista pro mar e pra Lagoa do Meio. Montei um atendente de WhatsApp que responde 24h em PT, ES e EN e te passa a reserva pronta. Te mando um vídeo de 1 minuto?
 **D+2:** Oi! Só confirmando se chegou. Esse é o melhor número pra falar com vocês?
 **D+5:** Último toque: até 15/11 tenho condição de pré-temporada com 1 semana de garantia. Se quiser, subo aí e mostro.
 
@@ -390,7 +390,7 @@ Fontes: `leads/rosa-ibiraquera-extra.md`, `leads/rosa-norte-centro.md`, `leads/r
 - Dor provável: gestora terceirizada atendendo; volume razoável de avaliações.
 - Oferta: Plano Ano (volume e gestão profissional). Falar com quem decide na Igualite.
 
-**Msg 1 (DM):** Oi, pessoal do Coração da Terra! Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Um bistrô num engenho de farinha centenário, como o Fávarô, é coisa única por aqui. Montei um atendente de WhatsApp que responde hóspede 24h em PT, ES e EN e passa o pedido de reserva pronto pra equipe. Com quem eu falo sobre isso?
+**Msg 1 (DM):** Oi, pessoal do Coração da Terra! Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi o Fávarô Bistrô de vocês, num engenho de farinha centenário. Montei um atendente de WhatsApp que responde hóspede 24h em PT, ES e EN e passa o pedido de reserva pronto pra equipe. Com quem eu falo sobre isso?
 **D+2:** Oi! Passando pra ver se viram. Posso mandar um vídeo de 1 min?
 **D+5:** Último recado: até 15/11 tenho condição de pré-temporada com 1 semana de garantia. Se não for o momento, tranquilo.
 
