@@ -39,3 +39,38 @@ Dados extras de RA02 Casa de Praia: @casadpraiaimoveis (~1,2 mil seguidores).
 - AD13: tosettoimoveis.com.br/ResultadoBusca.aspx?fin=3 · instagram.com/tosettoimoveis
 - AD14: mourinhoimoveis.com.br/localizacao/praia-da-silveira/
 - AD15: lorenaguerreiroimoveis.com.br/contato
+
+---
+
+# Segunda leva de administradoras
+
+| # | Nome | Tipo | Área | Carteira temporada | Telefone / WhatsApp | Instagram | Site | WhatsApp? | Prior. | Observação citável |
+|---|---|---|---|---|---|---|---|---|---|---|
+| AD16 | Zaluski Construtora e Imobiliária | imobiliária com temporada | Garopaba (Centro, Morrinhos, Ferraz, Siriú) | ~15 de temporada (conferir) | atendimento (48) 99973-8286 | @zaluskioficial_ | sim, imobiliariagaropabasc.com.br | sim | **A+** | fundada em 1995; "aluguel por temporada de casas e apartamentos em Garopaba, Morrinhos, Ferraz e centro" |
+| AD17 | Heriberto Giraldi Imóveis | imobiliária com temporada | Garopaba (Centro, Morrinhos, Vigia, Ferraz) | não encontrado | (48) 98406-7158; fixo 48 3254-3438 | não (Facebook) | sim, heribertogiraldi.com.br | não sei | **A+** | "mais de 35 anos"; venda e aluguel por temporada |
+| AD18 | Praia da Ferrugem Aluguel | portal de casas (contato com proprietários) | Ferrugem | várias: Casas Amarelas, Morada da Neide, Casa da Lenir, Moradas da Ferrugem… | WhatsApp +55 48 98406-1437; fixo 48 3254-0077 | não encontrado | sim, praiadaferrugemaluguel.com.br | sim | **A+** | pacotes de Carnaval, Réveillon e baixa temporada; perguntas repetidas por casa |
+| AD19 | PRAIADAFERRUGEM.net (Gabriel Jean Burg) | gestor familiar | Ferrugem | vários aptos (2–3 e 6–8 pessoas) | WhatsApp +55 48 99691-0228; fixo 48 3254-0479 | não encontrado | sim, praiadaferrugem.net | sim | **A+** | "grupo familiar que aluga imóveis por temporada desde 2013" |
+| AD20 | Convés Imobiliária | imobiliária com temporada | sede na Ferrugem; Silveira, Centro, Ferraz, Pedra Branca | 67 anúncios no Imovelweb (inclui venda) | +55 48 98486-8635 | @convesimobiliaria (não confirmado) | sim, convesimobiliaria.com.br | não sei | **A+** | "presente na região desde 2016"; CRECI 4569J |
+| AD21 | Gralha Azul Locações | administradora de temporada | Garopaba e Imbituba (Praia da Vila; Av. Dr. João Rimsa 601) | não encontrado | +55 48 99947-0377 | não encontrado | sim, gralhaazullocacoes.com.br | não sei | **A+** | "Aluguel de Temporada – Garopaba e Imbituba"; ligada à Turcâmbio |
+| AD22 | Praia do Rosa Imóveis | imobiliária | Praia do Rosa | não encontrado | WhatsApp (48) 99943-8969; 48 99684-1559; fixo 48 3355-7000 | não encontrado | sim, praiadorosaimoveis.com.br | sim | **A+** (confirmar se faz temporada) | "estabelecida desde 1989 na Praia do Rosa"; CRECI 3458 J |
+| AD23 | Flor do Mar – Casas para Alugar | 4 casas com gestão própria | Praia do Rosa, 100 m do mar | 4 casas (Hibisco, Íris, Bromélia, Lavanda) | fixo 48 3355-7102 (celular em formato antigo) | @flordomarpraiadorosa | sim, flordomar.com | não sei | **A** | "mais de 31 anos de experiência" |
+| AD24 | Mirante da Barra | condomínio de casas e suítes | Barra de Ibiraquera, beira da lagoa | não encontrado | WhatsApp 48 99955-9695 | não encontrado | sim, mirantedabarra.com.br | sim | **A** | piscina de água salgada aquecida; casas com lareira e churrasqueira |
+| AD25 | Seazone (Rosa Spot, Rosa Norte Spot, Rosa Sul Spot) | gestora nacional de Airbnb | Praia do Rosa | 40 + 44 unidades | não encontrado | não encontrado | seazone.com.br | não sei | **C** | empresa nacional, já tem atendimento próprio. Ponto útil: **proprietários desses studios** podem querer atendimento próprio |
+| AD26 | Silveira Invest Imóveis | imobiliária | Garopaba (Ferraz) | "mais de 400 imóveis" (catálogo total) | (48) 99901-5016 | não encontrado | sim, silveirainvest.com.br | não sei | **B** | foco em investimento para locação anual e/ou por temporada; CRECI 7281 |
+| AD27 | Imobiliária Cris Rulian | corretora | Imbituba / Praia do Rosa | não encontrado | 48 99942-9212 | não encontrado | não | não sei | **B** | CRECI 30.671; evidência fraca de temporada |
+
+Fazenda Verde (Rosa): 28 acomodações, WhatsApp +55 48 99699-8074, fixo 48 3355-6060. Porte grande (C).
+
+## Fontes (segunda leva)
+- AD16: construtoragaropabasc.com.br/construtora-imobiliaria-contato · zaluski.com.br
+- AD17: heribertogiraldi.com.br · garopabamidia.com.br (anúncio 308)
+- AD18: praiadaferrugemaluguel.com.br/contato
+- AD19: praiadaferrugem.net/aluguel
+- AD20: convesimobiliaria.com.br/sobre.html · imovelweb conves-imobiliaria_47066380
+- AD21: gralhaazullocacoes.com.br
+- AD22: praiadorosaimoveis.emp.br/imobiliaria
+- AD23: instagram.com/flordomarpraiadorosa · flordomar.com
+- AD24: mirantedabarra.com.br
+- AD25: seazone.com.br/marketplace/investir/spot/rosa-spot
+- AD26: silveirainvest.com.br
+- AD27: imovelweb (Cris Rulian)
