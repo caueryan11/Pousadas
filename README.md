@@ -14,6 +14,7 @@ Meta: 10 clientes até 15/11/2026.
 | `leads/garopaba.md` | Centro, Silveira, Siriú e Ouvidor (GA01–GA54) |
 | `leads/administradoras.md` | administradoras e imobiliárias de temporada (AD01–AD27) |
 | `leads/rosa-ibiraquera-extra.md` | segunda a nona leva do Rosa e de Ibiraquera (RX01–RX105) |
+| `leads/01-top-para-comecar.md` | **top 30 para a primeira semana** |
 | `leads/publico-argentino.md` | **leads com dono ou público hispanofalante: começar por aqui** |
 | `leads/grupos.md` | **grupos com várias pousadas do mesmo dono** |
 | `leads/verificacao-whatsapp.md` | conferência de WhatsApp e Instagram dos leads top |
