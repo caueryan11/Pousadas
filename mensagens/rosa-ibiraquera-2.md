@@ -135,15 +135,7 @@ Escopo: leads A/A+ de RX46 a RX128 de `leads/rosa-ibiraquera-extra.md`. Antes de
 **D+2:** Oi! Só passando. Com 600 avaliações, imagino o volume de janeiro. Posso te mostrar em 1 minuto?
 **D+5:** Último toque: condição de pré-temporada até 15/11 e 1 semana de garantia. Se não for agora, tranquilo.
 
-### [RX66] Pousada Vila dos Coqueiros + Casas Ibiraquera (grupo Pablo Griep) — Barra de Ibiraquera
-**Contato:** WhatsApp (48) 99184-1040 (também 48 99154-8802) · **Plano:** Ano por unidade + condição para a carteira (a combinar na conversa)
-**Visita:**
-- Particular: o Pablo Griep (corretor CRECI 9.641 e advogado) tem a Pousada Vila dos Coqueiros (quartos, flats e casas; Instagram ~7,7 mil) e administra pela Casas Ibiraquera mais de 40 residências na Barra e na Praia de Ibiraquera (IB12).
-- Dor provável: dezenas de imóveis diferentes, cada um com capacidade, pet e regras próprias, num atendimento só.
-- Oferta: Plano Ano para a pousada e proposta de carteira para as casas. Não citar preço da carteira na mensagem.
-**Msg 1:** Oi, Pablo, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que você tem a Vila dos Coqueiros e administra mais de 40 casas pela Casas Ibiraquera. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as perguntas de cada imóvel (capacidade, pet, check-in) e passa a reserva pronta. Faz sentido conversar 10 min?
-**D+2:** Oi, Pablo! Só pra ver se chegou. Dá pra montar uma proposta pensando na pousada e nas casas juntas. Te mando um vídeo de 1 min?
-**D+5:** Pablo, último toque: até 15/11 tenho condição de pré-temporada, com 1 semana de garantia. Se não for o momento, tranquilo. Se quiser, passo no escritório e mostro ao vivo.
+### [RX66] Pousada Vila dos Coqueiros: ver grupo [IB12 em mensagens/rosa-ibiraquera-imbituba-base.md] (mesmo dono: uma abordagem só)
 
 ### [RX67] Pousada Encantos do Rosa — Av. Central do Rosa
 **Contato:** +55 48 99174-4206 (reservas: 48 99977-6682) · **Plano:** Temporada
@@ -359,15 +351,7 @@ Escopo: leads A/A+ de RX46 a RX128 de `leads/rosa-ibiraquera-extra.md`. Antes de
 **D+2:** Oi! Passando só pra ver se viu. Posso te mostrar rapidinho?
 **D+5:** Último toque: condição de pré-temporada até 15/11, com 1 semana de garantia. Se não for o momento, tranquilo.
 
-### [RX95] Moradas Alma da Lagoa + Doce Cabana (mesmo dono) — Praia do Luz / Ibiraquera
-**Contato:** WhatsApp (48) 99664-9997 · **Plano:** Temporada por unidade + condição para as duas (a combinar)
-**Visita:**
-- Particular: o mesmo WhatsApp atende a Moradas Alma da Lagoa (aptos de 1 e 2 quartos, Praia do Luz) e a Doce Cabana (RX42: cabanas com piscina, pet friendly, uma cabana para até 8; Airbnb 4,93).
-- Dor provável: um número só para duas hospedagens, com regras diferentes.
-- Oferta: Plano Temporada para cada uma, com condição conjunta a combinar na conversa.
-**Msg 1:** Oi, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi que o mesmo WhatsApp atende a Doce Cabana e a Moradas Alma da Lagoa. Montei um atendente que responde 24h em 3 línguas, sabendo as regras de cada uma (pet, capacidade, café), e passa a reserva pronta. Faz sentido conversar 10 min?
-**D+2:** Oi! Só pra ver se chegou. Dá pra pensar numa condição para as duas juntas. Te mando um vídeo?
-**D+5:** Último toque: até 15/11 tenho condição de pré-temporada, com 1 semana de garantia. Se não for agora, sem problema.
+### [RX95] Moradas Alma da Lagoa: ver grupo [RX42 em mensagens/rosa-ibiraquera-1.md] (mesmo dono: uma abordagem só)
 
 ### [RX97] Pousada Kirana — Praia do Rosa (R. Fruta do Conde)
 **Contato:** WhatsApp +55 48 99855-1995 (também 99127-6662; Instagram @pousadakirana). Vale também a visita · **Plano:** Temporada
