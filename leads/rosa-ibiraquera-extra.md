@@ -136,3 +136,40 @@ Para expandir: Pousada Cantinho do Rosa (Ibiraquera, TripAdvisor 5/5), Pousada d
 
 RX47 La Creación: site pousadalacreacion.com; e-mail lacreacionpousada@gmail.com; Estrada Geral do Rosa (fonte: pousadalacreacion.com, econodata 37124451000140).
 Para expandir: Haleakala, Bungalow, Albergue Explorer (Rosa); Mevlana Garden, Vila dos Coqueiros (Barra de Ibiraquera; Vila dos Coqueiros pode ser ligada à Casas Ibiraquera, IB12, pelo e-mail viladoscoqueiros@).
+
+---
+
+# Quinta leva (Praia do Rosa e Ibiraquera)
+
+| # | Nome | Tipo | Bairro | Telefone / WhatsApp | Instagram | Site | WhatsApp? | Sinal estrangeiro | Avaliações | Prior. | Observação citável |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| RX51 | Pousada Cantinho do Rosa | aptos mobiliados, piscina, pet friendly | Estrada Geral do Rosa (TripAdvisor: Ibiraquera) | fixo (48) 3354-0167 | @nossocantinhodorosa (~3,9 mil) | não (Facebook) | não sei | não encontrado | TripAdvisor 5/5, 9º de 25 em Ibiraquera | **B** | só fixo e Instagram: abordar por DM ou visita |
+| RX52 | Pousada dos Reis | pousada (10 quartos com quitinete) | Praia de Ibiraquera (R. 6 Leste 124) | +55 51 99952-3842 (RS) | não encontrado | não | provável | não encontrado | TripAdvisor 5/5 (Ibiraquera) | **B** | "a passos do mar, com ótimo custo-benefício"; dono provavelmente no RS |
+| RX53 | Pousada Kahuna Praia do Rosa | cabanas familiares com cozinha, piscina | Ibiraquera/Rosa (endereço divergente) | não encontrado | não (Facebook) | não | não sei | não encontrado | Booking 9,1; TripAdvisor 5/5, 8º de 25 | **B** | administrada por Adelar e Andrea, que cuidam também das reservas e do atendimento. Visita |
+| RX54 | Pousada Ibirawave | 4 aptos + Casa Lagoa | Barra de Ibiraquera | 48 99123-4132; fixo 48 3355-0223 | não (Facebook) | não | provável | não encontrado | OTA 9,3 (30) | **A** | **sem recepção**: pede contato 5 dias antes. O atendente cobre isso |
+| RX55 | Pousada ChaDay | pousada (41 quartos), piscina | Barra de Ibiraquera, 300 m do mar | +55 48 99801-9798 | @chadaypousada | sim, chadaypousada.com.br | provável | não encontrado | TripAdvisor 4/5 (51) | **B** (porte médio-grande) | 22 anos de funcionamento; "abundant and delicious breakfast" |
+| RX56 | Local da Lagoa | chalés e lofts com piscina | Ibiraquera (R. Sardinha) | (51) 98932-0353 (bio) ou 51 98406-2373 (Google) | @localdalagoa | não | provável | não encontrado | Google 4,8 (12) | **A** | "proprietários presentes e atenciosos" (Google) |
+| RX57 | Estalagem Rosa dos Ventos | estalagem (10 quartos), piscina, pet | Praia do Rosa (R. Idalino Manoel de Carvalho 9) | fixo +55 48 3355-6275 | não encontrado | sim, estalagemrosadosventos.com.br | não sei | não encontrado | TripAdvisor 4/5 | **B** | só fixo: visita |
+| RX58 | Pousada Quinta do Bucanero | pousada de charme (12 aptos vista mar) + Bistrô da Varanda | Praia do Rosa, alto do costão | WhatsApp (48) 99958-2037; fixo 48 3355-6056 | @quinta_do_bucanero | sim, bucanero.com.br | sim | **forte**: ~25 avaliações em inglês (Londres, Aberdeen); "staff speak English"; Journey Latin America, Fodor's | **TripAdvisor 4,5 (475)** | **A (top)** | Roteiros de Charme desde 1996; melhor pousada do ano no Guia 4 Rodas 2015. Ticket alto, perfil exigente: abordagem mais consultiva |
+| RX59 | Aldeia dos Anjos do Rosa | 4 aptos + 2 casas | Av. Porto Novo 871 | WhatsApp +55 48 99949-1971; fixo 48 3355-6032 | não encontrado | sim, aldeiadosanjosdorosa.com.br (?lang=en) | sim | site em inglês | não encontrado | **A** | "decoração de móveis de bambu e deck jardim" |
+| RX60 | Pousada Las Piedras | pousada com piscina | Praia do Rosa (R. da Pousada Recanto do Rei Sol 200) | (48) 99600-1627 | não encontrado | só Google (negocio.site) | sim (manda informações aos hóspedes pelo WhatsApp) | não encontrado | **Booking 9,4 (436)** | **A** | volume alto, sem site próprio; já atende hóspedes pelo WhatsApp |
+
+Atualizações:
+- **RX31 Fazenda do Rosa / Fazenda Verde**: a Fazenda Verde (28 acomodações em 40.000 m², também espaço de casamentos) é dos donos Neco e Rose Agrifoglio; WhatsApp +55 48 99699-8074; TripAdvisor 4,6 (227); associada à ABIH-SC. Continua **C**.
+- **IB06 Paraíso da Lagoa**: 7 aptos de 71 m² com varanda para a lagoa; avaliações 9,2 (174) em plataforma não identificada; Facebook com 100% de recomendação (21).
+- **IB02 Natural Park**: o site rotula "Celular/WhatsApp" para o (48) 99967-4260 e aceita reserva pelo WhatsApp (confirmado: WhatsApp = sim). Google 4,7 (140).
+
+Não encontradas: Aldeia do Rosa, Vila Tamarindo (fica em Florianópolis), Ponta do Rosa, Recanto do Rei Sol (só nome de rua), Mar de Dentro (Florianópolis), Maracujá, Cabanas Juriti, Lagoa Mansa.
+
+## Fontes (quinta leva)
+- RX51: instagram.com/nossocantinhodorosa · tripadvisor d12792948
+- RX52: tripadvisor d10797222 · reservehotelonline.com.br/barra-de-ibiraquera/pousada-dos-reis.html
+- RX53: booking pousada-kahuna-praia-do-rosa · tripadvisor d25160472
+- RX54: facebook.com/ibirawave · tripadvisor d23309400
+- RX55: chadaypousada.com.br · tripadvisor d2138105
+- RX56: instagram.com/localdalagoa · cabinns BC-8124535
+- RX57: tripadvisor d3879676
+- RX58: bucanero.com.br · tripadvisor d1193793 · roteirosdecharme.com.br/hotel/pousada-quinta-do-bucanero
+- RX59: aldeiadosanjosdorosa.com.br
+- RX60: booking pousada-las-piedras · garopabaimbituba.tur.br/imbituba-praia-do-rosa-pousada-las-piedras
+- Fazenda Verde: fazendaverde.com/contato · abih-sc.com.br/associados/fazenda-verde-praia-do-rosa

@@ -1,6 +1,6 @@
 # Consolidado de leads (gerado por scripts/consolida.py)
 
-Total: **187** leads. A: 84 · A+: 22 · B: 60 · C: 21
+Total: **197** leads. A: 89 · A+: 22 · B: 65 · C: 21
 
 Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada região.
 
@@ -31,7 +31,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RA01 | Néia Imóveis | Praia do Rosa + Ibiraquera | WhatsApp 48 99603-3454 | não verificado | A+ | a contatar |
 | RA02 | Casa de Praia Imóveis | Porto Novo, Praia do Rosa | fixo (48) 3354-0857 | não verificado | A+ | a contatar |
 
-## A (pousadas-alvo) (84)
+## A (pousadas-alvo) (89)
 
 | ID | Nome | Bairro | Telefone / WhatsApp | Estrangeiro | Prior. | Status |
 |---|---|---|---|---|---|---|
@@ -43,6 +43,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX21 | Pousada Inka | Praia do Rosa | +55 48 98822-2868; fixo 48 3355-6094 | **forte**: site em espanhol e várias avaliações de Buenos Aires | A (top) | a contatar |
 | RX28 | Pousada Cacau | Centro (R. Fruta do Conde) | WhatsApp +55 48 99160-7154 (linktree) | não encontrado | A (top volume) | a contatar |
 | RX46 | Pousada Studios do Barão | Caminho do Alto do Morro 162 (Ibiraquera) | +55 48 99679-8666; fixo 48 3355-6229 | **forte**: atende em inglês e espanhol; avaliação em espanhol cita o anfitrião Rogelio | A (top) | a contatar |
+| RX58 | Pousada Quinta do Bucanero | Praia do Rosa, alto do costão | WhatsApp (48) 99958-2037; fixo 48 3355-6056 | **forte**: ~25 avaliações em inglês (Londres, Aberdeen); "staff speak English"; Journey Latin America, Fodor's | A (top) | a contatar |
 | AD23 | Flor do Mar – Casas para Alugar | Praia do Rosa, 100 m do mar | fixo 48 3355-7102 (celular em formato antigo) | — | A | a contatar |
 | AD24 | Mirante da Barra | Barra de Ibiraquera, beira da lagoa | WhatsApp 48 99955-9695 | — | A | a contatar |
 | FE01 | Pousada da Ferrugem | Estrada Geral do Capão 4250 | WhatsApp (48) 99160-6336; fixo (48) 3254-0068 | listada em diretório em espanhol; avaliação em inglês no Booking | A | a contatar |
@@ -119,8 +120,12 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX47 | Pousada La Creación | Ibiraquera | +55 48 99675-8410 | nome em espanhol | A | a contatar |
 | RX48 | Pousada Village do Luz | Barra de Ibiraquera (Av. Paraíso do Luz), 800 m da praia | +55 48 99823-6566 | **sim**: Booking indexado em espanhol-AR e holandês; avaliações em inglês | A | a contatar |
 | RX49 | Pousada Villa Bella | Barra de Ibiraquera (Av. Sul 294), 100 m da praia | WhatsApp (48) 98500-7777; 48 99991-7934 | não encontrado | A | a contatar |
+| RX54 | Pousada Ibirawave | Barra de Ibiraquera | 48 99123-4132; fixo 48 3355-0223 | não encontrado | A | a contatar |
+| RX56 | Local da Lagoa | Ibiraquera (R. Sardinha) | (51) 98932-0353 (bio) ou 51 98406-2373 (Google) | não encontrado | A | a contatar |
+| RX59 | Aldeia dos Anjos do Rosa | Av. Porto Novo 871 | WhatsApp +55 48 99949-1971; fixo 48 3355-6032 | site em inglês | A | a contatar |
+| RX60 | Pousada Las Piedras | Praia do Rosa (R. da Pousada Recanto do Rei Sol 200) | (48) 99600-1627 | não encontrado | A | a contatar |
 
-## B (visita / segunda onda) (60)
+## B (visita / segunda onda) (65)
 
 | ID | Nome | Bairro | Telefone / WhatsApp | Estrangeiro | Prior. | Status |
 |---|---|---|---|---|---|---|
@@ -184,6 +189,11 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX39 | Pousada Praia Verde | **Arroio** (~10 min do Rosa) | fixo (48) 3255-0483 | não encontrado | B | a contatar |
 | RX43 | Pousada Chalés da Barra | Barra de Ibiraquera (R. Jovino Tomé), 300 m da praia | fixo (48) 3355-0138 ("ou WhatsApp") | não encontrado | B | a contatar |
 | RX44 | Pousada da Ponte Ibiraquera | Araçatuba (R. da Esperança) | +55 48 99175-3932 | não encontrado | B | a contatar |
+| RX51 | Pousada Cantinho do Rosa | Estrada Geral do Rosa (TripAdvisor: Ibiraquera) | fixo (48) 3354-0167 | não encontrado | B | a contatar |
+| RX52 | Pousada dos Reis | Praia de Ibiraquera (R. 6 Leste 124) | +55 51 99952-3842 (RS) | não encontrado | B | a contatar |
+| RX53 | Pousada Kahuna Praia do Rosa | Ibiraquera/Rosa (endereço divergente) | não encontrado | não encontrado | B | a contatar |
+| RX55 | Pousada ChaDay | Barra de Ibiraquera, 300 m do mar | +55 48 99801-9798 | não encontrado | B | a contatar |
+| RX57 | Estalagem Rosa dos Ventos | Praia do Rosa (R. Idalino Manoel de Carvalho 9) | fixo +55 48 3355-6275 | não encontrado | B | a contatar |
 
 ## C (deixar para depois) (21)
 
