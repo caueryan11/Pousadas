@@ -155,7 +155,7 @@ Para expandir: Haleakala, Bungalow, Albergue Explorer (Rosa); Mevlana Garden, Vi
 | RX60 | Pousada Las Piedras | pousada com piscina | Praia do Rosa (R. da Pousada Recanto do Rei Sol 200) | (48) 99600-1627 | @pousadalaspiedras | só Google (negocio.site) | sim (manda informações aos hóspedes pelo WhatsApp) | não encontrado | **Booking 9,4 (436)** | **A** | volume alto, sem site próprio; já atende hóspedes pelo WhatsApp |
 
 Atualizações:
-- **RX31 Fazenda do Rosa / Fazenda Verde**: a Fazenda Verde (28 acomodações em 40.000 m², também espaço de casamentos) é dos donos Neco e Rose Agrifoglio; WhatsApp +55 48 99699-8074; TripAdvisor 4,6 (227); associada à ABIH-SC. Continua **C**.
+- **Fazenda Verde (é outro negócio, não a RX31 Fazenda do Rosa; virou lead RX83)**: a Fazenda Verde (28 acomodações em 40.000 m², também espaço de casamentos) é dos donos Neco e Rose Agrifoglio; WhatsApp +55 48 99699-8074; TripAdvisor 4,6 (227); associada à ABIH-SC.
 - **IB06 Paraíso da Lagoa**: 7 aptos de 71 m² com varanda para a lagoa; avaliações 9,2 (174) em plataforma não identificada; Facebook com 100% de recomendação (21).
 - **IB02 Natural Park**: o site rotula "Celular/WhatsApp" para o (48) 99967-4260 e aceita reserva pelo WhatsApp (confirmado: WhatsApp = sim). Google 4,7 (140).
 
