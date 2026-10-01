@@ -75,3 +75,43 @@ Extras pouco detalhados: Casa da Silveira (casa de 4 quartos, WhatsApp +55 51 99
 - GA26: maispousadas.com.br/pousadas-em-garopaba-sc/pousada-recanto-da-vigia.html
 - GA27: caminhodomarferrugem.com.br · booking reviews pousada-caminho-do-mar-garopaba · tripadvisor d20378485
 - GA28: tripadvisor d12904646 · facebook.com/baleiafrancaferrugem
+
+---
+
+# Terceira leva (Garopaba)
+
+| # | Nome | Tipo | Bairro | Telefone / WhatsApp | Instagram | Site | WhatsApp? | Sinal estrangeiro | Avaliações | Prior. | Observação citável |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| GA29 | Pousada Maré Mar | pousada (13 quartos), desde 2003 | Centro, 90 m da praia | fixo (48) 3254-4368 | @pousadamaremarsc | sim, pousadamaremar.com.br | não sei | não encontrado | Booking 8,4 (92); Trivago 8,0 (427) | **B** | elevador e café buffet; localização 9,7. Só fixo: visita |
+| GA30 | Pousada As Quatro Estações | pousada + eventos, piscina | Centro (R. Aderbal Ramos da Silva 250) | WhatsApp +55 48 98439-2058; fixo 48 3254-4811 | não encontrado | sim, asquatroestacoes.com.br | sim | não encontrado | **Booking 9,1 (590+)**; TripAdvisor 4/5 (66), **1º de 75** | **A (top)** | 200 m da praia; equipe elogiada "em praticamente todas as análises" |
+| GA31 | Pousada Colina Verde | pousada com piscina, pet friendly | Palhocinha | (48) 3254-4625; celular em formato antigo (48 9176-2028, provavelmente 99176-2028) | @pousadacolinaverdegaropaba | sim, colinaverdegaropaba.com.br | provável | não encontrado | 9,2 (517), provável Booking | **A** | aceita pet sob consulta; café das 7h45 às 10h muito elogiado |
+| GA32 | Pousada Garopaba | pousada | Centro (R. João Lino da Silva Neto 407) | WhatsApp (48) 99958-2790 / 99915-3331 | @pousadagaropaba | só link na bio | sim | não encontrado | Booking 9,0 (1), nova | **A** | recepção 24h; aceita pet. Pousada nova: momento de montar processos |
+| GA33 | Residencial da Praça | pousada/residencial | Centro, 300 m do mar | (48) 99112-0190; fixo 48 3254-4081 | não encontrado | sim (wixsite) | provável | não encontrado | Booking 8,5 (158) | **A** | perto do Centro Histórico |
+| GA34 | Pousada Costa Azul | 17 aptos com mini-cozinha | Centro Histórico, uma quadra da praia | fixo 48 3254-3321; 48 9971-0575 (formato antigo) | @pousada.costa.azul | sim, pousadacostaazul.com.br | provável | não encontrado | 9,2 (193); TripAdvisor 4,4 (24) | **A** | diárias "a partir de R$ 200 com café" |
+| GA35 | Acqua Viva | apart-pousada à beira-mar | Centro (Av. dos Pescadores 159) | (48) 99174-7536 | @pousadaacquaviva | sim, acquavivagaropaba.com.br | provável | não encontrado | TripAdvisor 4,5 (5) | **A** | "40 anos nas memórias das suas férias"; aptos de frente para o mar |
+| GA36 | Morada do Sol Apart Hotel | apart-hotel (aptos para 2 a 7 pessoas) | Centro (R. Nereu Ramos 341) | fixo +55 48 3254-3317 (rotulado tel. e WhatsApp) | não (Facebook) | sim, moradadosol.tur.br | sim (fixo) | não encontrado | **Booking 9,8 (66)**; Google 4,7 (75) | **A** | donos Georgia e Luis Garcia elogiados; **atende 8–12h e 14–22h**: gancho do atendimento fora do horário |
+| GA37 | Pousada da Encosta | pousada (10 quartos), piscina | Morrinhos/Ferraz (R. Caribe 322) | WhatsApp +55 48 99814-8517 ("melhor forma de contato"); fixo 48 3254-0100 | @daencostagaropaba | não | sim | não encontrado | 8,7 (534) | **A** | vista para o mar; já envia reservas por WhatsApp. ⚠ o fixo 3254-0100 é o da central do JJ Hotels Group (GA16/GA20): conferir se é do grupo |
+| GA38 | Pousada Tamarindo | 6 quartos com kitchenette | Pinguirito | (48) 99177-3649; fixo 48 3254-3269 | não encontrado | não | provável | não encontrado | Booking 7,7 (130) | **B** | notas baixas de limpeza e estrutura (não citar) |
+| GA39 | Alecrim Pousada | pousada rústica | Campo D'Una (Estrada Geral do Rosa 541) | WhatsApp (48) 99908-7324; fixo 48 3354-0032 | @alecrimpousadarosa | sim, pousadaalecrim.com.br | sim | não encontrado | TripAdvisor 3/5 (~43) | **B** | se vende como Praia do Rosa; avaliações mistas |
+| GA40 | Studio Siriú Sol Nascente | guest house só para adultos | Siriú | não encontrado | não encontrado | não | não sei | não encontrado | Booking 10 (6) | **C** | vista mar e lareira externa; sem contato |
+| GA41 | Village Siriú | aptos completos | Siriú | não encontrado | não (Facebook) | não | não sei | não encontrado | não encontrado | **C** | "ambiente familiar"; visita |
+| GA42 | Pousada Lagoa Encantada | pousada, pet friendly | Encantada (Estrada Geral da Ferrugem 2924) | WhatsApp +55 48 99668-1062; fixos 48 3254-0488 / 0094 | @lagoaencantada.pousada | não | sim | não encontrado | **Booking 9,0 (210)** | **A** | vista para a lagoa, aceita pet, 450 m da Ferrugem |
+
+Reserva: Pousada Gamboa Chalés (Praia da Gamboa, 22 quartos, desde 1990, @pousadagamboa), fora da região-alvo.
+Ferrugem para pesquisar: Recanto do Sossego, Morada Vista da Lagoa, Areia Nova, Koh Phangan, Pousada do Boto. Rosa: Solar dos Lírios.
+
+## Fontes (terceira leva)
+- GA29: pousadamaremar.com.br · booking pousada-mare-mar-garopaba1
+- GA30: asquatroestacoes.com.br · tripadvisor d13394284
+- GA31: colinaverdegaropaba.com.br · tripadvisor d4510578
+- GA32: instagram.com/pousadagaropaba · booking pousada-garopaba-garopaba1
+- GA33: residencialgaropab.wixsite.com/residencialdapraagar · booking residencial-da-praca-garopaba-garopaba
+- GA34: turismo.garopaba.sc.gov.br/post-19338 · tripadvisor d2625745
+- GA35: acquavivagaropaba.com.br · tripadvisor d4510666
+- GA36: moradadosol.tur.br/contato · turismo.garopaba.sc.gov.br/post-18405 · tripadvisor d2651193
+- GA37: booking pousada-da-encosta-garopaba1 · garopabaimbituba.tur.br/garopaba-pousada-da-encosta
+- GA38: booking pousada-tamarindo-garopaba
+- GA39: pousadaalecrim.com.br · turismo.garopaba.sc.gov.br/post-19285
+- GA40: booking pousada-studio-siriu-sol-nascente
+- GA41: facebook.com/villagesiriu
+- GA42: booking pousada-lagoa-encantada · instagram.com/lagoaencantada.pousada
