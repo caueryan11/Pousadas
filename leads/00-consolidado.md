@@ -1,15 +1,16 @@
 # Consolidado de leads (gerado por scripts/consolida.py)
 
-Total: **197** leads. A: 89 · A+: 22 · B: 65 · C: 21
+Total: **213** leads. A: 97 · A+: 27 · B: 67 · C: 22
 
 Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada região.
 
-## A+ (administradoras / várias unidades) (22)
+## A+ (administradoras / várias unidades) (27)
 
 | ID | Nome | Bairro | Telefone / WhatsApp | Estrangeiro | Prior. | Status |
 |---|---|---|---|---|---|---|
 | AD08 | Férias em Garopaba | Garopaba | Adriana Hermínia (48) 99933-1641; João Julião (48) 99917-7146; Carlos Bebber (48) 99990-5891 | não encontrado | A+ (top) | a contatar |
 | AD11 | Portal da Ferrugem / Diego Imóveis | Estrada Geral da Ferrugem 3399 | **Reservas (48) 99915-7464**; vendas (48) 99114-9635; fixos 48 3254-0459 / 3254-0355 | não encontrado | A+ (top) | a contatar |
+| AD19 | PRAIADAFERRUGEM.net (Gabriel Jean Burg) | Ferrugem | WhatsApp +55 48 99691-0228; fixo 48 3254-0479 | — | A+ (top, grupo) | a contatar |
 | AD01 | Alexia Consultoria Imobiliária | Praia do Rosa (Estrada Geral); diz atuar também em Garopaba, Silveira e Ferrugem | (48) 99167-8144 / (48) 99125-8251 | site com URLs em inglês (/for-rent), sem evidência de público | A+ | a contatar |
 | AD02 | Imobiliária Trip | Av. Porto Novo; casas no Rosa, Rosa Norte e Alto Arroio | (48) 99152-7670 | não encontrado | A+ | a contatar |
 | AD04 | Sal Hospedagem | Praia do Rosa (condomínios fechados) | não encontrado (e-mail salhospedagem@gmail.com) | **sim**: site em inglês ("Private Gated Homes in Praia do Rosa") | A+ | a contatar |
@@ -20,10 +21,14 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | AD16 | Zaluski Construtora e Imobiliária | Garopaba (Centro, Morrinhos, Ferraz, Siriú) | atendimento (48) 99973-8286 | — | A+ | a contatar |
 | AD17 | Heriberto Giraldi Imóveis | Garopaba (Centro, Morrinhos, Vigia, Ferraz) | (48) 98406-7158; fixo 48 3254-3438 | — | A+ | a contatar |
 | AD18 | Praia da Ferrugem Aluguel | Ferrugem | WhatsApp +55 48 98406-1437; fixo 48 3254-0077 | — | A+ | a contatar |
-| AD19 | PRAIADAFERRUGEM.net (Gabriel Jean Burg) | Ferrugem | WhatsApp +55 48 99691-0228; fixo 48 3254-0479 | — | A+ | a contatar |
 | AD20 | Convés Imobiliária | sede na Ferrugem; Silveira, Centro, Ferraz, Pedra Branca | +55 48 98486-8635 | — | A+ | a contatar |
 | AD21 | Gralha Azul Locações | Garopaba e Imbituba (Praia da Vila; Av. Dr. João Rimsa 601) | +55 48 99947-0377 | — | A+ | a contatar |
 | AD22 | Praia do Rosa Imóveis | Praia do Rosa | WhatsApp (48) 99943-8969; 48 99684-1559; fixo 48 3355-7000 | — | A+ | a contatar |
+| FE08 | Hotel Pousada Capão | R. da Praia 30, Capão (50 m da praia) | WhatsApp +55 48 99189-5307; tel. 48 99144-8922 | não encontrado | A+ (grupo c/ FE14) | a contatar |
+| FE14 | Pousada Pé na Areia | Capão (R. das Casuarinas) | WhatsApp +55 48 99189-5307; 48 99144-8922 | não encontrado | A+ (grupo c/ FE08) | a contatar |
+| FE17 | Pousada Canoa Azul | Estrada Geral da Ferrugem 3003 | WhatsApp (48) 99645-6461; 48 99691-0228 | não encontrado | A+ (grupo 99691-0228) | a contatar |
+| FE18 | Pousada El Pátio da Ferrugem | Estrada Geral 4970 | (48) 99645-6461 / 99691-0228; fixo 48 3254-0134 | fraco (listagem em espanhol) | A+ (grupo) | a contatar |
+| FE19 | Pousada Beleza Pura | R. Jardim da Lagoa 313 | site: +55 48 99818-1655; agregador: 99691-0228 | não encontrado | A+ (grupo) | a contatar |
 | GA04 | Parador Silveira | Silveira | não encontrado | não encontrado | A+ | a contatar |
 | GA27 | Pousada Caminho do Mar ("MADHOUZE") | Capão/Ferrugem (R. das Casuarinas 80) | WhatsApp +55 48 99915-7464; 48 99114-9635 | não encontrado | A+ (ligada à AD11) | a contatar |
 | IB11 | Pedro Silva Imóveis | Barra de Ibiraquera | locação +55 48 99917-5271; vendas 48 99973-0220 | não encontrado | A+ | a contatar |
@@ -31,7 +36,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RA01 | Néia Imóveis | Praia do Rosa + Ibiraquera | WhatsApp 48 99603-3454 | não verificado | A+ | a contatar |
 | RA02 | Casa de Praia Imóveis | Porto Novo, Praia do Rosa | fixo (48) 3354-0857 | não verificado | A+ | a contatar |
 
-## A (pousadas-alvo) (89)
+## A (pousadas-alvo) (97)
 
 | ID | Nome | Bairro | Telefone / WhatsApp | Estrangeiro | Prior. | Status |
 |---|---|---|---|---|---|---|
@@ -53,14 +58,22 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | FE05 | Pousada Buena Onda | R. das Baleias 22, 50 m da praia | WhatsApp (48) 99175-8619 | só o nome em espanhol | A | a contatar |
 | FE06 | Pousada Sol da Ferrugem | R. Jardim da Lagoa 100 | WhatsApp (48) 99971-6622; fixo 48 3254-0049 | não encontrado | A | a contatar |
 | FE07 | Pousada das Palmeiras | Estrada Geral da Ferrugem 3677 | WhatsApp/fone (48) 99110-4586 | não encontrado | A | a contatar |
-| FE08 | Hotel Pousada Capão | R. da Praia 30, Capão (50 m da praia) | WhatsApp +55 48 99189-5307; tel. 48 99144-8922 | não encontrado | A | a contatar |
 | FE12 | Chalés da Barrinha | Praia da Barra | WhatsApp (48) 99148-8177; fixo 48 3254-0401 | não encontrado | A | a contatar |
+| FE13 | Recanto do Sossego | Ferrugem (R. dos Eucaliptos), ~500 m do mar | (48) 99183-8715 / 99149-3064 / 99142-5292 | não encontrado | A | a contatar |
+| FE15 | Pousada Areia Nova | Ferrugem (R. Jardim das Flores 200) | +55 48 99176-8327 | não encontrado | A (grupo c/ GA19) | a contatar |
+| FE16 | Pousada Koh Phangan | centro da Ferrugem (R. das Baleias 22) | (48) 99136-0040; fixo 48 3254-0347 | **sim**: avaliação em espanhol ("La mejor pousada de Ferrugem!") | A | a contatar |
+| FE21 | Pousada Maunaloa | Estrada Geral do Capão 3584 | WhatsApp (48) 98811-9200; fixos 48 3254-0180 / 1025 | fraco (hóspede em inglês cita "language barriers") | A | a contatar |
+| FE22 | Pousada Paradise Ferrugem | R. Jardim das Flores 300 | (48) 99172-7355 | não encontrado | A | a contatar |
+| FE23 | Pousada Kalua Praia | R. das Casuarinas 7 | WhatsApp 48 9139-2034 (provável 99139-2034) | **forte**: dono argentino (Beto Reboredo); avaliações de argentinos ("nos sentimos como en casa") | A | a contatar |
+| FE24 | Ferrugem Pousada Região | R. do Colégio | WhatsApp (48) 99101-2911 | não encontrado | A | a contatar |
+| FE26 | Hotel Ferrugem Eco Village | R. do Bougainville 80 | +55 48 99182-4262; fixo 48 3254-0135 | fraco | A | a contatar |
+| FE27 | Morada Vista da Lagoa | Capão | +55 48 99143-7976 | avaliações em inglês ("wonderful owners") | A | a contatar |
 | GA02 | Silveira Ecovillage | Alto do morro da Silveira | WhatsApp (48) 99182-0512; fixo 48 3354-1740 | avaliações em inglês no TripAdvisor | A | a contatar |
 | GA03 | Morada Prainha | Silveira, canto sul | fixo 48 3354-1182 (celular não encontrado) | **sim**: avaliações em inglês | A | a contatar |
 | GA05 | Pousada Recanto do Siriú | Siriú, 30 m da praia | (48) 99977-4645; fixo 48 3245-5323 | não encontrado | A | a contatar |
 | GA12 | Pousada Bronzatto | Centro, 50 m da praia | WhatsApp (48) 99111-4936; fixo 48 3254-3873 | não encontrado | A | a contatar |
 | GA13 | Pousada Village Garopaba | Centro, 800 m da praia | WhatsApp +55 48 99967-1170 | não encontrado | A | a contatar |
-| GA19 | Pousada Barbatana | Ferrugem centro | WhatsApp 48 99176-8327 / 99670-0122; fixo 48 3254-0112 | fraco | A | a contatar |
+| GA19 | Pousada Barbatana | Ferrugem centro | WhatsApp 48 99176-8327 / 99670-0122; fixo 48 3254-0112 | fraco | A (grupo c/ FE15) | a contatar |
 | GA21 | Hotel Pousada da Lagoa | Centro, 500 m da praia | WhatsApp (48) 99140-2028; fixo 48 3254-3201 | não encontrado | A | a contatar |
 | GA24 | Pousada do Sol Garopaba | Centro (R. Francisco Pacheco de Souza 607) | WhatsApp (48) 99653-2997; fixo 48 3254-4350 | não encontrado | A | a contatar |
 | GA25 | Pousada Poente do Sol | Centro (R. Viúva Maria Antônia dos Santos 489) | WhatsApp (48) 99696-4007; fixo 48 3254-4991 | não encontrado | A | a contatar |
@@ -70,7 +83,6 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | GA34 | Pousada Costa Azul | Centro Histórico, uma quadra da praia | fixo 48 3254-3321; 48 9971-0575 (formato antigo) | não encontrado | A | a contatar |
 | GA35 | Acqua Viva | Centro (Av. dos Pescadores 159) | (48) 99174-7536 | não encontrado | A | a contatar |
 | GA36 | Morada do Sol Apart Hotel | Centro (R. Nereu Ramos 341) | fixo +55 48 3254-3317 (rotulado tel. e WhatsApp) | não encontrado | A | a contatar |
-| GA37 | Pousada da Encosta | Morrinhos/Ferraz (R. Caribe 322) | WhatsApp +55 48 99814-8517 ("melhor forma de contato"); fixo 48 3254-0100 | não encontrado | A | a contatar |
 | GA42 | Pousada Lagoa Encantada | Encantada (Estrada Geral da Ferrugem 2924) | WhatsApp +55 48 99668-1062; fixos 48 3254-0488 / 0094 | não encontrado | A | a contatar |
 | IB01 | Pousada Barra Mar | Barra de Ibiraquera (Av. Sul 2400) | WhatsApp msg (48) 99991-7146; lig. (48) 99926-5885; fixo 48 3355-0007 | **sim**: avaliação em espanhol de uruguaio no Booking | A | a contatar |
 | IB02 | Pousada Natural Park | Praia do Luz / Ibiraquera (Av. Paraíso do Luz 2001) | (48) 99967-4260; fixo (48) 3355-6488 | não encontrado | A | a contatar |
@@ -124,8 +136,9 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX56 | Local da Lagoa | Ibiraquera (R. Sardinha) | (51) 98932-0353 (bio) ou 51 98406-2373 (Google) | não encontrado | A | a contatar |
 | RX59 | Aldeia dos Anjos do Rosa | Av. Porto Novo 871 | WhatsApp +55 48 99949-1971; fixo 48 3355-6032 | site em inglês | A | a contatar |
 | RX60 | Pousada Las Piedras | Praia do Rosa (R. da Pousada Recanto do Rei Sol 200) | (48) 99600-1627 | não encontrado | A | a contatar |
+| RX61 | Pousada Solar dos Lírios | Praia do Rosa (Av. Central), 800 m da praia | WhatsApp +55 48 99179-0840 | não encontrado | A | a contatar |
 
-## B (visita / segunda onda) (65)
+## B (visita / segunda onda) (67)
 
 | ID | Nome | Bairro | Telefone / WhatsApp | Estrangeiro | Prior. | Status |
 |---|---|---|---|---|---|---|
@@ -140,6 +153,8 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | FE09 | Pousada La Ferrugem Suites | R. Arco Íris 610 | +55 48 99136-3814 | **equipe fala inglês e espanhol** (texto da OTA) | B | a contatar |
 | FE10 | Pousada Barra da Ferrugem | Praia da Barra (Encantada) | +55 11 98963-3300 / 11 99178-2142; fixo 48 3380-4910 | não encontrado | B | a contatar |
 | FE11 | Pousada Moradas da Barra | Praia da Barra | (48) 3254-0269; (51) 99841-8481 | não encontrado | B | a contatar |
+| FE20 | Pousada do Boto | Estrada Geral do Capão 3660 | WhatsApp (48) 99941-9887 / 99212-7861; fixo 48 3254-0056 | não encontrado | B | a contatar |
+| FE25 | Pousada Estação Ferrugem | R. Jardim da Lagoa, 300 m da praia | fixo +55 48 3254-0306 | não encontrado | B | a contatar |
 | GA06 | Marina da Praia Residence | Siriú | +55 48 99972-5807 / 48 99111-1538 | não encontrado | B | a contatar |
 | GA07 | Pousada Costão do Siriú | Siriú | +55 48 99981-6640 | não encontrado | B | a contatar |
 | GA10 | Pousada Porto dos Casais | divisa Ouvidor/Rosa | fixo +55 48 3354-0147 | não encontrado | B | a contatar |
@@ -195,7 +210,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX55 | Pousada ChaDay | Barra de Ibiraquera, 300 m do mar | +55 48 99801-9798 | não encontrado | B | a contatar |
 | RX57 | Estalagem Rosa dos Ventos | Praia do Rosa (R. Idalino Manoel de Carvalho 9) | fixo +55 48 3355-6275 | não encontrado | B | a contatar |
 
-## C (deixar para depois) (21)
+## C (deixar para depois) (22)
 
 | ID | Nome | Bairro | Telefone / WhatsApp | Estrangeiro | Prior. | Status |
 |---|---|---|---|---|---|---|
@@ -205,6 +220,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | GA16 | Pousada Beira Mar Ferrugem | Ferrugem, canto norte | central (48) 3254-0100 (também WhatsApp) | não encontrado | C | a contatar |
 | GA20 | Pousada Palhocinha | Ferrugem | central 48 3254-0100; recepção 48 99189-3019 | não encontrado | C | a contatar |
 | GA22 | Pousada Maria do Mar | Ferrugem, 400 m do mar | fixo 48 3254-0383 | fraco (avaliação em inglês) | C | a contatar |
+| GA37 | Pousada da Encosta | Morrinhos/Ferraz (R. Caribe 322) | WhatsApp +55 48 99814-8517 ("melhor forma de contato"); fixo 48 3254-0100 | não encontrado | C | a contatar |
 | GA40 | Studio Siriú Sol Nascente | Siriú | não encontrado | não encontrado | C | a contatar |
 | GA41 | Village Siriú | Siriú | não encontrado | não encontrado | C | a contatar |
 | IM02 | Pousada da Villa | Vila Nova, 30 m do mar | +55 51 3395-2449 (DDD 51) | não encontrado | C | a contatar |
