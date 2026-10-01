@@ -83,3 +83,51 @@ Para expandir: Cabanas Cores do Rosa (@cabanascoresdorosa), Cabanas no Rosa (@ca
 - RX29: instagram.com/pousadalagunarosa · booking suites-laguna-rosa
 - RX30: pousadarosakarioka.com.br/pt/contato · tripadvisor d13280547
 - RX31: fazendadorosa.com.br/contato · tripadvisor d4257311
+
+---
+
+# Quarta leva (Praia do Rosa e Ibiraquera)
+
+| # | Nome | Tipo | Bairro | Telefone / WhatsApp | Instagram | Site | WhatsApp? | Sinal estrangeiro | Avaliações | Prior. | Observação citável |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| RX32 | Cabanas Cores do Rosa | cabanas | centrinho (Av. Porto Novo, atrás do Bar Beleza Pura) | 48 99628-7879; fixo 48 3355-7085 | @cabanascoresdorosa | sim, cabanascoresdorosa.com.br | provável | não encontrado | TripAdvisor 2/5 (7); Booking: localização 9,6 | **B** | localização excelente, mas notas fracas de Wi-Fi e conforto |
+| RX33 | Cabanas no Rosa | 4 chalés + 3 suítes | R. Pico da Tribo | não encontrado | @cabanasnorosa (~7,5 mil) | não | provável (bio: "reservas via direct") | não encontrado | não confirmado | **A** | reserva **só pelo direct do Instagram**: abordar por DM. O atendente pode assumir o WhatsApp e tirar o peso do direct |
+| RX34 | Cabanas Prema | ~10 cabanas e suítes, piscina e jacuzzi | Ibiraquera (R. Vital), 800 m do centro | (48) 99605-1610 | não (Facebook) | sim, pousadacabanasprema.com.br | provável | agregador: equipe fala PT, ES e EN | Booking 7,0 (15) | **B** | cabanas com nomes de divindades hindus |
+| RX35 | Meio Roots | cabanas (até 3 pessoas) | Estrada Geral do Rosa | (48) 99685-6791 | @meio.roots_praia.do.rosa | sim (ueniweb) | provável | fraco (Airbnb em inglês) | 9,6 (204), provável Booking | **A** | hospedagem "afetuosa e descomplicada", longe do agito |
+| RX36 | Rosa Mística | cabanas (2–6 pessoas) | Estrada Geral / Caminho do Rei | WhatsApp +55 48 99200-9416 | não encontrado | sim, rosamisticapraiadorosa.com.br | sim | não encontrado | Booking 7,5 (4) | **B** | 200 m da praia por trilha ao lado da lagoa; uma cabana com hidro |
+| RX37 | Pousada Horizontes do Rosa | pousada | Av. Porto Novo (Ibiraquera) | +55 48 99197-6141 | não encontrado | sim, pousadahorizontes.com (/en) | provável | site em inglês; funcionário cubano elogiado (provavelmente hispanofalante) | **Booking 9,0 (147)**; TripAdvisor 5/5 (11), 2º de 25 em Ibiraquera | **A** | avaliação de nov/2025 elogia o funcionário cubano, "always very helpful" |
+| RX38 | Paraíso Hostel | hostel (~44 leitos) + bar e restaurante | ~500 m do centrinho | +55 48 99156-5768 (conferir) | @paraisohostelpraiadorosa | sim, hostelpraiadorosa.com | provável | **forte**: Hostelworld, avaliações em inglês, pratos argentinos, "viajantes do mundo todo desde 2014" | Booking 8,9 (207) | **A** | espaço de trabalho remoto com bom Wi-Fi. Público estrangeiro, mas ticket menor |
+| RX39 | Pousada Praia Verde | pousada (6 quartos), pet friendly | **Arroio** (~10 min do Rosa) | fixo (48) 3255-0483 | @pousadapraiaverde | não (Facebook) | não sei | não encontrado | Booking 9,0 (27); Trivago 8,4 (91) | **B** | equipe 9,3 no Booking |
+| RX40 | Pousada Elementais do Rosa | pousada (9 quartos), pet friendly | perto do Surfland | WhatsApp (48) 98835-3004 (bio) | @pousadaelementaisdorosa (~3,3 mil) | não | sim | não encontrado | ~9,7 (102), via agregador | **A** | perto do Surfland, ~25 min a pé do centrinho; aceita pet. Sem site: o WhatsApp é o canal |
+| RX41 | Pousada Caminho Nômade | kitnets | Estrada Geral do Rosa | não encontrado | não encontrado | não | não sei | não encontrado | Booking 10 (16) | **C** | check-in privativo sem recepção; sem contato público |
+| RX42 | Doce Cabana Pousada | cabanas com piscina, pet friendly | Ibiraquera / Barra | WhatsApp 48 99664-9997 | @docecabanapousada (~2,6 mil) | sim, docecabanapousada.com.br | sim | fraco | Airbnb 4,93 (59); Booking 8,4 (17) | **A** | café da manhã opcional; uma cabana para até 8 pessoas |
+| RX43 | Pousada Chalés da Barra | chalés com cozinha | Barra de Ibiraquera (R. Jovino Tomé), 300 m da praia | fixo (48) 3355-0138 ("ou WhatsApp") | não (Facebook) | sim, chalesdabarra.com.br | provável | não encontrado | TripAdvisor 4/5 (6) | **B** | e-mail @terra.com.br: presença digital antiga. Visita |
+| RX44 | Pousada da Ponte Ibiraquera | pousada familiar com vista para a lagoa | Araçatuba (R. da Esperança) | +55 48 99175-3932 | não encontrado | não | provável | não encontrado | não encontrado | **B** | "simplicidade, contato com a natureza e atendimento pessoal"; não está aceitando reservas pelo Booking |
+| RX45 | Pousada Ibiraquera Park | pousada | Estrada Geral da Barra | fixo (48) 3355-0058 | não encontrado | ibiraquerapark.com.br (não verificado) | não sei | não encontrado | não encontrado | **C** | presença online fraca; visita |
+| RX46 | Pousada Studios do Barão | studios e cabanas | Caminho do Alto do Morro 162 (Ibiraquera) | +55 48 99679-8666; fixo 48 3355-6229 | @pousadastudiosdobarao | sim, studiosdobarao.com.br (/en) | provável | **forte**: atende em inglês e espanhol; avaliação em espanhol cita o anfitrião Rogelio | **TripAdvisor 4/5 (82), 1º de 23 em Ibiraquera** | **A (top)** | "Very good attention from Rogelio and his staff" (TripAdvisor) |
+| RX47 | Pousada La Creación | pousada (16 quartos), terraço e piscina | Ibiraquera | +55 48 99675-8410 | não encontrado | não | provável | nome em espanhol | Booking 8,6 (67); Trivago 8,2 (100) | **A** | terraço na cobertura com vista |
+| RX48 | Pousada Village do Luz | bangalôs, borda infinita, spa, bikes grátis | Barra de Ibiraquera (Av. Paraíso do Luz), 800 m da praia | +55 48 99823-6566 | @villagedoluz | sim, villagedoluz.com | provável | **sim**: Booking indexado em espanhol-AR e holandês; avaliações em inglês | Booking 9,4 (76); TripAdvisor 4,8 (17), 1º na Barra | **A** | piscina de borda infinita com spa; "amazing architecture" |
+| RX49 | Pousada Villa Bella | cabanas, aptos, kitnets; foco em kite e windsurf | Barra de Ibiraquera (Av. Sul 294), 100 m da praia | WhatsApp (48) 98500-7777; 48 99991-7934 | não encontrado | sim, pousadavillabellasc.com.br | sim | não encontrado | Reclame Aqui: 0 reclamações em 8 anos | **A** | páginas próprias de kitesurf e windsurf no site |
+
+Não encontrada: Palmaresuites (3 buscas).
+Para expandir: Pousada Cantinho do Rosa (Ibiraquera, TripAdvisor 5/5), Pousada dos Reis, Pousada Kahuna, Pousada Ibirawave (Barra), Pousada ChaDay (Barra), Local da Lagoa (@localdalagoa).
+
+## Fontes (quarta leva)
+- RX32: booking cabanas-cores-do-rosa-imbituba1 · tripadvisor d17803533
+- RX33: instagram.com/cabanasnorosa
+- RX34: pousadacabanasprema.com.br · booking cabanas-prema · tripadvisor d12076735
+- RX35: tripadvisor d12183021 · meio-roots-cabanas.ueniweb.com
+- RX36: rosamisticapraiadorosa.com.br/info · booking rosa-mistica-imbituba1
+- RX37: pousadahorizontes.com/en · booking reviews pousada-garopabah · tripadvisor d33071264
+- RX38: hostelpraiadorosa.com · booking reviews hostel-praia-do-rosa · hostelworld 334020 · tripadvisor d7106514
+- RX39: booking pousada-praia-verde · instagram.com/pousadapraiaverde
+- RX40: instagram.com/pousadaelementaisdorosa · tripadvisor d26875057
+- RX41: booking pousada-caminho-nomade-imbituba1
+- RX42: docecabanapousada.com.br · booking doce-cabana-pousada · airbnb 30689340
+- RX43: chalesdabarra.com.br · tripadvisor d8082641
+- RX44: lemeshotel.com.br/hotel/pousada-da-ponte-ibiraquera
+- RX45: guiamais.com.br (11759557-2)
+- RX46: studiosdobarao.com.br/en · tripadvisor d1738746
+- RX47: tripadvisor d12259002 · hoteles.com ho3469384256
+- RX48: villagedoluz.com · booking village-do-luz · tripadvisor d13145516
+- RX49: pousadavillabellasc.com.br/atrativos/kitesurf · reclameaqui pousada-villa-bella
