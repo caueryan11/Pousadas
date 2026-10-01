@@ -1,16 +1,17 @@
 # Consolidado de leads (gerado por scripts/consolida.py)
 
-Total: **213** leads. A: 97 · A+: 27 · B: 67 · C: 22
+Total: **226** leads. A: 103 · A+: 28 · B: 70 · C: 25
 
 Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada região.
 
-## A+ (administradoras / várias unidades) (27)
+## A+ (administradoras / várias unidades) (28)
 
 | ID | Nome | Bairro | Telefone / WhatsApp | Estrangeiro | Prior. | Status |
 |---|---|---|---|---|---|---|
 | AD08 | Férias em Garopaba | Garopaba | Adriana Hermínia (48) 99933-1641; João Julião (48) 99917-7146; Carlos Bebber (48) 99990-5891 | não encontrado | A+ (top) | a contatar |
 | AD11 | Portal da Ferrugem / Diego Imóveis | Estrada Geral da Ferrugem 3399 | **Reservas (48) 99915-7464**; vendas (48) 99114-9635; fixos 48 3254-0459 / 3254-0355 | não encontrado | A+ (top) | a contatar |
 | AD19 | PRAIADAFERRUGEM.net (Gabriel Jean Burg) | Ferrugem | WhatsApp +55 48 99691-0228; fixo 48 3254-0479 | — | A+ (top, grupo) | a contatar |
+| IB12 | Casas Ibiraquera | Ibiraquera | WhatsApp (48) 99184-1040; fixo 48 3255-1277 | não encontrado | A+ (top, grupo c/ RX66) | a contatar |
 | AD01 | Alexia Consultoria Imobiliária | Praia do Rosa (Estrada Geral); diz atuar também em Garopaba, Silveira e Ferrugem | (48) 99167-8144 / (48) 99125-8251 | site com URLs em inglês (/for-rent), sem evidência de público | A+ | a contatar |
 | AD02 | Imobiliária Trip | Av. Porto Novo; casas no Rosa, Rosa Norte e Alto Arroio | (48) 99152-7670 | não encontrado | A+ | a contatar |
 | AD04 | Sal Hospedagem | Praia do Rosa (condomínios fechados) | não encontrado (e-mail salhospedagem@gmail.com) | **sim**: site em inglês ("Private Gated Homes in Praia do Rosa") | A+ | a contatar |
@@ -32,11 +33,11 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | GA04 | Parador Silveira | Silveira | não encontrado | não encontrado | A+ | a contatar |
 | GA27 | Pousada Caminho do Mar ("MADHOUZE") | Capão/Ferrugem (R. das Casuarinas 80) | WhatsApp +55 48 99915-7464; 48 99114-9635 | não encontrado | A+ (ligada à AD11) | a contatar |
 | IB11 | Pedro Silva Imóveis | Barra de Ibiraquera | locação +55 48 99917-5271; vendas 48 99973-0220 | não encontrado | A+ | a contatar |
-| IB12 | Casas Ibiraquera | Ibiraquera | WhatsApp (48) 99184-1040; fixo 48 3255-1277 | não encontrado | A+ | a contatar |
 | RA01 | Néia Imóveis | Praia do Rosa + Ibiraquera | WhatsApp 48 99603-3454 | não verificado | A+ | a contatar |
 | RA02 | Casa de Praia Imóveis | Porto Novo, Praia do Rosa | fixo (48) 3354-0857 | não verificado | A+ | a contatar |
+| RX66 | Pousada Vila dos Coqueiros | Barra de Ibiraquera (R. Custódia de Carvalho Ferreira 317) | WhatsApp 48 99154-8802 / 48 99184-1040; fixo 48 3255-1277 | não encontrado | A+ (grupo c/ IB12) | a contatar |
 
-## A (pousadas-alvo) (97)
+## A (pousadas-alvo) (103)
 
 | ID | Nome | Bairro | Telefone / WhatsApp | Estrangeiro | Prior. | Status |
 |---|---|---|---|---|---|---|
@@ -84,6 +85,8 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | GA35 | Acqua Viva | Centro (Av. dos Pescadores 159) | (48) 99174-7536 | não encontrado | A | a contatar |
 | GA36 | Morada do Sol Apart Hotel | Centro (R. Nereu Ramos 341) | fixo +55 48 3254-3317 (rotulado tel. e WhatsApp) | não encontrado | A | a contatar |
 | GA42 | Pousada Lagoa Encantada | Encantada (Estrada Geral da Ferrugem 2924) | WhatsApp +55 48 99668-1062; fixos 48 3254-0488 / 0094 | não encontrado | A | a contatar |
+| GA43 | Pousada Saint Germain | Silveira (entrada da praia) | +55 48 99670-3234 | não encontrado | A | a contatar |
+| GA44 | Pousada do Taxo | Siriú, 500 m do mar | WhatsApp +55 48 99162-0343; fixo 48 3355-0412 | não encontrado | A | a contatar |
 | IB01 | Pousada Barra Mar | Barra de Ibiraquera (Av. Sul 2400) | WhatsApp msg (48) 99991-7146; lig. (48) 99926-5885; fixo 48 3355-0007 | **sim**: avaliação em espanhol de uruguaio no Booking | A | a contatar |
 | IB02 | Pousada Natural Park | Praia do Luz / Ibiraquera (Av. Paraíso do Luz 2001) | (48) 99967-4260; fixo (48) 3355-6488 | não encontrado | A | a contatar |
 | IB03 | Pousada Toca da Lagoa | Barra de Ibiraquera (R. Porto Seguro) | (48) 99155-5530 | não encontrado | A | a contatar |
@@ -137,8 +140,12 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX59 | Aldeia dos Anjos do Rosa | Av. Porto Novo 871 | WhatsApp +55 48 99949-1971; fixo 48 3355-6032 | site em inglês | A | a contatar |
 | RX60 | Pousada Las Piedras | Praia do Rosa (R. da Pousada Recanto do Rei Sol 200) | (48) 99600-1627 | não encontrado | A | a contatar |
 | RX61 | Pousada Solar dos Lírios | Praia do Rosa (Av. Central), 800 m da praia | WhatsApp +55 48 99179-0840 | não encontrado | A | a contatar |
+| RX62 | Haleakala Hostel & Pousada | Praia do Rosa (R. John Lennon), 150 m do centrinho | WhatsApp +55 48 99678-5763 | **sim**: Hostelworld e Lonely Planet | A | a contatar |
+| RX63 | Pousada Bungalow | Praia do Rosa, 150 m da praia | (48) 99107-4662 | não encontrado | A | a contatar |
+| RX64 | Hostel Albergue Explorer | Praia do Rosa | WhatsApp 48 99222-0213; fixo 48 3355-7403 | provável (OTAs internacionais) | A | a contatar |
+| RX67 | Pousada Encantos do Rosa | Av. Central do Rosa 1745 | +55 48 99174-4206; reservas 48 99977-6682 | não encontrado | A | a contatar |
 
-## B (visita / segunda onda) (67)
+## B (visita / segunda onda) (70)
 
 | ID | Nome | Bairro | Telefone / WhatsApp | Estrangeiro | Prior. | Status |
 |---|---|---|---|---|---|---|
@@ -167,6 +174,8 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | GA29 | Pousada Maré Mar | Centro, 90 m da praia | fixo (48) 3254-4368 | não encontrado | B | a contatar |
 | GA38 | Pousada Tamarindo | Pinguirito | (48) 99177-3649; fixo 48 3254-3269 | não encontrado | B | a contatar |
 | GA39 | Alecrim Pousada | Campo D'Una (Estrada Geral do Rosa 541) | WhatsApp (48) 99908-7324; fixo 48 3354-0032 | não encontrado | B | a contatar |
+| GA45 | Moradas do Siriú | Siriú | (48) 9103-8714 (formato antigo) | não encontrado | B | a contatar |
+| GA48 | Silveira Beach House | Silveira, canto sul | não encontrado | provável (anúncio em inglês) | B | a contatar |
 | IB06 | Pousada Paraíso da Lagoa | Barra de Ibiraquera (R. Porto Belo) | não confirmado (snippet: 48 99961-1106) | não encontrado | B | a contatar |
 | IB08 | Pousada LagoaMar | Barra de Ibiraquera, 80 m da praia | fixo +55 48 3355-0640 | não encontrado | B | a contatar |
 | IB09 | Pousada Estação Ibiraquera | Barra de Ibiraquera (R. Porto Belo) | (48) 99602-8325 / (51) 99976-9598 | não encontrado | B | a contatar |
@@ -209,8 +218,9 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX53 | Pousada Kahuna Praia do Rosa | Ibiraquera/Rosa (endereço divergente) | não encontrado | não encontrado | B | a contatar |
 | RX55 | Pousada ChaDay | Barra de Ibiraquera, 300 m do mar | +55 48 99801-9798 | não encontrado | B | a contatar |
 | RX57 | Estalagem Rosa dos Ventos | Praia do Rosa (R. Idalino Manoel de Carvalho 9) | fixo +55 48 3355-6275 | não encontrado | B | a contatar |
+| RX65 | Pousada Mevlana Garden | Barra de Ibiraquera, junto à lagoa | fixo/WhatsApp (48) 3355-0058 | site em inglês | B | a contatar |
 
-## C (deixar para depois) (22)
+## C (deixar para depois) (25)
 
 | ID | Nome | Bairro | Telefone / WhatsApp | Estrangeiro | Prior. | Status |
 |---|---|---|---|---|---|---|
@@ -223,6 +233,8 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | GA37 | Pousada da Encosta | Morrinhos/Ferraz (R. Caribe 322) | WhatsApp +55 48 99814-8517 ("melhor forma de contato"); fixo 48 3254-0100 | não encontrado | C | a contatar |
 | GA40 | Studio Siriú Sol Nascente | Siriú | não encontrado | não encontrado | C | a contatar |
 | GA41 | Village Siriú | Siriú | não encontrado | não encontrado | C | a contatar |
+| GA46 | Residencial Serra e Mar | Siriú | (48) 9959-3558 (formato antigo) | não encontrado | C | a contatar |
+| GA47 | Akampa Siriú | Siriú, 100 m da praia | (48) 99820-0785 | não encontrado | C | a contatar |
 | IM02 | Pousada da Villa | Vila Nova, 30 m do mar | +55 51 3395-2449 (DDD 51) | não encontrado | C | a contatar |
 | IM03 | Nossa Pousada | Vila Nova | não encontrado | não encontrado | C | a contatar |
 | IM08 | Pousada Belas Praia | Ribanceira | não encontrado | não encontrado | C | a contatar |
@@ -236,3 +248,4 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX11 | Pousada do Luz | Praia do Luz | +55 51 99971-0702 (RS) | não encontrado | C | a contatar |
 | RX41 | Pousada Caminho Nômade | Estrada Geral do Rosa | não encontrado | não encontrado | C | a contatar |
 | RX45 | Pousada Ibiraquera Park | Estrada Geral da Barra | fixo (48) 3355-0058 | não encontrado | C | a contatar |
+| RX68 | Pousada Maresia | Rosa/Ibiraquera | não encontrado | não encontrado | C | a contatar |

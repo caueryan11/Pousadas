@@ -173,3 +173,17 @@ Não encontradas: Aldeia do Rosa, Vila Tamarindo (fica em Florianópolis), Ponta
 - RX59: aldeiadosanjosdorosa.com.br
 - RX60: booking pousada-las-piedras · garopabaimbituba.tur.br/imbituba-praia-do-rosa-pousada-las-piedras
 - Fazenda Verde: fazendaverde.com/contato · abih-sc.com.br/associados/fazenda-verde-praia-do-rosa
+
+---
+
+# Sexta leva (Praia do Rosa e Barra de Ibiraquera)
+
+| # | Nome | Tipo | Bairro | Telefone / WhatsApp | Instagram | Site | WhatsApp? | Sinal estrangeiro | Avaliações | Prior. | Observação citável |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| RX62 | Haleakala Hostel & Pousada | hostel + pousada | Praia do Rosa (R. John Lennon), 150 m do centrinho | WhatsApp +55 48 99678-5763 | @haleakala.hostel | sim, haleakala.com.br | sim | **sim**: Hostelworld e Lonely Planet | **TripAdvisor 4,8 (216), 3º de 88**; Hostelworld 9,8 (152); Google 4,8 (160) | **A** | hóspedes elogiam os anfitriões "Vic, Ale e o cachorro Chimas"; 3 cozinhas e piscina |
+| RX63 | Pousada Bungalow | 5 bangalôs, 1 studio, 1 suíte | Praia do Rosa, 150 m da praia | (48) 99107-4662 | @pousadabungalow (conferir) | sim, pousadabungalow.com.br | provável | não encontrado | 8,5 (127); TripAdvisor 4/5, 4º de 67 | **A** | "recebendo hóspedes há 21 anos" |
+| RX64 | Hostel Albergue Explorer | hostel/pousada | Praia do Rosa | WhatsApp 48 99222-0213; fixo 48 3355-7403 | @hostel.explorer | sim, hostelexplorer.com.br | sim | provável (OTAs internacionais) | **Booking 8,8 (601)** | **A** | "A hospedagem Nº1 da Praia do Rosa"; **atende das 9h às 20h**: gancho do horário |
+| RX65 | Pousada Mevlana Garden | bem-estar e retiros (29 UHs, 2 restaurantes) | Barra de Ibiraquera, junto à lagoa | fixo/WhatsApp (48) 3355-0058 | @mevlanagarden | sim, mevlanagarden.com.br (/en) | sim | site em inglês | TripAdvisor 4/5 (147), 1º na Barra | **B** (porte maior) | jardim de 11.000 m²; "Templo do Lótus Branco". ⚠ mesmo fixo da Ibiraquera Park (RX45) |
+| RX66 | Pousada Vila dos Coqueiros | pousada rústica (quartos, flats, casas) | Barra de Ibiraquera (R. Custódia de Carvalho Ferreira 317) | WhatsApp 48 99154-8802 / 48 99184-1040; fixo 48 3255-1277 | @pousadaviladoscoqueiros (~7,7 mil) | sim, viladoscoqueiros.com.br | sim | não encontrado | TripAdvisor 3/5 | **A+ (grupo c/ IB12)** | do mesmo dono da Casas Ibiraquera (IB12): Pablo Griep, corretor CRECI 9.641 e advogado. Pousada + 40 casas = lead forte |
+| RX67 | Pousada Encantos do Rosa | 6 casas + 3 suítes | Av. Central do Rosa 1745 | +55 48 99174-4206; reservas 48 99977-6682 | @encantosdorosa (~16 mil) | sim, encantosdorosa.com.br | provável | não encontrado | Booking 9,4 | **A** | casas para até 6 pessoas com piscina e playground; **atende das 8h às 23h** |
+| RX68 | Pousada Maresia | econômica | Rosa/Ibiraquera | não encontrado | não encontrado | não | não sei | não encontrado | não encontrado | **C** | presença online fraca |

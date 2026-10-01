@@ -115,3 +115,32 @@ Ferrugem para pesquisar: Recanto do Sossego, Morada Vista da Lagoa, Areia Nova, 
 - GA40: booking pousada-studio-siriu-sol-nascente
 - GA41: facebook.com/villagesiriu
 - GA42: booking pousada-lagoa-encantada · instagram.com/lagoaencantada.pousada
+
+---
+
+# Quarta leva (Silveira e Siriú)
+
+| # | Nome | Tipo | Bairro | Telefone / WhatsApp | Instagram | Site | WhatsApp? | Sinal estrangeiro | Avaliações | Prior. | Observação citável |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| GA43 | Pousada Saint Germain | pousada com piscina e vista do mar | Silveira (entrada da praia) | +55 48 99670-3234 | @pousadasaintgermain | não | provável | não encontrado | **Booking 9,8 (54)**; Google 4,8 (77) | **A** | "O proprietário, Fábio, extremamente atencioso"; geleia caseira no café |
+| GA44 | Pousada do Taxo | aptos com cozinha (10 UHs) | Siriú, 500 m do mar | WhatsApp +55 48 99162-0343; fixo 48 3355-0412 | @pousadadotaxo | sim, pousadadotaxo.com.br | sim | não encontrado | **Google 4,6 (225)**; Kayak 8,3 (208) | **A** | aptos com cozinha a 500 m do mar |
+| GA45 | Moradas do Siriú | 4 cabanas vista mar | Siriú | (48) 9103-8714 (formato antigo) | não encontrado | sim, moradasdosiriu.com.br | não sei | não encontrado | não encontrado | **B** | cabanas de R$ 229 a R$ 349/noite (Viajandar) |
+| GA46 | Residencial Serra e Mar | aptos de temporada | Siriú | (48) 9959-3558 (formato antigo) | não encontrado | não | sim | não encontrado | não encontrado | **C** | só funciona no verão; sem café nem roupa de cama |
+| GA47 | Akampa Siriú | camping com cabanas | Siriú, 100 m da praia | (48) 99820-0785 | @akampasiriu | não | provável | não encontrado | não encontrado | **C** | camping, pet friendly, aberto o ano todo |
+| GA48 | Silveira Beach House | casa de luxo (até 16 hóspedes) | Silveira, canto sul | não encontrado | @silveirabeachhouse | Airbnb | não sei | provável (anúncio em inglês) | Airbnb: anfitriã Vanessa, Superhost, 309 avaliações (4,99) em todos os anúncios | **B** | anfitriã com vários anúncios: possível co-anfitriã. Contato pelo Instagram |
+
+Surf Lodge Garopaba (Silveira) pertence à Silveira Ecovillage (GA02).
+
+## Fontes (quarta leva Garopaba e sexta leva Rosa)
+- RX62: haleakala.com.br/contato · hostelworld 81404 · tripadvisor d7819815
+- RX63: pousadabungalow.com.br/contato · tripadvisor d6484126
+- RX64: hostelexplorer.com.br · booking albergue-explorer-hostel-paradise
+- RX65: mevlanagarden.com.br/en · pousadastop.com.br/Pousada-Mevlana-Garden · tripadvisor d2709227
+- RX66: viladoscoqueiros.com.br · casasibiraquera.com/quem-somos · casasibiraquera.com/100
+- RX67: encantosdorosa.com.br · booking encantos-do-rosa
+- GA43: booking pousada-saint-germain-garopaba · tripadvisor d4511856
+- GA44: pousadadotaxo.com.br · tripadvisor d2177164
+- GA45: moradasdosiriu.com.br · viajandar.com.br/chale/moradas-do-siriu/garopaba
+- GA46: garopaba.tur.br/residencialserraemar.htm
+- GA47: turismo.garopaba.sc.gov.br/onde-ficar · macamp (Akampa Siriú)
+- GA48: airbnb.com/h/silveirabeachhouse
