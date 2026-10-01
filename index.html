@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recepção 24h · Atendente de WhatsApp para pousadas</title>
+<meta name="description" content="Atendente de WhatsApp com IA para pousadas da Praia do Rosa, Ibiraquera, Garopaba e Ferrugem. Responde na hora, 24h, em português, espanhol e inglês. Instalado em até 1 semana.">
+<meta name="theme-color" content="#0f5c5a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --areia:#f7f1e6;
+    --areia-2:#efe5d3;
+    --mar:#0f5c5a;
+    --mar-2:#1d7f7a;
+    --mar-claro:#d7ece8;
+    --ceu:#e6f2f3;
+    --tinta:#1f2a2a;
+    --tinta-2:#4b5857;
+    --sol:#f2a541;
+    --zap:#25d366;
+    --zap-escuro:#128c4a;
+    --branco:#fffdf9;
+    --linha:#e2d8c6;
+    --raio:18px;
+    --serif:"Fraunces", Georgia, "Times New Roman", serif;
+    --sans:system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--areia);color:var(--tinta);
+    font-family:var(--sans);font-size:17px;line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    padding-bottom:84px; /* espaço para o botão fixo */
+  }
+  img{max-width:100%;display:block}
+  a{color:var(--mar)}
+  h1,h2,h3{font-family:var(--serif);line-height:1.15;margin:0 0 .5em;color:var(--tinta);font-weight:700}
+  h1{font-size:clamp(2rem,8vw,3.4rem);letter-spacing:-.01em}
+  h2{font-size:clamp(1.6rem,6vw,2.4rem)}
+  h3{font-size:1.2rem;font-weight:600}
+  p{margin:0 0 1em}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+  section{padding:64px 0}
+  .eyebrow{
+    display:inline-block;font-size:.8rem;font-weight:700;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--mar-2);margin-bottom:12px
+  }
+  .lead{font-size:1.1rem;color:var(--tinta-2);max-width:38em}
+
+  /* Botões */
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:10px;
+    background:var(--zap);color:#08361c;font-weight:700;font-size:1.05rem;
+    text-decoration:none;padding:16px 26px;border-radius:999px;
+    box-shadow:0 6px 18px rgba(18,140,74,.28);transition:transform .15s, box-shadow .15s;
+    min-height:54px
+  }
+  .btn:hover{transform:translateY(-1px);box-shadow:0 10px 24px rgba(18,140,74,.32)}
+  .btn svg{width:22px;height:22px;flex:none}
+  .btn-sec{background:transparent;color:var(--mar);box-shadow:none;border:2px solid var(--mar);font-weight:600}
+  .btn-sec:hover{box-shadow:none;background:var(--mar-claro)}
+
+  /* Placeholder */
+  .ph{
+    border:2px dashed var(--sol);background:repeating-linear-gradient(45deg,#fff7ea,#fff7ea 10px,#fdf0db 10px,#fdf0db 20px);
+    color:#8a5a12;font-weight:700;font-size:.9rem;text-align:center;
+    display:flex;align-items:center;justify-content:center;padding:16px;border-radius:12px
+  }
+
+  /* Topo */
+  .topo{position:absolute;top:0;left:0;right:0;z-index:2}
+  .topo .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:18px}
+  .marca{font-family:var(--serif);font-weight:700;font-size:1.2rem;color:var(--mar);text-decoration:none;display:flex;align-items:center;gap:8px}
+  .marca .sol{width:22px;height:22px;border-radius:50%;background:var(--sol);box-shadow:0 0 0 5px rgba(242,165,65,.25)}
+  .topo .local{font-size:.85rem;color:var(--tinta-2);display:none}
+
+  /* Hero */
+  .hero{
+    position:relative;overflow:hidden;padding:110px 0 120px;
+    background:linear-gradient(180deg,var(--ceu) 0%,#f3f4ec 55%,var(--areia) 100%);
+  }
+  .hero h1{isolation:isolate}
+  .hero h1 em{font-style:normal;color:var(--mar);position:relative;white-space:nowrap}
+  .hero h1 em::after{
+    content:"";position:absolute;left:0;right:0;bottom:.05em;height:.28em;
+    background:rgba(242,165,65,.35);z-index:-1;border-radius:4px
+  }
+  .hero .lead{margin-bottom:28px}
+  .hero-ctas{display:flex;flex-direction:column;gap:12px;align-items:stretch;max-width:360px}
+  .hero-nota{font-size:.9rem;color:var(--tinta-2);margin-top:16px}
+  .hero-nota strong{color:var(--tinta)}
+  .selos{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
+  .selo{background:var(--branco);border:1px solid var(--linha);border-radius:999px;padding:6px 14px;font-size:.88rem;color:var(--tinta-2)}
+  .ondas{position:absolute;left:0;right:0;bottom:-1px;width:100%;height:90px;pointer-events:none}
+
+  /* Dor */
+  .dores{display:grid;gap:16px;margin-top:28px}
+  .dor{background:var(--branco);border:1px solid var(--linha);border-radius:var(--raio);padding:22px 22px 18px}
+  .dor .hora{font-family:var(--serif);font-size:1.6rem;color:var(--mar);font-weight:700;display:block;margin-bottom:4px}
+  .dor p{color:var(--tinta-2);margin:0}
+  .dor h3{margin-bottom:6px}
+  .conta{
+    margin-top:28px;background:var(--mar);color:#eaf6f4;border-radius:var(--raio);padding:24px;
+  }
+  .conta h3{color:#fff;font-size:1.35rem}
+  .conta p{margin:0;color:#cfe7e3}
+
+  /* Demo */
+  .demo{background:var(--branco);border-top:1px solid var(--linha);border-bottom:1px solid var(--linha)}
+  .video{aspect-ratio:9/16;max-width:320px;margin:24px auto 8px;border-radius:22px;min-height:0}
+  .video-legenda{text-align:center;font-size:.9rem;color:var(--tinta-2);margin-bottom:36px}
+  .aviso-exemplo{
+    display:inline-flex;gap:8px;align-items:center;background:#fff4dd;color:#7a4e0e;
+    border-radius:999px;padding:6px 14px;font-size:.88rem;font-weight:600;margin-bottom:18px
+  }
+  .chats{display:grid;gap:22px}
+  .chat{border-radius:22px;overflow:hidden;border:1px solid #d9d3c6;background:#efe7dc;max-width:420px;width:100%;margin:0 auto}
+  .chat-topo{background:#0f5c5a;color:#fff;display:flex;align-items:center;gap:10px;padding:12px 14px}
+  .chat-topo .av{width:36px;height:36px;border-radius:50%;background:var(--sol);display:grid;place-items:center;font-weight:700;color:#5a3500;font-size:.9rem}
+  .chat-topo b{display:block;font-size:.95rem}
+  .chat-topo small{opacity:.8;font-size:.78rem}
+  .chat-topo .lang{margin-left:auto;font-size:.75rem;background:rgba(255,255,255,.18);padding:3px 9px;border-radius:999px}
+  .msgs{padding:14px 12px 18px;display:flex;flex-direction:column;gap:8px;
+    background-color:#efe7dc;
+    background-image:radial-gradient(rgba(15,92,90,.06) 1px,transparent 1px);background-size:14px 14px}
+  .m{max-width:84%;padding:8px 11px 18px;border-radius:12px;font-size:.93rem;line-height:1.4;position:relative;box-shadow:0 1px 1px rgba(0,0,0,.06)}
+  .m time{position:absolute;right:9px;bottom:3px;font-size:.68rem;color:#7d8a86}
+  .in{background:#fff;align-self:flex-start;border-top-left-radius:4px}
+  .out{background:#d9fdd3;align-self:flex-end;border-top-right-radius:4px}
+  .sys{align-self:center;background:#fff3c4;color:#6b5310;font-size:.78rem;padding:5px 10px;border-radius:8px;text-align:center;max-width:92%}
+  .dia{align-self:center;background:#e1f2fb;color:#4a6470;font-size:.74rem;padding:3px 10px;border-radius:7px}
+
+  /* Passos */
+  .passos{display:grid;gap:16px;margin-top:28px;counter-reset:p}
+  .passo{background:var(--branco);border:1px solid var(--linha);border-radius:var(--raio);padding:22px;position:relative}
+  .passo::before{
+    counter-increment:p;content:counter(p);
+    display:grid;place-items:center;width:42px;height:42px;border-radius:50%;
+    background:var(--mar);color:#fff;font-family:var(--serif);font-weight:700;font-size:1.2rem;margin-bottom:12px
+  }
+  .passo p{color:var(--tinta-2);margin:0}
+
+  /* Faz / não faz */
+  .lado{display:grid;gap:16px;margin-top:28px}
+  .lista{background:var(--branco);border:1px solid var(--linha);border-radius:var(--raio);padding:22px}
+  .lista ul{list-style:none;margin:0;padding:0}
+  .lista li{padding:9px 0 9px 34px;position:relative;border-bottom:1px dashed var(--linha)}
+  .lista li:last-child{border-bottom:0}
+  .lista li::before{position:absolute;left:0;top:9px;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;font-size:.85rem;font-weight:700}
+  .sim li::before{content:"✓";background:var(--mar-claro);color:var(--mar)}
+  .nao li::before{content:"✕";background:#fbe3dc;color:#a8432a}
+  .nao{background:#fffaf5}
+
+  /* Oferta */
+  .oferta{background:linear-gradient(180deg,var(--areia) 0%,var(--areia-2) 100%)}
+  .prazo{
+    display:flex;flex-wrap:wrap;align-items:center;gap:10px;background:var(--tinta);color:#fff;
+    border-radius:14px;padding:14px 18px;margin:20px 0 26px;font-weight:600
+  }
+  .prazo .tag{background:var(--sol);color:#4a2c00;border-radius:999px;padding:3px 12px;font-size:.85rem}
+  .prazo span.dias{color:#ffd79a}
+  .planos{display:grid;gap:18px}
+  .plano{background:var(--branco);border:1px solid var(--linha);border-radius:22px;padding:26px 22px;position:relative}
+  .plano.dest{border:2px solid var(--mar);box-shadow:0 14px 34px rgba(15,92,90,.12)}
+  .plano .rot{position:absolute;top:-13px;left:22px;background:var(--mar);color:#fff;font-size:.78rem;font-weight:700;padding:4px 12px;border-radius:999px;letter-spacing:.03em}
+  .plano h3{font-size:1.25rem;margin-bottom:14px}
+  .preco{font-family:var(--serif);font-size:2.4rem;font-weight:700;color:var(--tinta);line-height:1}
+  .preco small{font-family:var(--sans);font-size:1rem;font-weight:500;color:var(--tinta-2)}
+  .mais{font-size:1.15rem;margin:10px 0 4px;font-weight:600}
+  .obs{font-size:.92rem;color:var(--tinta-2);margin:0 0 18px}
+  .plano ul{margin:0 0 22px;padding-left:20px;color:var(--tinta-2)}
+  .plano li{margin-bottom:6px}
+  .plano .btn{width:100%}
+  .garantia{
+    margin-top:22px;display:flex;gap:16px;align-items:flex-start;background:var(--branco);
+    border:1px solid var(--linha);border-radius:var(--raio);padding:20px
+  }
+  .garantia .ico{flex:none;width:48px;height:48px;border-radius:50%;background:var(--mar-claro);display:grid;place-items:center;font-size:1.5rem}
+  .garantia p{margin:0;color:var(--tinta-2)}
+  .garantia b{color:var(--tinta)}
+  .conta-reserva{font-size:.95rem;color:var(--tinta-2);margin-top:18px;text-align:center}
+
+  /* FAQ */
+  .faq{margin-top:24px}
+  details{background:var(--branco);border:1px solid var(--linha);border-radius:14px;margin-bottom:10px;overflow:hidden}
+  summary{cursor:pointer;list-style:none;padding:18px 52px 18px 20px;font-weight:600;position:relative}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";position:absolute;right:20px;top:50%;transform:translateY(-50%);font-size:1.5rem;color:var(--mar);font-weight:400}
+  details[open] summary::after{content:"–"}
+  details .resp{padding:0 20px 18px;color:var(--tinta-2)}
+  details .resp p:last-child{margin:0}
+
+  /* Quem sou */
+  .quem{background:var(--branco);border-top:1px solid var(--linha)}
+  .quem-grid{display:grid;gap:24px;align-items:center}
+  .foto{aspect-ratio:1/1;max-width:260px;border-radius:50%;margin:0 auto}
+  .depo{margin-top:22px;min-height:90px}
+
+  /* CTA final + rodapé */
+  .final{text-align:center;background:var(--mar);color:#eaf6f4;padding:64px 0}
+  .final h2{color:#fff}
+  .final p{color:#cfe7e3;max-width:32em;margin:0 auto 24px}
+  footer{background:#0b4645;color:#a9cdc8;font-size:.88rem;padding:26px 0;text-align:center}
+  footer p{margin:0 0 6px}
+
+  .zap-fixo{
+    position:fixed;left:12px;right:12px;bottom:12px;z-index:50;
+    display:flex;align-items:center;justify-content:center;gap:10px;
+    background:var(--zap);color:#08361c;font-weight:700;text-decoration:none;
+    padding:15px 18px;border-radius:999px;box-shadow:0 10px 28px rgba(0,0,0,.22);font-size:1rem
+  }
+  .zap-fixo svg{width:22px;height:22px}
+
+  /* Telas maiores */
+  @media (min-width:720px){
+    body{padding-bottom:0}
+    section{padding:88px 0}
+    .topo .local{display:block}
+    .hero{padding:140px 0 150px}
+    .hero-ctas{flex-direction:row;max-width:none;align-items:center}
+    .dores{grid-template-columns:repeat(3,1fr)}
+    .passos{grid-template-columns:repeat(3,1fr)}
+    .lado{grid-template-columns:1fr 1fr}
+    .planos{grid-template-columns:1fr 1fr;align-items:start}
+    .chats{grid-template-columns:1fr 1fr;align-items:start}
+    .quem-grid{grid-template-columns:260px 1fr;gap:44px}
+    .zap-fixo{left:auto;right:22px;bottom:22px;padding:14px 22px}
+  }
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+</style>
+</head>
+<body>
+
+<!-- ===================== TOPO ===================== -->
+<header class="topo">
+  <div class="wrap">
+    <a href="#" class="marca"><span class="sol" aria-hidden="true"></span>Recepção 24h</a>
+    <span class="local">Rosa · Ibiraquera · Garopaba · Ferrugem</span>
+  </div>
+</header>
+
+<!-- ===================== 1. HERO ===================== -->
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Para pousadas do litoral sul de SC</span>
+    <h1>Sua pousada responde <em>na hora</em>, em português e em espanhol.</h1>
+    <p class="lead">Um atendente no WhatsApp da sua pousada que tira as dúvidas do hóspede 24 horas por dia e te entrega o pedido de reserva pronto. Você só confirma.</p>
+    <div class="hero-ctas">
+      <a class="btn" href="https://wa.me/55[DDD][NUMERO]?text=Quero%20ver%20o%20atendente%20da%20pousada" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.2.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1 2.7c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+        Quero ver funcionando
+      </a>
+      <a class="btn btn-sec" href="#oferta">Ver preços</a>
+    </div>
+    <p class="hero-nota"><strong>Instalado em até 1 semana</strong>, no mesmo número que você já usa.</p>
+    <div class="selos">
+      <span class="selo">🇧🇷 Português</span>
+      <span class="selo">🇦🇷 Español</span>
+      <span class="selo">🇺🇸 English</span>
+      <span class="selo">🌙 22h, domingo, feriado</span>
+    </div>
+  </div>
+  <svg class="ondas" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 50 C 240 10, 480 90, 720 50 S 1200 10, 1440 50 V90 H0Z" fill="#d7ece8" opacity=".7"/>
+    <path d="M0 65 C 260 35, 520 95, 760 62 S 1220 35, 1440 66 V90 H0Z" fill="#f7f1e6"/>
+  </svg>
+</section>
+
+<!-- ===================== 2. A DOR ===================== -->
+<section id="dor">
+  <div class="wrap">
+    <span class="eyebrow">Você conhece essa rotina</span>
+    <h2>O WhatsApp da pousada não tem hora pra parar.</h2>
+    <div class="dores">
+      <div class="dor">
+        <span class="hora">22h40</span>
+        <h3>“Tem quarto pro Réveillon?”</h3>
+        <p>Você já está jantando ou dormindo. Responde de manhã e o turista já reservou em outro lugar.</p>
+      </div>
+      <div class="dor">
+        <span class="hora">Sábado, 15h</span>
+        <h3>“Hola, ¿aceptan mascotas?”</h3>
+        <p>Turista argentino escrevendo em espanhol, pousada cheia, café pra servir. A mensagem fica pra depois.</p>
+      </div>
+      <div class="dor">
+        <span class="hora">Toda hora</span>
+        <h3>“Qual o valor? Tem estacionamento?”</h3>
+        <p>As mesmas perguntas, todo dia. E quem não tem resposta rápida vai pro Booking, onde você paga comissão.</p>
+      </div>
+    </div>
+    <div class="conta">
+      <h3>As reservas de Réveillon e janeiro estão chegando agora.</h3>
+      <p>Quem responde primeiro, fica com o hóspede. Uma única reserva que deixa de ir pro vizinho já paga o atendente.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 3. DEMONSTRAÇÃO ===================== -->
+<section class="demo" id="demo">
+  <div class="wrap">
+    <span class="eyebrow">Veja como fica</span>
+    <h2>O hóspede pergunta. Ele responde. Você confirma.</h2>
+
+    <div class="video ph">[VÍDEO DE 60 SEGUNDOS AQUI]<br>(gravação de tela do atendente funcionando)</div>
+    <p class="video-legenda">1 minuto mostrando uma conversa de verdade, do “oi” ao pedido de reserva.</p>
+
+    <div style="text-align:center"><span class="aviso-exemplo">⚠️ Conversas de exemplo, criadas para ilustrar. Pousada e valores fictícios.</span></div>
+
+    <div class="chats">
+      <!-- Conversa em português -->
+      <div class="chat" aria-label="Exemplo de conversa em português">
+        <div class="chat-topo">
+          <div class="av">PE</div>
+          <div><b>Pousada Exemplo</b><small>online</small></div>
+          <span class="lang">PT</span>
+        </div>
+        <div class="msgs">
+          <span class="dia">HOJE</span>
+          <div class="m in">Oi! Tem quarto de 28/12 a 02/01 pra 2 adultos? Aceita cachorro pequeno?<time>22:41</time></div>
+          <div class="m out">Oi! Que bom que você escreveu 😊 Para essas datas temos a Suíte Jardim (casal, com varanda). Aceitamos pet pequeno, com taxa de R$ 50 por diária. Café da manhã incluso, das 8h às 10h30.<time>22:41</time></div>
+          <div class="m in">Ótimo! Tem estacionamento?<time>22:42</time></div>
+          <div class="m out">Tem sim, gratuito e dentro da pousada. Quer que eu passe seu pedido de reserva para o responsável confirmar? Só preciso do seu nome completo.<time>22:42</time></div>
+          <div class="m in">Quero! Mariana Souza<time>22:43</time></div>
+          <div class="m out">Prontinho, Mariana! Pedido enviado: Suíte Jardim, 28/12 a 02/01, 2 adultos + 1 pet. O responsável confirma a disponibilidade e te passa o valor final e a forma de pagamento logo cedo. 🌊<time>22:43</time></div>
+          <span class="sys">📲 O dono recebe o resumo do pedido para confirmar</span>
+        </div>
+      </div>
+
+      <!-- Conversa em espanhol -->
+      <div class="chat" aria-label="Ejemplo de conversación en español">
+        <div class="chat-topo">
+          <div class="av">PE</div>
+          <div><b>Pousada Exemplo</b><small>online</small></div>
+          <span class="lang">ES</span>
+        </div>
+        <div class="msgs">
+          <span class="dia">SÁBADO</span>
+          <div class="m in">Hola! Somos 4 (2 adultos y 2 chicos). ¿Tienen lugar del 10 al 17 de enero? ¿Cómo llegamos desde Florianópolis?<time>15:07</time></div>
+          <div class="m out">¡Hola! Gracias por escribirnos 😊 Para 4 personas tenemos el Chalé Familia, con cocina y 2 ambientes. Desde Florianópolis son unos 90 km por la BR-101, salida Praia do Rosa. Te mando la ubicación exacta.<time>15:07</time></div>
+          <div class="m in">Perfecto. ¿A qué hora es el check-in?<time>15:08</time></div>
+          <div class="m out">El check-in es desde las 14h y el check-out hasta las 11h. ¿Querés que pase tu pedido de reserva al responsable? Solo necesito tu nombre.<time>15:08</time></div>
+          <div class="m in">Sí, Lucas Fernández<time>15:09</time></div>
+          <div class="m out">¡Listo, Lucas! Pedido enviado: Chalé Familia, 10 al 17/01, 2 adultos y 2 chicos. El responsable te confirma la disponibilidad y el precio final en breve. 🌴<time>15:09</time></div>
+          <span class="sys">📲 O dono recebe o pedido em português, pronto para confirmar</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 4. COMO FUNCIONA ===================== -->
+<section id="como">
+  <div class="wrap">
+    <span class="eyebrow">Simples assim</span>
+    <h2>Como funciona</h2>
+    <div class="passos">
+      <div class="passo">
+        <h3>Você preenche um formulário</h3>
+        <p>Preços, quartos, café, regras de pet, check-in, como chegar. Leva uns 20 minutos. Se preferir, a gente faz junto, por telefone ou aí na pousada.</p>
+      </div>
+      <div class="passo">
+        <h3>Eu instalo em até 1 semana</h3>
+        <p>No mesmo número de WhatsApp da pousada. A gente testa junto antes de ligar pra valer, e você aprova as respostas.</p>
+      </div>
+      <div class="passo">
+        <h3>As reservas chegam prontas</h3>
+        <p>Datas, número de pessoas e nome do hóspede, tudo organizado. Você só confirma e combina o pagamento.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 5. FAZ / NÃO FAZ ===================== -->
+<section id="transparencia" style="padding-top:0">
+  <div class="wrap">
+    <span class="eyebrow">Sem surpresa</span>
+    <h2>O que ele faz e o que ele não faz</h2>
+    <div class="lado">
+      <div class="lista sim">
+        <h3>✅ Faz</h3>
+        <ul>
+          <li>Responde na hora, 24h, inclusive fim de semana e feriado</li>
+          <li>Fala português, espanhol e inglês</li>
+          <li>Tira dúvidas: preços, acomodações, café, pet, estacionamento, check-in, como chegar, regras</li>
+          <li>Anota o pedido de reserva (datas, pessoas, nome) e te avisa</li>
+          <li>Passa pra você tudo que foge do comum</li>
+        </ul>
+      </div>
+      <div class="lista nao">
+        <h3>🚫 Não faz</h3>
+        <ul>
+          <li>Não fecha reserva sozinho. Quem confirma é sempre você, então não tem risco de vender quarto ocupado</li>
+          <li>Não cobra nem recebe pagamento</li>
+          <li>Não inventa informação: se não sabe, encaminha pra você</li>
+          <li>Não responde dentro do Booking ou do Airbnb</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 6. OFERTA ===================== -->
+<section class="oferta" id="oferta">
+  <div class="wrap">
+    <span class="eyebrow">Condição de pré-temporada</span>
+    <h2>Pronto antes do Réveillon.</h2>
+    <div class="prazo">
+      <span class="tag">Válido até 15/11</span>
+      <span>Depois dessa data, os valores mudam. <span class="dias" id="dias"></span></span>
+    </div>
+
+    <div class="planos">
+      <div class="plano dest">
+        <span class="rot">PAGA SÓ NA TEMPORADA</span>
+        <h3>Plano Temporada</h3>
+        <div class="preco">R$ 990 <small>de entrada</small></div>
+        <p class="obs">em até 3x no cartão</p>
+        <p class="mais">+ R$ 297/mês</p>
+        <p class="obs">só de dezembro a março. No resto do ano, você não paga mensalidade.</p>
+        <ul>
+          <li>Instalação no seu número em até 1 semana</li>
+          <li>Português, espanhol e inglês</li>
+          <li>Pedidos de reserva direto no seu WhatsApp</li>
+          <li>Ajustes nas respostas sempre que precisar</li>
+        </ul>
+        <a class="btn" href="https://wa.me/55[DDD][NUMERO]?text=Quero%20o%20Plano%20Temporada%20para%20minha%20pousada" target="_blank" rel="noopener">Quero o Plano Temporada</a>
+      </div>
+
+      <div class="plano">
+        <h3>Plano Ano Todo</h3>
+        <div class="preco">R$ 1.997 <small>de instalação</small></div>
+        <p class="obs">&nbsp;</p>
+        <p class="mais">+ R$ 197/mês</p>
+        <p class="obs">o ano inteiro, com mensalidade menor.</p>
+        <ul>
+          <li>Tudo do Plano Temporada</li>
+          <li>Atendente ligado os 12 meses</li>
+          <li>Bom para quem tem movimento fora do verão</li>
+        </ul>
+        <a class="btn btn-sec" href="https://wa.me/55[DDD][NUMERO]?text=Quero%20saber%20do%20Plano%20Ano%20Todo" target="_blank" rel="noopener">Quero o Plano Ano Todo</a>
+      </div>
+    </div>
+
+    <div class="garantia">
+      <div class="ico" aria-hidden="true">🤝</div>
+      <p><b>Garantia de 1 semana.</b> Se na primeira semana ele não ajudar a sua pousada, eu devolvo a entrada. Sem enrolação.</p>
+    </div>
+
+    <p class="conta-reserva">Faça a conta: quanto vale uma diária de Réveillon na sua pousada?</p>
+  </div>
+</section>
+
+<!-- ===================== 7. FAQ ===================== -->
+<section id="faq">
+  <div class="wrap">
+    <span class="eyebrow">Dúvidas</span>
+    <h2>Perguntas frequentes</h2>
+    <div class="faq">
+      <details>
+        <summary>Preciso trocar de número?</summary>
+        <div class="resp"><p>Não. O atendente funciona no mesmo número que seus hóspedes já conhecem.</p></div>
+      </details>
+      <details>
+        <summary>Continuo usando meu WhatsApp normalmente?</summary>
+        <div class="resp"><p>Sim. Você continua vendo todas as conversas e pode entrar em qualquer uma a qualquer momento. Na instalação eu te mostro como fica no seu celular.</p></div>
+      </details>
+      <details>
+        <summary>E se ele errar?</summary>
+        <div class="resp"><p>Ele só responde com as informações que você passou no formulário. Quando não sabe, ou quando o assunto foge do comum, passa pra você em vez de chutar. E como ele não fecha reserva, a palavra final é sempre sua.</p><p>Se alguma resposta não ficou do seu jeito, é só me avisar que eu ajusto.</p></div>
+      </details>
+      <details>
+        <summary>Meus dados e os dos hóspedes ficam seguros?</summary>
+        <div class="resp"><p>Os dados são usados só para atender a sua pousada. Não vendo, não compartilho e não uso para mais nada. Se um dia você cancelar, as informações da sua pousada são apagadas.</p></div>
+      </details>
+      <details>
+        <summary>Funciona com Booking e Airbnb?</summary>
+        <div class="resp"><p>Não responde dentro dessas plataformas. Ele trabalha no seu WhatsApp. O que ele faz é ajudar a trazer mais reserva direta, sem comissão: quem te chama no WhatsApp é atendido na hora e não precisa ir pro Booking.</p></div>
+      </details>
+      <details>
+        <summary>Preciso entender de tecnologia?</summary>
+        <div class="resp"><p>Não. Você preenche um formulário (ou me conta por telefone) e eu cuido do resto.</p></div>
+      </details>
+      <details>
+        <summary>Posso cancelar?</summary>
+        <div class="resp"><p>[CONFIRMAR REGRA DE CANCELAMENTO AQUI]</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 8. QUEM SOU EU ===================== -->
+<section class="quem" id="quem">
+  <div class="wrap quem-grid">
+    <div class="foto ph">[SUA FOTO AQUI]<br>(de preferência na praia)</div>
+    <div>
+      <span class="eyebrow">Quem instala</span>
+      <h2>Oi, eu sou o Caue.</h2>
+      <p>Moro na Praia do Rosa e trabalho com automação. Vejo de perto como é a temporada aqui: casa cheia, café pra servir, e o celular tocando sem parar.</p>
+      <p>Montei esse atendente para as pousadas da região. Eu instalo pessoalmente, ajusto do jeito da sua pousada e, se precisar, passo aí pra explicar.</p>
+      <p><strong>Sem central de atendimento, sem robô de suporte: você fala direto comigo.</strong></p>
+      <div class="depo ph">[DEPOIMENTO REAL AQUI]<br>(nome do dono e da pousada, com autorização)</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA FINAL ===================== -->
+<section class="final">
+  <div class="wrap">
+    <h2>Quer ver ele respondendo?</h2>
+    <p>Me chama no WhatsApp. Eu te mostro funcionando e respondo suas dúvidas, sem compromisso.</p>
+    <a class="btn" href="https://wa.me/55[DDD][NUMERO]?text=Quero%20ver%20o%20atendente%20da%20pousada" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.2.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1 2.7c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+      Quero ver funcionando
+    </a>
+  </div>
+</section>
+
+<!-- ===================== 9. RODAPÉ ===================== -->
+<footer>
+  <div class="wrap">
+    <p><strong>Recepção 24h</strong> · Atendente de WhatsApp para pousadas</p>
+    <p>Praia do Rosa · Ibiraquera · Garopaba · Ferrugem — Santa Catarina</p>
+    <p>Caue · [SEU CNPJ OU CPF, SE QUISER] · [SEU E-MAIL]</p>
+  </div>
+</footer>
+
+<a class="zap-fixo" href="https://wa.me/55[DDD][NUMERO]?text=Quero%20ver%20o%20atendente%20da%20pousada" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.2.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1 2.7c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+  Falar no WhatsApp
+</a>
+
+<script>
+  // Contagem de dias até o fim da oferta (15/11). Atualize o ano se reaproveitar a página.
+  (function(){
+    var fim = new Date(2026, 10, 15, 23, 59, 59);
+    var el = document.getElementById('dias');
+    if(!el) return;
+    var d = Math.ceil((fim - new Date()) / 86400000);
+    if(d > 1) el.textContent = 'Faltam ' + d + ' dias.';
+    else if(d === 1) el.textContent = 'Último dia!';
+    else el.textContent = 'Oferta encerrada.';
+  })();
+</script>
+</body>
+</html>
