@@ -44,7 +44,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | GA11 | Pousada GaropaSul | Centro, 600 m da praia | WhatsApp (48) 99183-1146; fixo 48 3254-3177 | não encontrado | A (top) | a contatar |
 | GA17 | Pousada A Cabana | Estrada Geral da Ferrugem | WhatsApp (48) 99192-5548 | **site em espanhol** | A (top) | a contatar |
 | GA30 | Pousada As Quatro Estações | Centro (R. Aderbal Ramos da Silva 250) | WhatsApp +55 48 98439-2058; fixo 48 3254-4811 | não encontrado | A (top) | a contatar |
-| RX01 | Pousada Rosa Negra | R. dos Poncianos, ~700 m do centro do Rosa | WhatsApp BR +55 48 99149-1716; **WhatsApp AR +54 9 351 746-3322** | **forte**: número argentino e "Atención en Argentina" no site | A (top) | a contatar |
+| RX01 | Pousada Rosa Negra | R. dos Poncianos, ~700 m do centro do Rosa | WhatsApp BR +55 48 99149-1716; **WhatsApp AR +54 9 351 746-3322** (⚠ o site oficial também é associado a 99204-0521 / +54 11 3410-3990, conferir) | **forte**: número argentino e "Atención en Argentina" no site | A (top) | a contatar |
 | RX21 | Pousada Inka | Praia do Rosa | +55 48 98822-2868; fixo 48 3355-6094 | **forte**: site em espanhol e várias avaliações de Buenos Aires | A (top) | a contatar |
 | RX28 | Pousada Cacau | Centro (R. Fruta do Conde) | WhatsApp +55 48 99160-7154 (linktree) | não encontrado | A (top volume) | a contatar |
 | RX46 | Pousada Studios do Barão | Caminho do Alto do Morro 162 (Ibiraquera) | +55 48 99679-8666; fixo 48 3355-6229 | **forte**: atende em inglês e espanhol; avaliação em espanhol cita o anfitrião Rogelio | A (top) | a contatar |
@@ -104,7 +104,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RS03 | Pousada The Rosebud | Caminho do Rei 515 | (48) 99982-5050; Instagram: (48) 99927-8225 | não encontrado | A | a contatar |
 | RS04 | Villa Buena Vista | Alto do Caminho do Rei 1001 | (48) 98811-9151 | nome em espanhol e suíte "Puerto Escondido"; avaliações em espanhol não confirmadas | A | a contatar |
 | RS05 | Morada dos Bougainvilles | Caminho do Alto do Morro | WhatsApp (48) 99931-9240 | **sim**: avaliação em espanhol no tripadvisor.com.ar | A | a contatar |
-| RS09 | Pousada Descanso do Rei | R. Seu Mané Chico, 300 m do centro | +55 48 3355-7124 | **forte**: site com página em espanhol e avaliação em espanhol no tripadvisor.es | A | a contatar |
+| RS09 | Pousada Descanso do Rei | R. Seu Mané Chico, 300 m do centro | celular/WhatsApp (48) 99864-1316; fixo 48 3355-7124 | **forte**: site com página em espanhol e avaliação em espanhol no tripadvisor.es | A | a contatar |
 | RX02 | Shiva Boutique Hotel | 120 m do centro do Rosa | (48) 98484-2441 | não encontrado | A | a contatar |
 | RX03 | Pousada Gopak | Centro do Rosa (Av. Porto Novo) | WhatsApp +55 48 99181-5113; Simone +55 48 99161-7713 | não encontrado | A | a contatar |
 | RX07 | Pousada Rosa Paradise | Praia do Rosa/Ibiraquera (endereço divergente) | WhatsApp (48) 99207-9646 | não encontrado | A | a contatar |
@@ -116,7 +116,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX16 | Villa Gardena Suítes | R. Mané Chico (Rosa) | +55 48 99129-6363 | avaliações em inglês no TripAdvisor | A | a contatar |
 | RX17 | Pousada Vivenda do Rosa | Centro do Rosa | (48) 98416-0188 | não encontrado | A | a contatar |
 | RX18 | Pousada Watu Kererê | Estrada Geral do Rosa, 600 m do centrinho | WhatsApp +55 48 99222-3394 | **forte**: equipe fala inglês, espanhol e indonésio; avaliações em espanhol | A | a contatar |
-| RX19 | Pousada Casa do Ceo | Av. Porto Novo 962 | (48) 99169-5129; fixo 48 3355-6677 | **sim**: avaliações em inglês e bilíngue PT/ES ("Mejor que en familia") | A | a contatar |
+| RX19 | Pousada Casa do Ceo | Av. Porto Novo 962 | WhatsApp (48) 99169-5129; fixo 48 3355-6677 | **sim**: avaliações em inglês e bilíngue PT/ES ("Mejor que en familia") | A | a contatar |
 | RX20 | KaOra Cabanas | Centro do Rosa (R. Dona Eugênia) | WhatsApp 48 99839-9898 | **site em espanhol** | A | a contatar |
 | RX22 | Pousada Araçatuba | Lagoa de Ibiraquera (Araçatuba) | Tel. e WhatsApp (48) 99952-1043 / (48) 99181-4610 | não encontrado | A | a contatar |
 | RX23 | Pousada Morada dos Sisais | R. do Mirante 201 | WhatsApp reservas +55 48 99172-7475; info 48 98844-8280 | não encontrado | A | a contatar |
