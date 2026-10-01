@@ -283,3 +283,30 @@ Atualizações importantes:
 | RX97 | Pousada Kirana | pousada | Praia do Rosa (R. Fruta do Conde) | não encontrado | não (Facebook) | não | não sei | **dono argentino** (La Nación, 17/01/2026) | não encontrado | **A (top)** | donos Patricio Bengoa e Javier Roseli, ex-jogadores de rugby do Buenos Aires Cricket & Rugby; "con más argentinos" este ano. Visita |
 | RX98 | Pousada Além do Jardim | cabanas | Av. Central do Rosa, 150 m da praia | não encontrado | @alem_do_jardim | sim, cabanasalemdojardim.com.br | não sei | **dono argentino** (Edgardo, La Nación, 22/08/2025) | TripAdvisor (sem nº) | **A (top)** | Edgardo e Laura citados por hóspedes. Comparou o Réveillon a um "viaje de egresados permanente" |
 | RX99 | Pousada Vale da Praia | pousada | Praia do Rosa | não encontrado | não (Facebook) | não | não sei | provável (hóspede: "ojalá haya más argentinos con esas características") | TripAdvisor (sem nº) | **B** | donos Lucas e Daiana. Visita |
+
+---
+
+# Décima leva (portais ruta0 e garopabaimbituba.tur.br)
+
+Nota: "Pousada Demarchi" (ruta0, TripAdvisor 4,3 com 51 avaliações) é o **nome antigo da Pousada Cacau (RX28)**: o Booking da Cacau ainda usa o endereço "pousada-demarchi". Não é lead novo.
+
+| # | Nome | Tipo | Bairro | Telefone / WhatsApp | Instagram | Site | WhatsApp? | Sinal estrangeiro | Avaliações | Prior. | Observação citável |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| RX106 | Pousada Aloha Beach House | 10 cabanas | Av. Porto Novo 860, 150 m do centrinho | WhatsApp +55 48 99180-1910 | @pousadaalohapraiadorosa | sim, alohapraiadorosa.com.br | sim | ruta0; avaliação "amazing posada" | Booking 8,9 (90); Momondo 8,9 (166); TripAdvisor (58) | **A** | "10 cabanas com nomes de praias havaianas" |
+| RX107 | Pousada Boutique Villa Valley | pousada boutique | R. Seu Mané Chico | WhatsApp +55 48 99943-1055; fixo 48 3355-7425 | não encontrado | sim, villavalley.com.br | sim | **sim**: ruta0; avaliações em espanhol e inglês | TripAdvisor (30) | **A** | "house is clean, brand new… beach service" |
+| RX108 | Pousada Miradouro | pousada | Barra de Ibiraquera (R. das Canoas) | WhatsApp +55 48 99162-6567 | não encontrado | não | sim | ruta0 | **Booking 9,8 (69)** | **A** | hóspedes elogiam "o anfitrião Paulo" e a vista da lagoa |
+| RX109 | Pousada Wakai | casa, 3 quartos | Av. Central do Rosa 45 | +55 48 99635-9855 | não (Facebook) | não | provável | ruta0 | 9,8 (2) | **B** | operação pequena |
+| RX110 | Cabana Nara Hari B&B | B&B familiar | alto do morro, Estrada Geral de Ibiraquera | não encontrado | não encontrado | não | não sei | ruta0; oferece transfer do aeroporto | TripAdvisor 5/5 | **B** | "lovely, family-run boutique hotel… top of the hill". Visita |
+| RX111 | Pousada Biso Finoca | pousada familiar | Ibiraquera | não encontrado | @pousadafinoca | não | não sei | ruta0 | 9,4 (79) | **B** | "family-run guesthouse"; contato pelo Instagram |
+| RX112 | Águas de Ibiraquera | pousada | Ponta da Piteira (R. dos Tubarões) | WhatsApp +55 48 99617-8180 | não encontrado | sim, aguasdeibiraquera.com.br | sim | ruta0 | não encontrado | **A** | vista para o mar; suíte "Luz" |
+| RX113 | Morada do Centrinho | moradas/aptos | centrinho do Rosa | +55 48 99970-9834 | não encontrado | sim, moradadocentrinho.com.br | provável | ruta0 | não encontrado | **A** | perto de mercados e restaurantes |
+| RX114 | Nativos Camping | camping | Ibiraquera, 100 m da lagoa | WhatsApp (48) 99932-3731 | não (Facebook) | não | sim | ruta0 | não encontrado | **C** | camping |
+| RX115 | Ibirahouse | casa de temporada | Ibiraquera | não encontrado | não encontrado | não | não sei | ruta0 | Booking 10 | **C** | vista para a lagoa, piscina |
+| RX116 | Cabana Encantos da Lagoa | cabana | Ibiraquera | não encontrado | não encontrado | não | não sei | ruta0 | Booking 9,5 | **C** | hidromassagem |
+| RX117 | Villa Josefa | chalé único | Ibiraquera (R. da Esperança 1210) | não encontrado | não encontrado | não | não sei | ruta0 | Booking 9,4 | **C** | 50 m da lagoa |
+| RX118 | Hospedaria Cores do Mar | 4 aptos de 2 quartos | Barra de Ibiraquera | WhatsApp (48) 99915-6702; fixo 48 3701-0111 | não encontrado | sim, hospedariacoresdomar.com | sim | anunciada em guia com páginas em espanhol | não encontrado | **A** | "quatro apartamentos mobiliados de 2 quartos" |
+| RX119 | Pousada Aconchego do Rosa | pousada | centrinho (R. Idalino M. de Carvalho 40) | WhatsApp (48) 9664-8282 (formato antigo) | @aconchegodorosa | não | sim | fraco | não encontrado | **A** | no centro do Rosa |
+| RX120 | Morada Céu do Rosa | moradas | R. dos Poncianos 90 | WhatsApp +55 47 99234-6275 | não (Facebook) | não | sim | fraco | TripAdvisor | **A** | 150 m do centrinho e 600 m da praia; DDD 47, dono provavelmente fora |
+| RX121 | Moradas do Vale Praia do Rosa | moradas/aptos | R. dos Poncianos | WhatsApp +55 48 99165-6263 | não encontrado | sim, moradasdovalepraiadorosa.com.br (/en) | sim | site em inglês | não encontrado | **A** | 1,3 km da praia |
+| RX122 | ElCa Morada do Sonho | 2 cabanas + 2 studios | R. Mogno 188 | WhatsApp 48 99812-5147 | não encontrado | sim, elcapraiadorosa.com.br | sim | fraco | TripAdvisor | **A** | "para casais, famílias, surfistas" |
+| RX123 | Pousada Oásis | 5 suítes + 2 cabanas | R. John Lennon | fixo 48 3355-7230 (celular antigo) | não encontrado | não | não sei | ruta0 | não encontrado | **C** | contato desatualizado |

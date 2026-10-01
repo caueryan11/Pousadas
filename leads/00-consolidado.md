@@ -1,6 +1,6 @@
 # Consolidado de leads (gerado por scripts/consolida.py)
 
-Total: **277** leads. A: 139 · A+: 34 · B: 75 · C: 29
+Total: **295** leads. A: 149 · A+: 34 · B: 78 · C: 34
 
 Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada região.
 
@@ -43,7 +43,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX66 | Pousada Vila dos Coqueiros | Barra de Ibiraquera (R. Custódia de Carvalho Ferreira 317) | WhatsApp 48 99154-8802 / 48 99184-1040; fixo 48 3255-1277 | não encontrado | A+ (grupo c/ IB12) | a contatar |
 | RX84 | Lá vem Férias | gere a Pousada Gauleses (RX73) no Rosa | não encontrado (o site cita WhatsApp) | não encontrado | A+ (parceria) | a contatar |
 
-## A (pousadas-alvo) (139)
+## A (pousadas-alvo) (149)
 
 | ID | Nome | Bairro | Telefone / WhatsApp | Estrangeiro | Prior. | Status |
 |---|---|---|---|---|---|---|
@@ -138,7 +138,17 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX103 | Casa da Ro | Caminho do Alto do Morro | +55 48 98811-7961 | **sim**: listada no ruta0 e em site argentino ("Dónde encontrar la Casa da Ro") | A | a contatar |
 | RX104 | Solar del Mar | Av. Central do Rosa, perto da praça | 48 99663-7755 | nome em espanhol | A | a contatar |
 | RX105 | Pousada Uluwatu | Estrada Geral de Ibiraquera, 100 m do centro | WhatsApp +55 48 99201-5832; fixo 48 3355-7074 | resenhas em espanhol | A | a contatar |
+| RX106 | Pousada Aloha Beach House | Av. Porto Novo 860, 150 m do centrinho | WhatsApp +55 48 99180-1910 | ruta0; avaliação "amazing posada" | A | a contatar |
+| RX107 | Pousada Boutique Villa Valley | R. Seu Mané Chico | WhatsApp +55 48 99943-1055; fixo 48 3355-7425 | **sim**: ruta0; avaliações em espanhol e inglês | A | a contatar |
+| RX108 | Pousada Miradouro | Barra de Ibiraquera (R. das Canoas) | WhatsApp +55 48 99162-6567 | ruta0 | A | a contatar |
+| RX112 | Águas de Ibiraquera | Ponta da Piteira (R. dos Tubarões) | WhatsApp +55 48 99617-8180 | ruta0 | A | a contatar |
+| RX113 | Morada do Centrinho | centrinho do Rosa | +55 48 99970-9834 | ruta0 | A | a contatar |
+| RX118 | Hospedaria Cores do Mar | Barra de Ibiraquera | WhatsApp (48) 99915-6702; fixo 48 3701-0111 | anunciada em guia com páginas em espanhol | A | a contatar |
+| RX119 | Pousada Aconchego do Rosa | centrinho (R. Idalino M. de Carvalho 40) | WhatsApp (48) 9664-8282 (formato antigo) | fraco | A | a contatar |
 | RX12 | Pousada Paraíso do Luz | Praia do Luz / Barra de Ibiraquera | +55 48 99107-1771 | não encontrado | A | a contatar |
+| RX120 | Morada Céu do Rosa | R. dos Poncianos 90 | WhatsApp +55 47 99234-6275 | fraco | A | a contatar |
+| RX121 | Moradas do Vale Praia do Rosa | R. dos Poncianos | WhatsApp +55 48 99165-6263 | site em inglês | A | a contatar |
+| RX122 | ElCa Morada do Sonho | R. Mogno 188 | WhatsApp 48 99812-5147 | fraco | A | a contatar |
 | RX13 | Pousada do Paraíso | Barra de Ibiraquera (R. 15 Leste, 2) | WhatsApp (48) 99114-2252; fixo 48 3355-0116 | não encontrado | A | a contatar |
 | RX16 | Villa Gardena Suítes | R. Mané Chico (Rosa) | +55 48 99129-6363 | avaliações em inglês no TripAdvisor | A | a contatar |
 | RX17 | Pousada Vivenda do Rosa | Centro do Rosa | (48) 98416-0188 | não encontrado | A | a contatar |
@@ -187,7 +197,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX93 | Pousada Iluminao | Estrada Geral do Rosa, 800 m do centro | (48) 99609-1435; fixo 48 3355-6043 | não encontrado | A | a contatar |
 | RX95 | Moradas Alma da Lagoa | Praia do Luz | WhatsApp (48) 99664-9997 | não encontrado | A (grupo c/ RX42) | a contatar |
 
-## B (visita / segunda onda) (75)
+## B (visita / segunda onda) (78)
 
 | ID | Nome | Bairro | Telefone / WhatsApp | Estrangeiro | Prior. | Status |
 |---|---|---|---|---|---|---|
@@ -243,6 +253,9 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX04 | Solar Mirador Exclusive Resort & SPA | Alto do Rosa | WhatsApp +55 48 99104-6004; fixo 48 3355-6144 | não encontrado | B | a contatar |
 | RX05 | Pousada Morro do Rosa | Praia do Rosa (endereço divergente) | fixo +55 48 3355-7203 | não encontrado | B | a contatar |
 | RX101 | Pousada Ecosurf | Estrada Geral do Rosa, 2,2 km da praia | +55 48 99127-8239 | listada no ruta0 | B | a contatar |
+| RX109 | Pousada Wakai | Av. Central do Rosa 45 | +55 48 99635-9855 | ruta0 | B | a contatar |
+| RX110 | Cabana Nara Hari B&B | alto do morro, Estrada Geral de Ibiraquera | não encontrado | ruta0; oferece transfer do aeroporto | B | a contatar |
+| RX111 | Pousada Biso Finoca | Ibiraquera | não encontrado | ruta0 | B | a contatar |
 | RX14 | Pousada Lagoa dos Ventos | Barra de Ibiraquera (R. Porto Belo) | +55 51 99988-8698 / 51 3582-7850 (RS) | não encontrado | B | a contatar |
 | RX15 | Hostel Vale do Rosa | Estrada Geral, ~500 m do centro | WhatsApp (48) 99806-2560 | fraco (listado em sites internacionais de hostels) | B | a contatar |
 | RX25 | Sal do Mar Cabanas Charme | Praia do Rosa | 48 99146-7564 | não encontrado | B | a contatar |
@@ -267,7 +280,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX96 | Vibras do Rosa | Praia do Rosa | não encontrado | **dona argentina** (Yamila Lazzaroni, citada pela LA NACION) | B | a contatar |
 | RX99 | Pousada Vale da Praia | Praia do Rosa | não encontrado | provável (hóspede: "ojalá haya más argentinos con esas características") | B | a contatar |
 
-## C (deixar para depois) (29)
+## C (deixar para depois) (34)
 
 | ID | Nome | Bairro | Telefone / WhatsApp | Estrangeiro | Prior. | Status |
 |---|---|---|---|---|---|---|
@@ -295,6 +308,11 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RN07 | Pueblo Rosa Norte | Rosa Norte | não encontrado | não verificado | C | a contatar |
 | RS07 | Village Praia do Rosa | Canto sul, trilha privativa | wa.me/5548996017788; fixo 48 3197-1111 | não encontrado | C | a contatar |
 | RX11 | Pousada do Luz | Praia do Luz | +55 51 99971-0702 (RS) | não encontrado | C | a contatar |
+| RX114 | Nativos Camping | Ibiraquera, 100 m da lagoa | WhatsApp (48) 99932-3731 | ruta0 | C | a contatar |
+| RX115 | Ibirahouse | Ibiraquera | não encontrado | ruta0 | C | a contatar |
+| RX116 | Cabana Encantos da Lagoa | Ibiraquera | não encontrado | ruta0 | C | a contatar |
+| RX117 | Villa Josefa | Ibiraquera (R. da Esperança 1210) | não encontrado | ruta0 | C | a contatar |
+| RX123 | Pousada Oásis | R. John Lennon | fixo 48 3355-7230 (celular antigo) | ruta0 | C | a contatar |
 | RX41 | Pousada Caminho Nômade | Estrada Geral do Rosa | não encontrado | não encontrado | C | a contatar |
 | RX45 | Pousada Ibiraquera Park | Estrada Geral da Barra | fixo (48) 3355-0058 | não encontrado | C | a contatar |
 | RX68 | Pousada Maresia | Rosa/Ibiraquera | não encontrado | não encontrado | C | a contatar |

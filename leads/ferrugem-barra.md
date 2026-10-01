@@ -145,3 +145,9 @@ Para próxima rodada: Ponta Ferrugem Guest House, Ferrugem Soul Surf Hostel, Res
 - RX103: ruta0.com/praia-do-rosa/casa-da-ro.htm · complejoclarita.com.ar/donde-encontrar-la-casa-da-ro-en-praia-do-rosa
 - RX104: tripadvisor d3682708 · instagram.com/solarpraiadorosa
 - RX105: tripadvisor d4510489 · instagram.com/pousadauluwatu
+
+| FE41 | Pousada Hinano | pousada (10 quartos) | Ferrugem (R. das Casuarinas 750) | não encontrado | @pousadahinano | Airbnb | não sei | fraco | não encontrado | **B** | indicada em blog "onde ficar em Garopaba"; contato por DM |
+| FE42 | Pousada do Véio | pousada | Ferrugem (Estrada Geral 227) | WhatsApp (48) 99991-2756 | não encontrado | sim, pousadadoveio.com.br | sim | não encontrado | não encontrado | **A** | listada no portal oficial de turismo de Garopaba |
+
+Atualização **GA27 Caminho do Mar**: é a mesma **Pousada Madhouse** (R. das Casuarinas 80, "MADHOUZE" no Booking), com 15 UHs, pé na areia, perto do Bar do Zado. WhatsApp adicional **(51) 99405-9743** (fonte: garopabaimbituba.tur.br/garopaba-ferrugem-pousadas-madhouse).
+Engenho da Lagoa (Capão) é do JJ Hotels Group: não é lead.

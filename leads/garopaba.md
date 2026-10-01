@@ -158,3 +158,6 @@ Surf Lodge Garopaba (Silveira) pertence à Silveira Ecovillage (GA02).
 | GA52 | Residencial Ferraz | aptos de temporada | Centro (R. Nereu Ramos 686) | não encontrado | não encontrado | não | não sei | não encontrado | Booking 9,4 | **B** | "anfitriões acolhedores"; visita |
 | GA53 | Garopaba Pousada-Hostel | pousada + hostel | Centro Histórico (R. Aderbal Ramos da Silva 261) | fixo 48 3254-4081 | não (Facebook) | sim, pousadahostelgaropaba.com.br | não sei | não encontrado | 8,5 (156) | **B** | ⚠ mesmo fixo do Residencial da Praça (GA33): provável mesmo dono |
 | GA54 | Morada Carmem | pousada econômica | Ouvidor | não encontrado | não encontrado | não | não sei | não encontrado | não encontrado | **C** | só citada em blog |
+
+| GA55 | Bangalore Suites | pousada (6 quartos) | Morro da Silveira | não encontrado | não encontrado | não | não sei | avaliações em inglês ("11 out of 10") | **Booking 9,8 (146)** | **A** (achar contato) | "breakfast… the best many have had". Visita ou Booking |
+| GA56 | Moradas Vô Ary | moradas | Centro de Garopaba | não encontrado | não encontrado | não | não sei | ruta0 | não encontrado | **C** | — |
