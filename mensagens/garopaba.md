@@ -159,16 +159,7 @@ Escopo: todos os leads A/A+ com ID GA (inclui alguns da Ferrugem, Encantada e Pa
 **D+2:** Oi! Só passando. Quem cuida das mensagens aí, você mesmo?
 **D+5:** Última mensagem: até 15/11 tenho condição de pré-temporada com 1 semana de garantia. Se quiser, passo aí e mostro ao vivo.
 
-### GA27 Pousada Caminho do Mar + Portal da Ferrugem / Diego Imóveis (grupo com AD11) — Capão/Ferrugem
-**Contato:** (48) 99915-7464 (Reservas; alternativo 48 99114-9635) · **Plano:** Ano por unidade + condição para a carteira
-**Visita:**
-- Particular: pousada pet friendly ("MADHOUZE"), R. das Casuarinas 80, 332 avaliações no Booking; a mesma empresa gere a carteira de temporada do Portal da Ferrugem / Diego Imóveis (AD11).
-- Dor provável: pousada e carteira de imóveis no mesmo WhatsApp, cada imóvel com regras próprias.
-- Oferta: plano para a pousada + condição para a carteira, a combinar. Abordar uma vez só (não mandar outra mensagem pela AD11).
-
-**Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui do lado, no Rosa. Vi que o mesmo time cuida da Pousada Caminho do Mar e da temporada do Portal da Ferrugem. Montei um atendente de WhatsApp que responde 24h em PT, ES e EN as dúvidas da pousada e de cada imóvel e passa a reserva pronta pra equipe. Faz sentido eu te mostrar?
-**D+2:** Oi! Voltando: dá pra configurar capacidade, pet e roupa de cama de cada imóvel. Te mando um vídeo de 1 min?
-**D+5:** Último toque: até 15/11 tenho condição de pré-temporada, e pra carteira dá pra combinar algo à parte. Se não for agora, sem problema.
+### [GA27] Pousada Caminho do Mar (Madhouse): ver grupo [AD11 em mensagens/administradoras.md] (mesmo dono: uma abordagem só)
 
 ### GA30 Pousada As Quatro Estações — Centro
 **Contato:** +55 48 98439-2058 (só como telefone; conferir se é WhatsApp) · **Plano:** Ano

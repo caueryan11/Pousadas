@@ -111,15 +111,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 
 ### FE14 Pousada Pé na Areia: ver grupo FE04
 
-### FE15 Pousada Areia Nova (grupo com Barbatana, GA19) — R. Jardim das Flores 200, Ferrugem
-**Contato:** +55 48 99176-8327 (o mesmo da Barbatana; confirmar que é WhatsApp) · **Plano:** Temporada por unidade (2) + condição para as duas, a combinar
-**Visita:**
-- Particular: Areia Nova é pousada 3*, Kayak 9,3 (104), @areianovasc. Mesmo número da Barbatana (GA19, @pousadabarbatanasc): mesmo dono.
-- Dor provável: um WhatsApp só para duas pousadas, com preços e regras diferentes (hipótese).
-- Oferta: um plano por pousada e condição para o par. Se uma delas abrir o ano todo, puxar Plano Ano nela.
-**Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que o mesmo WhatsApp atende a Areia Nova e a Barbatana. Montei um atendente que responde as duas pousadas 24h, em português, espanhol e inglês, cada uma com seu preço e suas regras, e passa o pedido de reserva pronto. Faz sentido conversar 10 min essa semana?
-**D+2:** Oi! Só passando. Com duas pousadas no mesmo número, o atendente já separa de qual o hóspede está falando. Te mando um vídeo de 1 min?
-**D+5:** Último toque: até 15/11 tenho condição de pré-temporada, e pras duas dá pra combinar algo à parte. Se preferir, passo aí 10 min.
+### [FE15] Pousada Areia Nova: ver grupo [GA19 em mensagens/garopaba.md] (mesmo dono: uma abordagem só)
 
 ### FE16 Pousada Koh Phangan (grupo provável com Don Antonio, FE33) — R. das Baleias 22, centro da Ferrugem
 **Contato:** (48) 99136-0040 (provável; fixo 48 3254-0347) · Don Antonio: WhatsApp (48) 99118-0487 · **Plano:** Temporada por unidade (2) + condição para as duas, a combinar
