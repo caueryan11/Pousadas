@@ -93,3 +93,22 @@ Feita só por busca (trechos), sem abrir as páginas. Nenhum link wa.me literal 
 | RX96 | Vibras do Rosa | não encontrado (só a matéria da La Gaceta) | — |
 | RX84 | Lá vem Férias | não encontrado (o site cita WhatsApp) | lavemferias.com.br |
 | AD13 | Tosetto | só fixo (48) 3254-3161 | tosettoimoveis.com.br/Contato.aspx |
+
+## Lote 5: 60 leads A (resumo; "sim" = rotulado como WhatsApp na busca)
+
+**WhatsApp rotulado (sim):** FE19 Beleza Pura 48 99818-1655 · FE16 Koh Phangan 48 99136-0040 · FE26 Ferrugem Eco Village 48 99182-4262 (@hotelferrugemecovillage) · GA05 Recanto do Siriú 48 99977-4645 · GA31 Colina Verde **48 99176-2028** · GA34 Costa Azul **48 99971-0575** (@pousadacostaazul) · GA43 Saint Germain 48 99670-3234 · GA61 Colibri 48 99616-2002 · IB04 Flor da Barra 48 99141-9494 · RN10 Morada da Praia do Rosa 48 99863-3409 (@moradadapraiadorosa) · RX06 Vida Sol e Mar 48 99981-0592 · RX12 Paraíso do Luz 48 99107-1771 (alt. 48 99119-7156) · RX13 Pousada do Paraíso 48 99114-2252 · RX17 Vivenda do Rosa 48 98416-0188 · RX54 Ibirawave 48 99123-4132 · RX63 Bungalow 48 99107-4662 · RX67 Encantos do Rosa 48 99174-4206 · RX71 Flor de Lótus 48 99673-4681 (@pousada.flordelotus) · **RX74 Rosa & Canela 48 99212-5062** (@pousadarosaecanela; o 99982-5023 é outro telefone) · RX81 Cravo e Canella 48 98833-6392 (@pousadacravoecanella) · RX82 Pouso das Águas 48 99965-0440.
+
+**Só como telefone:** FE09, FE18 (@patiodaferrugem), FE13, FE15 (@areianovasc), FE22, FE27, FE32 (@lasondaspousada), FE38, GA06, GA33, GA35 (@pousadaacquaviva), IM07, RN06 (@pousadasonhodovaleoficial), RX02 (@shiva_boutiquehotel), RX03 (@pousadagopak), RX103, RX104 (@solarpraiadorosa), RX113, RX47, RX56 (@localdalagoa), RX70 (@soascabanas), RX89 (@recantozen.pousadapraiadorosa), RX91.
+
+**Números novos ou divergentes:**
+- IM20 Hamarhavida: 48 99864-3330 (além do 99188-8844).
+- RX24 Refúgio dos Pássaros: reservas 48 99668-5031 / 51 99647-5697; @pousada_refugiodospassaros.
+- RX29 Laguna Rosa: WhatsApp aparece com DDD **47** 99827-2867.
+- IM17 Paraíso 26: único número (47) 99707-9291 (diretório).
+- RX33 Cabanas no Rosa: 51 98921-9628 (reserva principal por DM).
+- FE13 Recanto do Sossego: fixo 48 3254-0646.
+- GA43 Saint Germain: fixo 48 3354-1517.
+
+**Sem celular ainda:** GA03 Morada Prainha (DM @moradaprainha), IM16 Austral (DM @austral.suites), RX102 Hospedaria Nativa (fixo), RX38 Paraíso Hostel (o site diz WhatsApp sem número), RX07, RX35, RX87, RX93, RX128 (não confirmados).
+
+**Achado:** a **Shiva Boutique (RX02) é administrada pela @multitemporada**, uma gestora: possível lead A+ novo (investigar).

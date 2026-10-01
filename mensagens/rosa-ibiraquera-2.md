@@ -198,7 +198,7 @@ Escopo: leads A/A+ de RX46 a RX128 de `leads/rosa-ibiraquera-extra.md`. Antes de
 **D+5:** Último toque: até 15/11 tem condição de pré-temporada com 1 semana de garantia. Se não for o momento, sem problema. Posso passar aí na Porto Novo.
 
 ### [RX74] Pousada Rosa & Canela — Av. Central
-**Contato:** (48) 99982-5023 · **Plano:** Temporada
+**Contato:** (48) 99212-5062 (WhatsApp; 99982-5023 é outro telefone) · **Plano:** Temporada
 **Visita:**
 - Particular: 12 suítes e bangalôs; Booking 9,4; opção econômica (~R$ 180/dia).
 - Dor provável: muita pergunta de preço e disponibilidade; caixa enxuto.
