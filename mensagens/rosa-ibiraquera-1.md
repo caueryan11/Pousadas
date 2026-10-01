@@ -14,7 +14,7 @@ Escopo: leads A/A+ de RX01 a RX45 em `leads/rosa-ibiraquera-extra.md`. Antes de 
 - Oferta: Plano Temporada. É pequena e o público argentino se concentra no verão. O atendente pode unificar o atendimento em espanhol e em português.
 
 **Msg 1:** Oi, Leo, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que a Rosa Negra tem até atendimento na Argentina, com número de lá. Montei um atendente de WhatsApp que responde hóspede 24h em espanhol, português e inglês e te passa o pedido de reserva pronto pra confirmar. Posso te mostrar em 1 minuto?
-**D+2:** Oi, Leo! Só pra ver se chegou. Os argentinos já estão perguntando de janeiro, e muitas vezes de madrugada. Te mando um vídeo de 1 min funcionando em espanhol?
+**D+2:** Oi, Leo! Só pra ver se chegou. É agora que começam as consultas de janeiro, muitas em espanhol e fora de hora. Te mando um vídeo de 1 min funcionando em espanhol?
 **D+5:** Leo, último toque: até 15/11 tenho condição de pré-temporada, com 1 semana de garantia. Se não for a hora, tranquilo. Moro perto, posso passar aí 10 min.
 **Msg 1 (ES):** ¡Hola, Leo! ¿Cómo andás? Soy Caue, vivo acá en Rosa y trabajo con tecnología. Vi que la Rosa Negra tiene atención en Argentina, con número de allá. Armé un asistente de WhatsApp que responde a los huéspedes 24 h en español, portugués e inglés y te pasa el pedido de reserva listo para que solo confirmes. ¿Te lo muestro en 1 minuto?
 
