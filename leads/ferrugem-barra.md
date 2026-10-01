@@ -12,7 +12,7 @@ Pesquisa: 01/10/2026. Fonte: só WebSearch. Os sites não puderam ser abertos po
 | FE06 | Pousada Sol da Ferrugem | pousada | R. Jardim da Lagoa 100 | WhatsApp (48) 99971-6622; fixo 48 3254-0049 | @soldaferrugem | sim, pousadasoldaferrugem.com.br (/reservas) | sim | não encontrado | TripAdvisor 4,5 (22) | **A** | funciona desde 1998 |
 | FE07 | Pousada das Palmeiras | pousada (9 acomodações) | Estrada Geral da Ferrugem 3677 | WhatsApp/fone (48) 99110-4586 | @daspalmeiraspousada | sim, pousadapalmeirasferrugem.com.br | sim | não encontrado | Booking 8,9 (94) | **A** | suítes, chalés e lofts com cozinha; equipe com nota 9,6 no Booking |
 | FE08 | Hotel Pousada Capão | pousada | R. da Praia 30, Capão (50 m da praia) | WhatsApp +55 48 99189-5307; tel. 48 99144-8922 | @pousadacapao (~4,4 mil) | sim, pousadacapao.com.br | sim | não encontrado | **Booking 8,2 (503)**; TripAdvisor 3/5 (32) | **A+ (top, grupo c/ FE04 e FE14)** | 50 m da praia; volume alto no Booking. Mesmos telefones da Pé na Areia (FE14) e mesmos donos do Ferrujão (FE04). Vendida em espanhol pela agência uruguaia laferrugem.com |
-| FE09 | Pousada La Ferrugem Suites | pousada | R. Arco Íris 610 | +55 48 99136-3814 | não encontrado | não (só OTAs) | não sei | **equipe fala inglês e espanhol** (texto da OTA) | Booking 7,9 (317) | **B** (parece só OTA) | antigo nome provável: "Pousada Oceano" |
+| FE09 | Pousada La Ferrugem Suites | pousada | R. Arco Íris 610 | +55 48 99136-3814 | não encontrado | não (só OTAs) | não sei | **equipe fala inglês e espanhol** (texto da OTA) | Booking 7,9 (317) | **A+ (grupo LaFerrugem, FE36)** | antigo nome provável: "Pousada Oceano". Mesmo telefone da agência uruguaia LaFerrugem.com (FE36) |
 | FE10 | Pousada Barra da Ferrugem | pousada | Praia da Barra (Encantada) | +55 11 98963-3300 / 11 99178-2142; fixo 48 3380-4910 | não encontrado (Facebook) | sim, pousadabarradaferrugem.com.br | não sei | não encontrado | Booking 8,6 (39) | **B** | contatos com DDD 11: dono provavelmente em SP, ou seja, **dono ausente** (conferir) |
 | FE11 | Pousada Moradas da Barra | sobrados de temporada | Praia da Barra | (48) 3254-0269; (51) 99841-8481 | @moradasdabarra | sim, moradasdabarra.com.br | não sei | não encontrado | não encontrado | **B** | sobrados para até 6 pessoas a 30 m da praia; 2 quadras de tênis iluminadas |
 | FE12 | Chalés da Barrinha | chalés | Praia da Barra | WhatsApp (48) 99148-8177; fixo 48 3254-0401 | não encontrado (Facebook) | sim, chalesdabarrinha.com.br | sim | não encontrado | 5/5 (7) em agregador | **A** | chalés de 96 m² com 2 quartos "entre a lagoa e o mar" |
@@ -101,3 +101,47 @@ Para próxima rodada: Ponta Ferrugem Guest House, Ferrugem Soul Surf Hostel, Res
 
 | FE30 | Ponta Ferrugem Guest House | guest house só para adultos (7 aptos) | Ferrugem | não encontrado | não encontrado | não | não sei | não encontrado | 5,0 (8) | **C** | yoga, canoa; só aceita dinheiro |
 | FE31 | Ferrugem Soul Surf Hostel | hostel (Airbnb) | Ferrugem, à beira da lagoa | não encontrado | não encontrado | Airbnb | não sei | fraco (airbnb.com.ar) | não encontrado | **C** | "300 m de ondas perfeitas" |
+
+---
+
+# Quarta leva (Ferrugem: canal LaFerrugem.com e ruta0)
+
+⚠ **Novos cruzamentos de telefone:**
+- **LaFerrugem.com** (agência uruguaia; responsável publicado: Walter Habermehl, R. das Baleias 64/69). O telefone +55 48 99136-3814 é **o mesmo da La Ferrugem Suites (FE09)**. A agência tem hospedagem própria (Residencial LaFerrugem, FE36) e vende várias outras: **A+ (top), cliente e canal ao mesmo tempo**.
+- **Villa Luana (FE35)** usa o 99691-0228, ou seja, entra no **grupo PRAIADAFERRUGEM.net** (AD19 + Canoa Azul + El Pátio + Beleza Pura). Agora são 5 unidades.
+- **Don Antonio (FE33)**: um dos números (99136-0040, formato corrigido) é o mesmo da Koh Phangan (FE16). Provável mesmo dono.
+
+| # | Nome | Tipo | Bairro | Telefone / WhatsApp | Instagram | Site | WhatsApp? | Sinal estrangeiro | Avaliações | Prior. | Observação citável |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| FE32 | Posada Las Ondas | pousada grande (40+ quartos, 2 piscinas) | R. das Bromélias 20 | (48) 99168-7513; fixo 48 3254-0040 | @lasondaspousada | sim, lasondas.com.br | provável | **forte**: vendida pela laferrugem.com e por agências argentinas (magamturismo.tur.ar, puntocardinalviajes.com) | Booking 8,0 (151); TripAdvisor 3,5 (48) | **A** | "tradición de recibir surfistas, jóvenes y grupos" (laferrugem.com). Porte grande e público jovem argentino |
+| FE33 | Posada Don Antonio | pousada com piscina e cozinha compartilhada | R. Jardim da Lagoa, 50 m do mar | WhatsApp (48) 99118-0487 (formato corrigido); 48 99136-0040; fixo 48 3254-0028 | não (Facebook) | sim, pousadadonantonio.com.br | sim | **forte**: vendida pela laferrugem.com, "orientada casi exclusivamente a jóvenes" | TripAdvisor 4/5 (11) | **A (grupo c/ FE16?)** | "a 50 metros do mar, na rua mais movimentada da Ferrugem" |
+| FE34 | Complejo Krakatoa | 12 casas com piscina, "exclusivo para jóvenes" | Ferrugem, perto da lagoa | só via laferrugem.com (+598 94 259 977) | via @LaFerrugemcom | não | sim (agência) | **forte** (vendido em espanhol) | não encontrado | **B** (via LaFerrugem) | "complejo único para jóvenes de 12 casas con piscina". Abordar pela agência |
+| FE35 | Complejo Villa Luana | 6–8 casas para 8–12 pessoas | R. Arco Íris, 100 m da praia | +55 48 99691-0228 | não (Facebook) | sim, residencialvillaluana.com.br | provável | **forte**: laferrugem.com; Booking em es-ar | não encontrado | **A+ (grupo 99691-0228)** | casas "a 100 metros de la playa y del centro" |
+| FE36 | Residencial LaFerrugem + agência LaFerrugem.com | 4 aptos pé na areia + agência uruguaia | R. das Baleias 64/69 | WhatsApp **+598 94 259 977**; +55 48 99136-3814 | @LaFerrugemcom | sim, laferrugem.com | sim | **muito forte** (agência uruguaia, Booking em espanhol) | **Booking 9,3 (34–64)** | **A+ (top)** | "literally feet on the sand, near the center". Mesmo dono da La Ferrugem Suites (FE09, 317 avaliações). Pode ser cliente e também parceira de indicação |
+| FE37 | Chalets Areias | 4 casas para 8–10 pessoas | Ferrugem | só via laferrugem.com | não encontrado | não | sim (agência) | vendido pela laferrugem.com | não encontrado | **C** (via agência) | — |
+| FE38 | Posada Canto Verde | pousada/residencial | R. das Figueiras | +55 48 99636-4045 | não confirmado (Facebook) | sim, cantoverdeferrugem.com.br | provável | listada no ruta0 (portal argentino) | não encontrado | **A** | — |
+| FE39 | Moradas Ferruzen | aptos com cozinha | R. das Figueiras, 450 m da praia | 48 99621-0252 | não (Facebook) | wixsite | provável | listada no ruta0 | Google 4,2 (19) | **B** | "far enough from the night noises" (TripAdvisor) |
+| FE40 | Ferrugem Surf Camp | hostel | R. da Praça | não encontrado | não (Facebook) | não | não sei | listado no ruta0; Booking em espanhol (27) | 8,9 (30) | **C** | sem contato |
+| RX100 | Pousada Sunset | pousada de charme (10 unidades), desde 1992 | centrinho do Rosa | WhatsApp 48 98813-6642 | @pousada_sunset | sim, pousadasunset.com.br | sim | **sim**: avaliação de argentina no Booking; legendas em espanhol | Booking 9,3 (71); TripAdvisor 4/5 (57) | **A** | "Katia, the owner, always available" (staff 9,9). A dona atende sozinha |
+| RX101 | Pousada Ecosurf | casas e aptos | Estrada Geral do Rosa, 2,2 km da praia | +55 48 99127-8239 | @pousadaecosurf | não | provável | listada no ruta0 | Wanderlog 4,9 (21) | **B** | — |
+| RX102 | Hospedaria Nativa | 13 quartos, pioneira | Av. Central, 100 m do centro | fixo +55 48 3355-6203 (o site cita WhatsApp) | @hospedarianativa | sim, hospedarianativa.com.br | provável | não encontrado | Booking 9,5 (33) | **A** | "uma das pousadas mais tradicionais da Praia do Rosa, pioneira na região" |
+| RX103 | Casa da Ro | B&B | Caminho do Alto do Morro | +55 48 98811-7961 | não (Facebook) | não | provável | **sim**: listada no ruta0 e em site argentino ("Dónde encontrar la Casa da Ro") | 9,4 (26) | **A** | a Ro é "muito atenciosa"; café elogiado. Operação de uma pessoa só |
+| RX104 | Solar del Mar | pousada com piscina e hidro | Av. Central do Rosa, perto da praça | 48 99663-7755 | @solarpraiadorosa | não | provável | nome em espanhol | TripAdvisor 4,3 (26) | **A** | "mais de 12 anos de experiência na Praia do Rosa" |
+| RX105 | Pousada Uluwatu | casas de 2 andares com piscina | Estrada Geral de Ibiraquera, 100 m do centro | WhatsApp +55 48 99201-5832; fixo 48 3355-7074 | @pousadauluwatu | não | sim (agregador) | resenhas em espanhol | 8,8 (70) | **A** | Instagram anuncia "nova administração": momento de rever processos |
+
+## Fontes (quarta leva Ferrugem)
+- FE32: laferrugem.com/web/hospedajes/las-ondas-ferrugem · lasondas.com.br/contato · tripadvisor d3580815
+- FE33: laferrugem.com/web/hospedajes/don-antonio-ferrugem · pousadadonantonio.com.br · tripadvisor d6429251
+- FE34: laferrugem.com/web/hospedajes/complejo-krakatoa-ferrugem
+- FE35: residencialvillaluana.com.br · hotelcontact.net/residencial-villa-luana-garopaba-pt.html
+- FE36: laferrugem.com/web/laferrugem · laferrugem.com/web/hospedajes/residencial-la-ferrugem · booking reviews residencial-la-ferrugem.es-mx
+- FE37: laferrugem.com/web/portfolios/hospedaje-en-ferrugem
+- FE38: ruta0.com/ferrugem/posada-canto-verde.htm · cantoverdeferrugem.com.br
+- FE39: ruta0.com/garopaba/moradas-ferruzen.htm · tripadvisor d11799040
+- FE40: ruta0.com/garopaba/ferrugem-surf-camp.htm
+- RX100: pousadasunset.com.br/contato · tripadvisor d2229233
+- RX101: ruta0.com/praia-do-rosa/pousada-ecosurf.htm
+- RX102: hospedarianativa.com.br/contato.php
+- RX103: ruta0.com/praia-do-rosa/casa-da-ro.htm · complejoclarita.com.ar/donde-encontrar-la-casa-da-ro-en-praia-do-rosa
+- RX104: tripadvisor d3682708 · instagram.com/solarpraiadorosa
+- RX105: tripadvisor d4510489 · instagram.com/pousadauluwatu
