@@ -218,3 +218,23 @@ Notas gerais:
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi o Mirante da Barra, com a piscina de água salgada aquecida e as casas com lareira na beira da lagoa. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as perguntas de cada casa e suíte e passa a reserva pronta. Te mostro em 1 minuto?
 **D+2:** Oi! Só passando pra ver se viu. Ele responde de madrugada e em espanhol, inclusive fora do verão. Te mando um vídeo curto?
 **D+5:** Último toque: até 15/11 tenho condição de pré-temporada, com 1 semana de garantia. Se quiser, passo aí 10 min, é pertinho.
+
+### [AD03] Portal Praia do Rosa — Centrinho do Rosa (R. Idalino Manoel Carvalho)
+**Contato:** (48) 99830-6289 ou 99903-5154 (conferir qual é WhatsApp) · portalpraiadorosa@gmail.com · **Plano:** Ano + condição para a carteira, a combinar
+**Visita:**
+- Particular: imobiliária familiar no centrinho; responsável Ellen Carvalho (CRECI 38055F); o corretor também atua como perito judicial.
+- Dor provável: aluguel de temporada misturado com venda; perguntas de temporada chegando fora do horário (hipótese).
+- Oferta: Plano Ano para a parte de temporada + condição para a carteira, a combinar.
+**Msg 1:** Oi, Ellen, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi o Portal Praia do Rosa aqui no centrinho. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as dúvidas dos imóveis de temporada e passa o pedido pronto pra vocês. Vocês trabalham bastante com temporada?
+**D+2:** Oi, Ellen! Só pra ver se chegou. Se fizer sentido, te mando um vídeo de 1 min mostrando funcionando.
+**D+5:** Último toque, sem pressão: até 15/11 tenho condição de pré-temporada com 1 semana de garantia. Moro pertinho, posso passar aí 10 min.
+
+### [AD29] Zimba Imóveis — Imbituba
+**Contato:** (48) 99167-0664 (aluguéis; conferir se é WhatsApp) · alugueis@zimbaimoveis.com.br · @zimbaaluga · **Plano:** Ano + condição para a carteira, a combinar
+**Visita:**
+- Particular: imobiliária de Imbituba com perfil só de aluguel (@zimbaaluga), que fala em "+200 locações ativas" (pode incluir anual); anuncia também a "Casa da Zimba" no Airbnb.
+- Dor provável: volume alto de perguntas repetidas de locação; separar quem quer temporada de quem quer anual (hipótese).
+- Oferta: Plano Ano + condição para a carteira de temporada, a combinar. Perguntar quantos imóveis são de temporada.
+**Msg 1:** Oi, pessoal da Zimba, tudo bem? Sou o Caue, moro na Praia do Rosa e trabalho com tecnologia. Vi o perfil de locações de vocês e a Casa da Zimba no Airbnb. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as perguntas de cada imóvel de temporada e passa o pedido pronto pra equipe. Quantos imóveis de temporada vocês têm hoje?
+**D+2:** Oi! Só passando pra ver se viu. Te mando um vídeo de 1 min mostrando o atendente respondendo sobre dois imóveis diferentes?
+**D+5:** Último toque: até 15/11 tenho condição de pré-temporada para a carteira, com 1 semana de garantia. Se não for a hora, tranquilo.

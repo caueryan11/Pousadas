@@ -45,6 +45,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 **D+5:** Último toque pra não insistir: até 15/11 tenho condição de pré-temporada, e pra três pousadas dá pra montar algo à parte. Se fizer sentido, passo aí 10 min.
 
 ### FE05 Pousada Buena Onda — R. das Baleias 22, 50 m da praia
+> ⚠ **Rebaixado para B**: anunciada ou gerida pela Multitemporada (atendimento terceirizado). Só abordar se o dono mostrar insatisfação; não usar no lote de WhatsApp.
 **Contato:** WhatsApp (48) 99175-8619 · **Plano:** Ano
 **Visita:**
 - Particular: 20 suítes, restaurante e área de eventos, a 50 m da praia.
@@ -255,6 +256,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 **D+5:** Último toque: condição de pré-temporada até 15/11, com 1 semana de garantia. Se preferir, passo aí 10 min e mostro ao vivo.
 
 ### RX61 Pousada Solar dos Lírios — Av. Central, Praia do Rosa (800 m da praia)
+> ⚠ **Rebaixado para B**: anunciada ou gerida pela Multitemporada (atendimento terceirizado). Só abordar se o dono mostrar insatisfação; não usar no lote de WhatsApp.
 **Contato:** WhatsApp +55 48 99179-0840 · @pousadasolardoslirios · **Plano:** Ano
 **Visita:**
 - Particular: pousada de casais, 12 suítes com jacuzzi, inaugurada em dez/2017; Trivago 8,9 com 721 notas; hóspedes elogiam os donos "actively engaged".

@@ -89,58 +89,58 @@ _D+2 e D+5 em `mensagens/administradoras.md`_
 
 _D+2 e D+5 em `mensagens/administradoras.md`_
 
-## 13. [AD04] Sal Hospedagem — Praia do Rosa (condomínios fechados)
+## 13. [AD03] Portal Praia do Rosa — Centrinho do Rosa (R. Idalino Manoel Carvalho)
+- **Contato:** (48) 99830-6289 ou 99903-5154 (conferir qual é WhatsApp) · portalpraiadorosa@gmail.com · **Plano:** Ano + condição para a carteira, a combinar
+
+> Oi, Ellen, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi o Portal Praia do Rosa aqui no centrinho. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as dúvidas dos imóveis de temporada e passa o pedido pronto pra vocês. Vocês trabalham bastante com temporada?
+
+_D+2 e D+5 em `mensagens/administradoras.md`_
+
+## 14. [AD04] Sal Hospedagem — Praia do Rosa (condomínios fechados)
 - **Contato:** WhatsApp +55 48 99115-9936 · **Plano:** Ano
 
 > Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que a Sal cuida da Seiva da Lagoa, do Buda da Lagoa e das Goa Casas do Mar, e que o site já tem versão em inglês. Montei um atendente de WhatsApp que responde 24h em PT/ES/EN as dúvidas de cada casa e passa a reserva pronta. Faz sentido conversar 10 min essa semana?
 
 _D+2 e D+5 em `mensagens/administradoras.md`_
 
-## 14. [AD06] Imobiliária Itapirubá — Itapirubá ("Casa Laranja")
+## 15. [AD06] Imobiliária Itapirubá — Itapirubá ("Casa Laranja")
 - **Contato:** (48) 99139-4600 (alternativo 99145-6122) · **Plano:** Ano
 
 > Oi, Jony, tudo bem? Sou o Caue, moro na Praia do Rosa e trabalho com tecnologia. Vi os imóveis de temporada da Itapirubá, como os do Itapirubá Norte. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as perguntas de cada imóvel (capacidade, pet, check-in) e passa o pedido pronto pra vocês. Te mando um vídeo curto?
 
 _D+2 e D+5 em `mensagens/administradoras.md`_
 
-## 15. [AD09] Garopaba Imóveis — Centro de Garopaba (Morrinhos, Ferrugem, Silveira)
+## 16. [AD09] Garopaba Imóveis — Centro de Garopaba (Morrinhos, Ferrugem, Silveira)
 - **Contato:** (48) 99694-1616 (Carlos Golle; alternativo Simone Falkembach 99958-2979; fixo 3354-1999) · **Plano:** Ano
 
 > Oi, Carlos, tudo bem? Sou o Caue, moro na Praia do Rosa e trabalho com tecnologia. Vi que a Garopaba Imóveis, desde 1987, organiza a temporada por praia: Ferrugem, Morrinhos, Silveira. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as dúvidas de cada imóvel e passa o pedido de reserva pronto. Posso te mostrar rapidinho?
 
 _D+2 e D+5 em `mensagens/administradoras.md`_
 
-## 16. [AD12] Ferrugem Imóveis — Garopaba (R. Paulino Furtado 32) e Ferrugem
+## 17. [AD12] Ferrugem Imóveis — Garopaba (R. Paulino Furtado 32) e Ferrugem
 - **Contato:** (48) 99184-7854 (Thiago Gomes; alternativo Cristhian Fernandes 99959-9912) · **Plano:** Ano
 
 > Oi, Thiago, tudo bem? Sou o Caue, moro na Praia do Rosa e trabalho com tecnologia. Vi que a Ferrugem Imóveis tem casas, cabanas e aptos de temporada, há mais de 30 anos. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as dúvidas de cada imóvel e passa o pedido de reserva pronto. Faz sentido conversar 10 min essa semana?
 
 _D+2 e D+5 em `mensagens/administradoras.md`_
 
-## 17. [AD16] Zaluski Construtora e Imobiliária — Garopaba (Centro, Morrinhos, Ferraz, Siriú)
+## 18. [AD16] Zaluski Construtora e Imobiliária — Garopaba (Centro, Morrinhos, Ferraz, Siriú)
 - **Contato:** (48) 99973-8286 (atendimento) · **Plano:** Ano
 
 > Oi, tudo bem? Sou o Caue, moro na Praia do Rosa e trabalho com tecnologia. Vi que a Zaluski aluga casas e apartamentos por temporada em Garopaba, Morrinhos e Ferraz. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as dúvidas de cada imóvel e passa o pedido pronto pra equipe. Quem cuida da temporada aí?
 
 _D+2 e D+5 em `mensagens/administradoras.md`_
 
-## 18. [AD18] Praia da Ferrugem Aluguel — Ferrugem
+## 19. [AD18] Praia da Ferrugem Aluguel — Ferrugem
 - **Contato:** WhatsApp +55 48 98406-1437 · **Plano:** Ano
 
 > Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que vocês reúnem várias casas da Ferrugem, como as Casas Amarelas e a Morada da Neide, com pacotes de Réveillon e Carnaval. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as perguntas de cada casa e passa o pedido pronto. Te mando um vídeo curto?
 
 _D+2 e D+5 em `mensagens/administradoras.md`_
 
-## 19. [AD20] Convés Imobiliária — Ferrugem (Estrada Geral 2501; Silveira, Centro, Ferraz, Pedra Branca)
-- **Contato:** WhatsApp (48) 98486-8635 · **Plano:** Ano
+## 20. [AD29] Zimba Imóveis — Imbituba
+- **Contato:** (48) 99167-0664 (aluguéis; conferir se é WhatsApp) · alugueis@zimbaimoveis.com.br · @zimbaaluga · **Plano:** Ano + condição para a carteira, a combinar
 
-> Oi, pessoal da Convés, tudo bem? Sou o Caue, moro na Praia do Rosa e trabalho com tecnologia. Vi que vocês estão na Ferrugem desde 2016 e têm imóveis também na Silveira, Ferraz e Pedra Branca. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as perguntas de cada imóvel e passa o pedido pronto. Posso mostrar em 1 minuto?
-
-_D+2 e D+5 em `mensagens/administradoras.md`_
-
-## 20. [AD22] Praia do Rosa Imóveis — Praia do Rosa
-- **Contato:** WhatsApp (48) 99943-8969 (alternativo 99684-1559; fixo 3355-7000) · **Plano:** Ano (se fizer temporada)
-
-> Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que vocês estão no Rosa desde 1989. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as perguntas de hóspedes e passa o pedido de reserva pronto. Vocês também administram imóveis de temporada, ou trabalham mais com venda?
+> Oi, pessoal da Zimba, tudo bem? Sou o Caue, moro na Praia do Rosa e trabalho com tecnologia. Vi o perfil de locações de vocês e a Casa da Zimba no Airbnb. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as perguntas de cada imóvel de temporada e passa o pedido pronto pra equipe. Quantos imóveis de temporada vocês têm hoje?
 
 _D+2 e D+5 em `mensagens/administradoras.md`_

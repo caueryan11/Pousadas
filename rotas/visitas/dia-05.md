@@ -1,4 +1,4 @@
-# Dia 5: Rosa Centrinho (10 visitas)
+# Dia 5: Rosa Centrinho (9 visitas)
 
 Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com quem falou, interesse (0–3), próximo passo.
 
@@ -47,16 +47,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que a Las Piedras tem mais de 400 avaliações no Booking e já atende os hóspedes pelo WhatsApp. Montei um atendente que responde 24h em 3 línguas e te passa o pedido de reserva pronto. Te mando um vídeo curto?
 - **Anotação:** ________________________________
 
-## 6. Pousada Solar dos Lírios (RX61)
-- **Onde:** Praia do Rosa (Av. Central), 800 m da praia
-- **Contato:** WhatsApp +55 48 99179-0840
-- Particular: pousada de casais, 12 suítes com jacuzzi, inaugurada em dez/2017; Trivago 8,9 com 721 notas; hóspedes elogiam os donos "actively engaged".
-- Dor provável: donos muito presentes, que também respondem o WhatsApp em qualquer horário (hipótese).
-- Oferta: Plano Ano. Pousada de casal tem movimento também fora do verão (feriados, baleias de jul. a nov.).
-- **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, também moro aqui no Rosa e trabalho com tecnologia. Vi hóspedes elogiando como vocês são presentes no Solar dos Lírios. Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês (suítes, jacuzzi, café, check-in) e passa o pedido de reserva pronto pra vocês confirmarem. Posso passar aí 10 min e mostrar?
-- **Anotação:** ________________________________
-
-## 7. Haleakala Hostel & Pousada (RX62)
+## 6. Haleakala Hostel & Pousada (RX62)
 - **Onde:** Praia do Rosa (R. John Lennon), 150 m do centrinho
 - **Contato:** WhatsApp +55 48 99678-5763
 - Particular: 150 m do centrinho; TripAdvisor 4,8 (216), Hostelworld 9,8; está na Lonely Planet; hóspedes elogiam "Vic, Ale e o cachorro Chimas"; 3 cozinhas e piscina.
@@ -65,7 +56,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, Vic e Ale, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi os hóspedes elogiando vocês e o Chimas. Montei um atendente de WhatsApp que responde mochileiro 24h em português, espanhol e inglês e passa o pedido de reserva pronto pra vocês. Posso mostrar em 1 minuto?
 - **Anotação:** ________________________________
 
-## 8. Pousada Bungalow (RX63)
+## 7. Pousada Bungalow (RX63)
 - **Onde:** Praia do Rosa, 150 m da praia
 - **Contato:** (48) 99107-4662
 - Particular: 5 bangalôs, 1 studio e 1 suíte a 150 m da praia; "recebendo hóspedes há 21 anos"; 127 avaliações.
@@ -74,7 +65,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi que a Bungalow recebe hóspedes há 21 anos. Montei um atendente de WhatsApp que responde as perguntas de sempre (preço, café, check-in) 24h, em 3 línguas, e te passa a reserva pronta. Você é quem responde o WhatsApp hoje?
 - **Anotação:** ________________________________
 
-## 9. Hostel Albergue Explorer (RX64)
+## 8. Hostel Albergue Explorer (RX64)
 - **Onde:** Praia do Rosa
 - **Contato:** WhatsApp 48 99222-0213; fixo 48 3355-7403
 - Particular: Booking 8,8 com 601 avaliações; se apresenta como "A hospedagem Nº1 da Praia do Rosa"; atendimento das 9h às 20h.
@@ -83,7 +74,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que o Explorer atende das 9h às 20h. Montei um atendente de WhatsApp que segue respondendo depois desse horário, em português, espanhol e inglês, e deixa o pedido de reserva pronto pra equipe de manhã. Como vocês fazem hoje com quem escreve à noite?
 - **Anotação:** ________________________________
 
-## 10. Pousada Encantos do Rosa (RX67)
+## 9. Pousada Encantos do Rosa (RX67)
 - **Onde:** Av. Central do Rosa 1745
 - **Contato:** +55 48 99174-4206; reservas 48 99977-6682
 - Particular: 6 casas para até 6 pessoas, com piscina e playground, + 3 suítes; Booking 9,4; Instagram ~16 mil; atende das 8h às 23h.

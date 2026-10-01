@@ -7,7 +7,7 @@ Néia Imóveis (RA01) e Casa de Praia Imóveis (RA02) estão em `rosa-norte-cent
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | AD01 | Alexia Consultoria Imobiliária | imobiliária com temporada | Praia do Rosa (Estrada Geral); diz atuar também em Garopaba, Silveira e Ferrugem | não encontrado | (48) 99167-8144 / (48) 99125-8251 | não encontrado | sim, alexiaconsultoriaimobiliaria.com | não sei | site com URLs em inglês (/for-rent), sem evidência de público | **A+** | imóveis alto padrão para temporada no Rosa, incluindo casa em condomínio com acesso privativo à praia |
 | AD02 | Imobiliária Trip | imobiliária com temporada | Av. Porto Novo; casas no Rosa, Rosa Norte e Alto Arroio | não encontrado | (48) 99152-7670 | @imobiliariatrip (~7,2 mil) | sim, imobiliariatrip.com.br | não sei | não encontrado | **A+** | CRECI 6034J; "mais de 15 anos"; temporadas anunciadas entre R$ 8.750 e R$ 53.998. **Gancho**: uma única reserva paga o ano inteiro do serviço |
-| AD03 | Portal Praia do Rosa | imobiliária familiar | Praia do Rosa (R. Idalino Manoel Carvalho) | não encontrado | não encontrado | não encontrado (Facebook) | sim, portalpraiadorosa.com.br | não sei | não encontrado | **B** (sem contato) | CRECI 38055F; corretor também é perito judicial |
+| AD03 | Portal Praia do Rosa | imobiliária familiar | Praia do Rosa (R. Idalino Manoel Carvalho) | não encontrado | não encontrado | não encontrado (Facebook) | sim, portalpraiadorosa.com.br | não sei | não encontrado | **A+** | CRECI 38055F; corretor também é perito judicial (contato achado: ver terceira leva) |
 | AD04 | Sal Hospedagem | gestora de temporada com marca própria | Praia do Rosa (condomínios fechados) | 3 unidades citadas: Seiva da Lagoa, Buda da Lagoa, Goa Casas do Mar | WhatsApp +55 48 99115-9936 | não encontrado | sim, salhospedagem.com.br (/en) | não sei | **sim**: site em inglês ("Private Gated Homes in Praia do Rosa") | **A+** (contato por e-mail ou visita) | casas alto padrão com vista para o mar e segurança 24h, a partir de R$ 803/noite |
 | AD05 | Aluguel na Praia do Rosa | anunciante de casas (só Instagram) | Praia do Rosa | não encontrado | não encontrado | @casasdealuguelpraiadorosa | não | não sei | não encontrado | **B** | perfil dedicado a aluguel de casas no Rosa; contato via DM |
 | AD06 | Imobiliária Itapirubá | imobiliária com temporada | Itapirubá ("Casa Laranja") e lado de Laguna | não encontrado | (48) 99139-4600 / (48) 99145-6122 | @imobiliaria_itapiruba | sim, imobiliariaitapiruba.com.br | não sei | não encontrado | **A+** | CRECI 7058J; anuncia "Itapirubá Norte, disponível temporada" |
@@ -74,3 +74,32 @@ Fazenda Verde (Rosa): 28 acomodações, WhatsApp +55 48 99699-8074, fixo 48 3355
 - AD25: seazone.com.br/marketplace/investir/spot/rosa-spot
 - AD26: silveirainvest.com.br
 - AD27: imovelweb (Cris Rulian)
+
+---
+
+# Terceira leva: gestoras (Multitemporada e outras)
+
+⚠ **Multitemporada é concorrente direta** (gestora de Florianópolis com central de atendimento, software próprio e precificação). O WhatsApp dela (+55 48 98484-2441) é **o mesmo que aparece para a Shiva Boutique (RX02)**. Pousadas da região anunciadas por ela: **Shiva (RX02), Rosa da Praia (RX78), Solar dos Lírios (RX61), Bangalôs do Rosa (RX09), Pousada Hanalie (Rosa), Buena Onda (FE05, Ferrugem)**, além de casas em Ibiraquera e Garopaba (Ibiraquera Life, Santi Sabai Ibira, Casa Buda I, Villa Verde Bangalô, Rosa Internacional). Essas pousadas **já têm atendimento terceirizado** e foram rebaixadas para **B**: o atendimento passa pela Multitemporada, não pelo dono. Abordar só se o dono mencionar insatisfação.
+
+| # | Nome | Tipo | Área | Carteira temporada | Telefone / WhatsApp | Instagram | Site | WhatsApp? | Prior. | Observação citável |
+|---|---|---|---|---|---|---|---|---|---|---|
+| AD28 | Multitemporada | gestora de temporada (concorrente) | litoral de SC; forte em Imbituba, Penha e Florianópolis | "mais de 800 imóveis já administrados" (histórico, publicado pela empresa) | WhatsApp +55 48 98484-2441; tel. 48 98466-0998 | @multitemporada (~11 mil) | sim, multitemporada.com / .com.br | sim | **C (concorrente)** | "Especialistas em locação por temporada"; central de atendimento própria. Mapear, não abordar como cliente |
+| AD29 | Zimba Imóveis | imobiliária com aluguel e temporada | Imbituba e região | Instagram: "+200 locações ativas" (pode incluir anual) | (48) 99167-0664 (aluguéis) | @zimbaaluga | sim, zimbaimoveis.com.br | provável | **A+** | anuncia também a "Casa da Zimba" no Airbnb; e-mail alugueis@ |
+| AD30 | Sunset Imóveis | imobiliária alto padrão | Garopaba e Praia do Rosa (Av. Porto Novo) | não encontrado | (48) 99165-5702 / 99142-8950 | @imobiliariasunsetsc | sim, imobiliariasunset.com | provável | **B** | não está claro se faz temporada |
+| AD31 | Imobiliária Praia do Rosa | imobiliária | Praia do Rosa | não encontrado | +55 48 99145-0077 | não encontrado | sim, imobiliariapraiadorosa.com.br | provável | **B** | pode ser a mesma Praia do Rosa Imóveis (AD22), mas com domínio diferente: conferir |
+| AD32 | Holmy | plataforma curada de reservas (sul do Brasil) | lista Cabana Riviera e Cabana das Sabiás (Ferrugem), Casa Solar (Garopaba), Ibiraquera Life | não encontrado | não encontrado | não encontrado | sim, holmy.com.br | não sei | **C (canal)** | serve para achar proprietários de cabanas |
+
+Atualizações:
+- **AD03 Portal Praia do Rosa**: responsável Ellen Carvalho (CRECI 38055F); celulares (48) 99830-6289 / 99903-5154; portalpraiadorosa@gmail.com. Sobe para **A+** (tem contato).
+- **AD05 @casasdealuguelpraiadorosa**: site casadealuguelpraiadorosa.com; WhatsApp (51) 98544-0834; anuncia 1 casa para 4 pessoas (operação pequena, continua **B**).
+- **RX100 Pousada Sunset**: a dona, Katia, também aluga 4 casas próprias ("Moradas Sunset", @morada_sunset_praia_do_rosa): são 10 unidades na pousada + 4 casas.
+
+## Fontes (terceira leva)
+- AD28: multitemporada.com/en/contact · multitemporada.com.br · páginas de imóveis SR01H (Shiva), LR07I (Rosa da Praia), AB02I (Solar dos Lírios), LQ03I (Hanalie), LK02I (Bangalôs do Rosa), IF02I (Buena Onda)
+- AD29: zimbaimoveis.com.br · instagram.com/zimbaaluga
+- AD30: imobiliariasunset.com
+- AD31: imobiliariapraiadorosa.com.br
+- AD32: holmy.com.br
+- AD03: portalpraiadorosa.com.br/contato
+- AD05: casadealuguelpraiadorosa.com
+- RX100: pousadasunset.com.br/page/Mjcx/moradas-sunset-casas-de-aluguel

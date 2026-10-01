@@ -19,6 +19,7 @@ Escopo: leads A/A+ de RX01 a RX45 em `leads/rosa-ibiraquera-extra.md`. Antes de 
 **Msg 1 (ES):** ¡Hola, Leo! ¿Cómo andás? Soy Caue, vivo acá en Rosa y trabajo con tecnología. Vi que la Rosa Negra tiene atención en Argentina, con número de allá. Armé un asistente de WhatsApp que responde a los huéspedes 24 h en español, portugués e inglés y te pasa el pedido de reserva listo para que solo confirmes. ¿Te lo muestro en 1 minuto?
 
 ### RX02 Shiva Boutique Hotel — 120 m do centro do Rosa
+> ⚠ **Rebaixado para B**: anunciada ou gerida pela Multitemporada (atendimento terceirizado). Só abordar se o dono mostrar insatisfação; não usar no lote de WhatsApp.
 **Contato:** (48) 98484-2441 · **Plano:** Ano
 **Visita:**
 - Particular: boutique só para casais, 6 quartos, decoração importada da Indonésia com inspiração budista e hindu; Magali e Charlie atendem pessoalmente.
@@ -75,6 +76,7 @@ Escopo: leads A/A+ de RX01 a RX45 em `leads/rosa-ibiraquera-extra.md`. Antes de 
 **D+5:** Último toque pra não encher: a condição de pré-temporada vai até 15/11, com 1 semana de garantia. Se quiser, passo aí 10 min e mostro ao vivo.
 
 ### RX09 Bangalôs do Rosa — ~200 m do centro
+> ⚠ **Rebaixado para B**: anunciada ou gerida pela Multitemporada (atendimento terceirizado). Só abordar se o dono mostrar insatisfação; não usar no lote de WhatsApp.
 **Contato:** WhatsApp +55 48 99115-0412 (fixo 48 3354-0412) · **Plano:** Temporada
 **Visita:**
 - Particular: todos os bangalôs com cozinha e churrasqueira privativa; Google 4,3 (133), Kayak 8,9 (155).

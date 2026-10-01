@@ -74,11 +74,11 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, pessoal da Trip, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi as casas de temporada de vocês no Rosa, Rosa Norte e Alto Arroio. Montei um atendente de WhatsApp que responde 24h, em português, espanhol e inglês, as dúvidas de cada casa e passa o pedido de reserva pronto pra equipe. Quem cuida do WhatsApp de temporada aí?
 - **Anotação:** ________________________________
 
-## 9. Sal Hospedagem (AD04)
-- **Onde:** Praia do Rosa (condomínios fechados)
-- **Contato:** WhatsApp +55 48 99115-9936
-- Particular: gestora com marca própria; casas alto padrão com vista para o mar e segurança 24h, a partir de R$ 803/noite; unidades citadas: Seiva da Lagoa, Buda da Lagoa, Goa Casas do Mar; site em inglês ("Private Gated Homes in Praia do Rosa").
-- Dor provável: hóspede estrangeiro escrevendo em inglês ou espanhol fora do horário; perguntas iguais para cada casa.
-- Oferta: Plano Ano (público estrangeiro, opera o ano todo) + condição para as unidades, a combinar.
-- **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que a Sal cuida da Seiva da Lagoa, do Buda da Lagoa e das Goa Casas do Mar, e que o site já tem versão em inglês. Montei um atendente de WhatsApp que responde 24h em PT/ES/EN as dúvidas de cada casa e passa a reserva pronta. Faz sentido conversar 10 min essa semana?
+## 9. Portal Praia do Rosa (AD03)
+- **Onde:** Praia do Rosa (R. Idalino Manoel Carvalho)
+- **Contato:** não encontrado
+- Particular: imobiliária familiar no centrinho; responsável Ellen Carvalho (CRECI 38055F); o corretor também atua como perito judicial.
+- Dor provável: aluguel de temporada misturado com venda; perguntas de temporada chegando fora do horário (hipótese).
+- Oferta: Plano Ano para a parte de temporada + condição para a carteira, a combinar.
+- **Se não encontrar o dono, deixe recado ou mande depois:** Oi, Ellen, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi o Portal Praia do Rosa aqui no centrinho. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as dúvidas dos imóveis de temporada e passa o pedido pronto pra vocês. Vocês trabalham bastante com temporada?
 - **Anotação:** ________________________________

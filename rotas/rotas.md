@@ -9,10 +9,10 @@ Ordem dentro do dia: os **top** primeiro. Ajuste a ordem física pelo caminho re
 | Dia | Zona | Visitas |
 |---|---|---|
 | 1 | Rosa Centrinho | 9 |
-| 2 | Rosa Centrinho | 10 |
+| 2 | Rosa Centrinho | 9 |
 | 3 | Rosa Centrinho | 9 |
 | 4 | Rosa Centrinho | 9 |
-| 5 | Rosa Centrinho | 10 |
+| 5 | Rosa Centrinho | 9 |
 | 6 | Rosa Centrinho | 9 |
 | 7 | Rosa Norte / Lagoa do Rosa / Vale | 10 |
 | 8 | Rosa Sul / Caminho do Rei / Alto do Morro | 6 |
@@ -22,13 +22,13 @@ Ordem dentro do dia: os **top** primeiro. Ajuste a ordem física pelo caminho re
 | 12 | Ibiraquera / Barra de Ibiraquera / Praia do Luz | 9 |
 | 13 | Ibiraquera / Barra de Ibiraquera / Praia do Luz | 8 |
 | 14 | Ferrugem / Capão / Praia da Barra / Encantada | 9 |
-| 15 | Ferrugem / Capão / Praia da Barra / Encantada | 10 |
+| 15 | Ferrugem / Capão / Praia da Barra / Encantada | 9 |
 | 16 | Ferrugem / Capão / Praia da Barra / Encantada | 9 |
 | 17 | Garopaba Centro / Palhocinha / Morrinhos | 8 |
 | 18 | Garopaba Centro / Palhocinha / Morrinhos | 8 |
 | 19 | Garopaba Centro / Palhocinha / Morrinhos | 8 |
 | 20 | Silveira / Siriú | 9 |
-| 21 | Imbituba sede (Vila Nova, Centro, Ribanceira, Itapirubá) | 5 |
+| 21 | Imbituba sede (Vila Nova, Centro, Ribanceira, Itapirubá) | 6 |
 
 ## Dia 1: Rosa Centrinho (9 visitas)
 
@@ -42,28 +42,27 @@ Ordem dentro do dia: os **top** primeiro. Ajuste a ordem física pelo caminho re
 | 6 | RX97 | Pousada Kirana | Praia do Rosa (R. Fruta do Conde) | WhatsApp +55 48 99855-1995 / +55 48 99127-6662 | A (top) | a visitar |
 | 7 | RX98 | Pousada Além do Jardim | Av. Central do Rosa, 150 m da praia | tel./WhatsApp +55 48 99835-4397 | A (top) | a visitar |
 | 8 | AD02 | Imobiliária Trip | Av. Porto Novo; casas no Rosa, Rosa Norte e Alto Arroio | (48) 99152-7670 | A+ | a visitar |
-| 9 | AD04 | Sal Hospedagem | Praia do Rosa (condomínios fechados) | WhatsApp +55 48 99115-9936 | A+ | a visitar |
+| 9 | AD03 | Portal Praia do Rosa | Praia do Rosa (R. Idalino Manoel Carvalho) | não encontrado | A+ | a visitar |
 
-## Dia 2: Rosa Centrinho (10 visitas)
+## Dia 2: Rosa Centrinho (9 visitas)
 
 | # | ID | Lead | Endereço/bairro | Contato | Prior. | Status |
 |---|---|---|---|---|---|---|
-| 1 | AD22 | Praia do Rosa Imóveis | Praia do Rosa | WhatsApp (48) 99943-8969; 48 99684-1559; fixo 48 3355-7000 | A+ | a visitar |
-| 2 | RA02 | Casa de Praia Imóveis | Porto Novo, Praia do Rosa | fixo (48) 3354-0857 | A+ | a visitar |
-| 3 | RX84 | Lá vem Férias | gere a Pousada Gauleses (RX73) no Rosa | não encontrado (o site cita WhatsApp) | A+ (parceria) | a visitar |
-| 4 | AD23 | Flor do Mar – Casas para Alugar | Praia do Rosa, 100 m do mar | fixo 48 3355-7102 (celular em formato antigo) | A | a visitar |
-| 5 | RN09 | Pousada Refúgio do Rosa | Av. Porto Novo ⚠ (~300 m do centro) | WhatsApp BR +55 48 99205-0270; **AR +54 9 385 507-3006** | A | a visitar |
-| 6 | RN10 | Morada da Praia do Rosa | Av. Porto Novo (centro) | WhatsApp +55 48 99863-3409; fixo +55 48 3355-7342 | A | a visitar |
-| 7 | RX02 | Shiva Boutique Hotel | 120 m do centro do Rosa | (48) 98484-2441 | A | a visitar |
+| 1 | AD04 | Sal Hospedagem | Praia do Rosa (condomínios fechados) | WhatsApp +55 48 99115-9936 | A+ | a visitar |
+| 2 | AD22 | Praia do Rosa Imóveis | Praia do Rosa | WhatsApp (48) 99943-8969; 48 99684-1559; fixo 48 3355-7000 | A+ | a visitar |
+| 3 | RA02 | Casa de Praia Imóveis | Porto Novo, Praia do Rosa | fixo (48) 3354-0857 | A+ | a visitar |
+| 4 | RX84 | Lá vem Férias | gere a Pousada Gauleses (RX73) no Rosa | não encontrado (o site cita WhatsApp) | A+ (parceria) | a visitar |
+| 5 | AD23 | Flor do Mar – Casas para Alugar | Praia do Rosa, 100 m do mar | fixo 48 3355-7102 (celular em formato antigo) | A | a visitar |
+| 6 | RN09 | Pousada Refúgio do Rosa | Av. Porto Novo ⚠ (~300 m do centro) | WhatsApp BR +55 48 99205-0270; **AR +54 9 385 507-3006** | A | a visitar |
+| 7 | RN10 | Morada da Praia do Rosa | Av. Porto Novo (centro) | WhatsApp +55 48 99863-3409; fixo +55 48 3355-7342 | A | a visitar |
 | 8 | RX03 | Pousada Gopak | Centro do Rosa (Av. Porto Novo) | WhatsApp +55 48 99181-5113; Simone +55 48 99161-7713 | A | a visitar |
 | 9 | RX06 | Vida Sol e Mar EcoResort | Praia do Rosa | WhatsApp +55 48 99981-0592; fixo 48 3355-6111 | A | a visitar |
-| 10 | RX08 | Pousada Rosa 08 | R. Fruta do Conde, 150 m do centrinho | +55 48 99166-1425 | A | a visitar |
 
 ## Dia 3: Rosa Centrinho (9 visitas)
 
 | # | ID | Lead | Endereço/bairro | Contato | Prior. | Status |
 |---|---|---|---|---|---|---|
-| 1 | RX09 | Bangalôs do Rosa | ~200 m do centro | WhatsApp +55 48 99115-0412; fixo 48 3354-0412 | A | a visitar |
+| 1 | RX08 | Pousada Rosa 08 | R. Fruta do Conde, 150 m do centrinho | +55 48 99166-1425 | A | a visitar |
 | 2 | RX10 | Vila no Rosa Hospedaria | Estrada Geral do Rosa | WhatsApp (48) 99632-7131 | A | a visitar |
 | 3 | RX100 | Pousada Sunset | centrinho do Rosa | WhatsApp 48 98813-6642 | A | a visitar |
 | 4 | RX102 | Hospedaria Nativa | Av. Central, 100 m do centro | fixo +55 48 3355-6203 (o site cita WhatsApp) | A | a visitar |
@@ -87,7 +86,7 @@ Ordem dentro do dia: os **top** primeiro. Ajuste a ordem física pelo caminho re
 | 8 | RX20 | KaOra Cabanas | Centro do Rosa (R. Dona Eugênia) | WhatsApp 48 99839-9898 | A | a visitar |
 | 9 | RX24 | Pousada Refúgio dos Pássaros | Av. Central 300 | 48 99662-4555; fixo 48 3355-7392; também (51) 98057-3489 | A | a visitar |
 
-## Dia 5: Rosa Centrinho (10 visitas)
+## Dia 5: Rosa Centrinho (9 visitas)
 
 | # | ID | Lead | Endereço/bairro | Contato | Prior. | Status |
 |---|---|---|---|---|---|---|
@@ -96,11 +95,10 @@ Ordem dentro do dia: os **top** primeiro. Ajuste a ordem física pelo caminho re
 | 3 | RX38 | Paraíso Hostel | ~500 m do centrinho | +55 48 99156-5768 (conferir) | A | a visitar |
 | 4 | RX59 | Aldeia dos Anjos do Rosa | Av. Porto Novo 871 | WhatsApp +55 48 99949-1971; fixo 48 3355-6032 | A | a visitar |
 | 5 | RX60 | Pousada Las Piedras | Praia do Rosa (R. da Pousada Recanto do Rei Sol 200) | (48) 99600-1627 | A | a visitar |
-| 6 | RX61 | Pousada Solar dos Lírios | Praia do Rosa (Av. Central), 800 m da praia | WhatsApp +55 48 99179-0840 | A | a visitar |
-| 7 | RX62 | Haleakala Hostel & Pousada | Praia do Rosa (R. John Lennon), 150 m do centrinho | WhatsApp +55 48 99678-5763 | A | a visitar |
-| 8 | RX63 | Pousada Bungalow | Praia do Rosa, 150 m da praia | (48) 99107-4662 | A | a visitar |
-| 9 | RX64 | Hostel Albergue Explorer | Praia do Rosa | WhatsApp 48 99222-0213; fixo 48 3355-7403 | A | a visitar |
-| 10 | RX67 | Pousada Encantos do Rosa | Av. Central do Rosa 1745 | +55 48 99174-4206; reservas 48 99977-6682 | A | a visitar |
+| 6 | RX62 | Haleakala Hostel & Pousada | Praia do Rosa (R. John Lennon), 150 m do centrinho | WhatsApp +55 48 99678-5763 | A | a visitar |
+| 7 | RX63 | Pousada Bungalow | Praia do Rosa, 150 m da praia | (48) 99107-4662 | A | a visitar |
+| 8 | RX64 | Hostel Albergue Explorer | Praia do Rosa | WhatsApp 48 99222-0213; fixo 48 3355-7403 | A | a visitar |
+| 9 | RX67 | Pousada Encantos do Rosa | Av. Central do Rosa 1745 | +55 48 99174-4206; reservas 48 99977-6682 | A | a visitar |
 
 ## Dia 6: Rosa Centrinho (9 visitas)
 
@@ -111,7 +109,7 @@ Ordem dentro do dia: os **top** primeiro. Ajuste a ordem física pelo caminho re
 | 3 | RX71 | Pousada Flor de Lótus | Praia do Rosa (R. do Engenho) | +55 48 99673-4681 | A | a visitar |
 | 4 | RX72 | Recanto do Spinoza | Praia do Rosa | WhatsApp 48 99912-7608 | A | a visitar |
 | 5 | RX73 | Pousada Gauleses | Av. Porto Novo | WhatsApp (48) 99147-2095 | A | a visitar |
-| 6 | RX74 | Pousada Rosa & Canela | Av. Central | (48) 99982-5023; fixo 48 3355-6059 | A | a visitar |
+| 6 | RX74 | Pousada Rosa & Canela | Av. Central | WhatsApp (48) 99212-5062; tel. 99982-5023; fixo 48 3355-6059 | A | a visitar |
 | 7 | RX79 | Pousada Recanto do Rosa | Centro do Rosa | WhatsApp +55 48 99219-9699 / 99200-1052; fixo 48 3355-6336 | A | a visitar |
 | 8 | RX80 | Pousada Dos Soles | R. Aracuã | WhatsApp +55 48 99648-0051; fixo 48 3355-6090 | A | a visitar |
 | 9 | RX93 | Pousada Iluminao | Estrada Geral do Rosa, 800 m do centro | (48) 99609-1435; fixo 48 3355-6043 | A | a visitar |
@@ -222,20 +220,19 @@ _Dia curto: complete com leads B da mesma zona (ver `leads/00-consolidado.md`) o
 | 8 | FE01 | Pousada da Ferrugem | Estrada Geral do Capão 4250 | WhatsApp (48) 99160-6336; fixo (48) 3254-0068 | A | a visitar |
 | 9 | FE02 | Pousada da Praia Ferrugem | Rua da Praia, Ferrugem | +55 48 99221-9093 (tel. e WhatsApp) | A | a visitar |
 
-## Dia 15: Ferrugem / Capão / Praia da Barra / Encantada (10 visitas)
+## Dia 15: Ferrugem / Capão / Praia da Barra / Encantada (9 visitas)
 
 | # | ID | Lead | Endereço/bairro | Contato | Prior. | Status |
 |---|---|---|---|---|---|---|
 | 1 | FE03 | Pousada do Morro | Estrada Geral do Capão (~400 m da praia) | Fone/WhatsApp (48) 99973-4016 | A | a visitar |
-| 2 | FE05 | Pousada Buena Onda | R. das Baleias 22, 50 m da praia | WhatsApp (48) 99175-8619 | A | a visitar |
-| 3 | FE06 | Pousada Sol da Ferrugem | R. Jardim da Lagoa 100 | WhatsApp (48) 99971-6622; fixo 48 3254-0049 | A | a visitar |
-| 4 | FE07 | Pousada das Palmeiras | Estrada Geral da Ferrugem 3677 | WhatsApp/fone (48) 99110-4586 | A | a visitar |
-| 5 | FE12 | Chalés da Barrinha | Praia da Barra | WhatsApp (48) 99148-8177; fixo 48 3254-0401 | A | a visitar |
-| 6 | FE13 | Recanto do Sossego | Ferrugem (R. dos Eucaliptos), ~500 m do mar | (48) 99183-8715 / 99149-3064 / 99142-5292 | A | a visitar |
-| 7 | FE16 (+ FE33) | Pousada Koh Phangan | centro da Ferrugem (R. das Baleias 22) | (48) 99136-0040; fixo 48 3254-0347 | A | a visitar |
-| 8 | FE21 | Pousada Maunaloa | Estrada Geral do Capão 3584 | WhatsApp (48) 98811-9200; fixos 48 3254-0180 / 1025 | A | a visitar |
-| 9 | FE22 | Pousada Paradise Ferrugem | R. Jardim das Flores 300 | (48) 99172-7355 | A | a visitar |
-| 10 | FE23 | Pousada Kalua Praia | R. das Casuarinas 7 | WhatsApp 48 9139-2034 (provável 99139-2034) | A | a visitar |
+| 2 | FE06 | Pousada Sol da Ferrugem | R. Jardim da Lagoa 100 | WhatsApp (48) 99971-6622; fixo 48 3254-0049 | A | a visitar |
+| 3 | FE07 | Pousada das Palmeiras | Estrada Geral da Ferrugem 3677 | WhatsApp/fone (48) 99110-4586 | A | a visitar |
+| 4 | FE12 | Chalés da Barrinha | Praia da Barra | WhatsApp (48) 99148-8177; fixo 48 3254-0401 | A | a visitar |
+| 5 | FE13 | Recanto do Sossego | Ferrugem (R. dos Eucaliptos), ~500 m do mar | (48) 99183-8715 / 99149-3064 / 99142-5292 | A | a visitar |
+| 6 | FE16 (+ FE33) | Pousada Koh Phangan | centro da Ferrugem (R. das Baleias 22) | (48) 99136-0040; fixo 48 3254-0347 | A | a visitar |
+| 7 | FE21 | Pousada Maunaloa | Estrada Geral do Capão 3584 | WhatsApp (48) 98811-9200; fixos 48 3254-0180 / 1025 | A | a visitar |
+| 8 | FE22 | Pousada Paradise Ferrugem | R. Jardim das Flores 300 | (48) 99172-7355 | A | a visitar |
+| 9 | FE23 | Pousada Kalua Praia | R. das Casuarinas 7 | WhatsApp 48 9139-2034 (provável 99139-2034) | A | a visitar |
 
 ## Dia 16: Ferrugem / Capão / Praia da Barra / Encantada (9 visitas)
 
@@ -304,13 +301,14 @@ _Dia curto: complete com leads B da mesma zona (ver `leads/00-consolidado.md`) o
 | 8 | GA44 | Pousada do Taxo | Siriú, 500 m do mar | WhatsApp +55 48 99162-0343; fixo 48 3355-0412 | A | a visitar |
 | 9 | GA65 | Dunas Studios | em frente às Dunas do Siriú | via Instagram (bio: atende por WhatsApp) | A | a visitar |
 
-## Dia 21: Imbituba sede (Vila Nova, Centro, Ribanceira, Itapirubá) (5 visitas)
+## Dia 21: Imbituba sede (Vila Nova, Centro, Ribanceira, Itapirubá) (6 visitas)
 
 | # | ID | Lead | Endereço/bairro | Contato | Prior. | Status |
 |---|---|---|---|---|---|---|
 | 1 | AD06 | Imobiliária Itapirubá | Itapirubá ("Casa Laranja") e lado de Laguna | (48) 99139-4600 / (48) 99145-6122 | A+ | a visitar |
-| 2 | IM07 | Pousada Recanto das Baleias | Itapirubá Norte | +55 48 99947-1018 | A | a visitar |
-| 3 | IM16 | Austral Suítes a Beira-Mar | Ribanceira (Av. Atlântica 255) | não encontrado | A | a visitar |
-| 4 | IM17 | Pousada Paraíso 26 | perto da Praia d'Água/Ribanceira | WhatsApp no linktr.ee/paraiso26 (número não exibido) | A | a visitar |
-| 5 | IM20 | Cabanas Hamarhavida | Ribanceira | 48 99188-8844; fixo 48 3255-1662 | A | a visitar |
+| 2 | AD29 | Zimba Imóveis | Imbituba e região | (48) 99167-0664 (aluguéis) | A+ | a visitar |
+| 3 | IM07 | Pousada Recanto das Baleias | Itapirubá Norte | +55 48 99947-1018 | A | a visitar |
+| 4 | IM16 | Austral Suítes a Beira-Mar | Ribanceira (Av. Atlântica 255) | não encontrado | A | a visitar |
+| 5 | IM17 | Pousada Paraíso 26 | perto da Praia d'Água/Ribanceira | WhatsApp no linktr.ee/paraiso26 (número não exibido) | A | a visitar |
+| 6 | IM20 | Cabanas Hamarhavida | Ribanceira | 48 99188-8844; fixo 48 3255-1662 | A | a visitar |
 _Dia curto: complete com leads B da mesma zona (ver `leads/00-consolidado.md`) ou com retornos D+2/D+5._

@@ -49,7 +49,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 
 ## 6. Pousada Rosa & Canela (RX74)
 - **Onde:** Av. Central
-- **Contato:** (48) 99982-5023; fixo 48 3355-6059
+- **Contato:** WhatsApp (48) 99212-5062; tel. 99982-5023; fixo 48 3355-6059
 - Particular: 12 suítes e bangalôs; Booking 9,4; opção econômica (~R$ 180/dia).
 - Dor provável: muita pergunta de preço e disponibilidade; caixa enxuto.
 - Oferta: Plano Temporada (entrada parcelada, só no verão).

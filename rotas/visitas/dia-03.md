@@ -2,13 +2,13 @@
 
 Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com quem falou, interesse (0–3), próximo passo.
 
-## 1. Bangalôs do Rosa (RX09)
-- **Onde:** ~200 m do centro
-- **Contato:** WhatsApp +55 48 99115-0412; fixo 48 3354-0412
-- Particular: todos os bangalôs com cozinha e churrasqueira privativa; Google 4,3 (133), Kayak 8,9 (155).
-- Dor provável: grupos e famílias perguntando capacidade e estrutura um por um (hipótese).
-- Oferta: Plano Temporada.
-- **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Aqui é o Caue, vizinho do Rosa, trabalho com tecnologia. Vi que todos os bangalôs de vocês têm cozinha e churrasqueira privativa. Montei um atendente de WhatsApp que responde essas dúvidas 24h, em três idiomas, e passa o pedido de reserva pronto pra vocês. Quem responde o WhatsApp aí hoje?
+## 1. Pousada Rosa 08 (RX08)
+- **Onde:** R. Fruta do Conde, 150 m do centrinho
+- **Contato:** +55 48 99166-1425
+- Particular: 8 quartos, Booking 9,8 (213); "café da manhã gourmet a 150 m do Centrinho"; suítes com banheira e piscina aquecida.
+- Dor provável: volume bom de avaliações para uma pousada de 8 quartos, provavelmente com o dono respondendo tudo (hipótese).
+- Oferta: Plano Temporada. Se abrir no inverno (piscina aquecida), apresentar o Plano Ano como alternativa.
+- **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi o café gourmet e as suítes com banheira da Rosa 08, a 150 m do centrinho. Montei um atendente de WhatsApp que responde hóspede 24h em português, espanhol e inglês e te passa o pedido de reserva pronto pra só confirmar. Posso te mostrar como funciona?
 - **Anotação:** ________________________________
 
 ## 2. Vila no Rosa Hospedaria (RX10)
