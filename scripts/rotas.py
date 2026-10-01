@@ -59,9 +59,9 @@ for z in ordem:
     if not lst: continue
     n = len(lst)
     ndias = max(1, -(-n // 10))
-    tam = -(-n // ndias)
+    cortes = [round(i * n / ndias) for i in range(ndias + 1)]
     for i in range(ndias):
-        bloco = lst[i*tam:(i+1)*tam]
+        bloco = lst[cortes[i]:cortes[i+1]]
         if not bloco: continue
         dia += 1
         resumo.append((dia, nomes[z], len(bloco)))
@@ -71,6 +71,8 @@ for z in ordem:
             junto = [k for k, v in grupos.items() if v == r["id"]]
             extra = f" (+ {', '.join(junto)})" if junto else ""
             out.append(f"| {j} | {r['id']}{extra} | {r['nome']} | {r['bairro']} | {r['telefone'][:70]} | {r['prioridade']} | a visitar |")
+        if len(bloco) < 8:
+            out.append("_Dia curto: complete com leads B da mesma zona (ver `leads/00-consolidado.md`) ou com retornos D+2/D+5._")
         out.append("")
 cab = ["## Resumo", "", "| Dia | Zona | Visitas |", "|---|---|---|"] + [f"| {d} | {z} | {n} |" for d, z, n in resumo] + [""]
 out = out[:6] + cab + out[6:]
