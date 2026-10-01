@@ -124,19 +124,11 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 **D+2:** Oi! Só pra ver se viu. Chega muita mensagem em espanhol de madrugada aí? O atendente responde na hora. Te mostro em 1 minuto?
 **D+5:** Último toque pra não encher: até 15/11 tenho condição de pré-temporada, com 1 semana de garantia. Se não for o momento, tudo bem.
 
-### FE17 Pousada Canoa Azul (grupo PRAIADAFERRUGEM.net, família Burg) — Estrada Geral da Ferrugem 3003
-**Contato:** WhatsApp +55 48 99691-0228 (central do grupo; Canoa Azul também (48) 99645-6461) · **Plano:** Ano para o grupo (5 frentes) + condição para a carteira, a combinar
-**Visita:**
-- Particular: o mesmo WhatsApp atende PRAIADAFERRUGEM.net (AD19, Gabriel Jean Burg), Canoa Azul (piscina, vista da Lagoa Encantada, pet, Google 4,5 com 266), El Pátio (FE18, 14 quartos, piscina, "uma quadra da praia"), Beleza Pura (FE19, sem café, cozinha compartilhada, pet) e Villa Luana (FE35, casas para 8–12 pessoas "a 100 metros de la playa", vendida pela laferrugem.com, Booking em espanhol). Na visita, perguntar pelo Gabriel (nome publicado no AD19), sem assumir que é ele quem decide.
-- Dor provável: um número para cinco hospedagens com regras diferentes (café ou não, pet, casa grande x quarto) e parte do público em espanhol (hipótese).
-- Oferta: Plano Ano por ser grupo e administradora, com proposta de condição para as unidades. Levar a proposta na conversa, sem preço de carteira na mensagem.
-**Msg 1:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que o mesmo WhatsApp atende a Canoa Azul, o El Pátio, a Beleza Pura e a Villa Luana. Montei um atendente que responde 24h em português, espanhol e inglês as perguntas de cada uma (pet, café, cozinha, check-in) e passa o pedido de reserva pronto. Quem cuida desse WhatsApp hoje?
-**D+2:** Oi! Só passando pra ver se viu. Com cinco hospedagens no mesmo número, o atendente já responde certo de qual o hóspede está falando. Te mando um vídeo de 1 min?
-**D+5:** Último toque: até 15/11 tenho condição de pré-temporada, e pro grupo todo dá pra montar uma proposta à parte. Se quiser, passo aí 10 min e mostro ao vivo.
+### [FE17] Pousada Canoa Azul: ver grupo [AD19 em mensagens/administradoras.md] (mesmo dono: uma abordagem só)
 
-### FE18 Pousada El Pátio da Ferrugem: ver grupo FE17
+### FE18 Pousada El Pátio da Ferrugem: ver grupo [AD19 em mensagens/administradoras.md]
 
-### FE19 Pousada Beleza Pura: ver grupo FE17
+### FE19 Pousada Beleza Pura: ver grupo [AD19 em mensagens/administradoras.md]
 
 ### FE21 Pousada Maunaloa — Estrada Geral do Capão 3584 (50 m do mar)
 **Contato:** WhatsApp (48) 98811-9200 · **Plano:** Temporada
@@ -231,7 +223,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 
 ### FE33 Posada Don Antonio: ver grupo FE16
 
-### FE35 Complejo Villa Luana: ver grupo FE17
+### FE35 Complejo Villa Luana: ver grupo [AD19 em mensagens/administradoras.md]
 
 ### FE36 Residencial LaFerrugem + agência LaFerrugem.com: ver grupo FE09
 

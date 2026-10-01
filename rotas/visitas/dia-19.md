@@ -8,7 +8,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Particular: piscina, pet sob consulta, café das 7h45 às 10h muito elogiado. 9,2 com 517 avaliações.
 - Dor provável: volume alto e muita pergunta de pet "sob consulta" que precisa de resposta.
 - Oferta: Plano Ano (volume alto).
-- **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui do lado, no Rosa. O café da Colina Verde aparece elogiado em tudo que é avaliação. Montei um atendente de WhatsApp que responde 24h em PT, ES e EN, inclusive o "aceita pet?", e passa o pedido de reserva pronto pra vocês confirmarem. Quem cuida do WhatsApp aí?
+- **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui do lado, no Rosa, e trabalho com tecnologia. Vi que o café da Colina Verde é muito elogiado. Montei um atendente de WhatsApp que responde 24h em PT, ES e EN, inclusive o "aceita pet?", e passa o pedido de reserva pronto pra vocês confirmarem. Quem cuida do WhatsApp aí?
 - **Anotação:** ________________________________
 
 ## 2. Pousada Garopaba (GA32)

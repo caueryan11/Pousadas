@@ -26,7 +26,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Particular: studios perto da Lagoa do Rosa; hóspedes citam caiaque e pôr do sol. Notas altas (Google 4,8 com 138; Booking 9,6).
 - Dor provável: operação pequena, dono atendendo o WhatsApp sozinho enquanto cuida dos studios (hipótese).
 - Oferta: Plano Temporada, entrada menor para testar no verão.
-- **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Aqui é o Caue, vizinho do Rosa, trabalho com tecnologia. Vi que os hóspedes de vocês sempre falam do caiaque e do pôr do sol na lagoa. Fiz um atendente de WhatsApp que responde 24h (preço, café, check-in, como chegar), em PT/ES/EN, e te entrega o pedido de reserva pronto. Quem cuida do WhatsApp aí, você mesmo?
+- **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Aqui é o Caue, vizinho do Rosa, trabalho com tecnologia. Vi hóspedes de vocês citando o caiaque e o pôr do sol na lagoa. Fiz um atendente de WhatsApp que responde 24h (preço, café, check-in, como chegar), em PT/ES/EN, e te entrega o pedido de reserva pronto. Quem cuida do WhatsApp aí, você mesmo?
 - **Anotação:** ________________________________
 
 ## 4. Pousada Sonho do Vale (RN06)

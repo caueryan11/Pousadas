@@ -26,7 +26,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Particular: a poucos metros da lagoa; hóspedes elogiam os donos atenciosos; Trivago 8,9 (171), Booking 8,7 (41).
 - Dor provável: os donos cuidam de tudo pessoalmente, inclusive do WhatsApp (hipótese).
 - Oferta: Plano Temporada.
-- **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que a Araçatuba fica a poucos metros da lagoa e que os hóspedes sempre falam bem do atendimento de vocês. Montei um atendente de WhatsApp que ajuda nisso: responde 24h e passa o pedido de reserva pronto pra vocês só confirmarem. Posso te mostrar como é?
+- **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que a Araçatuba fica a poucos metros da lagoa e que os hóspedes elogiam vocês como donos atenciosos. Montei um atendente de WhatsApp que responde 24h e passa o pedido de reserva pronto pra vocês só confirmarem. Posso te mostrar como é?
 - **Anotação:** ________________________________
 
 ## 4. Hotel Pousada Laguna Rosa (RX29)

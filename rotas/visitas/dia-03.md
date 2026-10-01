@@ -26,7 +26,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Particular: pousada de charme com 10 unidades, no centrinho, desde 1992; hóspedes elogiam a dona, Katia, "always available".
 - Dor provável: a Katia atende tudo sozinha, inclusive perguntas em espanhol (tem hóspede argentina e legendas em espanhol no Instagram). Hipótese a confirmar.
 - Oferta: Plano Temporada (pousada pequena, operação de uma pessoa); se abrir o ano todo, mostrar o Ano.
-- **Se não encontrar o dono, deixe recado ou mande depois:** Oi, Katia, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que os hóspedes da Sunset sempre comentam que você está "always available". Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês e te passa o pedido de reserva pronto pra confirmar. Posso te mostrar em 1 minuto?
+- **Se não encontrar o dono, deixe recado ou mande depois:** Oi, Katia, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi hóspede da Sunset comentando que você está "always available". Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês e te passa o pedido de reserva pronto pra confirmar. Posso te mostrar em 1 minuto?
 - **Anotação:** ________________________________
 
 ## 4. Hospedaria Nativa (RX102)

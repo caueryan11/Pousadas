@@ -73,7 +73,7 @@ _D+2 e D+5 em `mensagens/administradoras.md`_
 > Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. A Pousada Rosa é pioneira daqui, e vi hóspede argentino elogiando o Martin. Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e passa o pedido de reserva pronto. Faz sentido conversar 10 min essa semana?
 
 Versão ES:
-> ¡Hola, Martin! Soy Caue, vivo acá en Rosa y trabajo con tecnología. Vi que huéspedes argentinos te mencionan en las reseñas de la Pousada Rosa. Armé un asistente de WhatsApp que responde 24 h en español, portugués e inglés y pasa el pedido de reserva listo para confirmar. ¿Te lo muestro en 1 minuto?
+> ¡Hola! ¿Cómo andan? Soy Caue, vivo acá en Rosa y trabajo con tecnología. Vi que un huésped argentino menciona a Martin en las reseñas de la Pousada Rosa. Armé un asistente de WhatsApp que responde 24 h en español, portugués e inglés y pasa el pedido de reserva listo para confirmar. ¿Quién maneja las reservas? ¿Se lo muestro en 1 minuto?
 
 _D+2 e D+5 em `mensagens/rosa-ibiraquera-2.md`_
 
@@ -140,7 +140,7 @@ _D+2 e D+5 em `mensagens/ferrugem.md`_
 ## 16. RX21 Pousada Inka — Praia do Rosa
 - **Contato:** +55 48 98822-2868 (só como telefone; conferir se é WhatsApp; fixo 48 3355-6094) · **Plano:** Temporada
 
-> Oi, Diego e Ceci, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que a Inka recebe muita gente de Buenos Aires e tem acesso privado à praia. Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e passa o pedido de reserva pronto pra vocês confirmarem. Faz sentido eu mostrar em 1 minuto?
+> Oi, Diego e Ceci, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi hóspedes de Buenos Aires elogiando vocês no TripAdvisor, e que a Inka tem acesso privado à praia. Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e passa o pedido de reserva pronto pra vocês confirmarem. Faz sentido eu mostrar em 1 minuto?
 
 _D+2 e D+5 em `mensagens/rosa-ibiraquera-1.md`_
 

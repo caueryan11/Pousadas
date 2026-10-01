@@ -59,7 +59,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Particular: "presente na região desde 2016"; CRECI 4569J; 67 anúncios no Imovelweb (inclui venda); @convesimobiliaria (não confirmado).
 - Dor provável: equipe dividida entre venda e temporada; perguntas repetidas para imóveis em várias praias.
 - Oferta: Plano Ano + condição para a carteira, a combinar.
-- **Se não encontrar o dono, deixe recado ou mande depois:** Oi, pessoal da Convés, tudo bem? Sou o Caue, moro na Praia do Rosa e trabalho com tecnologia. Vi que vocês estão na Ferrugem desde 2016 e têm imóveis também na Silveira, Ferraz e Pedra Branca. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as perguntas de cada imóvel e passa o pedido pronto. Posso mostrar em 1 minuto?
+- **Se não encontrar o dono, deixe recado ou mande depois:** Oi, pessoal da Convés, tudo bem? Sou o Caue, moro na Praia do Rosa e trabalho com tecnologia. Vi que vocês estão na região desde 2016, com sede na Ferrugem, e têm imóveis também na Silveira, Ferraz e Pedra Branca. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as perguntas de cada imóvel e passa o pedido pronto. Posso mostrar em 1 minuto?
 - **Anotação:** ________________________________
 
 ## 8. Pousada da Ferrugem (FE01)

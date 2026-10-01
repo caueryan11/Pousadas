@@ -71,7 +71,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Particular: pousada familiar com piscina, desde 1994; gestão "familiar, atenciosa"; equipe 9,2.
 - Dor provável: a família reveza o celular e o WhatsApp não para no verão (hipótese).
 - Oferta: Plano Temporada.
-- **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui perto, no Rosa, e trabalho com tecnologia. Vi que a Paradise é familiar e está aí desde 1994, com hóspede elogiando a gestão atenciosa. Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês e te passa a reserva pronta pra só confirmar. Quem cuida do WhatsApp na família?
+- **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui perto, no Rosa, e trabalho com tecnologia. Vi que a Paradise é familiar, está aí desde 1994 e tem a equipe com nota 9,2 no Booking. Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês e te passa a reserva pronta pra só confirmar. Quem cuida do WhatsApp na família?
 - **Anotação:** ________________________________
 
 ## 9. Pousada Kalua Praia (FE23)

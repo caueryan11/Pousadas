@@ -8,7 +8,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Particular: cabanas com cozinha; acesso privado à praia a 5 min; site com página em espanhol; várias avaliações de Buenos Aires; argentino elogia os donos Diego e Ceci.
 - Dor provável: alto volume de perguntas em espanhol no verão (hipótese). Levar a versão em espanhol na visita, caso a conversa vá por aí.
 - Oferta: Plano Temporada. Público argentino concentrado no verão.
-- **Se não encontrar o dono, deixe recado ou mande depois:** Oi, Diego e Ceci, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que a Inka recebe muita gente de Buenos Aires e tem acesso privado à praia. Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e passa o pedido de reserva pronto pra vocês confirmarem. Faz sentido eu mostrar em 1 minuto?
+- **Se não encontrar o dono, deixe recado ou mande depois:** Oi, Diego e Ceci, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi hóspedes de Buenos Aires elogiando vocês no TripAdvisor, e que a Inka tem acesso privado à praia. Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e passa o pedido de reserva pronto pra vocês confirmarem. Faz sentido eu mostrar em 1 minuto?
 - **Anotação:** ________________________________
 
 ## 2. Pousada Cacau (RX28)
