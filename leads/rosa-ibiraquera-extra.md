@@ -229,3 +229,47 @@ Para próxima rodada: Morada Carmem (Ouvidor), Moradas da Dalvina (Ibiraquera), 
 - RX80: pousadadossoles.com · booking pousada-dos-soles
 - RX81: turismo.imbituba.sc.gov.br/onde-ficar/item/pousada-cravo-e-canella · cravoecanella.com
 - RX82: garopabaimbituba.tur.br/praia-da-barra-de-ibiraquera-pousada-aluguel · instagram.com/pousadapousodasaguassc
+
+---
+
+# Oitava leva (gestoras + pendentes)
+
+| # | Nome | Tipo | Bairro | Telefone / WhatsApp | Instagram | Site | WhatsApp? | Sinal estrangeiro | Avaliações | Prior. | Observação citável |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| RX83 | Fazenda Verde by Neco | complexo de bangalôs pé na areia (23–28 unidades) | Praia do Rosa | WhatsApp +55 48 99699-8074; fixo 48 3355-6060; **contato em Buenos Aires +54 9 11 5015-1928** | não encontrado (Facebook argentino) | sim, fazendaverde.com | sim | **muito forte**: LA NACION chama de "complejo icónico para los argentinos"; tem representante de viagens em Buenos Aires | TripAdvisor 4,6 (229), 4º de 88 | **A (top)** | dono Neco (Cristiano Agrifoglio) chegou ao Rosa em 1985 para surfar e foi pioneiro do turismo (LA NACION, 16/01/2025). Porte médio, dono presente, público argentino: lead ideal para atendimento em espanhol |
+| RX84 | Lá vem Férias | central de reservas e gestão hoteleira (SC e BA) | gere a Pousada Gauleses (RX73) no Rosa | não encontrado (o site cita WhatsApp) | não encontrado | sim, lavemferias.com.br | provável | não encontrado | Gauleses: Booking 9,5 (451) | **A+ (parceria)** | "especializada em performance e ocupação", atua em vários destinos. Pode virar **revenda ou parceira**, não só cliente |
+| RX85 | Moradas da Dalvina | 2 aptos + casa de 4 quartos | Barra de Ibiraquera (R. Porto Belo) | WhatsApp 48 99829-4860 | não (Facebook) | sim, moradasdadalvina.com.br | sim | fraco | não encontrado | **A** | aptos com sacada de frente para a lagoa; casa a 70 m da praia |
+| RX86 | Pousada Portal do Rosa | pousada rústica | Ibiraquera/Rosa | WhatsApp (48) 99137-9417 | não encontrado | sim, pousadaportaldorosa.com.br | sim | não encontrado | TripAdvisor 5/5 | **A** | funciona desde 1996, "rústica e charmosa" |
+| RX87 | Pousada Rosa Maria | 8 cabanas | R. dos Poncianos, 350 m do centrinho | +55 48 99152-2194 | @rosamaria.pdr | não | provável | não encontrado | TripAdvisor (sem nº) | **A** | piscina, jacuzzi, cozinha compartilhada |
+| RX88 | Pousada Beira Rosa | pousada | Estrada Geral do Rosa | fixo (48) 3366-7855 | não encontrado | site simples (ueniweb) | não sei | não encontrado | não encontrado | **C** | pouca presença digital: visita |
+| RX89 | Recanto Zen | cabanas | Ibiraquera (R. dos Lobos), entre Rosa Norte e Ouvidor | 48 98414-5338 | não (Facebook) | sim, recantozen.com | provável | não encontrado | Booking/TripAdvisor (sem nº) | **A** | "pequena, simples, informal", com os anfitriões Thiago e Laura; suíte com hidro dupla e lareira |
+| RX90 | Recanto Bella Rosa | casas para 8–10 pessoas | 100 m do centro do Rosa | 48 9140-2486 (formato antigo) | não encontrado | sim, recantopraiadorosa.com.br | provável | fraco (trivago AR) | não encontrado | **B** | piscina, fogueira, churrasqueira coberta |
+| RX91 | Cabanas do Rosa (Cabanas do Beto) | 10 cabanas | perto da entrada do Rosa Norte | +55 51 99842-1693 (RS) | não encontrado | sim, cabanasdobeto.com.br | provável | site com palavras-chave em espanhol ("playa del rosa, alquiler, posada") | **9,8 (322)**, agregador | **A** | volume alto, dono provavelmente no RS (dono ausente: atendente cobre a distância) |
+| RX92 | Pousada Orquídea da Praia | 10 aptos | Barra de Ibiraquera | WhatsApp (48) 99917-7328 / 99990-7559; fixo 48 3355-0259 | não (Facebook) | sim, orquideadapraia.com.br | sim | listada no ruta0.com (guia argentino) | Booking (1) | **A** | "uma das primeiras e mais antigas pousadas da Barra de Ibiraquera, desde 2000" |
+| RX93 | Pousada Iluminao | casas para 2, 4 e 6 pessoas | Estrada Geral do Rosa, 800 m do centro | (48) 99609-1435; fixo 48 3355-6043 | não (Facebook) | não | provável | não encontrado | não encontrado | **A** | arquitetura mediterrânea; casas com nomes de pedras (Jade, Quartzo Rosa, Coral) |
+| RX94 | Pousada Morada Esperança | pousada 2* | Estrada Geral de Ibiraquera | não encontrado | não encontrado | não | não sei | não encontrado | TripAdvisor 4/5 | **C** | aceita cães, recepção 24h; sem contato |
+| RX95 | Moradas Alma da Lagoa | aptos de 1 e 2 quartos | Praia do Luz | WhatsApp (48) 99664-9997 | não encontrado | não | sim | não encontrado | não encontrado | **A (grupo c/ RX42)** | **mesmo WhatsApp da Doce Cabana (RX42)**: mesmo dono, 2 hospedagens |
+| RX96 | Vibras do Rosa | pousada | Praia do Rosa | não encontrado | não encontrado | não | não sei | **dona argentina** (Yamila Lazzaroni, citada pela LA NACION) | não encontrado | **B** (confirmar existência) | localizar pelo Instagram ou na visita |
+
+Atualizações importantes:
+- **RN10 Morada da Praia do Rosa**: dono argentino (Demian Alaimo, citado pela LA NACION, 29/12/2022); WhatsApp +55 48 99863-3409. Sobe para **A**.
+- **GA01 Moradas da Silveira**: confirmado, dono nascido na Patagônia argentina.
+- **AD18 Praia da Ferrugem Aluguel**: o mesmo WhatsApp (98406-1437) anuncia casa na Ferrugem no portal argentino argentino.com.ar, ou seja, **já busca público argentino**.
+- Igualite Services: só gere a Coração da Terra (o CNPJ homônimo do RJ não foi confirmado).
+
+## Fontes (oitava leva)
+- RX83: fazendaverde.com · tripadvisor d33287811 · facebook.com/praiadorosafazendaverdeargentina · lanacion.com.ar/revista-lugares/...nid16012025
+- RX84: lavemferias.com.br · skyscanner (Gauleses by La Vem Férias)
+- RX85: moradasdadalvina.com.br · garopabaimbituba.tur.br/barra-de-ibiraquera-pousadas-moradas-da-dalvina
+- RX86: pousadaportaldorosa.com.br · tripadvisor d10432913
+- RX87: instagram.com/rosamaria.pdr · tripadvisor d24863743
+- RX88: pousada-beira-rosa.ueniweb.com
+- RX89: recantozen.com · tripadvisor d7313885
+- RX90: recantopraiadorosa.com.br
+- RX91: cabanasdobeto.com.br · kayak 2521602
+- RX92: orquideadapraia.com.br · ruta0.com/imbituba/pousada-orquidea-da-praia.htm
+- RX93: ferias.tur.br/empresa/45316/pousadailuminao
+- RX94: tripadvisor d2511156
+- RX95: garopabaimbituba.tur.br/praia-do-luz-imbituba-sc-pousadas-e-imoveis-de-temporada
+- RX96 / RN10: lanacion.com.ar/sociedad/praia-do-rosa-el-destino-familiar-de-estilo-hippie-chic...nid29122022
+- AD18: argentino.com.ar/brasil-alquiler-temporada-garopaba-en-praia-da-ferrugem-F1B0BC90713D0

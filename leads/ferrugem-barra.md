@@ -98,3 +98,6 @@ Para próxima rodada: Ponta Ferrugem Guest House, Ferrugem Soul Surf Hostel, Res
 - GA51: booking pousada-moradas-da-praia
 - FE28: pedramarca.com.br/contacto · hostelworld 318095
 - FE29: booking reviews pousada-medina-surf-housa · tripadvisor d34233033
+
+| FE30 | Ponta Ferrugem Guest House | guest house só para adultos (7 aptos) | Ferrugem | não encontrado | não encontrado | não | não sei | não encontrado | 5,0 (8) | **C** | yoga, canoa; só aceita dinheiro |
+| FE31 | Ferrugem Soul Surf Hostel | hostel (Airbnb) | Ferrugem, à beira da lagoa | não encontrado | não encontrado | Airbnb | não sei | fraco (airbnb.com.ar) | não encontrado | **C** | "300 m de ondas perfeitas" |

@@ -154,3 +154,7 @@ Surf Lodge Garopaba (Silveira) pertence à Silveira Ecovillage (GA02).
 | GA49 | Pousada Casa Californiana | pousada com piscina | Centro (R. Francisco Pacheco de Souza 788) | não encontrado | não encontrado | não | não sei | fraco (OTAs estrangeiras) | Booking 9,1 (75) | **B** | uma das mais completas do centro, a partir de R$ 247 (blog). Visita |
 | GA50 | Pousada Santa Terezinha | pousada | Centro, 2 quadras da praia | WhatsApp (48) 99979-9773; fixo 48 3254-3108 | não encontrado | sim, pousadasantaterezinha.com.br | sim | não encontrado | não encontrado | **A** | a partir de R$ 197, uma das mais baratas do centro |
 | GA51 | Pousada Moradas da Praia | pousada | Centro (R. Nereu Ramos 209), 100 m da praia | não encontrado | não encontrado | não | não sei | não encontrado | Booking (sem nota) | **B** | anfitriões Daniele e Roger. Visita |
+
+| GA52 | Residencial Ferraz | aptos de temporada | Centro (R. Nereu Ramos 686) | não encontrado | não encontrado | não | não sei | não encontrado | Booking 9,4 | **B** | "anfitriões acolhedores"; visita |
+| GA53 | Garopaba Pousada-Hostel | pousada + hostel | Centro Histórico (R. Aderbal Ramos da Silva 261) | fixo 48 3254-4081 | não (Facebook) | sim, pousadahostelgaropaba.com.br | não sei | não encontrado | 8,5 (156) | **B** | ⚠ mesmo fixo do Residencial da Praça (GA33): provável mesmo dono |
+| GA54 | Morada Carmem | pousada econômica | Ouvidor | não encontrado | não encontrado | não | não sei | não encontrado | não encontrado | **C** | só citada em blog |
