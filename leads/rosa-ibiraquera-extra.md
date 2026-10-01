@@ -9,7 +9,7 @@ Pesquisa: 01/10/2026. Fonte: só WebSearch (trechos). Os sites não puderam ser 
 | RX03 | Pousada Gopak | pousada 3* (12 quartos) | Centro do Rosa (Av. Porto Novo) | WhatsApp +55 48 99181-5113; Simone +55 48 99161-7713 | @pousadagopak | sim, gopak.com.br | provável | não encontrado | TripAdvisor 4,5 (51), 11º de 79 | **A** | é case da HotelariaWeb ("+28% de oportunidades de reservas diretas"): já investe em canal direto. O atendente complementa o site, não concorre com ele. Falar com a Simone |
 | RX04 | Solar Mirador Exclusive Resort & SPA | resort alto padrão | Alto do Rosa | WhatsApp +55 48 99104-6004; fixo 48 3355-6144 | @solarmirador | sim, solarmirador.com.br | provável | não encontrado | TripAdvisor (469), 3º de 65 | **B** (porte maior) | 1,8 ha de mata, vista de 180° do Rosa, spa |
 | RX05 | Pousada Morro do Rosa | pousada (7 quartos com cozinha) | Praia do Rosa (endereço divergente) | fixo +55 48 3355-7203 | @pousadamorrodorosa (~5,6 mil) | sim, pousadamorrodorosa.com.br | não sei | não encontrado | TripAdvisor 4/5, 32º de 65 | **B** | cozinha privativa; quarto padrão a ~R$ 225 |
-| RX06 | Vida Sol e Mar EcoResort | ecoresort (studios, chalés, 14 vilas) | Praia do Rosa | WhatsApp +55 48 99981-0592; fixo 48 3355-6111 | não encontrado | sim, vidasolemar.com.br (/en) | provável | site em inglês; listado no i-escape (agência internacional) | TripAdvisor 3/5 (153) | **B** (porte grande) | área de 50.000 m²; observação de baleias de julho a outubro |
+| RX06 | Vida Sol e Mar EcoResort | ecoresort (studios, chalés, 14 vilas) | Praia do Rosa | WhatsApp +55 48 99981-0592; fixo 48 3355-6111 | não encontrado | sim, vidasolemar.com.br (/en) | provável | **forte**: dono argentino (Enrique Litman, La Nación), um dos pioneiros do Rosa; site em inglês | TripAdvisor 3/5 (153) | **A** (porte grande, dono argentino) | área de 50.000 m²; observação de baleias de julho a outubro |
 | RX07 | Pousada Rosa Paradise | pousada (aptos com cozinha) | Praia do Rosa/Ibiraquera (endereço divergente) | WhatsApp (48) 99207-9646 | @pousadarosaparadise_ | sim, pousadarosaparadise.com.br | provável | não encontrado | Booking 9,8 | **A** | aptos com cozinha; e-mail reservas@ |
 | RX08 | Pousada Rosa 08 | pousada (8 quartos) | R. Fruta do Conde, 150 m do centrinho | +55 48 99166-1425 | não encontrado | sim, pousadarosa08.com.br | não sei | não encontrado | **Booking 9,8 (213)** | **A** | "Café da manhã gourmet e a 150 m do Centrinho"; suítes com banheira, piscina aquecida |
 | RX09 | Bangalôs do Rosa | bangalôs com cozinha | ~200 m do centro | WhatsApp +55 48 99115-0412; fixo 48 3354-0412 | @pousadabangalosdorosa | sim, bangalosdorosa.com.br | provável | não encontrado | **Google 4,3 (133)**; Kayak 8,9 (155); TripAdvisor 4,2 (56) | **A** | todos os bangalôs com cozinha e churrasqueira privativa |
@@ -273,3 +273,13 @@ Atualizações importantes:
 - RX95: garopabaimbituba.tur.br/praia-do-luz-imbituba-sc-pousadas-e-imoveis-de-temporada
 - RX96 / RN10: lanacion.com.ar/sociedad/praia-do-rosa-el-destino-familiar-de-estilo-hippie-chic...nid29122022
 - AD18: argentino.com.ar/brasil-alquiler-temporada-garopaba-en-praia-da-ferrugem-F1B0BC90713D0
+
+---
+
+# Nona leva (donos argentinos, ver `publico-argentino.md`)
+
+| # | Nome | Tipo | Bairro | Telefone / WhatsApp | Instagram | Site | WhatsApp? | Sinal estrangeiro | Avaliações | Prior. | Observação citável |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| RX97 | Pousada Kirana | pousada | Praia do Rosa (R. Fruta do Conde) | não encontrado | não (Facebook) | não | não sei | **dono argentino** (La Nación, 17/01/2026) | não encontrado | **A (top)** | donos Patricio Bengoa e Javier Roseli, ex-jogadores de rugby do Buenos Aires Cricket & Rugby; "con más argentinos" este ano. Visita |
+| RX98 | Pousada Além do Jardim | cabanas | Av. Central do Rosa, 150 m da praia | não encontrado | @alem_do_jardim | sim, cabanasalemdojardim.com.br | não sei | **dono argentino** (Edgardo, La Nación, 22/08/2025) | TripAdvisor (sem nº) | **A (top)** | Edgardo e Laura citados por hóspedes. Comparou o Réveillon a um "viaje de egresados permanente" |
+| RX99 | Pousada Vale da Praia | pousada | Praia do Rosa | não encontrado | não (Facebook) | não | não sei | provável (hóspede: "ojalá haya más argentinos con esas características") | TripAdvisor (sem nº) | **B** | donos Lucas e Daiana. Visita |

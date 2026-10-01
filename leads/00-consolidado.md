@@ -1,10 +1,10 @@
 # Consolidado de leads (gerado por scripts/consolida.py)
 
-Total: **259** leads. A: 128 · A+: 30 · B: 74 · C: 27
+Total: **262** leads. A: 131 · A+: 31 · B: 73 · C: 27
 
 Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada região.
 
-## A+ (administradoras / várias unidades) (30)
+## A+ (administradoras / várias unidades) (31)
 
 | ID | Nome | Bairro | Telefone / WhatsApp | Estrangeiro | Prior. | Status |
 |---|---|---|---|---|---|---|
@@ -12,6 +12,8 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | AD11 | Portal da Ferrugem / Diego Imóveis | Estrada Geral da Ferrugem 3399 | **Reservas (48) 99915-7464**; vendas (48) 99114-9635; fixos 48 3254-0459 / 3254-0355 | não encontrado | A+ (top) | a contatar |
 | AD18 | Praia da Ferrugem Aluguel | Ferrugem | WhatsApp +55 48 98406-1437; fixo 48 3254-0077 | — | A+ (top) | a contatar |
 | AD19 | PRAIADAFERRUGEM.net (Gabriel Jean Burg) | Ferrugem | WhatsApp +55 48 99691-0228; fixo 48 3254-0479 | — | A+ (top, grupo) | a contatar |
+| FE04 | Ferrujão Pousada e Restaurante | R. das Garoupas 50, frente para o mar | WhatsApp (48) 99143-5465; fixo 48 3254-0050 | **forte**: "el 70% de sus huéspedes son argentinos" (sócio César Fritzem, La Nación) | A+ (top, grupo c/ FE08 e FE14) | a contatar |
+| FE08 | Hotel Pousada Capão | R. da Praia 30, Capão (50 m da praia) | WhatsApp +55 48 99189-5307; tel. 48 99144-8922 | não encontrado | A+ (top, grupo c/ FE04 e FE14) | a contatar |
 | IB12 | Casas Ibiraquera | Ibiraquera | WhatsApp (48) 99184-1040; fixo 48 3255-1277 | não encontrado | A+ (top, grupo c/ RX66) | a contatar |
 | AD01 | Alexia Consultoria Imobiliária | Praia do Rosa (Estrada Geral); diz atuar também em Garopaba, Silveira e Ferrugem | (48) 99167-8144 / (48) 99125-8251 | site com URLs em inglês (/for-rent), sem evidência de público | A+ | a contatar |
 | AD02 | Imobiliária Trip | Av. Porto Novo; casas no Rosa, Rosa Norte e Alto Arroio | (48) 99152-7670 | não encontrado | A+ | a contatar |
@@ -26,7 +28,6 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | AD20 | Convés Imobiliária | sede na Ferrugem; Silveira, Centro, Ferraz, Pedra Branca | +55 48 98486-8635 | — | A+ | a contatar |
 | AD21 | Gralha Azul Locações | Garopaba e Imbituba (Praia da Vila; Av. Dr. João Rimsa 601) | +55 48 99947-0377 | — | A+ | a contatar |
 | AD22 | Praia do Rosa Imóveis | Praia do Rosa | WhatsApp (48) 99943-8969; 48 99684-1559; fixo 48 3355-7000 | — | A+ | a contatar |
-| FE08 | Hotel Pousada Capão | R. da Praia 30, Capão (50 m da praia) | WhatsApp +55 48 99189-5307; tel. 48 99144-8922 | não encontrado | A+ (grupo c/ FE14) | a contatar |
 | FE14 | Pousada Pé na Areia | Capão (R. das Casuarinas) | WhatsApp +55 48 99189-5307; 48 99144-8922 | não encontrado | A+ (grupo c/ FE08) | a contatar |
 | FE17 | Pousada Canoa Azul | Estrada Geral da Ferrugem 3003 | WhatsApp (48) 99645-6461; 48 99691-0228 | não encontrado | A+ (grupo 99691-0228) | a contatar |
 | FE18 | Pousada El Pátio da Ferrugem | Estrada Geral 4970 | (48) 99645-6461 / 99691-0228; fixo 48 3254-0134 | fraco (listagem em espanhol) | A+ (grupo) | a contatar |
@@ -39,7 +40,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX66 | Pousada Vila dos Coqueiros | Barra de Ibiraquera (R. Custódia de Carvalho Ferreira 317) | WhatsApp 48 99154-8802 / 48 99184-1040; fixo 48 3255-1277 | não encontrado | A+ (grupo c/ IB12) | a contatar |
 | RX84 | Lá vem Férias | gere a Pousada Gauleses (RX73) no Rosa | não encontrado (o site cita WhatsApp) | não encontrado | A+ (parceria) | a contatar |
 
-## A (pousadas-alvo) (128)
+## A (pousadas-alvo) (131)
 
 | ID | Nome | Bairro | Telefone / WhatsApp | Estrangeiro | Prior. | Status |
 |---|---|---|---|---|---|---|
@@ -55,12 +56,13 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX75 | Pousada Rosa | Av. Porto Novo | WhatsApp +55 48 99814-0433 | **forte**: avaliações de argentinos de Formosa (jan/2026) e Rosário (jan/2025); hóspede cita o atendente "Martin, de la Argentina" | A (top) | a contatar |
 | RX76 | Pousada Sol & Sal | Praia do Rosa | WhatsApp +55 48 99613-4015; fixo 48 3355-7414 | não encontrado | A (top) | a contatar |
 | RX83 | Fazenda Verde by Neco | Praia do Rosa | WhatsApp +55 48 99699-8074; fixo 48 3355-6060; **contato em Buenos Aires +54 9 11 5015-1928** | **muito forte**: LA NACION chama de "complejo icónico para los argentinos"; tem representante de viagens em Buenos Aires | A (top) | a contatar |
+| RX97 | Pousada Kirana | Praia do Rosa (R. Fruta do Conde) | não encontrado | **dono argentino** (La Nación, 17/01/2026) | A (top) | a contatar |
+| RX98 | Pousada Além do Jardim | Av. Central do Rosa, 150 m da praia | não encontrado | **dono argentino** (Edgardo, La Nación, 22/08/2025) | A (top) | a contatar |
 | AD23 | Flor do Mar – Casas para Alugar | Praia do Rosa, 100 m do mar | fixo 48 3355-7102 (celular em formato antigo) | — | A | a contatar |
 | AD24 | Mirante da Barra | Barra de Ibiraquera, beira da lagoa | WhatsApp 48 99955-9695 | — | A | a contatar |
 | FE01 | Pousada da Ferrugem | Estrada Geral do Capão 4250 | WhatsApp (48) 99160-6336; fixo (48) 3254-0068 | listada em diretório em espanhol; avaliação em inglês no Booking | A | a contatar |
 | FE02 | Pousada da Praia Ferrugem | Rua da Praia, Ferrugem | +55 48 99221-9093 (tel. e WhatsApp) | não encontrado | A | a contatar |
 | FE03 | Pousada do Morro | Estrada Geral do Capão (~400 m da praia) | Fone/WhatsApp (48) 99973-4016 | site em inglês | A | a contatar |
-| FE04 | Ferrujão Pousada e Restaurante | R. das Garoupas 50, frente para o mar | WhatsApp (48) 99143-5465; fixo 48 3254-0050 | não encontrado | A | a contatar |
 | FE05 | Pousada Buena Onda | R. das Baleias 22, 50 m da praia | WhatsApp (48) 99175-8619 | só o nome em espanhol | A | a contatar |
 | FE06 | Pousada Sol da Ferrugem | R. Jardim da Lagoa 100 | WhatsApp (48) 99971-6622; fixo 48 3254-0049 | não encontrado | A | a contatar |
 | FE07 | Pousada das Palmeiras | Estrada Geral da Ferrugem 3677 | WhatsApp/fone (48) 99110-4586 | não encontrado | A | a contatar |
@@ -79,6 +81,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | GA02 | Silveira Ecovillage | Alto do morro da Silveira | WhatsApp (48) 99182-0512; fixo 48 3354-1740 | avaliações em inglês no TripAdvisor | A | a contatar |
 | GA03 | Morada Prainha | Silveira, canto sul | fixo 48 3354-1182 (celular não encontrado) | **sim**: avaliações em inglês | A | a contatar |
 | GA05 | Pousada Recanto do Siriú | Siriú, 30 m da praia | (48) 99977-4645; fixo 48 3245-5323 | não encontrado | A | a contatar |
+| GA06 | Marina da Praia Residence | Siriú | +55 48 99972-5807 / 48 99111-1538 | blog argentino recomenda "la pousada de René"; famílias de Córdoba e Buenos Aires | A | a contatar |
 | GA12 | Pousada Bronzatto | Centro, 50 m da praia | WhatsApp (48) 99111-4936; fixo 48 3254-3873 | não encontrado | A | a contatar |
 | GA13 | Pousada Village Garopaba | Centro, 800 m da praia | WhatsApp +55 48 99967-1170 | não encontrado | A | a contatar |
 | GA19 | Pousada Barbatana | Ferrugem centro | WhatsApp 48 99176-8327 / 99670-0122; fixo 48 3254-0112 | fraco | A (grupo c/ FE15) | a contatar |
@@ -119,6 +122,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RS09 | Pousada Descanso do Rei | R. Seu Mané Chico, 300 m do centro | celular/WhatsApp (48) 99864-1316; fixo 48 3355-7124 | **forte**: site com página em espanhol e avaliação em espanhol no tripadvisor.es | A | a contatar |
 | RX02 | Shiva Boutique Hotel | 120 m do centro do Rosa | (48) 98484-2441 | não encontrado | A | a contatar |
 | RX03 | Pousada Gopak | Centro do Rosa (Av. Porto Novo) | WhatsApp +55 48 99181-5113; Simone +55 48 99161-7713 | não encontrado | A | a contatar |
+| RX06 | Vida Sol e Mar EcoResort | Praia do Rosa | WhatsApp +55 48 99981-0592; fixo 48 3355-6111 | **forte**: dono argentino (Enrique Litman, La Nación), um dos pioneiros do Rosa; site em inglês | A | a contatar |
 | RX07 | Pousada Rosa Paradise | Praia do Rosa/Ibiraquera (endereço divergente) | WhatsApp (48) 99207-9646 | não encontrado | A | a contatar |
 | RX08 | Pousada Rosa 08 | R. Fruta do Conde, 150 m do centrinho | +55 48 99166-1425 | não encontrado | A | a contatar |
 | RX09 | Bangalôs do Rosa | ~200 m do centro | WhatsApp +55 48 99115-0412; fixo 48 3354-0412 | não encontrado | A | a contatar |
@@ -172,7 +176,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX93 | Pousada Iluminao | Estrada Geral do Rosa, 800 m do centro | (48) 99609-1435; fixo 48 3355-6043 | não encontrado | A | a contatar |
 | RX95 | Moradas Alma da Lagoa | Praia do Luz | WhatsApp (48) 99664-9997 | não encontrado | A (grupo c/ RX42) | a contatar |
 
-## B (visita / segunda onda) (74)
+## B (visita / segunda onda) (73)
 
 | ID | Nome | Bairro | Telefone / WhatsApp | Estrangeiro | Prior. | Status |
 |---|---|---|---|---|---|---|
@@ -188,7 +192,6 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | FE11 | Pousada Moradas da Barra | Praia da Barra | (48) 3254-0269; (51) 99841-8481 | não encontrado | B | a contatar |
 | FE20 | Pousada do Boto | Estrada Geral do Capão 3660 | WhatsApp (48) 99941-9887 / 99212-7861; fixo 48 3254-0056 | não encontrado | B | a contatar |
 | FE25 | Pousada Estação Ferrugem | R. Jardim da Lagoa, 300 m da praia | fixo +55 48 3254-0306 | não encontrado | B | a contatar |
-| GA06 | Marina da Praia Residence | Siriú | +55 48 99972-5807 / 48 99111-1538 | não encontrado | B | a contatar |
 | GA07 | Pousada Costão do Siriú | Siriú | +55 48 99981-6640 | não encontrado | B | a contatar |
 | GA10 | Pousada Porto dos Casais | divisa Ouvidor/Rosa | fixo +55 48 3354-0147 | não encontrado | B | a contatar |
 | GA14 | Pousada da Praia | Centro, frente para a praia | fixo (48) 3254-3334 | não encontrado | B | a contatar |
@@ -227,7 +230,6 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RS08 | Coração da Terra | localização divergente (canto sul ou centro) | não encontrado (trecho: "contato por WhatsApp") | não encontrado | B | a contatar |
 | RX04 | Solar Mirador Exclusive Resort & SPA | Alto do Rosa | WhatsApp +55 48 99104-6004; fixo 48 3355-6144 | não encontrado | B | a contatar |
 | RX05 | Pousada Morro do Rosa | Praia do Rosa (endereço divergente) | fixo +55 48 3355-7203 | não encontrado | B | a contatar |
-| RX06 | Vida Sol e Mar EcoResort | Praia do Rosa | WhatsApp +55 48 99981-0592; fixo 48 3355-6111 | site em inglês; listado no i-escape (agência internacional) | B | a contatar |
 | RX14 | Pousada Lagoa dos Ventos | Barra de Ibiraquera (R. Porto Belo) | +55 51 99988-8698 / 51 3582-7850 (RS) | não encontrado | B | a contatar |
 | RX15 | Hostel Vale do Rosa | Estrada Geral, ~500 m do centro | WhatsApp (48) 99806-2560 | fraco (listado em sites internacionais de hostels) | B | a contatar |
 | RX25 | Sal do Mar Cabanas Charme | Praia do Rosa | 48 99146-7564 | não encontrado | B | a contatar |
@@ -250,6 +252,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX78 | Pousada Rosa da Praia | Centro do Rosa | 48 9680-0650 (formato antigo) | não encontrado | B | a contatar |
 | RX90 | Recanto Bella Rosa | 100 m do centro do Rosa | 48 9140-2486 (formato antigo) | fraco (trivago AR) | B | a contatar |
 | RX96 | Vibras do Rosa | Praia do Rosa | não encontrado | **dona argentina** (Yamila Lazzaroni, citada pela LA NACION) | B | a contatar |
+| RX99 | Pousada Vale da Praia | Praia do Rosa | não encontrado | provável (hóspede: "ojalá haya más argentinos con esas características") | B | a contatar |
 
 ## C (deixar para depois) (27)
 
