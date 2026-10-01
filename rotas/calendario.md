@@ -45,3 +45,9 @@ Para fechar 10 até 15/11, uma conta de bolso:
 
 ## Como me usar no dia a dia
 Cole aqui as respostas ou as anotações das visitas ("Barra Mar: falei com o dono, pediu vídeo") e eu atualizo o status em `leads/leads.csv` / `00-consolidado.md` e digo quem chamar no dia seguinte.
+
+## Lotes de WhatsApp prontos
+`rotas/whatsapp-lote-01.md` a `whatsapp-lote-09.md`: **20 contatos por lote**, com o contato e a Msg 1 prontos para copiar (PT e, quando cabe, ES). Um lote por dia de WhatsApp, na ordem.
+- **Quem você já visitou não recebe a Msg 1**: só um "foi bom te conhecer" com o vídeo, se pedirem.
+- Quando o contato for "DM @..." ou "visita", não use o WhatsApp: mande pelo Instagram ou passe lá.
+- Grupos aparecem uma vez só (o primeiro ID). Os outros IDs do grupo estão como "ver grupo".
