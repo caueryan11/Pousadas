@@ -36,3 +36,42 @@ Nota: matéria do rionegro.com.ar fala de uma argentina de Cinco Saltos ("Gogui"
 - GA12: pousadabronzatto.com.br/contato · turismo.garopaba.sc.gov.br/post-19336
 - GA13: villagegaropaba.com/reservas · instagram.com/villagegaropaba · tripadvisor d5565270
 - GA14: pousadadapraiagaropaba.com.br/reservas.php
+
+---
+
+# Segunda leva (Garopaba e Ferrugem)
+
+| # | Nome | Tipo | Bairro | Telefone / WhatsApp | Instagram | Site | WhatsApp? | Sinal estrangeiro | Avaliações | Prior. | Observação citável |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| GA15 | Zangabai | lofts e aptos premium | Praia da Barra (Estrada Geral 2202) | não encontrado | @zangabaibarra | sim, zangabaibarra.com | não sei | não encontrado | Booking 9,5 | **B** | sauna, hammam e quadra de tênis; ~600 m da praia da Barra. Contato pelo Instagram |
+| GA16 | Pousada Beira Mar Ferrugem | pousada (**JJ Hotels Group**) | Ferrugem, canto norte | central (48) 3254-0100 (também WhatsApp) | @pousadabeiramarferrugem | sim | sim | não encontrado | Booking 7,6 | **C** (rede, central de reservas) | "a mais tradicional da Ferrugem". Se fechar com o grupo, pega várias pousadas de uma vez (falar com a central) |
+| GA17 | Pousada A Cabana | pousada com piscina em deck | Estrada Geral da Ferrugem | WhatsApp (48) 99192-5548 | @pousadacabana | sim, pousada-cabana.com (/pousada_es) | sim | **site em espanhol** | **Google 4,7 (206)**; Booking 9,3 (278); TripAdvisor 4,5 (~44) | **A (top)** | hóspedes elogiam o anfitrião "João" (equipe 9,7 no Booking) |
+| GA18 | Pousada Bem Te Vi | hostel/pousada (até 70 pessoas), pet friendly | Ferrugem (R. Jardim das Flores 90) | WhatsApp +55 48 99180-0190 | @pousadabemtevi_garopaba (não confirmado) | não (Cloudbeds) | sim | não encontrado | Hotels.com 6,2 (10) | **B** | café elogiado; reclamações de manutenção |
+| GA19 | Pousada Barbatana | pousada + pizzaria | Ferrugem centro | WhatsApp 48 99176-8327 / 99670-0122; fixo 48 3254-0112 | @pousadabarbatanasc | sim, pousadabarbatana.com.br | sim | fraco | 8,8 (99), plataforma não identificada | **A** | "mais de 30 anos de tradição", a 100 m do mar |
+| GA20 | Pousada Palhocinha | pousada (**JJ Hotels Group**), pet R$ 35/dia | Ferrugem | central 48 3254-0100; recepção 48 99189-3019 | não encontrado | sim | não sei | não encontrado | TripAdvisor 4,3 (51) | **C** | rede; anunciada à venda por R$ 5,98 mi |
+| GA21 | Hotel Pousada da Lagoa | pousada rústica (17 aptos), pet friendly | Centro, 500 m da praia | WhatsApp (48) 99140-2028; fixo 48 3254-3201 | não encontrado | sim, pousadadalagoa.com.br | sim | não encontrado | **TripAdvisor 4,7 (158)**, 3º de 43; Booking 9,6 (90+) | **A** | sauna com sala de repouso; piscina sazonal; aceita pet |
+| GA22 | Pousada Maria do Mar | pousada simples | Ferrugem, 400 m do mar | fixo 48 3254-0383 | não (Facebook) | não | não sei | fraco (avaliação em inglês) | TripAdvisor 4/5 (4) | **C** | "like a home away from home"; sem celular visível |
+| GA23 | Mares do Sul Pousada | B&B | Centro (R. Francisco Pacheco de Souza 393) | fixo 48 3354-1921; reserva@ | @pousadamaresdosulof | sim, maresdosulpousada.com.br | não sei | não encontrado | Kayak 9,4 (208); TripAdvisor 4,5 (52), "melhor custo-benefício no centro" | **B** | nota 4,7 em serviço. Só fixo e e-mail: abordar pelo Instagram ou visita |
+| GA24 | Pousada do Sol Garopaba | pousada | Centro (R. Francisco Pacheco de Souza 607) | WhatsApp (48) 99653-2997; fixo 48 3254-4350 | @pousadadosolgaropaba | sim, pousadadosolgaropaba.com.br | sim | não encontrado | **TripAdvisor 4,8 (159)** | **A** | listada como "#2 of 122 B&Bs" no TripAdvisor |
+| GA25 | Pousada Poente do Sol | pousada | Centro (R. Viúva Maria Antônia dos Santos 489) | WhatsApp (48) 99696-4007; fixo 48 3254-4991 | não encontrado | sim, pousadapoentedosol.com.br | sim | não encontrado | não encontrado | **A** | reserva direta pelo site |
+| GA26 | Pousada Recanto da Vigia | pousada | Centro Histórico | fixo 48 3254-3610 (celular em formato antigo) | não encontrado | não | não sei | não encontrado | não encontrado | **B** | "menos de 70 m do mar e da igreja matriz" (visita) |
+| GA27 | Pousada Caminho do Mar ("MADHOUZE") | pousada, pet friendly | Capão/Ferrugem (R. das Casuarinas 80) | WhatsApp +55 48 99915-7464; 48 99114-9635 | não encontrado | sim, caminhodomarferrugem.com.br | sim | não encontrado | Booking (332) | **A+ (ligada à AD11)** | ⚠ **mesmos telefones do Portal da Ferrugem / Diego Imóveis (AD11)**: a mesma empresa gere pousada + carteira de temporada. Abordar junto com a AD11 |
+| GA28 | Pousada Baleia Franca + Canto da Sereia | 2 pousadas, provavelmente do mesmo dono | Ferrugem (R. das Baleias) | fixos 48 3254-0145 / 48 3254-0001 | não (Facebook) | não | não sei | não encontrado | não encontrado | **B** | listadas juntas no TripAdvisor. Visita (só fixo) |
+
+Extras pouco detalhados: Casa da Silveira (casa de 4 quartos, WhatsApp +55 51 99352-2871); Residencial Serra e Mar (Siriú, número antigo); Pousada Mare Mar; Village Siriú; Studio Siriú Sol Nascente.
+
+## Fontes (segunda leva)
+- GA15: booking zangabai · zangabaibarra.com/informacoes
+- GA16: turismo.garopaba.sc.gov.br/onde-ficar/item/pousada-beira-mar-ferrugem · jjhotelsgroup.com/en/pousada-beira-mar
+- GA17: booking reviews pousada-a-cabana · tripadvisor d4307812 · pousada-cabana.com/pousada_es
+- GA18: tripadvisor d12912266 · hotels.cloudbeds.com/pt-br/reservas/kMUBy7
+- GA19: maisferrugem.com.br/pousada-barbatana · booking pousada-barbatana
+- GA20: jjhotelsgroup.com/en/pousada-palhocinha
+- GA21: pousadadalagoa.com.br · tripadvisor d2668491
+- GA22: tripadvisor d12675232
+- GA23: maresdosulpousada.com.br · tripadvisor d2569737
+- GA24: pousadadosolgaropaba.com.br · tripadvisor d5256986
+- GA25: pousadapoentedosol.com.br/contato.php
+- GA26: maispousadas.com.br/pousadas-em-garopaba-sc/pousada-recanto-da-vigia.html
+- GA27: caminhodomarferrugem.com.br · booking reviews pousada-caminho-do-mar-garopaba · tripadvisor d20378485
+- GA28: tripadvisor d12904646 · facebook.com/baleiafrancaferrugem
