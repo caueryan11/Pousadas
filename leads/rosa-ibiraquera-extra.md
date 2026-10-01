@@ -310,3 +310,15 @@ Nota: "Pousada Demarchi" (ruta0, TripAdvisor 4,3 com 51 avaliações) é o **nom
 | RX121 | Moradas do Vale Praia do Rosa | moradas/aptos | R. dos Poncianos | WhatsApp +55 48 99165-6263 | não encontrado | sim, moradasdovalepraiadorosa.com.br (/en) | sim | site em inglês | não encontrado | **A** | 1,3 km da praia |
 | RX122 | ElCa Morada do Sonho | 2 cabanas + 2 studios | R. Mogno 188 | WhatsApp 48 99812-5147 | não encontrado | sim, elcapraiadorosa.com.br | sim | fraco | TripAdvisor | **A** | "para casais, famílias, surfistas" |
 | RX123 | Pousada Oásis | 5 suítes + 2 cabanas | R. John Lennon | fixo 48 3355-7230 (celular antigo) | não encontrado | não | não sei | ruta0 | não encontrado | **C** | contato desatualizado |
+
+---
+
+# Décima primeira leva (Rosa e Ibiraquera)
+
+| # | Nome | Tipo | Bairro | Telefone / WhatsApp | Instagram | Site | WhatsApp? | Sinal estrangeiro | Avaliações | Prior. | Observação citável |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| RX124 | Morada Crisálida | pousada com cozinha | Praia do Rosa | WhatsApp +55 48 99951-9099; fixo 48 3355-7090 | não (Facebook) | sim, moradacrisalida.com.br | sim | não encontrado | TripAdvisor 4/5 | **A** | gerida pelos donos, Carlos e Laura |
+| RX125 | Morada das Baleias | pousada | Estrada Geral do Rosa | WhatsApp +55 48 98809-9708 | não encontrado | sim, moradadasbaleias.com.br | sim | não encontrado | não encontrado | **A** | — |
+| RX126 | Morada do Pity | 8 casas, pet friendly | Ibiraquera (Av. Paraíso do Luz 1) | WhatsApp +55 48 99997-0448 | não encontrado | sim, moradadopity.com.br | sim | não encontrado | 10 avaliações | **A** | caiaque, SUP e aulas de surf; aceita pet |
+| RX127 | Hotel Praia do Rosa | hotel | centrinho | (48) 99119-3330; fixo 48 3355-7319 | @hotelpraiadorosa | sim, hotelpraiadorosa.com.br | provável | não encontrado | não encontrado | **B** | 50 m da rua principal |
+| RX128 | Pousada Morada Madu | flats com piscina | centrinho, <300 m | (47) 99976-8080 (reservas) | @pousadamadu_ (conferir) | sim, moradamadu.com.br | provável | não encontrado | **Booking 9,9 (26)** | **A** | DDD 47: dono provavelmente fora (dono ausente) |

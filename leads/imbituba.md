@@ -62,3 +62,8 @@ Pousada Maria (Vila Nova, (48) 99103-7727): anunciada à venda, provavelmente fe
 - IM20: barradeibiraquera.com.br/cabanas-hamarhavida-praia-da-ribanceira-imbituba · tripadvisor d16989776
 - IM21: booking pousada-tio-bilia-imbituba12
 - IM22: tripadvisor d6544481
+
+| IM23 | Gara Hospedaria (Gara 1, 2/Studio Imbé, 3) | 3 studios | Centro, 800 m da Praia da Vila | +55 48 99967-0169 | não (Facebook) | não | provável | não encontrado | Booking 9,4–9,7 | **A** | anfitrião Humberto citado nas avaliações; 3 unidades, um só dono |
+| IM24 | Casa e Kitnets Praia da Vila | kitnets | R. José Heitich 30 | não encontrado | não encontrado | não | não sei | não encontrado | **Booking 9,1 (128)** | **B** | vista para o mar; sem contato |
+| IM25 | Chalé Gregório | chalé | Vila Alvorada | não encontrado | não encontrado | não | não sei | não encontrado | 9,8 (68) | **C** | donos "muito simpáticos e hospitaleiros" |
+| IM26 | Recanto Nativos | chalés | Siriú (Garopaba) | não encontrado | não confirmado | não | não sei | não encontrado | Booking 9,1 (41) | **C** | — |

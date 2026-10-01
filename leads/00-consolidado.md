@@ -1,6 +1,6 @@
 # Consolidado de leads (gerado por scripts/consolida.py)
 
-Total: **295** leads. A: 149 · A+: 34 · B: 78 · C: 34
+Total: **311** leads. A: 155 · A+: 34 · B: 83 · C: 39
 
 Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada região.
 
@@ -43,7 +43,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX66 | Pousada Vila dos Coqueiros | Barra de Ibiraquera (R. Custódia de Carvalho Ferreira 317) | WhatsApp 48 99154-8802 / 48 99184-1040; fixo 48 3255-1277 | não encontrado | A+ (grupo c/ IB12) | a contatar |
 | RX84 | Lá vem Férias | gere a Pousada Gauleses (RX73) no Rosa | não encontrado (o site cita WhatsApp) | não encontrado | A+ (parceria) | a contatar |
 
-## A (pousadas-alvo) (149)
+## A (pousadas-alvo) (155)
 
 | ID | Nome | Bairro | Telefone / WhatsApp | Estrangeiro | Prior. | Status |
 |---|---|---|---|---|---|---|
@@ -104,6 +104,8 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | GA43 | Pousada Saint Germain | Silveira (entrada da praia) | +55 48 99670-3234 | não encontrado | A | a contatar |
 | GA44 | Pousada do Taxo | Siriú, 500 m do mar | WhatsApp +55 48 99162-0343; fixo 48 3355-0412 | não encontrado | A | a contatar |
 | GA50 | Pousada Santa Terezinha | Centro, 2 quadras da praia | WhatsApp (48) 99979-9773; fixo 48 3254-3108 | não encontrado | A | a contatar |
+| GA61 | Residencial Colibri | Centro, 300 m da rodoviária | +55 48 99616-2002 | não encontrado | A | a contatar |
+| GA65 | Dunas Studios | em frente às Dunas do Siriú | via Instagram (bio: atende por WhatsApp) | não encontrado | A | a contatar |
 | IB01 | Pousada Barra Mar | Barra de Ibiraquera (Av. Sul 2400) | WhatsApp msg (48) 99991-7146; lig. (48) 99926-5885; fixo 48 3355-0007 | **sim**: avaliação em espanhol de uruguaio no Booking | A | a contatar |
 | IB02 | Pousada Natural Park | Praia do Luz / Ibiraquera (Av. Paraíso do Luz 2001) | (48) 99967-4260; fixo (48) 3355-6488 | não encontrado | A | a contatar |
 | IB03 | Pousada Toca da Lagoa | Barra de Ibiraquera (R. Porto Seguro) | (48) 99155-5530 | não encontrado | A | a contatar |
@@ -149,6 +151,10 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX120 | Morada Céu do Rosa | R. dos Poncianos 90 | WhatsApp +55 47 99234-6275 | fraco | A | a contatar |
 | RX121 | Moradas do Vale Praia do Rosa | R. dos Poncianos | WhatsApp +55 48 99165-6263 | site em inglês | A | a contatar |
 | RX122 | ElCa Morada do Sonho | R. Mogno 188 | WhatsApp 48 99812-5147 | fraco | A | a contatar |
+| RX124 | Morada Crisálida | Praia do Rosa | WhatsApp +55 48 99951-9099; fixo 48 3355-7090 | não encontrado | A | a contatar |
+| RX125 | Morada das Baleias | Estrada Geral do Rosa | WhatsApp +55 48 98809-9708 | não encontrado | A | a contatar |
+| RX126 | Morada do Pity | Ibiraquera (Av. Paraíso do Luz 1) | WhatsApp +55 48 99997-0448 | não encontrado | A | a contatar |
+| RX128 | Pousada Morada Madu | centrinho, <300 m | (47) 99976-8080 (reservas) | não encontrado | A | a contatar |
 | RX13 | Pousada do Paraíso | Barra de Ibiraquera (R. 15 Leste, 2) | WhatsApp (48) 99114-2252; fixo 48 3355-0116 | não encontrado | A | a contatar |
 | RX16 | Villa Gardena Suítes | R. Mané Chico (Rosa) | +55 48 99129-6363 | avaliações em inglês no TripAdvisor | A | a contatar |
 | RX17 | Pousada Vivenda do Rosa | Centro do Rosa | (48) 98416-0188 | não encontrado | A | a contatar |
@@ -197,7 +203,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX93 | Pousada Iluminao | Estrada Geral do Rosa, 800 m do centro | (48) 99609-1435; fixo 48 3355-6043 | não encontrado | A | a contatar |
 | RX95 | Moradas Alma da Lagoa | Praia do Luz | WhatsApp (48) 99664-9997 | não encontrado | A (grupo c/ RX42) | a contatar |
 
-## B (visita / segunda onda) (78)
+## B (visita / segunda onda) (83)
 
 | ID | Nome | Bairro | Telefone / WhatsApp | Estrangeiro | Prior. | Status |
 |---|---|---|---|---|---|---|
@@ -229,6 +235,10 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | GA48 | Silveira Beach House | Silveira, canto sul | não encontrado | provável (anúncio em inglês) | B | a contatar |
 | GA49 | Pousada Casa Californiana | Centro (R. Francisco Pacheco de Souza 788) | não encontrado | fraco (OTAs estrangeiras) | B | a contatar |
 | GA51 | Pousada Moradas da Praia | Centro (R. Nereu Ramos 209), 100 m da praia | não encontrado | não encontrado | B | a contatar |
+| GA57 | Lobo Hotel | Centro, 70 m do mar | WhatsApp 48 99130-3731; fixos 48 3254-3823 / 3745 | não encontrado | B | a contatar |
+| GA58 | Hotel Garopaba | Centro, frente à praia central | WhatsApp (48) 99986-5146 (recepção 24h); fixo 48 3254-3126 | não encontrado | B | a contatar |
+| GA60 | Pousada Nanaco | Centro (R. Francisco Pacheco de Souza 708) | fixo 48 3254-3911 | não encontrado | B | a contatar |
+| GA62 | Residencial Franca | Centro (R. Elmo Kinseski 694) | não encontrado | não encontrado | B | a contatar |
 | IB06 | Pousada Paraíso da Lagoa | Barra de Ibiraquera (R. Porto Belo) | não confirmado (snippet: 48 99961-1106) | não encontrado | B | a contatar |
 | IB08 | Pousada LagoaMar | Barra de Ibiraquera, 80 m da praia | fixo +55 48 3355-0640 | não encontrado | B | a contatar |
 | IB09 | Pousada Estação Ibiraquera | Barra de Ibiraquera (R. Porto Belo) | (48) 99602-8325 / (51) 99976-9598 | não encontrado | B | a contatar |
@@ -256,6 +266,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX109 | Pousada Wakai | Av. Central do Rosa 45 | +55 48 99635-9855 | ruta0 | B | a contatar |
 | RX110 | Cabana Nara Hari B&B | alto do morro, Estrada Geral de Ibiraquera | não encontrado | ruta0; oferece transfer do aeroporto | B | a contatar |
 | RX111 | Pousada Biso Finoca | Ibiraquera | não encontrado | ruta0 | B | a contatar |
+| RX127 | Hotel Praia do Rosa | centrinho | (48) 99119-3330; fixo 48 3355-7319 | não encontrado | B | a contatar |
 | RX14 | Pousada Lagoa dos Ventos | Barra de Ibiraquera (R. Porto Belo) | +55 51 99988-8698 / 51 3582-7850 (RS) | não encontrado | B | a contatar |
 | RX15 | Hostel Vale do Rosa | Estrada Geral, ~500 m do centro | WhatsApp (48) 99806-2560 | fraco (listado em sites internacionais de hostels) | B | a contatar |
 | RX25 | Sal do Mar Cabanas Charme | Praia do Rosa | 48 99146-7564 | não encontrado | B | a contatar |
@@ -280,7 +291,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX96 | Vibras do Rosa | Praia do Rosa | não encontrado | **dona argentina** (Yamila Lazzaroni, citada pela LA NACION) | B | a contatar |
 | RX99 | Pousada Vale da Praia | Praia do Rosa | não encontrado | provável (hóspede: "ojalá haya más argentinos con esas características") | B | a contatar |
 
-## C (deixar para depois) (34)
+## C (deixar para depois) (39)
 
 | ID | Nome | Bairro | Telefone / WhatsApp | Estrangeiro | Prior. | Status |
 |---|---|---|---|---|---|---|
@@ -297,6 +308,11 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | GA41 | Village Siriú | Siriú | não encontrado | não encontrado | C | a contatar |
 | GA46 | Residencial Serra e Mar | Siriú | (48) 9959-3558 (formato antigo) | não encontrado | C | a contatar |
 | GA47 | Akampa Siriú | Siriú, 100 m da praia | (48) 99820-0785 | não encontrado | C | a contatar |
+| GA59 | Candeias Basfak Praia | Centro | fixo 48 3254-4507 | não encontrado | C | a contatar |
+| GA63 | Casa 3Jotas | perto da Vigia | não encontrado | não encontrado | C | a contatar |
+| GA64 | Garopaba Hostel | Centro (R. Prof. Antônio José Botelho 334) | não encontrado | não encontrado | C | a contatar |
+| GA66 | Residencial Quinta dos Açores | 2 km do centro | não encontrado | não encontrado | C | a contatar |
+| GA67 | Studio Centro Garopaba | Centro | não encontrado | não encontrado | C | a contatar |
 | IM02 | Pousada da Villa | Vila Nova, 30 m do mar | +55 51 3395-2449 (DDD 51) | não encontrado | C | a contatar |
 | IM03 | Nossa Pousada | Vila Nova | não encontrado | não encontrado | C | a contatar |
 | IM08 | Pousada Belas Praia | Ribanceira | não encontrado | não encontrado | C | a contatar |

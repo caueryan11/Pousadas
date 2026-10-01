@@ -161,3 +161,24 @@ Surf Lodge Garopaba (Silveira) pertence à Silveira Ecovillage (GA02).
 
 | GA55 | Bangalore Suites | pousada (6 quartos) | Morro da Silveira | não encontrado | não encontrado | não | não sei | avaliações em inglês ("11 out of 10") | **Booking 9,8 (146)** | **A** (achar contato) | "breakfast… the best many have had". Visita ou Booking |
 | GA56 | Moradas Vô Ary | moradas | Centro de Garopaba | não encontrado | não encontrado | não | não sei | ruta0 | não encontrado | **C** | — |
+
+---
+
+# Sexta leva (Garopaba Centro)
+
+| # | Nome | Tipo | Bairro | Telefone / WhatsApp | Instagram | Site | WhatsApp? | Sinal estrangeiro | Avaliações | Prior. | Observação citável |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| GA57 | Lobo Hotel | hotel 2* (17–34 aptos) | Centro, 70 m do mar | WhatsApp 48 99130-3731; fixos 48 3254-3823 / 3745 | @lobohoteloficial | sim, lobohotel.com.br (Cloudbeds) | sim | não encontrado | 8,2 (497) | **B** (hotel) | aberto o ano inteiro; já tem motor de reserva |
+| GA58 | Hotel Garopaba | hotel/pousada | Centro, frente à praia central | WhatsApp (48) 99986-5146 (recepção 24h); fixo 48 3254-3126 | @hotelgaropaba (~10 mil) | sim, hotelgaropaba.com.br | sim | não encontrado | TripAdvisor 3,3 (30) | **B** | quadra de beach tennis; já tem recepção 24h |
+| GA59 | Candeias Basfak Praia | hotel 31 UHs (**rede Clube Candeias**) | Centro | fixo 48 3254-4507 | não encontrado | clubecandeias.com | provável | não encontrado | TripAdvisor 4,2 (64) | **C** (rede) | — |
+| GA60 | Pousada Nanaco | 19 quartos, piscina | Centro (R. Francisco Pacheco de Souza 708) | fixo 48 3254-3911 | não encontrado | não | não sei | não encontrado | Booking 7,7 (299) | **B** | só fixo: visita |
+| GA61 | Residencial Colibri | aptos | Centro, 300 m da rodoviária | +55 48 99616-2002 | @colibripousadaresidencial | linktree | provável | não encontrado | TripAdvisor 4/5 | **A** | tem playground (público família) |
+| GA62 | Residencial Franca | aptos | Centro (R. Elmo Kinseski 694) | não encontrado | não encontrado | não | não sei | não encontrado | **Booking 9,6 (~130)** | **B** | sem contato público: visita |
+| GA63 | Casa 3Jotas | 2 casas | perto da Vigia | não encontrado | não encontrado | não | não sei | não encontrado | Booking 9,8 | **C** | — |
+| GA64 | Garopaba Hostel | hostel | Centro (R. Prof. Antônio José Botelho 334) | não encontrado | não encontrado | não | não sei | não encontrado | TripAdvisor 4/5 (22) | **C** | — |
+| GA65 | Dunas Studios | 8 studios, piscina aquecida e spa | em frente às Dunas do Siriú | via Instagram (bio: atende por WhatsApp) | @dunas.studios (~2,9 mil) | não | sim (bio) | não encontrado | **Booking 9,7 (45)** | **A** | piscina aquecida e spa; contato por DM |
+| GA66 | Residencial Quinta dos Açores | aptos | 2 km do centro | não encontrado | não encontrado | não | não sei | não encontrado | Booking 9,7 (31) | **C** | — |
+| GA67 | Studio Centro Garopaba | studio | Centro | não encontrado | não encontrado | não | não sei | não encontrado | Booking 8,4 (5) | **C** | — |
+
+Atualizações: **FE42 Pousada do Véio**: 13 quartos, @pousadadoveio, comercial (48) 99105-2263, **Google 4,8 (186)**, bikes grátis, piscina e serviço de praia. **GA55 Bangalore Suites**: telefone +55 48 3354-1733, jacuzzi e vista mar.
+Fora da região (Gamboa e Grama): Recanto La Ballena (temático "Vila do Chaves", saiu no G1), Residencial Hibiscos, Recanto Aloha.
