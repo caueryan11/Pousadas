@@ -48,3 +48,14 @@ Listadas no ruta0.com (portal argentino), ainda sem dados: Pousada Sunset (@pous
 - chetoba.com.ar/dunas-y-playa-do-siriu-brasil
 - laferrugem.com/web/portfolios/hospedaje-en-ferrugem/ · laferrugem.com/web/hospedajes/capao-ferrugem/
 - ruta0.com/praia-do-rosa/alojamiento.htm · ruta0.com/garopaba/posadas.htm
+
+## Acréscimos (leva LaFerrugem/ruta0)
+| ID | Nome | Evidência | Contato |
+|---|---|---|---|
+| FE36 + FE09 | LaFerrugem.com (agência uruguaia) + La Ferrugem Suites | agência uruguaia, Booking em espanhol | WhatsApp +598 94 259 977 |
+| FE32 | Posada Las Ondas | vendida por agências argentinas e pela laferrugem.com | (48) 99168-7513 |
+| FE33 | Posada Don Antonio | laferrugem: "orientada casi exclusivamente a jóvenes" | WhatsApp (48) 99118-0487 |
+| FE35 | Villa Luana (grupo Burg) | laferrugem.com; Booking es-ar | +55 48 99691-0228 |
+| RX100 | Pousada Sunset | avaliação de argentina; dona Katia | WhatsApp 48 98813-6642 |
+| RX103 | Casa da Ro | site argentino sobre a casa | +55 48 98811-7961 |
+| RX105 | Pousada Uluwatu | avaliações em espanhol; nova administração | WhatsApp +55 48 99201-5832 |

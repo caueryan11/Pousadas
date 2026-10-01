@@ -9,10 +9,15 @@ Meta: 10 clientes até 15/11/2026.
 | `leads/rosa-norte-centro.md` | Rosa Norte, Centro, Alto e Lagoa (RN01–RN12) + administradoras do Rosa (RA01–RA02) |
 | `leads/rosa-sul.md` | Rosa Sul, Caminho do Rei e Alto do Morro (RS01–RS09) |
 | `leads/ibiraquera.md` | Ibiraquera e Barra de Ibiraquera (IB01–IB12) |
-| `leads/ferrugem-barra.md` | Ferrugem, Capão e Praia da Barra (FE01–FE12) |
-| `leads/imbituba.md` | Vila Nova, Centro, Ribanceira e Itapirubá (IM01–IM10) |
-| `leads/garopaba.md` | Centro, Silveira, Siriú e Ouvidor (GA..) |
-| `leads/administradoras.md` | administradoras e imobiliárias de temporada da região (AD01–AD15) |
+| `leads/ferrugem-barra.md` | Ferrugem, Capão e Praia da Barra (FE01–FE40) |
+| `leads/imbituba.md` | Vila Nova, Centro, Ribanceira e Itapirubá (IM01–IM22) |
+| `leads/garopaba.md` | Centro, Silveira, Siriú e Ouvidor (GA01–GA54) |
+| `leads/administradoras.md` | administradoras e imobiliárias de temporada (AD01–AD27) |
+| `leads/rosa-ibiraquera-extra.md` | segunda a nona leva do Rosa e de Ibiraquera (RX01–RX105) |
+| `leads/publico-argentino.md` | **leads com dono ou público hispanofalante: começar por aqui** |
+| `leads/grupos.md` | **grupos com várias pousadas do mesmo dono** |
+| `leads/verificacao-whatsapp.md` | conferência de WhatsApp e Instagram dos leads top |
+| `leads/00-consolidado.md` e `leads/leads.csv` | todos os leads numa lista só, com status (gerado por `scripts/consolida.py`) |
 
 ## Critério de prioridade
 - **A+**: administradora ou imobiliária de temporada com vários imóveis.
