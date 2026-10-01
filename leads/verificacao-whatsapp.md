@@ -56,3 +56,26 @@ Feita só por busca (trechos), sem abrir as páginas. Nenhum link wa.me literal 
 | GA12 | Bronzatto | (48) 99111-4936 | **sim** | @pousadabronzatto | — |
 
 "Só telefone" não quer dizer que não seja WhatsApp: só não apareceu o rótulo. Na prática, quase todo celular de pousada na região é WhatsApp Business. Confira abrindo o número no app (sem mandar mensagem).
+
+## Lote 3: administradoras (A+)
+
+| ID | Nome | WhatsApp de temporada | Instagram | Carteira | Responsável (publicado) | Observação |
+|---|---|---|---|---|---|---|
+| AD01 | Alexia Consultoria | (48) 99167-8144 / 99125-8251 (telefone, sem rótulo) | não encontrado | não encontrado | Alexia (dona, segundo o CNPJ) | também (51) 99148-6398 |
+| AD02 | Imobiliária Trip | (48) 99612-8984 ou 99152-7670 (o site tem WhatsApp, número exato não confirmado) | @imobiliariatrip | não publicado | não encontrado | contato@imobiliariatrip.com.br |
+| AD22 | Praia do Rosa Imóveis | **(48) 99943-8969** (rotulado) | @praiadorosaimoveis (provável) | não encontrado | não confirmado | foco em venda, terrenos **e pousadas**: pode indicar clientes |
+| RA01 | Néia Imóveis | **48 99603-3454** (rotulado) | @neiaimoveis | não encontrado | **Néia (Gilcinéia Teixeira)**, nascida na região | — |
+| RA02 | Casa de Praia Imóveis | **48 99902-8745** (rotulado) | @casadpraiaimoveis | não encontrado | não encontrado | — |
+| IB11 | Pedro Silva Imóveis | **48 99917-5271** (linha "Aluguel/Alquiler") | @pedrosilva_imoveis | **50+** | **Pedro Silva**, CRECI 5058, 30 anos | o rótulo "Alquiler" mostra que já atende hispanofalantes |
+| AD06 | Imobiliária Itapirubá | (48) 99139-4600 / 99145-6122 | **@imobiliaria_itapiruba** (~2,2 mil) | não encontrado | **Jony W. Pavanati** | — |
+| AD09 | Garopaba Imóveis | 99694-1616 / 99958-2979 | não encontrado | não encontrado | Carlos Golle (contato) | — |
+| AD12 | Ferrugem Imóveis | 99184-7854 / 99959-9912 | @ferrugem___imoveis | não encontrado | não encontrado | — |
+| AD13 | Tosetto Imóveis | só fixo 3254-3161 (o site diz ter WhatsApp) | @tosettoimoveis | **86** | **Regis Tosetto**, corretor desde 1986 | visita ou DM |
+| AD16 | Zaluski | (48) 99973-8286 | @zaluskioficial_ | não encontrado | não encontrado | — |
+| AD17 | Heriberto Giraldi | 48 98406-7158 / 99982-5157 | não (Facebook) | poucos | **Heriberto Giraldi**, 35+ anos | — |
+| AD20 | Convés Imobiliária | **(48) 98486-8635** (rotulado) | @convesimobiliaria | não encontrado | não encontrado | Estrada Geral da Ferrugem 2501 |
+| AD21 | Gralha Azul Locações | (48) 99947-0377 | não encontrado | não encontrado | ligada à agência Gralha Azul/Turcâmbio (desde 1987) | agência de viagem + locação |
+| AD18 | Praia da Ferrugem Aluguel | **+55 48 98406-1437** (rotulado) | não confirmado | várias casas | não encontrado | — |
+| AD04 | Sal Hospedagem | **+55 48 99115-9936** (rotulado) | não encontrado | não encontrado | não encontrado | número novo |
+| GA04 | Parador Silveira | (51) 98948-0303 | @paradorsilveira (~31 mil) | não publicado | não encontrado | linktr.ee/paradorsilveira |
+| AD10 | Imobiliária Ilha Bela | (48) 99858-2379 (o site tem botão "Fale via WhatsApp") | @imobiliariailhabela | não encontrado | empresa familiar desde 1986 | celular novo: sobe para A+ |

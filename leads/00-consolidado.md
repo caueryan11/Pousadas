@@ -1,10 +1,10 @@
 # Consolidado de leads (gerado por scripts/consolida.py)
 
-Total: **226** leads. A: 103 · A+: 28 · B: 70 · C: 25
+Total: **226** leads. A: 103 · A+: 29 · B: 69 · C: 25
 
 Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada região.
 
-## A+ (administradoras / várias unidades) (28)
+## A+ (administradoras / várias unidades) (29)
 
 | ID | Nome | Bairro | Telefone / WhatsApp | Estrangeiro | Prior. | Status |
 |---|---|---|---|---|---|---|
@@ -14,9 +14,10 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | IB12 | Casas Ibiraquera | Ibiraquera | WhatsApp (48) 99184-1040; fixo 48 3255-1277 | não encontrado | A+ (top, grupo c/ RX66) | a contatar |
 | AD01 | Alexia Consultoria Imobiliária | Praia do Rosa (Estrada Geral); diz atuar também em Garopaba, Silveira e Ferrugem | (48) 99167-8144 / (48) 99125-8251 | site com URLs em inglês (/for-rent), sem evidência de público | A+ | a contatar |
 | AD02 | Imobiliária Trip | Av. Porto Novo; casas no Rosa, Rosa Norte e Alto Arroio | (48) 99152-7670 | não encontrado | A+ | a contatar |
-| AD04 | Sal Hospedagem | Praia do Rosa (condomínios fechados) | não encontrado (e-mail salhospedagem@gmail.com) | **sim**: site em inglês ("Private Gated Homes in Praia do Rosa") | A+ | a contatar |
+| AD04 | Sal Hospedagem | Praia do Rosa (condomínios fechados) | WhatsApp +55 48 99115-9936 | **sim**: site em inglês ("Private Gated Homes in Praia do Rosa") | A+ | a contatar |
 | AD06 | Imobiliária Itapirubá | Itapirubá ("Casa Laranja") e lado de Laguna | (48) 99139-4600 / (48) 99145-6122 | não encontrado | A+ | a contatar |
 | AD09 | Garopaba Imóveis | Centro de Garopaba; Morrinhos, Ferrugem e Silveira | Carlos Golle (48) 99694-1616; Simone Falkembach (48) 99958-2979; fixo (48) 3354-1999 | não encontrado | A+ | a contatar |
+| AD10 | Imobiliária Ilha Bela | Garopaba | (48) 99858-2379; fixos 48 3254-3293 / 1351 | não encontrado | A+ | a contatar |
 | AD12 | Ferrugem Imóveis | Garopaba (R. Paulino Furtado 32) e Ferrugem | Thiago Gomes (48) 99184-7854; Cristhian Fernandes (48) 99959-9912 | não encontrado | A+ | a contatar |
 | AD13 | Tosetto Imóveis | Centro de Garopaba | fixo (48) 3254-3161 | não encontrado | A+ | a contatar |
 | AD16 | Zaluski Construtora e Imobiliária | Garopaba (Centro, Morrinhos, Ferraz, Siriú) | atendimento (48) 99973-8286 | — | A+ | a contatar |
@@ -30,7 +31,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | FE17 | Pousada Canoa Azul | Estrada Geral da Ferrugem 3003 | WhatsApp (48) 99645-6461; 48 99691-0228 | não encontrado | A+ (grupo 99691-0228) | a contatar |
 | FE18 | Pousada El Pátio da Ferrugem | Estrada Geral 4970 | (48) 99645-6461 / 99691-0228; fixo 48 3254-0134 | fraco (listagem em espanhol) | A+ (grupo) | a contatar |
 | FE19 | Pousada Beleza Pura | R. Jardim da Lagoa 313 | site: +55 48 99818-1655; agregador: 99691-0228 | não encontrado | A+ (grupo) | a contatar |
-| GA04 | Parador Silveira | Silveira | não encontrado | não encontrado | A+ | a contatar |
+| GA04 | Parador Silveira | Silveira | (51) 98948-0303 | não encontrado | A+ | a contatar |
 | GA27 | Pousada Caminho do Mar ("MADHOUZE") | Capão/Ferrugem (R. das Casuarinas 80) | WhatsApp +55 48 99915-7464; 48 99114-9635 | não encontrado | A+ (ligada à AD11) | a contatar |
 | IB11 | Pedro Silva Imóveis | Barra de Ibiraquera | locação +55 48 99917-5271; vendas 48 99973-0220 | não encontrado | A+ | a contatar |
 | RA01 | Néia Imóveis | Praia do Rosa + Ibiraquera | WhatsApp 48 99603-3454 | não verificado | A+ | a contatar |
@@ -145,14 +146,13 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX64 | Hostel Albergue Explorer | Praia do Rosa | WhatsApp 48 99222-0213; fixo 48 3355-7403 | provável (OTAs internacionais) | A | a contatar |
 | RX67 | Pousada Encantos do Rosa | Av. Central do Rosa 1745 | +55 48 99174-4206; reservas 48 99977-6682 | não encontrado | A | a contatar |
 
-## B (visita / segunda onda) (70)
+## B (visita / segunda onda) (69)
 
 | ID | Nome | Bairro | Telefone / WhatsApp | Estrangeiro | Prior. | Status |
 |---|---|---|---|---|---|---|
 | AD03 | Portal Praia do Rosa | Praia do Rosa (R. Idalino Manoel Carvalho) | não encontrado | não encontrado | B | a contatar |
 | AD05 | Aluguel na Praia do Rosa | Praia do Rosa | não encontrado | não encontrado | B | a contatar |
 | AD07 | LC Imbituba Imóveis | Centro de Imbituba; Vila Nova, Vila Alvorada e Ribanceira | (48) 99982-7712; fixo publicado com erro ("32551-1159") | não encontrado | B | a contatar |
-| AD10 | Imobiliária Ilha Bela | Garopaba | não encontrado | não encontrado | B | a contatar |
 | AD14 | Mourinho Imóveis | Garopaba / Silveira | WhatsApp (48) 99643-5848 (seg–sáb, 9–18h) | não encontrado | B | a contatar |
 | AD15 | Lorena Guerreiro Imóveis | Garopaba (Morrinhos, Vigia, Silveira) | (48) 98426-2923 | não encontrado | B | a contatar |
 | AD26 | Silveira Invest Imóveis | Garopaba (Ferraz) | (48) 99901-5016 | — | B | a contatar |
