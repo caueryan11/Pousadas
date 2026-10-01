@@ -12,7 +12,7 @@ Escopo: todos os leads A/A+ com ID GA (inclui alguns da Ferrugem, Encantada e Pa
 - Oferta: Plano Ano (público estrangeiro, eventos fora do verão, baleias de jul. a nov.). Puxar a resposta em espanhol como argumento central.
 
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui do lado, no Rosa, e trabalho com tecnologia. Vi as moradas com nome de pássaros e o espaço de yoga de vocês. Montei um atendente de WhatsApp que responde hóspede 24h em português, espanhol e inglês e passa o pedido de reserva pronto pra vocês só confirmarem. Posso te mostrar em 1 minuto?
-**D+2:** Oi! Só passando pra ver se viu. Muita pergunta de Réveillon chega à noite e em espanhol, ainda mais com hóspede de Buenos Aires. Te mando um vídeo curto mostrando funcionando?
+**D+2:** Oi! Só passando pra ver se viu. Pergunta de Réveillon em espanhol, como a dos hóspedes de Buenos Aires, chega à noite aí? Ele responde na hora. Te mando um vídeo curto mostrando funcionando?
 **D+5:** Último toque pra não encher: até 15/11 tenho condição de pré-temporada, com 1 semana de garantia. Se não for o momento, tudo bem. Se quiser, passo aí na Silveira e mostro ao vivo.
 **Msg 1 (ES):** ¡Hola! ¿Cómo va? Soy Caue, vivo acá al lado, en Rosa, y trabajo con tecnología. Vi las moradas con nombres de pájaros y el espacio para yoga. Armé un asistente de WhatsApp que responde a los huéspedes 24 h en español, portugués e inglés y te pasa el pedido de reserva listo para que solo confirmes. ¿Te lo muestro en 1 minuto?
 
@@ -68,7 +68,7 @@ Escopo: todos os leads A/A+ com ID GA (inclui alguns da Ferrugem, Encantada e Pa
 - Oferta: Plano Temporada (público de verão). Puxar o espanhol.
 
 **Msg 1:** Oi, tudo bem? Falo com o René? Sou o Caue, moro aqui do lado, no Rosa. Vi a Marina da Praia no Siriú, com unidades Standard, Luxo e Duplex, todas com cozinha. Montei um atendente de WhatsApp que responde hóspede 24h em português, espanhol e inglês e passa a reserva pronta pra você confirmar. Te mando um vídeo curto?
-**D+2:** Oi! Voltando: o Siriú recebe muita família argentina, e boa parte das perguntas chega em espanhol e à noite. Posso te mostrar como ele responde?
+**D+2:** Oi! Voltando: vi num blog argentino que o Siriú recebe muita família de Córdoba e Buenos Aires. Chega pergunta em espanhol à noite aí? Posso te mostrar como ele responde?
 **D+5:** René, último toque: até 15/11 tenho condição de pré-temporada com 1 semana de garantia. Se não for o momento, sem problema.
 
 ### GA11 Pousada GaropaSul + Residencial Franca (grupo com GA62) — Centro
@@ -79,7 +79,7 @@ Escopo: todos os leads A/A+ com ID GA (inclui alguns da Ferrugem, Encantada e Pa
 - Oferta: Plano Ano para as duas, com condição de grupo a propor na conversa.
 
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui do lado, no Rosa, e trabalho com tecnologia. Vi que a GaropaSul e o Residencial Franca atendem pelo mesmo WhatsApp e que a reserva é feita por ali. Montei um atendente que responde 24h em PT, ES e EN pelas duas casas e passa o pedido pronto pra você confirmar. Faz sentido conversar 10 min essa semana?
-**D+2:** Oi! Só passando pra ver se viu. Agora começam as perguntas de Réveillon e janeiro, nas duas casas ao mesmo tempo. Te mando um vídeo de 1 min?
+**D+2:** Oi! Só passando pra ver se viu. As perguntas de Réveillon e janeiro já começaram nas duas casas? Te mando um vídeo de 1 min?
 **D+5:** Último toque: até 15/11 tenho condição de pré-temporada, e pra quem tem duas hospedagens dá pra montar algo junto. Se quiser, passo aí e mostro ao vivo.
 
 ### GA12 Pousada Bronzatto — Centro
@@ -145,7 +145,7 @@ Escopo: todos os leads A/A+ com ID GA (inclui alguns da Ferrugem, Encantada e Pa
 - Oferta: Plano Temporada (pousada pequena, testar no verão).
 
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui do lado, no Rosa. Vi a Pousada do Sol entre os primeiros B&Bs de Garopaba no TripAdvisor. Montei um atendente de WhatsApp que responde hóspede 24h em PT, ES e EN e passa o pedido de reserva pronto pra você só confirmar. Posso te mostrar como funciona em 1 minuto?
-**D+2:** Oi! Passando pra ver se chegou. As perguntas de janeiro já estão começando. Te mando um vídeo curtinho?
+**D+2:** Oi! Passando pra ver se chegou. Já começaram as perguntas de janeiro aí? Te mando um vídeo curtinho?
 **D+5:** Último toque, sem pressão: até 15/11 tem condição de pré-temporada com 1 semana de garantia. Se não for a hora, tranquilo.
 
 ### GA25 Pousada Poente do Sol — Centro
@@ -179,7 +179,7 @@ Escopo: todos os leads A/A+ com ID GA (inclui alguns da Ferrugem, Encantada e Pa
 - Dor provável: volume alto e muita pergunta de pet "sob consulta" que precisa de resposta.
 - Oferta: Plano Ano (volume alto).
 
-**Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui do lado, no Rosa. O café da Colina Verde aparece elogiado em tudo que é avaliação. Montei um atendente de WhatsApp que responde 24h em PT, ES e EN, inclusive o "aceita pet?", e passa o pedido de reserva pronto pra vocês confirmarem. Quem cuida do WhatsApp aí?
+**Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui do lado, no Rosa, e trabalho com tecnologia. Vi que o café da Colina Verde é muito elogiado. Montei um atendente de WhatsApp que responde 24h em PT, ES e EN, inclusive o "aceita pet?", e passa o pedido de reserva pronto pra vocês confirmarem. Quem cuida do WhatsApp aí?
 **D+2:** Oi! Passando de novo. Dá pra ele perguntar o porte do pet e te mandar tudo pronto pra decidir. Te mostro em 1 minuto?
 **D+5:** Último toque pra não encher: condição de pré-temporada até 15/11, com 1 semana de garantia. Se não for o momento, tranquilo.
 
@@ -191,7 +191,7 @@ Escopo: todos os leads A/A+ com ID GA (inclui alguns da Ferrugem, Encantada e Pa
 - Oferta: Plano Temporada (testar no primeiro verão).
 
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui do lado, no Rosa, e trabalho com tecnologia. Vi que a Pousada Garopaba é nova e já abre com recepção 24h e aceitando pet. Montei um atendente de WhatsApp que responde em PT, ES e EN e passa o pedido de reserva pronto. Dá pra encaixar agora, enquanto vocês montam os processos. Te mostro em 1 minuto?
-**D+2:** Oi! Só pra ver se viu. Primeira temporada é quando mais chega pergunta repetida. Te mando um vídeo curto?
+**D+2:** Oi! Só pra ver se viu. Como é a primeira temporada de vocês, dá pra começar com as perguntas repetidas já resolvidas. Te mando um vídeo curto?
 **D+5:** Última mensagem: até 15/11 tenho condição de pré-temporada com 1 semana de garantia. Se quiser, passo aí e mostro ao vivo.
 
 ### GA33 Residencial da Praça + Garopaba Pousada-Hostel (grupo com GA53) — Centro
@@ -202,7 +202,7 @@ Escopo: todos os leads A/A+ com ID GA (inclui alguns da Ferrugem, Encantada e Pa
 - Oferta: Plano Temporada por unidade e condição para as duas, a propor na conversa.
 
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui do lado, no Rosa. Vi o Residencial da Praça, pertinho do Centro Histórico, e pelo telefone parece que a Garopaba Pousada-Hostel é da mesma casa. Montei um atendente de WhatsApp que responde 24h em PT, ES e EN pelas duas e passa o pedido de reserva pronto. Confere? Se sim, te mostro em 1 minuto?
-**D+2:** Oi! Passando pra ver se viu. Pra hostel ajuda bastante, porque chega muita pergunta em espanhol e inglês. Te mando um vídeo curto?
+**D+2:** Oi! Passando pra ver se viu. No hostel chega pergunta em espanhol ou inglês? Ele responde nas duas línguas. Te mando um vídeo curto?
 **D+5:** Último toque: até 15/11 tem condição de pré-temporada, e pras duas casas dá pra montar algo junto. Sem pressão.
 
 ### GA34 Pousada Costa Azul — Centro Histórico
@@ -246,7 +246,7 @@ Escopo: todos os leads A/A+ com ID GA (inclui alguns da Ferrugem, Encantada e Pa
 - Oferta: Plano Temporada.
 
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui do lado, no Rosa, e trabalho com tecnologia. Vi a Lagoa Encantada, com vista pra lagoa e aceitando pet a 450 m da Ferrugem. Montei um atendente de WhatsApp que responde 24h em PT, ES e EN e passa o pedido de reserva pronto pra você confirmar. Quem cuida do WhatsApp aí, você mesmo?
-**D+2:** Oi! Passando pra ver se viu. Verão da Ferrugem tem pergunta chegando a noite toda. Te mostro em 1 minuto?
+**D+2:** Oi! Passando pra ver se viu. No verão chega pergunta à noite aí? Te mostro em 1 minuto?
 **D+5:** Última mensagem: condição de pré-temporada até 15/11, com 1 semana de garantia. Sem pressão.
 
 ### GA43 Pousada Saint Germain — Silveira (entrada da praia)
@@ -279,7 +279,7 @@ Escopo: todos os leads A/A+ com ID GA (inclui alguns da Ferrugem, Encantada e Pa
 - Oferta: Plano Temporada (ticket baixo, testar).
 
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui do lado, no Rosa. Vi a Santa Terezinha, a duas quadras da praia e com um dos melhores preços do centro. Montei um atendente de WhatsApp que responde 24h em PT, ES e EN (valores, café, check-in) e passa o pedido de reserva pronto pra você confirmar. Quem responde as mensagens aí hoje?
-**D+2:** Oi! Passando de novo. Quem pesquisa preço fecha com quem responde primeiro. Te mando um vídeo curto?
+**D+2:** Oi! Passando de novo. Quem pergunta preço aí costuma querer resposta na hora? Ele responde com os valores que você definir. Te mando um vídeo curto?
 **D+5:** Última mensagem: até 15/11 tenho condição de pré-temporada com 1 semana de garantia. Se quiser, passo aí 10 min.
 
 ### GA55 Bangalore Suites — Morro da Silveira
@@ -290,7 +290,7 @@ Escopo: todos os leads A/A+ com ID GA (inclui alguns da Ferrugem, Encantada e Pa
 - Oferta: Plano Temporada para testar; Ano se o público estrangeiro vier fora do verão. Na visita, pegar o celular/WhatsApp.
 
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui do lado, no Rosa, e trabalho com tecnologia. Vi hóspede chamando o café de vocês de "o melhor que já tomaram". Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês e passa o pedido de reserva pronto pra vocês confirmarem. Posso passar aí 10 min pra mostrar?
-**D+2:** Oi! Só passando. Com tanto hóspede escrevendo em inglês, ele já responde na língua de cada um. Te mando um vídeo?
+**D+2:** Oi! Só passando. Vi bastante avaliação em inglês de vocês; ele responde na língua de cada hóspede. Te mando um vídeo?
 **D+5:** Último toque: condição de pré-temporada até 15/11, com 1 semana de garantia. Se não for o momento, tranquilo.
 
 ### GA61 Residencial Colibri — Centro

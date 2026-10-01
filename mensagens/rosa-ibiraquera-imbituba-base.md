@@ -15,7 +15,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 - Dor provável: perguntas de preço e disponibilidade de casas para famílias chegando à noite e em outra língua (hipótese).
 - Oferta: Plano Temporada, porque o pico é no verão e dá para testar com garantia de 1 semana.
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi as suítes e casas de vocês com piscina de borda infinita a 250 m da praia. Montei um atendente de WhatsApp que responde hóspede 24h em português, espanhol e inglês e passa o pedido de reserva pronto pra vocês confirmarem. Posso te mostrar em 1 minuto?
-**D+2:** Oi! Só pra ver se chegou. As perguntas de Réveillon e janeiro estão começando, muitas à noite. Te mando um vídeo curto mostrando funcionando?
+**D+2:** Oi! Só pra ver se chegou. As perguntas de Réveillon e janeiro já começaram aí? Muitas chegam à noite? Te mando um vídeo curto mostrando funcionando?
 **D+5:** Último toque pra não encher: até 15/11 tenho condição de pré-temporada, com 1 semana de garantia. Se não for o momento, tranquilo.
 
 ### [RN02] Pousada Lagoa do Rosa — Lagoa do Rosa
@@ -24,7 +24,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 - Particular: studios perto da Lagoa do Rosa; hóspedes citam caiaque e pôr do sol. Notas altas (Google 4,8 com 138; Booking 9,6).
 - Dor provável: operação pequena, dono atendendo o WhatsApp sozinho enquanto cuida dos studios (hipótese).
 - Oferta: Plano Temporada, entrada menor para testar no verão.
-**Msg 1:** Oi, tudo bem? Aqui é o Caue, vizinho do Rosa, trabalho com tecnologia. Vi que os hóspedes de vocês sempre falam do caiaque e do pôr do sol na lagoa. Fiz um atendente de WhatsApp que responde 24h (preço, café, check-in, como chegar), em PT/ES/EN, e te entrega o pedido de reserva pronto. Quem cuida do WhatsApp aí, você mesmo?
+**Msg 1:** Oi, tudo bem? Aqui é o Caue, vizinho do Rosa, trabalho com tecnologia. Vi hóspedes de vocês citando o caiaque e o pôr do sol na lagoa. Fiz um atendente de WhatsApp que responde 24h (preço, café, check-in, como chegar), em PT/ES/EN, e te entrega o pedido de reserva pronto. Quem cuida do WhatsApp aí, você mesmo?
 **D+2:** Oi! Passando pra ver se viu. Se ajudar, gravo um vídeo de 1 min com o atendente respondendo como se fosse a Lagoa do Rosa.
 **D+5:** Último recado: a condição de pré-temporada vai até 15/11, com 1 semana de garantia. Se quiser, passo aí 10 min e mostro ao vivo. Se não, sem problema.
 
@@ -35,7 +35,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 - Dor provável: organização de reservas diretas em datas de pico (Carnaval, Réveillon); pedido que chega pelo WhatsApp e não fica registrado (hipótese, confirmar na conversa; não citar avaliação).
 - Oferta: Plano Ano pelo volume; argumento é ter todo pedido de reserva chegando organizado, com nome, datas e nº de pessoas, para o dono confirmar.
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi a Sonho do Vale aqui no Vale do Rosa. Montei um atendente de WhatsApp que responde hóspede 24h em PT/ES/EN e organiza cada pedido de reserva (datas, pessoas, quarto) pra você só confirmar. Faz sentido conversar 10 min essa semana?
-**D+2:** Oi! Só pra ver se viu. Em Réveillon e Carnaval o WhatsApp lota; a ideia é cada pedido chegar pronto e anotado. Te mando um vídeo de 1 min?
+**D+2:** Oi! Só pra ver se viu. Ele organiza cada pedido (datas, pessoas, quarto) e te entrega pronto pra confirmar. Te mando um vídeo de 1 min?
 **D+5:** Último toque: até 15/11 tem condição de pré-temporada e 1 semana de garantia. Se agora não der, tudo bem.
 
 ### [RN09] Pousada Refúgio do Rosa — Av. Porto Novo
@@ -46,7 +46,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 - Oferta: Plano Temporada; o argumento é responder em espanhol de madrugada sem ninguém acordado.
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que vocês estão há 18 anos no Rosa e até têm número argentino. Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês (preço, kitchenette, check-in) e passa o pedido de reserva pronto. Te mando um vídeo curto?
 **Msg 1 (ES):** ¡Hola! ¿Cómo andan? Soy Caue, vivo acá en Rosa y trabajo con tecnología. Vi que hace 18 años están en Rosa y que tienen número argentino. Armé un asistente de WhatsApp que responde a los huéspedes 24 h en español, portugués e inglés (precios, kitchenette, check-in) y les pasa el pedido de reserva listo para confirmar. ¿Les mando un video cortito?
-**D+2:** Oi! Passando pra ver se viu. As consultas de janeiro dos argentinos começam agora, muitas de madrugada. Posso mostrar em 1 minuto?
+**D+2:** Oi! Passando pra ver se viu. Os argentinos já começaram a perguntar de janeiro? Chega mensagem de madrugada? Posso mostrar em 1 minuto?
 **D+5:** Último toque, sem pressão: até 15/11 tenho condição de pré-temporada com 1 semana de garantia. Se quiserem, passo aí 10 min.
 
 ### [RN10] Morada da Praia do Rosa — Av. Porto Novo (centro)
@@ -87,7 +87,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 - Dor provável: pergunta de temporada que chega à noite, domingo ou no almoço fica para o dia seguinte (hipótese).
 - Oferta: Plano Ano por unidade + condição para a carteira; gancho é cobrir fora do horário comercial.
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que vocês atendem temporada, mensal e anual, em horário comercial. Montei um atendente de WhatsApp que cobre a noite e o fim de semana em PT/ES/EN, responde sobre cada imóvel e deixa o pedido de reserva pronto pra equipe. Faz sentido conversar 10 min essa semana?
-**D+2:** Oi! Só pra ver se viu. Em janeiro muita pergunta chega domingo à noite. Te mando um vídeo de 1 min?
+**D+2:** Oi! Só pra ver se viu. Em janeiro chega pergunta no domingo ou à noite, fora do horário de vocês? Te mando um vídeo de 1 min?
 **D+5:** Último toque: até 15/11 tenho condição de pré-temporada, e para imobiliária a gente combina por carteira. Se preferir, passo no escritório.
 
 ---
@@ -131,7 +131,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 - Dor provável: muita pergunta sobre pet (porte, taxa, regras) e a proprietária ocupada com o café (hipótese).
 - Oferta: Plano Temporada; mostrar o atendente respondendo sobre pet.
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que a Villa Buena Vista está no Guia Pet Friendly e tem trilha direto pro Rosa Sul. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, perguntas de pet, café e check-in, e passa o pedido de reserva pronto. Posso te mostrar em 1 minuto?
-**D+2:** Oi! Só pra ver se viu. Pergunta de pet é das que mais chegam; ele responde com as suas regras. Te mando um vídeo curto?
+**D+2:** Oi! Só pra ver se viu. Pergunta de pet chega muito aí? Ele responde com as suas regras. Te mando um vídeo curto?
 **D+5:** Último toque: até 15/11 tem condição de pré-temporada com 1 semana de garantia. Se quiser, passo aí 10 min.
 
 ### [RS05] Morada dos Bougainvilles — Caminho do Alto do Morro
@@ -141,7 +141,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 - Dor provável: hóspede argentino e estrangeiro perguntando em outra língua, fora de hora (hipótese).
 - Oferta: Plano Temporada pelo porte (6 suítes).
 **Msg 1:** Oi, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi as 6 suítes da Morada com banheira e vista pro sul da praia. Fiz um atendente de WhatsApp que responde 24h em espanhol, português e inglês e te entrega o pedido de reserva pronto pra confirmar. Faz sentido eu te mostrar essa semana?
-**D+2:** Oi! Passando pra ver se viu. Agora chegam as perguntas de Réveillon, muitas em espanhol. Te mando um vídeo de 1 min?
+**D+2:** Oi! Passando pra ver se viu. Já começaram as perguntas de Réveillon, inclusive em espanhol? Te mando um vídeo de 1 min?
 **D+5:** Último toque pra não te encher: condição de pré-temporada até 15/11, 1 semana de garantia. Se não for o momento, sem problema.
 
 ### [RS09] Pousada Descanso do Rei — R. Seu Mané Chico
@@ -165,7 +165,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 - Dor provável: volume de perguntas o ano todo, parte em espanhol (hipótese).
 - Oferta: Plano Ano, pelo volume e pela Ibiraquera receber gente fora do verão.
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro no Rosa, aqui do lado, e trabalho com tecnologia. Vi a Barra Mar, com piscina e sala de jogos, a 500 m do mar e 300 m da lagoa. Montei um atendente de WhatsApp que responde 24h em PT/ES/EN e passa o pedido de reserva pronto. Te mando um vídeo curto?
-**D+2:** Oi! Passando pra ver se chegou. Uruguaio e argentino perguntam muito à noite; ele responde em espanhol. Posso mostrar em 1 minuto?
+**D+2:** Oi! Passando pra ver se chegou. Vi avaliação de uruguaio de vocês: chega pergunta em espanhol à noite aí? Ele responde na hora. Posso mostrar em 1 minuto?
 **D+5:** Último toque: até 15/11 tem condição de pré-temporada, 1 semana de garantia. Se quiser, passo aí na Barra.
 
 ### [IB02] Pousada Natural Park — Praia do Luz / Ibiraquera
@@ -185,7 +185,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 - Dor provável: operação pequena, dono sem tempo de responder rápido em pico (hipótese).
 - Oferta: Plano Temporada.
 **Msg 1:** Oi, tudo bem? Aqui é o Caue, vizinho do Rosa, trabalho com tecnologia. Vi que a Toca da Lagoa tem só oito apartamentos, com cozinha completa e piscina. Montei um atendente de WhatsApp que responde hóspede 24h, em PT/ES/EN, e passa o pedido de reserva pronto pra você confirmar. Posso te mostrar em 1 minuto?
-**D+2:** Oi! Passando pra ver se viu. As perguntas de janeiro chegam agora. Te mando um vídeo curto?
+**D+2:** Oi! Passando pra ver se viu. Já começaram as perguntas de janeiro? Te mando um vídeo curto?
 **D+5:** Último toque: até 15/11 tenho condição de pré-temporada, 1 semana de garantia. Se quiser, passo aí 10 min.
 
 ### [IB04] Pousada Flor da Barra — Barra de Ibiraquera
@@ -205,7 +205,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 - Dor provável: público de kite e windsurf vem fora do verão também, inclusive estrangeiro (hipótese, sem evidência ainda).
 - Oferta: Plano Ano, pela temporada de vento que vai além do verão.
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que a Raia 1 tem guarderia pra windsurf, kite e SUP, de frente pro mar e pra lagoa. Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês e passa o pedido de reserva pronto. Faz sentido conversar 10 min essa semana?
-**D+2:** Oi! Passando pra ver se viu. Pra quem recebe kitesurfista o ano todo, ele responde em inglês e espanhol a qualquer hora. Te mando um vídeo?
+**D+2:** Oi! Passando pra ver se viu. Vocês recebem kitesurfista fora do verão também? Ele responde em inglês e espanhol a qualquer hora. Te mando um vídeo?
 **D+5:** Último toque: condição de pré-temporada até 15/11, 1 semana de garantia. Se não for agora, sem problema.
 
 ### [IB07] Pousada Beija Flor — Barra de Ibiraquera
@@ -250,7 +250,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 - Dor provável: todo pedido entra pelo WhatsApp, sem site para tirar dúvida sozinho (hipótese).
 - Oferta: Plano Ano, pelo porte (23 aptos) e pela procura na época das baleias.
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que o Recanto das Baleias está desde 1997 a 10 m da praia Norte, com 2 piscinas. Montei um atendente de WhatsApp que responde hóspede 24h em PT/ES/EN e passa o pedido de reserva pronto pra vocês confirmarem. Te mando um vídeo curto?
-**D+2:** Oi! Passando pra ver se viu. Como vocês não têm site, ele faz esse papel no WhatsApp: preço, apto, como chegar. Posso mostrar em 1 minuto?
+**D+2:** Oi! Passando pra ver se viu. Se o WhatsApp é o canal principal de vocês, ele responde preço, apto e como chegar a qualquer hora. Posso mostrar em 1 minuto?
 **D+5:** Último toque: até 15/11 tem condição de pré-temporada com 1 semana de garantia. Se quiser, passo aí em Itapirubá.
 
 ### [IM16] Austral Suítes a Beira-Mar — Ribanceira

@@ -29,8 +29,10 @@
 **Primeira mensagem, pousada (PT):**
 > Oi, [nome], tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi [observação real do perfil]. Montei um atendente de WhatsApp que responde hóspede 24h em português, espanhol e inglês (preço, café, pet, check-in) e te passa o pedido de reserva pronto pra você só confirmar. Posso te mostrar em 1 minuto?
 
-**D+2:**
-> Oi, [nome]! Só passando pra ver se viu. Agora é quando chegam as perguntas de Réveillon e janeiro, muitas à noite e em espanhol. Te mando um vídeo de 1 min mostrando funcionando?
+
+> Oi, [nome]! Só passando pra ver se viu. As perguntas de Réveillon e janeiro já começaram a chegar aí? Te mando um vídeo de 1 min mostrando funcionando?
+
+_(Dor sempre como **pergunta**, nunca como afirmação sobre a pousada ou sobre o mercado.)_
 
 **D+5 (último toque):**
 > [Nome], último toque pra não te encher: até 15/11 tenho condição de pré-temporada, com 1 semana de garantia. Se agora não for o momento, tranquilo. Se quiser, passo aí 10 min e te mostro ao vivo.

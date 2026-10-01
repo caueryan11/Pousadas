@@ -17,7 +17,7 @@ Notas gerais:
 - Oferta: Plano Ano por imóvel + condição para a carteira, a combinar. Se a ligação com o Vida Sol e Mar se confirmar, levar proposta conjunta (carteira + resort).
 
 **Msg 1:** Oi, Alexia, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi as casas de alto padrão que vocês alugam na temporada, inclusive a do condomínio com acesso privativo à praia. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as perguntas de cada imóvel e passa o pedido de reserva pronto. Posso te mostrar em 1 minuto?
-**D+2:** Oi, Alexia! Só passando pra ver se viu. Agora começam os pedidos de Réveillon, muitos à noite e cada um perguntando de uma casa diferente. Te mando um vídeo curto mostrando?
+**D+2:** Oi, Alexia! Só passando pra ver se viu. Os pedidos de Réveillon já começaram a chegar aí? Se chegam à noite ou perguntando de casas diferentes, o atendente resolve. Te mando um vídeo curto mostrando?
 **D+5:** Alexia, último toque pra não te encher: até 15/11 tenho uma condição de pré-temporada pensada pra carteira, com 1 semana de garantia. Se não for o momento, tranquilo.
 **Msg 1 (ES):** (usar só se confirmar que ela fala espanhol; a ligação argentina é inferida) ¡Hola, Alexia! Soy Caue, vivo acá en Rosa y trabajo con tecnología. Vi las casas de alto nivel que alquilan por temporada, incluso la del condominio con acceso privado a la playa. Armé un asistente de WhatsApp que responde 24 h, en español, portugués e inglés, las consultas de cada casa y te pasa el pedido de reserva listo. ¿Te lo muestro en 1 minuto?
 
@@ -171,7 +171,7 @@ Notas gerais:
 - Dor provável: equipe dividida entre venda e temporada; perguntas repetidas para imóveis em várias praias.
 - Oferta: Plano Ano + condição para a carteira, a combinar.
 
-**Msg 1:** Oi, pessoal da Convés, tudo bem? Sou o Caue, moro na Praia do Rosa e trabalho com tecnologia. Vi que vocês estão na Ferrugem desde 2016 e têm imóveis também na Silveira, Ferraz e Pedra Branca. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as perguntas de cada imóvel e passa o pedido pronto. Posso mostrar em 1 minuto?
+**Msg 1:** Oi, pessoal da Convés, tudo bem? Sou o Caue, moro na Praia do Rosa e trabalho com tecnologia. Vi que vocês estão na região desde 2016, com sede na Ferrugem, e têm imóveis também na Silveira, Ferraz e Pedra Branca. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as perguntas de cada imóvel e passa o pedido pronto. Posso mostrar em 1 minuto?
 **D+2:** Oi! Só passando pra ver se viu. Te mando um vídeo curto com ele respondendo um pedido de janeiro?
 **D+5:** Último toque: até 15/11 tenho condição de pré-temporada para a carteira, com 1 semana de garantia. Se agora não der, sem problema.
 

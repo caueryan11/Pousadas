@@ -11,7 +11,7 @@ Escopo: leads A/A+ de RX46 a RX128 de `leads/rosa-ibiraquera-extra.md`. Antes de
 - Dor provável: muita pergunta em espanhol e inglês, também fora do verão (kite, baleias), e o Rogelio concentra o atendimento.
 - Oferta: Plano Ano, porque recebe estrangeiro o ano todo em Ibiraquera.
 **Msg 1:** Oi, Rogelio, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Li no TripAdvisor hóspede elogiando "Rogelio and his staff". Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês (preço, café, check-in) e te passa o pedido de reserva pronto. Posso te mostrar em 1 minuto?
-**D+2:** Oi, Rogelio! Só pra ver se chegou. Agora começam as perguntas de Réveillon e janeiro, muitas à noite e em espanhol. Te mando um vídeo de 1 min?
+**D+2:** Oi, Rogelio! Só pra ver se chegou. Já começaram as perguntas de Réveillon e janeiro, à noite e em espanhol? Te mando um vídeo de 1 min?
 **D+5:** Último toque pra não incomodar: até 15/11 tenho condição de pré-temporada, com 1 semana de garantia. Se não for o momento, tranquilo. Se preferir, subo aí no Barão e te mostro em 10 min.
 **Msg 1 (ES):** ¡Hola, Rogelio! Soy Caue, vivo acá en Rosa y trabajo con tecnología. Leí en TripAdvisor a un huésped que elogiaba "Rogelio and his staff". Armé un asistente de WhatsApp que responde 24 h en español, portugués e inglés (precios, desayuno, check-in) y te pasa el pedido de reserva listo para confirmar. ¿Te lo muestro en 1 minuto?
 
@@ -22,7 +22,7 @@ Escopo: leads A/A+ de RX46 a RX128 de `leads/rosa-ibiraquera-extra.md`. Antes de
 - Dor provável: com 16 quartos, o volume de perguntas no verão é alto; sem Instagram encontrado, o WhatsApp deve ser o canal principal.
 - Oferta: Plano Temporada, para testar no verão.
 **Msg 1:** Oi, pessoal da La Creación, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi o terraço na cobertura com vista de vocês. Montei um atendente de WhatsApp que responde hóspede 24h em português, espanhol e inglês e passa o pedido de reserva pronto pra vocês confirmarem. Quem cuida do WhatsApp aí?
-**D+2:** Oi! Passando só pra ver se viram. Réveillon e janeiro já estão sendo perguntados agora. Posso mandar um vídeo curto mostrando?
+**D+2:** Oi! Passando só pra ver se viram. Já estão perguntando de Réveillon e janeiro? Posso mandar um vídeo curto mostrando?
 **D+5:** Último toque: até 15/11 tem condição de pré-temporada com 1 semana de garantia. Se não fizer sentido agora, sem problema.
 
 ### [RX48] Pousada Village do Luz — Barra de Ibiraquera (Av. Paraíso do Luz)
@@ -32,7 +32,7 @@ Escopo: leads A/A+ de RX46 a RX128 de `leads/rosa-ibiraquera-extra.md`. Antes de
 - Dor provável: hóspede estrangeiro perguntando em espanhol ou inglês fora do horário.
 - Oferta: Plano Ano, pelo público estrangeiro que vem também fora do verão.
 **Msg 1:** Oi, tudo bem? Aqui é o Caue, vizinho do Rosa, trabalho com tecnologia. Vi a borda infinita com spa de vocês e hóspede falando em "amazing architecture". Fiz um atendente de WhatsApp que responde 24h em português, espanhol e inglês e passa a reserva pronta pra vocês. Te mando um vídeo curto?
-**D+2:** Oi! Só pra ver se chegou. Muita pergunta de janeiro chega à noite e em outra língua. Posso te mostrar em 1 minuto?
+**D+2:** Oi! Só pra ver se chegou. Chega pergunta de janeiro à noite ou em outra língua? Posso te mostrar em 1 minuto?
 **D+5:** Último toque, prometo: até 15/11 tenho condição de pré-temporada, com 1 semana de garantia. Se quiser, passo aí na Barra e mostro ao vivo.
 
 ### [RX49] Pousada Villa Bella — Barra de Ibiraquera (Av. Sul)
@@ -52,7 +52,7 @@ Escopo: leads A/A+ de RX46 a RX128 de `leads/rosa-ibiraquera-extra.md`. Antes de
 - Dor provável: dono atende sozinho as perguntas de como chegar e distâncias.
 - Oferta: Plano Temporada.
 **Msg 1:** Oi, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi no site da Morada Porto Verde que vocês ficam pertinho da Lagoa do Meio. Montei um atendente de WhatsApp que responde 24h (preço, como chegar, check-in) em 3 línguas e te passa a reserva pronta. Posso te mostrar rapidinho?
-**D+2:** Oi! Só passando. As perguntas de Réveillon começam agora. Quer que eu mande um vídeo curto?
+**D+2:** Oi! Só passando. Já começaram as perguntas de Réveillon? Quer que eu mande um vídeo curto?
 **D+5:** Último toque: até 15/11 tenho condição de pré-temporada, com 1 semana de garantia. Se não for o momento, tudo bem.
 
 ### [RX54] Pousada Ibirawave — Barra de Ibiraquera
@@ -92,7 +92,7 @@ Escopo: leads A/A+ de RX46 a RX128 de `leads/rosa-ibiraquera-extra.md`. Antes de
 - Dor provável: dono responde sozinho, e o site em inglês atrai pergunta em outra língua.
 - Oferta: Plano Temporada.
 **Msg 1:** Oi, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi no site da Aldeia dos Anjos a decoração de bambu e o deck jardim. Montei um atendente de WhatsApp que responde hóspede 24h em português, espanhol e inglês e te passa a reserva pronta pra confirmar. Quem cuida do WhatsApp aí, você mesmo?
-**D+2:** Oi! Só passando. Agora é quando chegam as perguntas de janeiro. Posso te mostrar em 1 minuto?
+**D+2:** Oi! Só passando. Já começaram as perguntas de janeiro? Posso te mostrar em 1 minuto?
 **D+5:** Último toque: condição de pré-temporada até 15/11, com 1 semana de garantia. Se não for a hora, tranquilo.
 
 ### [RX60] Pousada Las Piedras — Praia do Rosa
@@ -112,7 +112,7 @@ Escopo: leads A/A+ de RX46 a RX128 de `leads/rosa-ibiraquera-extra.md`. Antes de
 - Dor provável: público de mochileiro estrangeiro, que manda mensagem a qualquer hora e em várias línguas.
 - Oferta: Plano Ano (público internacional o ano todo).
 **Msg 1:** Oi, Vic e Ale, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi os hóspedes elogiando vocês e o Chimas. Montei um atendente de WhatsApp que responde mochileiro 24h em português, espanhol e inglês e passa o pedido de reserva pronto pra vocês. Posso mostrar em 1 minuto?
-**D+2:** Oi! Passando só pra ver se chegou. Muita mensagem de hostel chega de madrugada, de outro fuso. Te mando um vídeo curto?
+**D+2:** Oi! Passando só pra ver se chegou. Chega mensagem de madrugada, de gente em outro fuso? Ele responde na hora. Te mando um vídeo curto?
 **D+5:** Último toque: condição de pré-temporada até 15/11, com 1 semana de garantia. Se não for agora, tranquilo. Passo aí se quiserem ver ao vivo.
 
 ### [RX63] Pousada Bungalow — Praia do Rosa
@@ -122,7 +122,7 @@ Escopo: leads A/A+ de RX46 a RX128 de `leads/rosa-ibiraquera-extra.md`. Antes de
 - Dor provável: dono experiente que responde tudo pessoalmente.
 - Oferta: Plano Temporada.
 **Msg 1:** Oi, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi que a Bungalow recebe hóspedes há 21 anos. Montei um atendente de WhatsApp que responde as perguntas de sempre (preço, café, check-in) 24h, em 3 línguas, e te passa a reserva pronta. Você é quem responde o WhatsApp hoje?
-**D+2:** Oi! Só pra ver se viu. Réveillon e janeiro já estão sendo perguntados. Te mando um vídeo de 1 minuto?
+**D+2:** Oi! Só pra ver se viu. Já começaram a perguntar de Réveillon e janeiro? Te mando um vídeo de 1 minuto?
 **D+5:** Último toque: até 15/11 tenho condição de pré-temporada com 1 semana de garantia. Se não for o momento, tudo bem.
 
 ### [RX64] Hostel Albergue Explorer — Praia do Rosa
@@ -174,7 +174,7 @@ Escopo: leads A/A+ de RX46 a RX128 de `leads/rosa-ibiraquera-extra.md`. Antes de
 - Dor provável: volume alto e público argentino perguntando em espanhol.
 - Oferta: Plano Ano, pelo volume.
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro no Rosa e mexo com tecnologia. Vi a Flor de Lótus citada pela La Nación, a 400 m da praia pela trilha da Lagoa do Meio. Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e passa o pedido de reserva pronto. Faz sentido eu te mostrar?
-**D+2:** Oi! Só pra ver se viu. Agora chegam as perguntas de Réveillon. Te mando um vídeo curto?
+**D+2:** Oi! Só pra ver se viu. Já começaram as perguntas de Réveillon? Te mando um vídeo curto?
 **D+5:** Último toque: condição de pré-temporada até 15/11, com 1 semana de garantia. Se não for o momento, sem problema.
 
 ### [RX72] Recanto do Spinoza — Praia do Rosa
@@ -204,7 +204,7 @@ Escopo: leads A/A+ de RX46 a RX128 de `leads/rosa-ibiraquera-extra.md`. Antes de
 - Dor provável: muita pergunta de preço e disponibilidade; caixa enxuto.
 - Oferta: Plano Temporada (entrada parcelada, só no verão).
 **Msg 1:** Oi, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi que a Rosa & Canela tem nota 9,4 no Booking. Montei um atendente de WhatsApp que responde preço e disponibilidade 24h, em 3 línguas, e te passa a reserva pronta pra confirmar. Te mando um vídeo curto?
-**D+2:** Oi! Só passando. As perguntas de janeiro estão começando. Posso te mostrar em 1 minuto?
+**D+2:** Oi! Só passando. Já começaram as perguntas de janeiro? Posso te mostrar em 1 minuto?
 **D+5:** Último toque: até 15/11 tenho condição de pré-temporada, com 1 semana de garantia e entrada parcelada. Se não for agora, tudo bem.
 
 ### [RX75] Pousada Rosa — Av. Porto Novo
@@ -216,7 +216,7 @@ Escopo: leads A/A+ de RX46 a RX128 de `leads/rosa-ibiraquera-extra.md`. Antes de
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. A Pousada Rosa é pioneira daqui, e vi hóspede argentino elogiando o Martin. Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e passa o pedido de reserva pronto. Faz sentido conversar 10 min essa semana?
 **D+2:** Oi! Só pra ver se chegou. Ele ajuda o Martin quando a mensagem chega de madrugada. Te mando um vídeo de 1 min?
 **D+5:** Último toque: condição de pré-temporada até 15/11, com 1 semana de garantia. Se não for o momento, tranquilo.
-**Msg 1 (ES):** ¡Hola, Martin! Soy Caue, vivo acá en Rosa y trabajo con tecnología. Vi que huéspedes argentinos te mencionan en las reseñas de la Pousada Rosa. Armé un asistente de WhatsApp que responde 24 h en español, portugués e inglés y pasa el pedido de reserva listo para confirmar. ¿Te lo muestro en 1 minuto?
+**Msg 1 (ES):** ¡Hola! ¿Cómo andan? Soy Caue, vivo acá en Rosa y trabajo con tecnología. Vi que un huésped argentino menciona a Martin en las reseñas de la Pousada Rosa. Armé un asistente de WhatsApp que responde 24 h en español, portugués e inglés y pasa el pedido de reserva listo para confirmar. ¿Quién maneja las reservas? ¿Se lo muestro en 1 minuto?
 
 ### [RX76] Pousada Sol & Sal — Praia do Rosa
 **Contato:** WhatsApp +55 48 99613-4015 · **Plano:** Ano
@@ -245,7 +245,7 @@ Escopo: leads A/A+ de RX46 a RX128 de `leads/rosa-ibiraquera-extra.md`. Antes de
 - Dor provável: público hispanofalante atraído pelo nome; dono atende sozinho.
 - Oferta: Plano Temporada.
 **Msg 1:** Oi, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi as cabanas da Dos Soles com vista pra montanha e cozinha. Montei um atendente de WhatsApp que responde hóspede 24h em espanhol, português e inglês e te passa a reserva pronta pra confirmar. Te mando um vídeo de 1 minuto?
-**D+2:** Oi! Passando só pra ver se viu. Agora começam as perguntas de Réveillon. Posso te mostrar rapidinho?
+**D+2:** Oi! Passando só pra ver se viu. Já começaram as perguntas de Réveillon? Posso te mostrar rapidinho?
 **D+5:** Último toque: até 15/11 tem condição de pré-temporada, com 1 semana de garantia. Tranquilo se não for o momento.
 
 ### [RX81] Pousada Cravo e Canella — Barra de Ibiraquera
@@ -275,7 +275,7 @@ Escopo: leads A/A+ de RX46 a RX128 de `leads/rosa-ibiraquera-extra.md`. Antes de
 - Dor provável: volume alto de argentinos perguntando em espanhol, também à noite.
 - Oferta: Plano Ano (porte, público estrangeiro, também espaço de casamentos).
 **Msg 1:** Oi, Neco, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Li na La Nación a Fazenda Verde como "complejo icónico para los argentinos". Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e passa o pedido de reserva pronto pra vocês. Faz sentido eu te mostrar em 10 min?
-**D+2:** Oi, Neco! Só pra ver se chegou. Agora é quando os argentinos fecham janeiro. Te mando um vídeo de 1 min?
+**D+2:** Oi, Neco! Só pra ver se chegou. Os argentinos já estão fechando janeiro? Te mando um vídeo de 1 min?
 **D+5:** Neco, último toque: até 15/11 tenho condição de pré-temporada, com 1 semana de garantia. Se não for o momento, tranquilo. Passo aí na Fazenda se quiser ver ao vivo.
 **Msg 1 (ES):** (para o contato em Buenos Aires) ¡Hola! Soy Caue, vivo en Praia do Rosa y trabajo con tecnología. Leí en La Nación que la Fazenda Verde es un "complejo icónico para los argentinos". Armé un asistente de WhatsApp que responde 24 h en español, portugués e inglés y pasa el pedido de reserva listo. ¿Quién maneja las consultas desde Buenos Aires?
 
@@ -288,7 +288,7 @@ Escopo: leads A/A+ de RX46 a RX128 de `leads/rosa-ibiraquera-extra.md`. Antes de
 - Dor provável: dona ou dono atende tudo no celular.
 - Oferta: Plano Temporada.
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi os aptos das Moradas da Dalvina com sacada de frente pra lagoa. Montei um atendente de WhatsApp que responde 24h (preço, capacidade, check-in) em 3 línguas e te passa a reserva pronta. Te mostro em 1 minuto?
-**D+2:** Oi! Só passando. Já tem gente perguntando de janeiro. Mando um vídeo curto?
+**D+2:** Oi! Só passando. Já tem gente perguntando de janeiro aí? Mando um vídeo curto?
 **D+5:** Último toque: condição de pré-temporada até 15/11, com 1 semana de garantia. Se não for agora, tranquilo.
 
 ### [RX86] Pousada Portal do Rosa — Ibiraquera / Rosa
@@ -371,7 +371,7 @@ Escopo: leads A/A+ de RX46 a RX128 de `leads/rosa-ibiraquera-extra.md`. Antes de
 - Dor provável: Réveillon e janeiro concentram perguntas de jovens argentinos, a qualquer hora.
 - Oferta: Plano Temporada.
 **Msg 1:** Oi, Edgardo, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Li na La Nación você comparando o Réveillon a um "viaje de egresados permanente". Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e passa a reserva pronta pra você. Te mando um vídeo curto?
-**D+2:** Oi, Edgardo! Só passando. As consultas de Réveillon chegam agora, muitas de madrugada. Te mostro em 1 minuto?
+**D+2:** Oi, Edgardo! Só passando. As consultas de Réveillon já começaram? Chegam de madrugada? Te mostro em 1 minuto?
 **D+5:** Edgardo, último toque: condição de pré-temporada até 15/11, com 1 semana de garantia. Se não for o momento, tranquilo.
 **Msg 1 (ES):** ¡Hola, Edgardo! Soy Caue, vivo acá en Rosa y trabajo con tecnología. Leí en La Nación cuando comparaste el Réveillon con un "viaje de egresados permanente". Armé un asistente de WhatsApp que responde 24 h en español, portugués e inglés y te pasa el pedido de reserva listo. ¿Te mando un video cortito?
 

@@ -14,7 +14,7 @@ Escopo: leads A/A+ de RX01 a RX45 em `leads/rosa-ibiraquera-extra.md`. Antes de 
 - Oferta: Plano Temporada. É pequena e o público argentino se concentra no verão. O atendente pode unificar o atendimento em espanhol e em português.
 
 **Msg 1:** Oi, Leo, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que a Rosa Negra tem até atendimento na Argentina, com número de lá. Montei um atendente de WhatsApp que responde hóspede 24h em espanhol, português e inglês e te passa o pedido de reserva pronto pra confirmar. Posso te mostrar em 1 minuto?
-**D+2:** Oi, Leo! Só pra ver se chegou. É agora que começam as consultas de janeiro, muitas em espanhol e fora de hora. Te mando um vídeo de 1 min funcionando em espanhol?
+**D+2:** Oi, Leo! Só pra ver se chegou. As consultas de janeiro já começaram, em espanhol e fora de hora? Te mando um vídeo de 1 min funcionando em espanhol?
 **D+5:** Leo, último toque: até 15/11 tenho condição de pré-temporada, com 1 semana de garantia. Se não for a hora, tranquilo. Moro perto, posso passar aí 10 min.
 **Msg 1 (ES):** ¡Hola, Leo! ¿Cómo andás? Soy Caue, vivo acá en Rosa y trabajo con tecnología. Vi que la Rosa Negra tiene atención en Argentina, con número de allá. Armé un asistente de WhatsApp que responde a los huéspedes 24 h en español, portugués e inglés y te pasa el pedido de reserva listo para que solo confirmes. ¿Te lo muestro en 1 minuto?
 
@@ -49,7 +49,7 @@ Escopo: leads A/A+ de RX01 a RX45 em `leads/rosa-ibiraquera-extra.md`. Antes de 
 - Oferta: Plano Ano. Porte grande, abre fora do verão por causa das baleias. Grupo Litman: a ligação com a Alexia Consultoria (AD01) é só **inferida** pelo sobrenome. Não citar na mensagem; se a conversa abrir espaço, perguntar e levar condição para as duas operações.
 
 **Msg 1:** Oi, Enrique, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que o Vida Sol e Mar recebe gente para ver baleias de julho a outubro, além do verão. Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês (studios, chalés, vilas) e passa o pedido de reserva pronto pra equipe. Posso te mostrar em 1 minuto?
-**D+2:** Oi, Enrique! Retomando rápido: ele responde em espanhol às 2h da manhã, que é quando muito argentino pergunta. Te mando um vídeo curto?
+**D+2:** Oi, Enrique! Retomando rápido: ele responde em espanhol às 2h da manhã. Chega consulta de argentino nesse horário? Te mando um vídeo curto?
 **D+5:** Enrique, último toque: até 15/11 tenho condição de pré-temporada, com 1 semana de garantia. Se preferir ver ao vivo, passo aí 10 min.
 **Msg 1 (ES):** ¡Hola, Enrique! Soy Caue, vivo acá en Rosa y trabajo con tecnología. Vi que en Vida Sol e Mar se pueden ver ballenas de julio a octubre, además del verano. Armé un asistente de WhatsApp que responde a los huéspedes 24 h en español, portugués e inglés (studios, chalés, villas) y le pasa al equipo el pedido de reserva listo. ¿Te lo muestro en 1 minuto?
 
@@ -61,7 +61,7 @@ Escopo: leads A/A+ de RX01 a RX45 em `leads/rosa-ibiraquera-extra.md`. Antes de 
 - Oferta: Plano Temporada. Pousada pequena, foco no verão.
 
 **Msg 1:** Oi, pessoal da Rosa Paradise, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi que os aptos de vocês têm cozinha, e a nota 9,8 no Booking. Montei um atendente de WhatsApp que responde hóspede 24h (preço, café, pet, check-in) em três idiomas e passa o pedido de reserva pronto. Te mando um vídeo curto?
-**D+2:** Oi! Só passando pra ver se viu. É agora que chegam as perguntas de Réveillon. Posso mostrar em 1 minuto, quando der.
+**D+2:** Oi! Só passando pra ver se viu. Já começaram as perguntas de Réveillon? Posso mostrar em 1 minuto, quando der.
 **D+5:** Último toque, prometo: até 15/11 tenho condição de pré-temporada com 1 semana de garantia. Se não for agora, tudo bem.
 
 ### RX08 Pousada Rosa 08 — R. Fruta do Conde, 150 m do centrinho
@@ -106,7 +106,7 @@ Escopo: leads A/A+ de RX01 a RX45 em `leads/rosa-ibiraquera-extra.md`. Antes de 
 - Oferta: Plano Temporada. Pousada pequena.
 
 **Msg 1:** Oi, Cândida e Cristiano, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que vocês têm tirolesa e muro de escalada pras crianças, coisa rara por aqui. Montei um atendente de WhatsApp que responde as famílias 24h e passa o pedido de reserva pronto pra vocês só confirmarem. Posso mostrar em 1 minuto?
-**D+2:** Oi! Só retomando: em dezembro e janeiro muita família pergunta de noite. Quer um vídeo de 1 min mostrando?
+**D+2:** Oi! Só retomando: em dezembro e janeiro as famílias perguntam muito de noite? Quer um vídeo de 1 min mostrando?
 **D+5:** Último toque: até 15/11 tenho condição de pré-temporada com 1 semana de garantia. Se não for o momento, tudo certo.
 
 ### RX13 Pousada do Paraíso — Barra de Ibiraquera (R. 15 Leste, 2)
@@ -172,7 +172,7 @@ Escopo: leads A/A+ de RX01 a RX45 em `leads/rosa-ibiraquera-extra.md`. Antes de 
 - Oferta: Plano Temporada. Operação pequena.
 
 **Msg 1:** Oi, tudo bem? Aqui é o Caue, vizinho do Rosa, trabalho com tecnologia. Vi que a KaOra tem até site em espanhol, com as cabanas no meio do verde ali no centro. Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e te passa o pedido de reserva pronto. Te mando um vídeo curto?
-**D+2:** Oi! Passando de novo: dezembro e janeiro é quando mais chega pergunta em espanhol. Posso te mostrar em 1 minuto?
+**D+2:** Oi! Passando de novo: em dezembro e janeiro chega muita pergunta em espanhol? Posso te mostrar em 1 minuto?
 **D+5:** Último toque: até 15/11 tenho condição de pré-temporada com 1 semana de garantia. Se não for agora, tudo bem.
 
 ### RX21 Pousada Inka — Praia do Rosa
@@ -182,8 +182,8 @@ Escopo: leads A/A+ de RX01 a RX45 em `leads/rosa-ibiraquera-extra.md`. Antes de 
 - Dor provável: alto volume de perguntas em espanhol no verão (hipótese). Levar a versão em espanhol na visita, caso a conversa vá por aí.
 - Oferta: Plano Temporada. Público argentino concentrado no verão.
 
-**Msg 1:** Oi, Diego e Ceci, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que a Inka recebe muita gente de Buenos Aires e tem acesso privado à praia. Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e passa o pedido de reserva pronto pra vocês confirmarem. Faz sentido eu mostrar em 1 minuto?
-**D+2:** Oi! Só retomando: argentino costuma perguntar de noite, e ele responde na hora. Mando um vídeo curto?
+**Msg 1:** Oi, Diego e Ceci, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi hóspedes de Buenos Aires elogiando vocês no TripAdvisor, e que a Inka tem acesso privado à praia. Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e passa o pedido de reserva pronto pra vocês confirmarem. Faz sentido eu mostrar em 1 minuto?
+**D+2:** Oi! Só retomando: os hóspedes argentinos costumam perguntar de noite? Ele responde na hora. Mando um vídeo curto?
 **D+5:** Último toque pra não incomodar: condição de pré-temporada até 15/11, com 1 semana de garantia. Se quiserem, passo aí 10 min.
 
 ### RX22 Pousada Araçatuba — Lagoa de Ibiraquera (Araçatuba)
@@ -193,7 +193,7 @@ Escopo: leads A/A+ de RX01 a RX45 em `leads/rosa-ibiraquera-extra.md`. Antes de 
 - Dor provável: os donos cuidam de tudo pessoalmente, inclusive do WhatsApp (hipótese).
 - Oferta: Plano Temporada.
 
-**Msg 1:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que a Araçatuba fica a poucos metros da lagoa e que os hóspedes sempre falam bem do atendimento de vocês. Montei um atendente de WhatsApp que ajuda nisso: responde 24h e passa o pedido de reserva pronto pra vocês só confirmarem. Posso te mostrar como é?
+**Msg 1:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que a Araçatuba fica a poucos metros da lagoa e que os hóspedes elogiam vocês como donos atenciosos. Montei um atendente de WhatsApp que responde 24h e passa o pedido de reserva pronto pra vocês só confirmarem. Posso te mostrar como é?
 **D+2:** Oi! Passando de novo: ele responde em português, espanhol e inglês. Te mando um vídeo de 1 minuto?
 **D+5:** Último toque: até 15/11 tem condição de pré-temporada, com 1 semana de garantia. Se não for o momento, tudo certo.
 
@@ -249,7 +249,7 @@ Escopo: leads A/A+ de RX01 a RX45 em `leads/rosa-ibiraquera-extra.md`. Antes de 
 - Oferta: Plano Temporada.
 
 **Msg 1:** Oi, Leonardo, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que na Rosa Karioka o café vai pro quarto, e que os hóspedes te elogiam bastante. Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês e te passa o pedido de reserva pronto pra só confirmar. Posso te mostrar em 1 minuto?
-**D+2:** Oi, Leonardo! Só retomando: as perguntas de Réveillon já estão chegando. Te mando um vídeo curto?
+**D+2:** Oi, Leonardo! Só retomando: as perguntas de Réveillon já começaram a chegar? Te mando um vídeo curto?
 **D+5:** Leonardo, último toque: condição de pré-temporada até 15/11, com 1 semana de garantia. Se quiser ver ao vivo, passo aí.
 
 ### RX33 Cabanas no Rosa — R. Pico da Tribo
@@ -293,7 +293,7 @@ Escopo: leads A/A+ de RX01 a RX45 em `leads/rosa-ibiraquera-extra.md`. Antes de 
 - Oferta: Plano Temporada (ticket menor). Se o público de trabalho remoto segurar o ano, apresentar o Ano.
 
 **Msg 1:** Oi, Daniela, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que o Paraíso recebe viajantes do mundo todo desde 2014 e tem espaço de trabalho remoto. Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e te passa o pedido de reserva pronto. Te mando um vídeo curto?
-**D+2:** Oi, Daniela! Passando de novo: em janeiro chega pergunta a qualquer hora. Posso te mostrar em 1 minuto?
+**D+2:** Oi, Daniela! Passando de novo: em janeiro chega pergunta a qualquer hora aí? Posso te mostrar em 1 minuto?
 **D+5:** Daniela, último toque: condição de pré-temporada até 15/11, com 1 semana de garantia. Se não for o momento, tranquilo.
 **Msg 1 (ES):** ¡Hola, Daniela! ¿Cómo andás? Soy Caue, vivo acá en Rosa y trabajo con tecnología. Vi que el Paraíso recibe viajeros de todo el mundo desde 2014 y tiene espacio para trabajo remoto. Armé un asistente de WhatsApp que responde 24 h en español, portugués e inglés y te pasa el pedido de reserva listo para que solo confirmes. ¿Te mando un video cortito?
 

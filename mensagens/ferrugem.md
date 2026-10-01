@@ -11,7 +11,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 - Dor provável: os próprios donos atendem tudo, inclusive o WhatsApp à noite (hipótese).
 - Oferta: Plano Temporada. Operação pequena e familiar; o atendente ajuda a manter o mesmo cuidado no WhatsApp sem prender os donos no celular.
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui perto, no Rosa, e trabalho com tecnologia. Vi no Booking hóspede elogiando os "proprietários muito atenciosos" da Pousada da Ferrugem. Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês e passa o pedido de reserva pronto pra vocês só confirmarem. Quem cuida do WhatsApp aí, vocês mesmos?
-**D+2:** Oi! Só passando pra ver se viu. As perguntas de Réveillon e janeiro começam a chegar agora, muitas à noite. Te mando um vídeo de 1 min mostrando funcionando?
+**D+2:** Oi! Só passando pra ver se viu. As perguntas de Réveillon e janeiro já começaram a chegar? Muitas chegam à noite? Te mando um vídeo de 1 min mostrando funcionando?
 **D+5:** Último toque pra não encher: até 15/11 tenho condição de pré-temporada, com 1 semana de garantia. Se agora não for o momento, tudo bem.
 
 ### FE02 Pousada da Praia Ferrugem — Rua da Praia, Ferrugem
@@ -21,7 +21,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 - Dor provável: muita pergunta repetida sobre pet e disponibilidade das suítes com hidro (hipótese).
 - Oferta: Plano Temporada. Pousada pé na areia que opera forte no verão; bom para testar.
 **Msg 1:** Oi, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi o "refúgio a 30 m do mar" de vocês, com hidromassagem e aceitando pet. Fiz um atendente de WhatsApp que responde hóspede 24h (pet, preço, check-in) em português, espanhol e inglês e te entrega o pedido de reserva pronto. Te mando um vídeo curto?
-**D+2:** Oi, tudo certo? Pergunta de pet e de Réveillon costuma chegar fora de hora. Se quiser, te mostro em 1 minuto como o atendente responde.
+**D+2:** Oi, tudo certo? Pergunta de pet e de Réveillon chega muito fora de hora aí? Se quiser, te mostro em 1 minuto como o atendente responde.
 **D+5:** Último recado: até 15/11 tem condição de pré-temporada e 1 semana de garantia. Se não for agora, sem problema.
 
 ### FE03 Pousada do Morro — Estrada Geral do Capão (~400 m da praia)
@@ -41,7 +41,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 - Dor provável: volume alto de perguntas em espanhol, chegando à noite, espalhado em mais de um número (hipótese).
 - Oferta: Plano Ano por unidade e proposta de condição para as 3. É o lead mais forte da Ferrugem: falar com quem decide (César, se for ele), uma vez só.
 **Msg 1:** Oi, tudo bem? Queria falar com o César, se possível. Sou o Caue, moro no Rosa e trabalho com tecnologia. Li na La Nación que uns 70% dos hóspedes do Ferrujão são argentinos. Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e passa o pedido de reserva pronto. Serve pro Ferrujão, a Capão e a Pé na Areia. Posso mostrar em 1 minuto?
-**D+2:** Oi! Só passando pra ver se chegou. É agora que os argentinos fecham janeiro, muita mensagem de madrugada. Te mando um vídeo de 1 min com o atendente respondendo em espanhol?
+**D+2:** Oi! Só passando pra ver se chegou. Os argentinos já estão fechando janeiro com vocês? Se chega mensagem de madrugada, ele responde na hora, em espanhol. Te mando um vídeo de 1 min?
 **D+5:** Último toque pra não insistir: até 15/11 tenho condição de pré-temporada, e pra três pousadas dá pra montar algo à parte. Se fizer sentido, passo aí 10 min.
 
 ### FE05 Pousada Buena Onda — R. das Baleias 22, 50 m da praia
@@ -62,7 +62,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 - Dor provável: pedido de reserva chega por site e WhatsApp e o dono concilia na mão (hipótese).
 - Oferta: Plano Temporada. Pousada tradicional e de porte médio; o verão concentra o movimento.
 **Msg 1:** Oi, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi que a Sol da Ferrugem funciona desde 1998, é quase uma instituição aí. Fiz um atendente de WhatsApp que responde hóspede 24h em português, espanhol e inglês e te passa o pedido de reserva pronto pra só confirmar. Posso te mostrar em 1 minuto?
-**D+2:** Oi! Só passando. Réveillon e janeiro já começam a ser perguntados agora. Quer que eu mande um vídeo rápido?
+**D+2:** Oi! Só passando. Já começaram a perguntar de Réveillon e janeiro aí? Quer que eu mande um vídeo rápido?
 **D+5:** Último toque: até 15/11 tenho condição de pré-temporada, com 1 semana de garantia. Se não for agora, sem stress.
 
 ### FE07 Pousada das Palmeiras — Estrada Geral da Ferrugem 3677
@@ -97,7 +97,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 - Dor provável: família pergunta capacidade, roupa de cama e pet; dono responde um por um (hipótese).
 - Oferta: Plano Temporada. Poucas unidades, operação de verão.
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi os chalés de 96 m² de vocês, "entre a lagoa e o mar" na Barra. Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês (capacidade, pet, check-in) e passa o pedido de reserva pronto. Quem atende o WhatsApp aí, você mesmo?
-**D+2:** Oi! Só passando pra ver se viu. Família costuma perguntar tudo à noite, depois que as crianças dormem. Te mostro em 1 minuto?
+**D+2:** Oi! Só passando pra ver se viu. As famílias costumam escrever à noite, depois que as crianças dormem? Ele responde na hora. Te mostro em 1 minuto?
 **D+5:** Último toque: até 15/11 tenho condição de pré-temporada com 1 semana de garantia. Se não for agora, tudo bem.
 
 ### FE13 Recanto do Sossego — R. dos Eucaliptos, Ferrugem (~500 m do mar)
@@ -121,7 +121,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 - Dor provável: público jovem e argentino, que manda mensagem de madrugada e em espanhol (hipótese).
 - Oferta: Plano Temporada (operação de verão, público jovem) em cada uma, com condição para as duas se o dono for o mesmo. Se a parceria com a LaFerrugem.com (FE09) andar, alinhar antes.
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi uma avaliação em espanhol chamando a Koh Phangan de "la mejor pousada de Ferrugem". Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e passa o pedido de reserva pronto. Se a Don Antonio também for de vocês, serve pras duas. Te mando um vídeo curto?
-**D+2:** Oi! Só pra ver se viu. Galera jovem argentina pergunta tudo de madrugada; o atendente responde na hora. Te mostro em 1 minuto?
+**D+2:** Oi! Só pra ver se viu. Chega muita mensagem em espanhol de madrugada aí? O atendente responde na hora. Te mostro em 1 minuto?
 **D+5:** Último toque pra não encher: até 15/11 tenho condição de pré-temporada, com 1 semana de garantia. Se não for o momento, tudo bem.
 
 ### FE17 Pousada Canoa Azul (grupo PRAIADAFERRUGEM.net, família Burg) — Estrada Geral da Ferrugem 3003
@@ -154,7 +154,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 - Particular: pousada familiar com piscina, desde 1994; gestão "familiar, atenciosa"; equipe 9,2.
 - Dor provável: a família reveza o celular e o WhatsApp não para no verão (hipótese).
 - Oferta: Plano Temporada.
-**Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui perto, no Rosa, e trabalho com tecnologia. Vi que a Paradise é familiar e está aí desde 1994, com hóspede elogiando a gestão atenciosa. Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês e te passa a reserva pronta pra só confirmar. Quem cuida do WhatsApp na família?
+**Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui perto, no Rosa, e trabalho com tecnologia. Vi que a Paradise é familiar, está aí desde 1994 e tem a equipe com nota 9,2 no Booking. Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês e te passa a reserva pronta pra só confirmar. Quem cuida do WhatsApp na família?
 **D+2:** Oi! Só passando. O atendente segura as perguntas da noite e de manhã vocês só confirmam. Te mostro em 1 minuto?
 **D+5:** Último toque: condição de pré-temporada até 15/11, com 1 semana de garantia. Se não for o momento, sem problema.
 
@@ -216,7 +216,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 - Dor provável: está montando o jeito de atender agora (hipótese).
 - Oferta: Plano Temporada. Bom momento para começar o atendimento já organizado.
 **Msg 1:** Oi, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi que a Medina Surf House é nova na Ferrugem. Montei um atendente de WhatsApp que responde hóspede 24h em português, espanhol e inglês e passa o pedido de reserva pronto. Como vocês estão começando, dá pra já entrar no verão com isso rodando. Faz sentido conversar 10 min?
-**D+2:** Oi! Só passando pra ver se viu. Primeiro verão é quando chega mais pergunta. Te mando um vídeo de 1 min?
+**D+2:** Oi! Só passando pra ver se viu. Como é o primeiro verão de vocês, dá pra já começar com isso rodando. Te mando um vídeo de 1 min?
 **D+5:** Último toque: até 15/11 tenho condição de pré-temporada, com 1 semana de garantia. Se não for o momento, sem problema.
 
 ### FE32 Posada Las Ondas — R. das Bromélias 20
@@ -226,7 +226,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 - Dor provável: pedidos de grupo e muita mensagem em espanhol no pico (hipótese).
 - Oferta: Plano Ano. Porte grande e público estrangeiro. Se a parceria com a LaFerrugem.com (FE09) andar, combinar com ela antes de abordar.
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro aqui perto, no Rosa, e trabalho com tecnologia. Vi que a Las Ondas tem "tradición de recibir surfistas, jóvenes y grupos". Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês (preço, grupos, piscina, check-in) e passa o pedido de reserva pronto. Posso te mostrar em 1 minuto?
-**D+2:** Oi! Só pra ver se chegou. Grupo de argentino pergunta tudo junto, à noite; o atendente responde e já organiza o pedido. Te mando um vídeo?
+**D+2:** Oi! Só pra ver se chegou. Os grupos costumam perguntar tudo junto, e à noite? Ele responde e já organiza o pedido. Te mando um vídeo?
 **D+5:** Último toque pra não insistir: até 15/11 tenho condição de pré-temporada, com 1 semana de garantia. Se preferir, passo aí 10 min.
 
 ### FE33 Posada Don Antonio: ver grupo FE16
@@ -242,7 +242,7 @@ Antes de enviar: conferir no Instagram ou no site se o número é o WhatsApp atu
 - Dor provável: recebe consulta em espanhol vinda do portal (hipótese).
 - Oferta: Plano Temporada.
 **Msg 1:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi a Canto Verde listada no ruta0, o portal argentino. Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e te passa o pedido de reserva pronto pra só confirmar. Chega muita mensagem em espanhol aí?
-**D+2:** Oi! Só passando pra ver se viu. Janeiro argentino começa a ser fechado agora. Te mando um vídeo de 1 min?
+**D+2:** Oi! Só passando pra ver se viu. Os argentinos já começaram a perguntar de janeiro aí? Te mando um vídeo de 1 min?
 **D+5:** Último recado: até 15/11 tem condição de pré-temporada, com 1 semana de garantia. Se não for o momento, tudo bem.
 
 ### FE42 Pousada do Véio — Estrada Geral 227, Ferrugem
