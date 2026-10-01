@@ -39,3 +39,47 @@ Igualite Services (gestora da Coração da Terra, RS08): carteira não encontrad
 - RX13: pousadadoparaiso.com.br · booking.com/hotel/br/pousada-do-paraiso.html · tripadvisor d4510428
 - RX14: pousadalagoadosventos.com.br · booking.com/hotel/br/lagoa-dos-ventos.html
 - RX15: instagram.com/hostelvaledorosa · booking hostel-vale-do-rosa
+
+---
+
+# Terceira leva (Praia do Rosa e Ibiraquera)
+
+| # | Nome | Tipo | Bairro | Telefone / WhatsApp | Instagram | Site | WhatsApp? | Sinal estrangeiro | Avaliações | Prior. | Observação citável |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| RX16 | Villa Gardena Suítes | pousada de suítes | R. Mané Chico (Rosa) | +55 48 99129-6363 | @villagardena | sim, villagardena.com.br | provável | avaliações em inglês no TripAdvisor | TripAdvisor 5/5 (37), 8º de 85 | **A** | 36 das 37 avaliações são "Excelente", elogiando o café caseiro com orgânicos locais; blogs a chamam de "a mais bem avaliada do Rosa (9,8)" |
+| RX17 | Pousada Vivenda do Rosa | pousada | Centro do Rosa | (48) 98416-0188 | @vivendadorosa | sim, vivendadorosa.com.br | provável | não encontrado | TripAdvisor 4,7 (47) | **A** | piscina aquecida; café da manhã servido no quarto |
+| RX18 | Pousada Watu Kererê | chalés e bangalôs | Estrada Geral do Rosa, 600 m do centrinho | WhatsApp +55 48 99222-3394 | @pousadawatukerere | sim, watukerere.com.br | sim | **forte**: equipe fala inglês, espanhol e indonésio; avaliações em espanhol | TripAdvisor 4,5 (40) | **A** | chalés espaçosos; nome e equipe ligados à Indonésia. Já atende 3 idiomas à mão |
+| RX19 | Pousada Casa do Ceo | pousada / B&B com yoga | Av. Porto Novo 962 | (48) 99169-5129; fixo 48 3355-6677 | não encontrado | sim, casadoceo.com.br (/en) | provável | **sim**: avaliações em inglês e bilíngue PT/ES ("Mejor que en familia") | **TripAdvisor 4,5 (159)**, 11º de 79 | **A** | Nene e Nilo chegaram ao Rosa em 1973; yoga shala, retiros e o empório "Armazém Coisas do Ceo" |
+| RX20 | KaOra Cabanas | 3 cabanas + 1 suíte | Centro do Rosa (R. Dona Eugênia) | WhatsApp 48 99839-9898 | @kaoracabanas | sim, kaoracabanas.com.br (/esp) | sim | **site em espanhol** | Airbnb 4,82 (78); Booking 9,4 (16) | **A** | cabanas rústicas em área verde no centro do Rosa |
+| RX21 | Pousada Inka | cabanas com cozinha | Praia do Rosa | +55 48 98822-2868; fixo 48 3355-6094 | não encontrado | sim, pousadainka.com.br (página em espanhol) | provável | **forte**: site em espanhol e várias avaliações de Buenos Aires | TripAdvisor 4,5–4,7 (37–38) | **A (top)** | argentino elogia os donos "Diego e Ceci" no TripAdvisor.com.ar; acesso privado à praia a 5 min |
+| RX22 | Pousada Araçatuba | pousada | Lagoa de Ibiraquera (Araçatuba) | Tel. e WhatsApp (48) 99952-1043 / (48) 99181-4610 | não encontrado | sim, pousadaaracatuba.com.br | sim | não encontrado | Trivago 8,9 (171); Booking 8,7 (41) | **A** | a poucos metros da lagoa; hóspedes elogiam limpeza e donos atenciosos |
+| RX23 | Pousada Morada dos Sisais | pousada (9 suítes) | R. do Mirante 201 | WhatsApp reservas +55 48 99172-7475; info 48 98844-8280 | não encontrado | sim, moradadossisais.com.br | sim | não encontrado | TripAdvisor 4,5 (~150); Booking 8,5 (138) | **A** | todas as suítes com vista para a praia; baleias-francas de agosto a novembro |
+| RX24 | Pousada Refúgio dos Pássaros | chalés | Av. Central 300 | 48 99662-4555; fixo 48 3355-7392; também (51) 98057-3489 | não encontrado (Facebook) | sim, refugiodospassaros.com.br | não sei | avaliação em inglês ("astonishing hospitality of the owners") | **Booking 9,2 (166)**; TripAdvisor 4,9 (23) | **A** | chalés Canário e Bem-te-vi com lareira e hidro aquecida a gás |
+| RX25 | Sal do Mar Cabanas Charme | cabanas | Praia do Rosa | 48 99146-7564 | @saldomar_praiadorosa | sim, pousadasaldomar.com.br | não sei | não encontrado | não encontrado | **B** | piscina sazonal, banho ao ar livre |
+| RX26 | Cabanas Kaia Lua | cabanas duplex | perto do centro | WhatsApp +55 48 99613-6151 | @cabanas_kaialua | sim, cabanaskaialua.com.br | sim | não encontrado | TripAdvisor 3,9 (13) | **B** | aceita pet, piscina. Nota de atendimento 3,3 no TripAdvisor (dor, mas não citar) |
+| RX27 | Cabanas Alamanda do Rosa | chalés | Ibiraquera (R. Pau Brasil) | não encontrado | @cabanas_alamanda | sim, cabanasalamanda.com.br | não sei | fraco (Airbnb em espanhol) | não encontrado | **B** | aceita pet; área gourmet com 2 churrasqueiras e fogão a lenha |
+| RX28 | Pousada Cacau | pousada rústica | Centro (R. Fruta do Conde) | WhatsApp +55 48 99160-7154 (linktree) | @cacaupousada (~26 mil) | sim, cacaupousada.com.br | provável | não encontrado | **Booking 8,9 (898)** | **A (top volume)** | aceita pet; maior volume de avaliações da leva: muito WhatsApp para responder |
+| RX29 | Hotel Pousada Laguna Rosa | pousada | Barra de Ibiraquera (R. Eucalipto) | +55 48 99827-2867 / +55 47 99610-4218 | @pousadalagunarosa | não | provável (Instagram: reservas pelo WhatsApp) | não encontrado | agregador 9,2 (258) | **A** | sem site: o WhatsApp é o único canal direto; atendimento "familiar e personalizado" |
+| RX30 | Pousada Rosa Karioka | pousada | Centro comercial do Rosa | WhatsApp +55 48 99212-8576 / +55 21 99192-0250 | não encontrado | sim, pousadarosakarioka.com.br | sim | não encontrado | **Booking 9,6 (~127)**; TripAdvisor 5,0 (48) | **A** | dono Leonardo elogiado; café da manhã servido no quarto |
+| RX31 | Fazenda do Rosa | pousada beira-mar + restaurante | Praia do Rosa | WhatsApp (48) 99963-2985; fixo 48 3355-7272 | não encontrado | sim, fazendadorosa.com.br | sim | não encontrado | TripAdvisor 4/5 (245), 5º de 65 | **B** (porte maior) | restaurante próprio Maram |
+
+Grandes (C): Fazenda Verde (28 unidades, 3 restaurantes, WhatsApp +55 48 99629-5555).
+Para expandir: Cabanas Cores do Rosa (@cabanascoresdorosa), Cabanas no Rosa (@cabanasnorosa), Cabanas Prema (@cabanasprema), Meio Roots (@meio.roots_praia.do.rosa), Rosa Mística, Pousada Horizontes do Rosa (pousadahorizontes.com), Paraíso Hostel, Pousada Praia Verde.
+
+## Fontes (terceira leva)
+- RX16: instagram.com/villagardena · tripadvisor d12352713 · penaestrada.blog.br/onde-ficar-na-praia-do-rosa
+- RX17: vivendadorosa.com.br · tripadvisor d11887044
+- RX18: watukerere.com.br/contato · tripadvisor d2292503
+- RX19: casadoceo.com.br/en · tripadvisor d1223571
+- RX20: kaoracabanas.com.br/esp · booking kaora-cabanas
+- RX21: pousadainka.com.br · tripadvisor.com.ar d4510602
+- RX22: pousadaaracatuba.com.br · booking pousada-aracatuba
+- RX23: moradadossisais.com.br · tripadvisor d3857011
+- RX24: refugiodospassaros.com.br · tripadvisor d8805423
+- RX25: pousadasaldomar.com.br
+- RX26: cabanaskaialua.com.br · tripadvisor d6158393
+- RX27: instagram.com/cabanas_alamanda · tripadvisor d23772008
+- RX28: cacaupousada.com.br · booking pousada-demarchi
+- RX29: instagram.com/pousadalagunarosa · booking suites-laguna-rosa
+- RX30: pousadarosakarioka.com.br/pt/contato · tripadvisor d13280547
+- RX31: fazendadorosa.com.br/contato · tripadvisor d4257311
