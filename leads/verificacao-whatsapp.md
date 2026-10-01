@@ -24,3 +24,35 @@ Feita só por busca (trechos), sem abrir as páginas. Nenhum link wa.me literal 
 | RX48 | Village do Luz | +55 48 99823-6566 | só como telefone | @villagedoluz (~19 mil) | — |
 | RX37 | Horizontes do Rosa | +55 48 99197-6141 | só como telefone | não encontrado | — |
 | RX30 | Rosa Karioka | +55 48 99212-8576 | **sim** | **@pousadarosakarioka** (~22 mil) | também +55 21 99192-0250 |
+
+## Lote 2
+
+| ID | Nome | Número a usar | WhatsApp? | Instagram | Observação |
+|---|---|---|---|---|---|
+| IB02 | Natural Park | (48) 99967-4260 | divergente: uma busca trouxe "Celular/WhatsApp", outra só celular | @naturalparkpousada | provavelmente é WhatsApp |
+| IB03 | Toca da Lagoa | (48) 99155-5530 | só telefone | @tocadalagoa | — |
+| IB05 | Raia 1 | (48) 99121-3065 | **sim** | @pousadaraia1 | — |
+| IB07 | Beija Flor | (48) 99951-1844 | **sim** | @pousada.beijaflor (incerto) | — |
+| RN01 | Rosa Norte | (48) 99167-3990 | só telefone | @rosanortepousada (~52 mil) | linktr.ee/pousadarosanorte |
+| RN02 | Lagoa do Rosa | +55 48 99152-8435 | só telefone | não encontrado (Facebook) | — |
+| RN09 | Refúgio do Rosa | +55 48 99205-0270 | **sim** (BR) | não encontrado (Facebook) | **WhatsApp AR +54 9 385 507-3006 confirmado** |
+| RS02 | Caminho do Rei | (48) 99841-7817 | só telefone | @caminhodorei (~86 mil) | — |
+| RS04 | Villa Buena Vista | (48) 98811-9151 | só telefone | @villabuenavista | — |
+| RS03 | The Rosebud | (48) 99982-5050 | **sim** | @pousadatherosebud | bio: 99927-8225 |
+| RS01 | Rosa Sul | (48) 98862-1957 | só telefone | não encontrado | reservas@rosasul.com.br |
+| RN12 | Natribu's | (48) 99143-5442 | só telefone | conferir grafia | — |
+| RX09 | Bangalôs do Rosa | (48) 99115-0412 | só telefone | @pousadabangalosdorosa (~20 mil) | — |
+| RX10 | Vila no Rosa | (48) 99632-7131 | **sim** | via linktr.ee/vilanorosa | — |
+| RX08 | Rosa 08 | (48) 99166-1425 | só telefone | @pousadarosa08 (não confirmado) | — |
+| RX16 | Villa Gardena | (48) 99129-6363 | só telefone | @villagardena (~35 mil) | — |
+| RX23 | Morada dos Sisais | (48) 99172-7475 | só telefone | **@moradadossisais** (~17 mil) | — |
+| FE04 | Ferrujão | (48) 99143-5465 | só telefone | @pousadaferrujao (~20 mil) | reservasferrujao@gmail.com |
+| FE03 | Pousada do Morro | (48) 99973-4016 | **sim** | não encontrado (Facebook) | — |
+| FE01 | Pousada da Ferrugem | (48) 99160-6336 | **sim** | não encontrado (Facebook) | — |
+| GA21 | Hotel Pousada da Lagoa | (48) 99140-2028 | **sim** | **@pousadadalagoa** | — |
+| GA24 | Pousada do Sol | (48) 99653-2997 | só telefone | @pousadadosolgaropaba | — |
+| GA36 | Morada do Sol Apart | **(48) 99987-0399** | **sim** (página de contato) | **@moradadosolgaropaba** | número novo, melhor que o fixo |
+| GA13 | Village Garopaba | (48) 99967-1170 | só telefone (reservas) | @villagegaropaba | — |
+| GA12 | Bronzatto | (48) 99111-4936 | **sim** | @pousadabronzatto | — |
+
+"Só telefone" não quer dizer que não seja WhatsApp: só não apareceu o rótulo. Na prática, quase todo celular de pousada na região é WhatsApp Business. Confira abrindo o número no app (sem mandar mensagem).

@@ -83,7 +83,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | GA33 | Residencial da Praça | Centro, 300 m do mar | (48) 99112-0190; fixo 48 3254-4081 | não encontrado | A | a contatar |
 | GA34 | Pousada Costa Azul | Centro Histórico, uma quadra da praia | fixo 48 3254-3321; 48 9971-0575 (formato antigo) | não encontrado | A | a contatar |
 | GA35 | Acqua Viva | Centro (Av. dos Pescadores 159) | (48) 99174-7536 | não encontrado | A | a contatar |
-| GA36 | Morada do Sol Apart Hotel | Centro (R. Nereu Ramos 341) | fixo +55 48 3254-3317 (rotulado tel. e WhatsApp) | não encontrado | A | a contatar |
+| GA36 | Morada do Sol Apart Hotel | Centro (R. Nereu Ramos 341) | WhatsApp (48) 99987-0399; fixo 48 3254-3317 | não encontrado | A | a contatar |
 | GA42 | Pousada Lagoa Encantada | Encantada (Estrada Geral da Ferrugem 2924) | WhatsApp +55 48 99668-1062; fixos 48 3254-0488 / 0094 | não encontrado | A | a contatar |
 | GA43 | Pousada Saint Germain | Silveira (entrada da praia) | +55 48 99670-3234 | não encontrado | A | a contatar |
 | GA44 | Pousada do Taxo | Siriú, 500 m do mar | WhatsApp +55 48 99162-0343; fixo 48 3355-0412 | não encontrado | A | a contatar |
