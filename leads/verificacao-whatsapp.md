@@ -79,3 +79,17 @@ Feita só por busca (trechos), sem abrir as páginas. Nenhum link wa.me literal 
 | AD04 | Sal Hospedagem | **+55 48 99115-9936** (rotulado) | não encontrado | não encontrado | não encontrado | número novo |
 | GA04 | Parador Silveira | (51) 98948-0303 | @paradorsilveira (~31 mil) | não publicado | não encontrado | linktr.ee/paradorsilveira |
 | AD10 | Imobiliária Ilha Bela | (48) 99858-2379 (o site tem botão "Fale via WhatsApp") | @imobiliariailhabela | não encontrado | empresa familiar desde 1986 | celular novo: sobe para A+ |
+
+## Lote 4: contatos achados
+| ID | Nome | Contato | Fonte |
+|---|---|---|---|
+| RX97 | Kirana | WhatsApp +55 48 99855-1995 / 99127-6662 · @pousadakirana | Instagram (bio), bedandbreakfast.eu |
+| RX98 | Além do Jardim | tel./WhatsApp +55 48 99835-4397 · @alem_do_jardim | cabanasalemdojardim.com.br/contato |
+| RX99 | Vale da Praia | WhatsApp +55 51 99807-5692 | pousadavaledapraia.com |
+| RX01 | Rosa Negra | **oficial**: WhatsApp BR +55 48 99204-0521 · AR +54 11 3410-3990 · R. dos Poncianos s/n | pousadarosanegra.com.br/pt/contato |
+| GA62 | Residencial Franca | +55 48 99183-1146 (= GaropaSul) | agregadores do Booking |
+| AD04 | Sal Hospedagem | WhatsApp +55 48 99115-9936 | salhospedagem.com.br/en |
+| GA55 | Bangalore Suites | fixo (48) 3354-1733; celular não confirmado | guia.waves.com.br |
+| RX96 | Vibras do Rosa | não encontrado (só a matéria da La Gaceta) | — |
+| RX84 | Lá vem Férias | não encontrado (o site cita WhatsApp) | lavemferias.com.br |
+| AD13 | Tosetto | só fixo (48) 3254-3161 | tosettoimoveis.com.br/Contato.aspx |

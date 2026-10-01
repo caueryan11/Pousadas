@@ -9,6 +9,7 @@ Abordar cada grupo como **um** lead, com proposta para várias unidades (ticket 
 | **LaFerrugem.com (agência uruguaia)** | FE36 Residencial LaFerrugem, FE09 La Ferrugem Suites + vende FE32, FE33, FE34, FE37 | telefone 99136-3814 igual + site da agência | WhatsApp +598 94 259 977 |
 | **Portal da Ferrugem / Diego Imóveis** | AD11, GA27 Caminho do Mar | telefones iguais | Reservas (48) 99915-7464 |
 | **Casas Ibiraquera / Vila dos Coqueiros (Pablo Griep)** | IB12, RX66 | site casasibiraquera.com ("administra a Vila dos Coqueiros, propriedade sua") | WhatsApp (48) 99184-1040 |
+| **GaropaSul / Residencial Franca** | GA11, GA62 | mesmo número 99183-1146, mesma rua | WhatsApp (48) 99183-1146 |
 | **Barbatana / Areia Nova** | GA19, FE15 | mesmo número 99176-8327 | (48) 99176-8327 |
 | **Koh Phangan / Don Antonio** | FE16, FE33 | número 99136-0040 (provável) | (48) 99136-0040 |
 | **Doce Cabana / Moradas Alma da Lagoa** | RX42, RX95 | mesmo WhatsApp 99664-9997 | (48) 99664-9997 |

@@ -173,7 +173,7 @@ Surf Lodge Garopaba (Silveira) pertence à Silveira Ecovillage (GA02).
 | GA59 | Candeias Basfak Praia | hotel 31 UHs (**rede Clube Candeias**) | Centro | fixo 48 3254-4507 | não encontrado | clubecandeias.com | provável | não encontrado | TripAdvisor 4,2 (64) | **C** (rede) | — |
 | GA60 | Pousada Nanaco | 19 quartos, piscina | Centro (R. Francisco Pacheco de Souza 708) | fixo 48 3254-3911 | não encontrado | não | não sei | não encontrado | Booking 7,7 (299) | **B** | só fixo: visita |
 | GA61 | Residencial Colibri | aptos | Centro, 300 m da rodoviária | +55 48 99616-2002 | @colibripousadaresidencial | linktree | provável | não encontrado | TripAdvisor 4/5 | **A** | tem playground (público família) |
-| GA62 | Residencial Franca | aptos | Centro (R. Elmo Kinseski 694) | não encontrado | não encontrado | não | não sei | não encontrado | **Booking 9,6 (~130)** | **B** | sem contato público: visita |
+| GA62 | Residencial Franca | aptos | Centro (R. Elmo Kinseski 694) | +55 48 99183-1146 | não encontrado | não | provável | não encontrado | **Booking 9,6 (~130)** | **A (grupo c/ GA11)** | **mesmo número da GaropaSul (GA11), na mesma rua**: mesmo dono, 2 hospedagens |
 | GA63 | Casa 3Jotas | 2 casas | perto da Vigia | não encontrado | não encontrado | não | não sei | não encontrado | Booking 9,8 | **C** | — |
 | GA64 | Garopaba Hostel | hostel | Centro (R. Prof. Antônio José Botelho 334) | não encontrado | não encontrado | não | não sei | não encontrado | TripAdvisor 4/5 (22) | **C** | — |
 | GA65 | Dunas Studios | 8 studios, piscina aquecida e spa | em frente às Dunas do Siriú | via Instagram (bio: atende por WhatsApp) | @dunas.studios (~2,9 mil) | não | sim (bio) | não encontrado | **Booking 9,7 (45)** | **A** | piscina aquecida e spa; contato por DM |

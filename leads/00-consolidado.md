@@ -1,6 +1,6 @@
 # Consolidado de leads (gerado por scripts/consolida.py)
 
-Total: **311** leads. A: 155 · A+: 34 · B: 83 · C: 39
+Total: **311** leads. A: 156 · A+: 34 · B: 82 · C: 39
 
 Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada região.
 
@@ -43,7 +43,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX66 | Pousada Vila dos Coqueiros | Barra de Ibiraquera (R. Custódia de Carvalho Ferreira 317) | WhatsApp 48 99154-8802 / 48 99184-1040; fixo 48 3255-1277 | não encontrado | A+ (grupo c/ IB12) | a contatar |
 | RX84 | Lá vem Férias | gere a Pousada Gauleses (RX73) no Rosa | não encontrado (o site cita WhatsApp) | não encontrado | A+ (parceria) | a contatar |
 
-## A (pousadas-alvo) (155)
+## A (pousadas-alvo) (156)
 
 | ID | Nome | Bairro | Telefone / WhatsApp | Estrangeiro | Prior. | Status |
 |---|---|---|---|---|---|---|
@@ -51,7 +51,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | GA11 | Pousada GaropaSul | Centro, 600 m da praia | WhatsApp (48) 99183-1146; fixo 48 3254-3177 | não encontrado | A (top) | a contatar |
 | GA17 | Pousada A Cabana | Estrada Geral da Ferrugem | WhatsApp (48) 99192-5548 | **site em espanhol** | A (top) | a contatar |
 | GA30 | Pousada As Quatro Estações | Centro (R. Aderbal Ramos da Silva 250) | WhatsApp +55 48 98439-2058; fixo 48 3254-4811 | não encontrado | A (top) | a contatar |
-| RX01 | Pousada Rosa Negra | R. dos Poncianos, ~700 m do centro do Rosa | WhatsApp BR +55 48 99149-1716; **WhatsApp AR +54 9 351 746-3322** (⚠ o site oficial também é associado a 99204-0521 / +54 11 3410-3990, conferir) | **forte**: número argentino e "Atención en Argentina" no site | A (top) | a contatar |
+| RX01 | Pousada Rosa Negra | R. dos Poncianos, ~700 m do centro do Rosa | WhatsApp BR +55 48 99149-1716; **WhatsApp AR +54 9 351 746-3322** (⚠ **o site oficial publica +55 48 99204-0521 e +54 11 3410-3990: use esses**; os outros vêm de guia antigo) | **forte**: número argentino e "Atención en Argentina" no site | A (top) | a contatar |
 | RX21 | Pousada Inka | Praia do Rosa | +55 48 98822-2868; fixo 48 3355-6094 | **forte**: site em espanhol e várias avaliações de Buenos Aires | A (top) | a contatar |
 | RX28 | Pousada Cacau | Centro (R. Fruta do Conde) | WhatsApp +55 48 99160-7154 (linktree) | não encontrado | A (top volume) | a contatar |
 | RX46 | Pousada Studios do Barão | Caminho do Alto do Morro 162 (Ibiraquera) | +55 48 99679-8666; fixo 48 3355-6229 | **forte**: atende em inglês e espanhol; avaliação em espanhol cita o anfitrião Rogelio | A (top) | a contatar |
@@ -59,8 +59,8 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX75 | Pousada Rosa | Av. Porto Novo | WhatsApp +55 48 99814-0433 | **forte**: avaliações de argentinos de Formosa (jan/2026) e Rosário (jan/2025); hóspede cita o atendente "Martin, de la Argentina" | A (top) | a contatar |
 | RX76 | Pousada Sol & Sal | Praia do Rosa | WhatsApp +55 48 99613-4015; fixo 48 3355-7414 | não encontrado | A (top) | a contatar |
 | RX83 | Fazenda Verde by Neco | Praia do Rosa | WhatsApp +55 48 99699-8074; fixo 48 3355-6060; **contato em Buenos Aires +54 9 11 5015-1928** | **muito forte**: LA NACION chama de "complejo icónico para los argentinos"; tem representante de viagens em Buenos Aires | A (top) | a contatar |
-| RX97 | Pousada Kirana | Praia do Rosa (R. Fruta do Conde) | não encontrado | **dono argentino** (La Nación, 17/01/2026) | A (top) | a contatar |
-| RX98 | Pousada Além do Jardim | Av. Central do Rosa, 150 m da praia | não encontrado | **dono argentino** (Edgardo, La Nación, 22/08/2025) | A (top) | a contatar |
+| RX97 | Pousada Kirana | Praia do Rosa (R. Fruta do Conde) | WhatsApp +55 48 99855-1995 / +55 48 99127-6662 | **dono argentino** (La Nación, 17/01/2026) | A (top) | a contatar |
+| RX98 | Pousada Além do Jardim | Av. Central do Rosa, 150 m da praia | tel./WhatsApp +55 48 99835-4397 | **dono argentino** (Edgardo, La Nación, 22/08/2025) | A (top) | a contatar |
 | AD23 | Flor do Mar – Casas para Alugar | Praia do Rosa, 100 m do mar | fixo 48 3355-7102 (celular em formato antigo) | — | A | a contatar |
 | AD24 | Mirante da Barra | Barra de Ibiraquera, beira da lagoa | WhatsApp 48 99955-9695 | — | A | a contatar |
 | FE01 | Pousada da Ferrugem | Estrada Geral do Capão 4250 | WhatsApp (48) 99160-6336; fixo (48) 3254-0068 | listada em diretório em espanhol; avaliação em inglês no Booking | A | a contatar |
@@ -105,6 +105,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | GA44 | Pousada do Taxo | Siriú, 500 m do mar | WhatsApp +55 48 99162-0343; fixo 48 3355-0412 | não encontrado | A | a contatar |
 | GA50 | Pousada Santa Terezinha | Centro, 2 quadras da praia | WhatsApp (48) 99979-9773; fixo 48 3254-3108 | não encontrado | A | a contatar |
 | GA61 | Residencial Colibri | Centro, 300 m da rodoviária | +55 48 99616-2002 | não encontrado | A | a contatar |
+| GA62 | Residencial Franca | Centro (R. Elmo Kinseski 694) | +55 48 99183-1146 | não encontrado | A (grupo c/ GA11) | a contatar |
 | GA65 | Dunas Studios | em frente às Dunas do Siriú | via Instagram (bio: atende por WhatsApp) | não encontrado | A | a contatar |
 | IB01 | Pousada Barra Mar | Barra de Ibiraquera (Av. Sul 2400) | WhatsApp msg (48) 99991-7146; lig. (48) 99926-5885; fixo 48 3355-0007 | **sim**: avaliação em espanhol de uruguaio no Booking | A | a contatar |
 | IB02 | Pousada Natural Park | Praia do Luz / Ibiraquera (Av. Paraíso do Luz 2001) | (48) 99967-4260; fixo (48) 3355-6488 | não encontrado | A | a contatar |
@@ -203,7 +204,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX93 | Pousada Iluminao | Estrada Geral do Rosa, 800 m do centro | (48) 99609-1435; fixo 48 3355-6043 | não encontrado | A | a contatar |
 | RX95 | Moradas Alma da Lagoa | Praia do Luz | WhatsApp (48) 99664-9997 | não encontrado | A (grupo c/ RX42) | a contatar |
 
-## B (visita / segunda onda) (83)
+## B (visita / segunda onda) (82)
 
 | ID | Nome | Bairro | Telefone / WhatsApp | Estrangeiro | Prior. | Status |
 |---|---|---|---|---|---|---|
@@ -238,7 +239,6 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | GA57 | Lobo Hotel | Centro, 70 m do mar | WhatsApp 48 99130-3731; fixos 48 3254-3823 / 3745 | não encontrado | B | a contatar |
 | GA58 | Hotel Garopaba | Centro, frente à praia central | WhatsApp (48) 99986-5146 (recepção 24h); fixo 48 3254-3126 | não encontrado | B | a contatar |
 | GA60 | Pousada Nanaco | Centro (R. Francisco Pacheco de Souza 708) | fixo 48 3254-3911 | não encontrado | B | a contatar |
-| GA62 | Residencial Franca | Centro (R. Elmo Kinseski 694) | não encontrado | não encontrado | B | a contatar |
 | IB06 | Pousada Paraíso da Lagoa | Barra de Ibiraquera (R. Porto Belo) | não confirmado (snippet: 48 99961-1106) | não encontrado | B | a contatar |
 | IB08 | Pousada LagoaMar | Barra de Ibiraquera, 80 m da praia | fixo +55 48 3355-0640 | não encontrado | B | a contatar |
 | IB09 | Pousada Estação Ibiraquera | Barra de Ibiraquera (R. Porto Belo) | (48) 99602-8325 / (51) 99976-9598 | não encontrado | B | a contatar |
@@ -289,7 +289,7 @@ Status inicial: todos **a contatar**. Detalhes e fontes ficam no arquivo de cada
 | RX78 | Pousada Rosa da Praia | Centro do Rosa | 48 9680-0650 (formato antigo) | não encontrado | B | a contatar |
 | RX90 | Recanto Bella Rosa | 100 m do centro do Rosa | 48 9140-2486 (formato antigo) | fraco (trivago AR) | B | a contatar |
 | RX96 | Vibras do Rosa | Praia do Rosa | não encontrado | **dona argentina** (Yamila Lazzaroni, citada pela LA NACION) | B | a contatar |
-| RX99 | Pousada Vale da Praia | Praia do Rosa | não encontrado | provável (hóspede: "ojalá haya más argentinos con esas características") | B | a contatar |
+| RX99 | Pousada Vale da Praia | R. dos Poncianos / Estrada do Vale (vizinha da Rosa Negra) | WhatsApp +55 51 99807-5692 | provável (hóspede: "ojalá haya más argentinos con esas características") | B | a contatar |
 
 ## C (deixar para depois) (39)
 
