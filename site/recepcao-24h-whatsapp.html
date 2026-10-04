@@ -83,6 +83,8 @@ p{margin:0;max-width:62ch}
 .maplink{display:block;margin-top:6px;padding:7px 10px;border-radius:10px;background:var(--surface);border:1.5px solid var(--sea);
   color:var(--sea);font-weight:700;font-size:.85rem}
 a.replay{display:inline-block;text-decoration:none}
+.mapinha svg{width:100%;height:auto;display:block}
+.legenda{font-size:.95rem;color:var(--muted)}
 .msg.report{max-width:96%;line-height:1.55}
 .msg.report b{font-family:var(--display);font-size:1rem}
 .anim .msg{animation:pop .35s ease both}
@@ -354,6 +356,84 @@ footer .sign{font-family:var(--hand);font-size:1.8rem;color:var(--ink)}
     </div>
   </section>
 
+  <!-- MAPINHA DA REGIÃO -->
+  <section class="stack" aria-labelledby="h-mapinha">
+    <span class="eyebrow">O mapa que o hóspede recebe</span>
+    <h2 id="h-mapinha">A sua pousada no centro, o resto em volta</h2>
+    <p class="lead">Cada pousada ganha o seu mapa. O hóspede toca numa categoria e vê o que tem perto, a distância e o caminho até lá.</p>
+    <div class="mapbox mapinha">
+      <svg viewBox="0 0 640 440" role="img" aria-label="Mapa ilustrado: a pousada no centro; no Centrinho, a 300 a 600 metros, restaurantes, lojas de roupa, sorveteria e mercado; padaria a 800 metros; supermercado a 1,3 quilômetro; Praia do Rosa a 900 metros; trilhas da Praia Vermelha e do Caminho do Rei; Lagoa de Ibiraquera; e, mais longe, supermercado grande em Campo D'Una, posto na BR-101 e hospital em Imbituba">
+        <defs>
+          <pattern id="ondas" width="28" height="14" patternUnits="userSpaceOnUse"><path d="M0 10 q7 -6 14 0 t14 0" stroke="#FFFFFF" stroke-opacity=".35" stroke-width="2" fill="none"/></pattern>
+        </defs>
+        <!-- terra, mar, praia e lagoa -->
+        <rect width="640" height="440" fill="var(--sand)"/>
+        <path d="M640 0 H520 C 498 40, 470 70, 486 104 C 500 132, 470 170, 474 214 C 478 262, 452 300, 470 350 C 482 384, 470 412, 478 440 H640Z" fill="var(--sea)" opacity=".85"/>
+        <path d="M640 0 H520 C 498 40, 470 70, 486 104 C 500 132, 470 170, 474 214 C 478 262, 452 300, 470 350 C 482 384, 470 412, 478 440 H640Z" fill="url(#ondas)"/>
+        <path d="M520 0 C 498 40, 470 70, 486 104 C 500 132, 470 170, 474 214 C 478 262, 452 300, 470 350 C 482 384, 470 412, 478 440" stroke="#FFF6D8" stroke-width="10" fill="none" opacity=".9"/>
+        <path d="M40 330 c 30 -40 110 -50 150 -22 c 26 18 10 56 -30 66 c -46 12 -110 4 -120 -44z" fill="var(--sea)" opacity=".55"/>
+        <!-- estradas -->
+        <g stroke="#FFFFFF" stroke-width="7" fill="none" stroke-linecap="round" opacity=".85">
+          <path d="M0 120 C 90 130, 160 150, 230 178 S 330 220, 470 236"/>
+          <path d="M250 0 C 252 60, 250 120, 236 176 S 222 300, 330 440"/>
+        </g>
+        <g stroke="var(--line)" stroke-width="2.5" fill="none" stroke-dasharray="2 7" stroke-linecap="round">
+          <path d="M330 232 C 380 236, 420 238, 452 240"/>
+          <path d="M330 232 C 335 280, 338 320, 344 352"/>
+          <path d="M452 180 C 462 160, 468 140, 470 124"/>
+        </g>
+        <!-- raio de 500 m -->
+        <circle cx="300" cy="200" r="118" fill="none" stroke="var(--sea)" stroke-width="2" stroke-dasharray="6 6" opacity=".55"/>
+        <text x="262" y="336" text-anchor="middle" font-family="Caveat, cursive" font-size="17" fill="var(--sea)">até 10 min a pé</text>
+        <!-- a pousada (genérica) -->
+        <g transform="translate(330 232)">
+          <circle r="24" fill="var(--ink)"/>
+          <path d="M-11 4 v-10 l11 -9 l11 9 v10z" fill="#FFF6D8"/><rect x="-3" y="-2" width="6" height="7" fill="var(--rosa)"/>
+          <text y="44" text-anchor="middle" font-family="Baloo 2, sans-serif" font-weight="800" font-size="16" fill="var(--ink)">sua pousada</text>
+        </g>
+        <!-- pinos: cor por categoria, emoji no centro -->
+        <g font-family="Figtree, sans-serif" font-size="15" text-anchor="middle">
+          <g transform="translate(296 152)"><circle r="15" fill="#2f7d4f" stroke="#fff" stroke-width="2.5"/><text y="5.5">🛒</text></g>
+          <g transform="translate(250 72)"><circle r="15" fill="#2f7d4f" stroke="#fff" stroke-width="2.5"/><text y="5.5">🛒</text></g>
+          <g transform="translate(176 250)"><circle r="15" fill="#b7791f" stroke="#fff" stroke-width="2.5"/><text y="5.5">🥐</text></g>
+          <g transform="translate(212 150)"><circle r="14" fill="#dd6b20" stroke="#fff" stroke-width="2.5"/><text y="5">🍽️</text></g>
+          <g transform="translate(244 160)"><circle r="14" fill="#dd6b20" stroke="#fff" stroke-width="2.5"/><text y="5">🍽️</text></g>
+          <g transform="translate(262 194)"><circle r="14" fill="#dd6b20" stroke="#fff" stroke-width="2.5"/><text y="5">🍽️</text></g>
+          <g transform="translate(228 212)"><circle r="14" fill="#dd6b20" stroke="#fff" stroke-width="2.5"/><text y="5">🍽️</text></g>
+          <g transform="translate(196 196)"><circle r="14" fill="#d53f8c" stroke="#fff" stroke-width="2.5"/><text y="5">🍦</text></g>
+          <g transform="translate(276 126)"><circle r="14" fill="#805ad5" stroke="#fff" stroke-width="2.5"/><text y="5">👕</text></g>
+          <g transform="translate(222 118)"><circle r="14" fill="#805ad5" stroke="#fff" stroke-width="2.5"/><text y="5">👕</text></g>
+          <g transform="translate(184 160)"><circle r="14" fill="#805ad5" stroke="#fff" stroke-width="2.5"/><text y="5">👕</text></g>
+          <g transform="translate(452 240)"><circle r="15" fill="#2b6cb0" stroke="#fff" stroke-width="2.5"/><text y="5.5">🏖️</text></g>
+          <g transform="translate(470 118)"><circle r="15" fill="#2b6cb0" stroke="#fff" stroke-width="2.5"/><text y="5.5">🥾</text></g>
+          <g transform="translate(344 356)"><circle r="15" fill="#2b6cb0" stroke="#fff" stroke-width="2.5"/><text y="5.5">🥾</text></g>
+          <g transform="translate(116 340)"><circle r="15" fill="#2b6cb0" stroke="#fff" stroke-width="2.5"/><text y="5.5">🪁</text></g>
+        </g>
+        <!-- rótulos -->
+        <g font-family="Figtree, sans-serif" font-size="12" font-weight="700" fill="var(--ink)" stroke="var(--sand)" stroke-width="4" paint-order="stroke" stroke-linejoin="round">
+          <text x="316" y="150">mercado · 330 m</text>
+          <text x="270" y="66">supermercado · 1,3 km</text>
+          <text x="128" y="282">padaria · 800 m</text>
+          <text x="168" y="134" text-anchor="end">Centrinho · 300 a 600 m</text>
+          <text x="168" y="150" text-anchor="end" font-weight="500">restaurantes, lojas, sorvete</text>
+          <text x="370" y="266">Praia do Rosa · 900 m</text>
+          <text x="374" y="96">trilha Praia Vermelha</text>
+          <text x="364" y="384">Caminho do Rei · 1,7 km</text>
+          <text x="66" y="396">Lagoa de Ibiraquera · kite</text>
+        </g>
+        <!-- o que fica mais longe, nas bordas -->
+        <g font-family="Caveat, cursive" font-size="19" fill="var(--rosa)">
+          <text x="14" y="34">↖ rancho em Campo D'Una · 5 km</text>
+          <text x="14" y="214">← posto na BR-101 · 8 km</text>
+          <text x="196" y="430">↓ hospital 24h em Imbituba · 17 km</text>
+        </g>
+        <path d="M560 300 C 562 282, 570 270, 582 264 C 576 276, 578 286, 586 292 C 594 286, 596 276, 590 264 C 602 270, 610 282, 612 300Z" fill="#FFFFFF" opacity=".75"/>
+        <text x="530" y="330" font-family="Caveat, cursive" font-size="19" fill="#FFF6D8">baleias, jul–nov</text>
+      </svg>
+    </div>
+    <p class="legenda">🛒 mercados · 🥐 padaria · 🍽️ restaurantes · 🍦 sorveteria · 👕 roupas · 🏖️ praia · 🥾 trilhas · 🪁 lagoa. Exemplo na Praia do Rosa, com lugares de verdade; no mapa real, o atendente ainda busca na hora no Google Maps o que o hóspede pedir.</p>
+  </section>
+
   <!-- QUEM DECIDE -->
   <section class="stack" aria-labelledby="h-decide">
     <span class="eyebrow">Ninguém tira a pousada de você</span>
@@ -408,7 +488,7 @@ footer .sign{font-family:var(--hand);font-size:1.8rem;color:var(--ink)}
     <p class="lead">Quem viaja no Réveillon e em janeiro pesquisa e pergunta em outubro e novembro. É nessa época que o atendente começa a trabalhar.</p>
     <div class="months" role="list">
       <div class="month now" role="listitem"><b>Out</b><small>perguntas começam</small></div>
-      <div class="month now" role="listitem"><b>Nov</b><small>pré-temporada até 15/11</small></div>
+      <div class="month now" role="listitem"><b>Nov</b><small>pré-temporada</small></div>
       <div class="month hot" role="listitem"><b>Dez</b><small>Réveillon</small></div>
       <div class="month hot" role="listitem"><b>Jan</b><small>alta temporada</small></div>
       <div class="month hot" role="listitem"><b>Fev</b><small>Carnaval</small></div>
@@ -418,21 +498,21 @@ footer .sign{font-family:var(--hand);font-size:1.8rem;color:var(--ink)}
 
   <!-- PLANOS -->
   <section class="stack" aria-labelledby="h-planos">
-    <span class="eyebrow">Condição de pré-temporada, válida até 15/11</span>
-    <h2 id="h-planos">Dois jeitos de começar</h2>
+    <span class="eyebrow">Preço de lançamento</span>
+    <h2 id="h-planos">Quanto custa</h2>
     <div class="plans">
-      <article class="plan">
-        <h3>Plano Temporada</h3>
-        <p class="price">R$ 990 <small>de entrada, em até 3x</small></p>
-        <p class="price">R$ 297 <small>/mês, de dezembro a março</small></p>
-        <p>Para quem quer o atendente no verão, quando o WhatsApp não para.</p>
-      </article>
       <article class="plan feat">
-        <span class="tag">ano todo</span>
-        <h3>Plano Ano</h3>
-        <p class="price">R$ 1.997 <small>de entrada</small></p>
+        <span class="tag">primeira pousada</span>
+        <h3>Pousada fundadora</h3>
+        <p class="price">R$ 497 <small>de implantação</small></p>
         <p class="price">R$ 197 <small>/mês</small></p>
-        <p>Para quem abre o ano inteiro e recebe gente fora do verão: kite em Ibiraquera, baleias de julho a novembro.</p>
+        <p>Para a primeira pousada que entrar, em troca de um depoimento e de poder contar que vocês usam.</p>
+      </article>
+      <article class="plan">
+        <h3>Plano Pousada</h3>
+        <p class="price">R$ 997 <small>de implantação</small></p>
+        <p class="price">R$ 297 <small>/mês</small></p>
+        <p>Implantação feita junto, na pousada: as suas regras, os seus preços, o seu mapa da região e o número de vocês.</p>
       </article>
     </div>
     <div class="guarantee">
