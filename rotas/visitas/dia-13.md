@@ -9,6 +9,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: sem recepção, tudo passa pelo celular do dono, inclusive check-in e orientações.
 - Oferta: Plano Temporada; o atendente faz o papel de recepção no WhatsApp.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que a Ibirawave funciona sem recepção e pede contato antes da chegada. Montei um atendente de WhatsApp que responde 24h (preço, check-in, como chegar) e te passa o pedido de reserva pronto. Hoje é você quem responde tudo?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 2. Local da Lagoa (RX56)
@@ -18,6 +19,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: donos atendem tudo pessoalmente; DDD 51 sugere que parte do tempo estão no RS.
 - Oferta: Plano Temporada.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi hóspede no Google elogiando os "proprietários presentes e atenciosos" do Local da Lagoa. Montei um atendente de WhatsApp que responde 24h em 3 línguas e passa a reserva pronta pra vocês confirmarem. Te mando um vídeo de 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 3. Pousada Cravo e Canella (RX81)
@@ -27,6 +29,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: pergunta repetida sobre pet (porte, regras, taxa).
 - Oferta: Plano Temporada.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que a Cravo e Canella aceita cães, entre o mar e a lagoa. Montei um atendente de WhatsApp que responde 24h as perguntas de sempre (pet, preço, check-in) em 3 línguas e te passa a reserva pronta. Pergunta de pet chega muito aí?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 4. Pousada Pouso das Águas (RX82)
@@ -36,6 +39,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: dono atende sozinho; sem site, tudo vem pelo WhatsApp e Instagram.
 - Oferta: Plano Temporada.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi as varandas com rede e vista pra Ilha da Batuta. Montei um atendente de WhatsApp que responde hóspede 24h em português, espanhol e inglês e te passa o pedido de reserva pronto. Quem responde o WhatsApp aí, você mesmo?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 5. Moradas da Dalvina (RX85)
@@ -45,6 +49,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: dona ou dono atende tudo no celular.
 - Oferta: Plano Temporada.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi os aptos das Moradas da Dalvina com sacada de frente pra lagoa. Montei um atendente de WhatsApp que responde 24h (preço, capacidade, check-in) em 3 línguas e te passa a reserva pronta. Te mostro em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 6. Pousada Portal do Rosa (RX86)
@@ -54,6 +59,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: dono de longa data, atende tudo no próprio WhatsApp.
 - Oferta: Plano Temporada.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Aqui é o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que a Portal do Rosa funciona desde 1996. Montei um atendente de WhatsApp que responde as perguntas de hóspede 24h, em português, espanhol e inglês, e te passa o pedido de reserva pronto. Faz sentido conversar 10 min essa semana?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 7. Recanto Zen (RX89)
@@ -63,6 +69,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: casal anfitrião faz tudo, inclusive o WhatsApp.
 - Oferta: Plano Temporada.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, Thiago e Laura, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi o Recanto Zen e a suíte com hidro e lareira. Montei um atendente de WhatsApp que responde hóspede 24h em português, espanhol e inglês e passa a reserva pronta pra vocês. Quem de vocês cuida do WhatsApp?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 8. Pousada Orquídea da Praia (RX92)
@@ -72,4 +79,5 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: argentino chega pelo ruta0 e pergunta em espanhol.
 - Oferta: Plano Temporada.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi que a Orquídea da Praia está na Barra desde 2000 e aparece no ruta0, guia argentino. Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e passa a reserva pronta. Posso te mostrar em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________

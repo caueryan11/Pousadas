@@ -22,6 +22,7 @@ for d in re.finditer(r'^## (Dia (\d+): [^\n]+)\n(.*?)(?=^## |\Z)', rotas, re.M |
         out += [f"## {k}. {nome} ({i})", f"- **Onde:** {end}", f"- **Contato:** {cont}"]
         out += (vis.group(1).rstrip().splitlines() if vis else ["- (sem preparo: ver arquivo de leads)"])
         if msg: out += ["- **Se não encontrar o dono, deixe recado ou mande depois:** " + msg.group(1).strip()]
+        out.append("- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).")
         out += ["- **Anotação:** ________________________________", ""]
     open(os.path.join(BASE, f"rotas/visitas/dia-{n:02d}.md"), "w", encoding="utf-8").write("\n".join(out))
 print("ok")

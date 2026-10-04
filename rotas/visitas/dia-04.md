@@ -9,6 +9,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: o casal divide a operação e o WhatsApp.
 - Oferta: Plano Temporada.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, Carlos e Laura, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que vocês mesmos tocam a Morada Crisálida. Montei um atendente de WhatsApp que responde hóspede 24h em português, espanhol e inglês e passa o pedido de reserva pronto pra vocês confirmarem. Faz sentido conversar 10 min essa semana?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 2. Morada das Baleias (RX125)
@@ -18,6 +19,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: hospedagem pequena, dono atende tudo.
 - Oferta: Plano Temporada.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Aqui é o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi o site da Morada das Baleias, na Estrada Geral. Montei um atendente de WhatsApp que responde hóspede 24h em português, espanhol e inglês e te passa o pedido de reserva pronto. Quem cuida do WhatsApp aí, você mesmo?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 3. Pousada Morada Madu (RX128)
@@ -27,6 +29,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: reservas atendidas à distância.
 - Oferta: Plano Temporada.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi a Morada Madu com nota 9,9 no Booking, pertinho do centrinho. Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês e passa a reserva pronta pra vocês confirmarem. Como vocês fazem hoje com quem escreve à noite?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 4. Villa Gardena Suítes (RX16)
@@ -36,6 +39,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: hóspede estrangeiro escrevendo em inglês fora do horário (hipótese).
 - Oferta: Plano Ano. Recebe estrangeiro e tem reputação alta.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que o café caseiro com orgânicos locais é o que mais aparece nas avaliações da Villa Gardena. Montei um atendente de WhatsApp que responde hóspede 24h em português, inglês e espanhol e passa o pedido de reserva pronto. Posso te mostrar em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 5. Pousada Vivenda do Rosa (RX17)
@@ -45,6 +49,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: dono ou equipe ocupados com o café no quarto pela manhã, justo quando chegam mensagens (hipótese).
 - Oferta: Plano Temporada (Ano se abrir no inverno com a piscina aquecida).
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi que na Vivenda o café da manhã vai direto pro quarto, e tem piscina aquecida. Montei um atendente de WhatsApp que responde hóspede 24h e passa o pedido de reserva pronto pra vocês confirmarem. Quem cuida do WhatsApp aí, você mesmo?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 6. Pousada Watu Kererê (RX18)
@@ -54,6 +59,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: atendimento em vários idiomas feito à mão, dependendo de quem está de plantão (hipótese).
 - Oferta: Plano Ano. Público estrangeiro.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, pessoal da Watu Kererê, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que a equipe de vocês já atende em inglês, espanhol e até indonésio. Montei um atendente de WhatsApp que cobre o português, o espanhol e o inglês 24h e passa o pedido de reserva pronto. Faz sentido conversar 10 min essa semana?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 7. Pousada Casa do Ceo (RX19)
@@ -63,6 +69,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: além de hospedagem, perguntas sobre retiros e yoga, que tomam tempo (hipótese).
 - Oferta: Plano Ano. Retiros fora do verão e público estrangeiro.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, pessoal da Casa do Ceo, tudo bem? Sou o Caue, também moro no Rosa e trabalho com tecnologia. Vi a história de vocês, desde 1973 aqui, e os retiros na yoga shala. Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês (quartos, café, retiros) e passa o pedido de reserva pronto. Posso mostrar em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 8. KaOra Cabanas (RX20)
@@ -72,6 +79,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: pergunta em espanhol chegando fora de hora (hipótese).
 - Oferta: Plano Temporada. Operação pequena.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Aqui é o Caue, vizinho do Rosa, trabalho com tecnologia. Vi que a KaOra tem até site em espanhol, com as cabanas no meio do verde ali no centro. Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e te passa o pedido de reserva pronto. Te mando um vídeo curto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 9. Pousada Refúgio dos Pássaros (RX24)
@@ -81,4 +89,5 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: procura também no inverno (lareira, hidro), com perguntas o ano todo (hipótese).
 - Oferta: Plano Ano. Chalés de inverno.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi os chalés Canário e Bem-te-vi, com lareira e hidro aquecida. Montei um atendente de WhatsApp que responde hóspede 24h em português, espanhol e inglês e te passa o pedido de reserva pronto. Quem responde as mensagens aí, vocês mesmos?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________

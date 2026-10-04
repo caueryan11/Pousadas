@@ -9,6 +9,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: as mesmas perguntas de disponibilidade e capacidade para cada casa, no verão e fora do horário comercial.
 - Oferta: Plano Ano + condição para a carteira, a combinar.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, Jony, tudo bem? Sou o Caue, moro na Praia do Rosa e trabalho com tecnologia. Vi os imóveis de temporada da Itapirubá, como os do Itapirubá Norte. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as perguntas de cada imóvel (capacidade, pet, check-in) e passa o pedido pronto pra vocês. Te mando um vídeo curto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 2. Zimba Imóveis (AD29)
@@ -18,6 +19,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: volume alto de perguntas repetidas de locação; separar quem quer temporada de quem quer anual (hipótese).
 - Oferta: Plano Ano + condição para a carteira de temporada, a combinar. Perguntar quantos imóveis são de temporada.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, pessoal da Zimba, tudo bem? Sou o Caue, moro na Praia do Rosa e trabalho com tecnologia. Vi o perfil de locações de vocês e a Casa da Zimba no Airbnb. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as perguntas de cada imóvel de temporada e passa o pedido pronto pra equipe. Quantos imóveis de temporada vocês têm hoje?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 3. Pousada Recanto das Baleias (IM07)
@@ -27,6 +29,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: todo pedido entra pelo WhatsApp, sem site para tirar dúvida sozinho (hipótese).
 - Oferta: Plano Ano, pelo porte (23 aptos) e pela procura na época das baleias.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que o Recanto das Baleias está desde 1997 a 10 m da praia Norte, com 2 piscinas. Montei um atendente de WhatsApp que responde hóspede 24h em PT/ES/EN e passa o pedido de reserva pronto pra vocês confirmarem. Te mando um vídeo curto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 4. Austral Suítes a Beira-Mar (IM16)
@@ -36,6 +39,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: hospedagem nova, ainda montando o atendimento; contato só pelo Instagram (hipótese).
 - Oferta: Plano Temporada para testar; se receber gente na temporada de baleias (jul.–nov.), puxar Plano Ano.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi a Austral, pé na areia e a 6 minutos do mirante das baleias da Ribanceira. Montei um atendente de WhatsApp que responde hóspede 24h em PT/ES/EN e passa o pedido de reserva pronto. Vocês atendem pelo WhatsApp ou só por aqui?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 5. Pousada Paraíso 26 (IM17)
@@ -45,6 +49,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: dono dividido entre restaurante e reservas (hipótese).
 - Oferta: Plano Temporada.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi a Paraíso 26, com vista pro mar e restaurante pra família. Fiz um atendente de WhatsApp que responde hóspede 24h, em PT/ES/EN, e te passa o pedido de reserva pronto enquanto você cuida do resto. Quem responde o WhatsApp aí, você mesmo?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 6. Cabanas Hamarhavida (IM20)
@@ -54,4 +59,5 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: procura na temporada de baleias (jul.–nov.), inclusive em inglês, além do verão (hipótese).
 - Oferta: Plano Ano, porque a temporada de baleias estende o movimento além do verão.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi as cabanas com fogueira de frente pro mar, ótimas pra ver baleia. Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês (qual cabana, quantas pessoas, check-in) e passa o pedido pronto. Posso te mostrar em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________

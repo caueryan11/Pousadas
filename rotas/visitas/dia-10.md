@@ -9,6 +9,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: mesmas perguntas chegando para dezenas de casas e para a pousada, cada uma com regra própria (hipótese).
 - Oferta: Plano Ano para a pousada + proposta de carteira para as 40+ casas, a combinar na conversa (sem preço na mensagem).
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, Pablo, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que você administra mais de 40 casas na Barra e na Praia de Ibiraquera, além da Vila dos Coqueiros. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as regras de cada imóvel e passa o pedido de reserva pronto. Podemos conversar 10 min essa semana?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 2. Pedro Silva Imóveis (IB11)
@@ -18,6 +19,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: 50+ imóveis com regras diferentes e muita pergunta repetida, parte em espanhol (hipótese).
 - Oferta: Plano Ano por unidade e condição para a carteira, a combinar na conversa.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, Pedro, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que vocês administram mais de 50 imóveis de temporada na Barra desde 1991. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as perguntas de cada imóvel e passa o pedido de reserva pronto pra equipe. Faz sentido eu te mostrar em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 3. Néia Imóveis (RA01)
@@ -27,6 +29,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: cada imóvel com regra diferente (capacidade, pet, roupa de cama), e as mesmas perguntas chegando em todos (hipótese).
 - Oferta: Plano Ano por unidade e uma condição para a carteira, a combinar na conversa (sem preço na mensagem).
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, Néia, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que são mais de 16 anos na região, de cabana de 2 quartos a casa de 5 com piscina. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as perguntas de cada imóvel e passa o pedido de reserva pronto. Faz sentido te mostrar em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 4. Mirante da Barra (AD24)
@@ -36,6 +39,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: Ibiraquera recebe gente também fora do verão (kite, frio com lareira); perguntas repetidas sobre cada tipo de unidade.
 - Oferta: Plano Ano (movimento fora do verão) + condição para as unidades, a combinar.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi o Mirante da Barra, com a piscina de água salgada aquecida e as casas com lareira na beira da lagoa. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as perguntas de cada casa e suíte e passa a reserva pronta. Te mostro em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 5. Pousada Barra Mar (IB01)
@@ -45,6 +49,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: volume de perguntas o ano todo, parte em espanhol (hipótese).
 - Oferta: Plano Ano, pelo volume e pela Ibiraquera receber gente fora do verão.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro no Rosa, aqui do lado, e trabalho com tecnologia. Vi a Barra Mar, com piscina e sala de jogos, a 500 m do mar e 300 m da lagoa. Montei um atendente de WhatsApp que responde 24h em PT/ES/EN e passa o pedido de reserva pronto. Te mando um vídeo curto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 6. Pousada Natural Park (IB02)
@@ -54,6 +59,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: como a reserva já passa pelo WhatsApp, o gargalo é responder rápido a qualquer hora (hipótese).
 - Oferta: Plano Temporada; se mostrar movimento fora do verão, puxar Plano Ano.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que vocês têm caiaque e SUP grátis e já fecham reserva pelo WhatsApp. Montei um atendente que responde 24h em PT/ES/EN (casa, café, pet, como chegar) e te passa o pedido pronto pra confirmar. Quem cuida do WhatsApp aí?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 7. Pousada Toca da Lagoa (IB03)
@@ -63,6 +69,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: operação pequena, dono sem tempo de responder rápido em pico (hipótese).
 - Oferta: Plano Temporada.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Aqui é o Caue, vizinho do Rosa, trabalho com tecnologia. Vi que a Toca da Lagoa tem só oito apartamentos, com cozinha completa e piscina. Montei um atendente de WhatsApp que responde hóspede 24h, em PT/ES/EN, e passa o pedido de reserva pronto pra você confirmar. Posso te mostrar em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 8. Pousada Flor da Barra (IB04)
@@ -72,4 +79,5 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: casal atendendo tudo, com mensagens de vários canais (WhatsApp, Airbnb) (hipótese).
 - Oferta: Plano Temporada.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, Thiago e Camila, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi a Flor da Barra, a 200 m da barra, e o quanto os hóspedes falam bem de vocês. Fiz um atendente de WhatsApp que responde 24h em PT/ES/EN e deixa o pedido de reserva pronto pra vocês confirmarem. Te mando um vídeo de 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________

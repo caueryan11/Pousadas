@@ -9,6 +9,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: muita pergunta de pet e de atividades, com 8 casas diferentes.
 - Oferta: Plano Temporada.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que a Morada do Pity aceita pet e tem caiaque, SUP e aula de surf. Montei um atendente de WhatsApp que responde 24h essas perguntas em 3 línguas e te passa o pedido de reserva pronto. Te mando um vídeo de 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 2. Pousada do Paraíso (RX13)
@@ -18,6 +19,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: muita pergunta sobre pet (porte, taxa, regras), e cada uma precisa de resposta (hipótese).
 - Oferta: Plano Temporada. Se abrir o ano todo (kite na Barra), oferecer o Ano.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, pessoal da Pousada do Paraíso, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi que vocês aceitam pet e ficam a 50 m da praia. Montei um atendente de WhatsApp que responde 24h as dúvidas de pet, preço e check-in, em três idiomas, e passa o pedido de reserva pronto. Te mando um vídeo curto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 3. Pousada Araçatuba (RX22)
@@ -27,6 +29,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: os donos cuidam de tudo pessoalmente, inclusive do WhatsApp (hipótese).
 - Oferta: Plano Temporada.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que a Araçatuba fica a poucos metros da lagoa e que os hóspedes elogiam vocês como donos atenciosos. Montei um atendente de WhatsApp que responde 24h e passa o pedido de reserva pronto pra vocês só confirmarem. Posso te mostrar como é?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 4. Hotel Pousada Laguna Rosa (RX29)
@@ -36,6 +39,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: toda reserva direta passa pelo WhatsApp, e a família responde tudo (hipótese).
 - Oferta: Plano Ano. Volume de centenas de avaliações, e o WhatsApp é o canal principal.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi que na Laguna Rosa a reserva é toda pelo WhatsApp, com atendimento bem familiar. Montei um atendente que mantém esse jeito: responde 24h em português, espanhol e inglês e passa o pedido de reserva pronto pra vocês confirmarem. Te mostro em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 5. Pousada Horizontes do Rosa (RX37)
@@ -45,6 +49,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: hóspede estrangeiro escrevendo fora do turno de quem fala espanhol (hipótese).
 - Oferta: Plano Ano. Ibiraquera recebe estrangeiro fora do verão.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que a Horizontes está entre as mais bem avaliadas de Ibiraquera e tem site em inglês. Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês e passa o pedido de reserva pronto pra vocês. Faz sentido conversar 10 min essa semana?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 6. Doce Cabana Pousada (RX42)
@@ -54,6 +59,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: um WhatsApp só para duas hospedagens com perfis diferentes (hipótese).
 - Oferta: um Plano Temporada por unidade e uma condição para as duas, a combinar na conversa (não citar preço na mensagem).
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que o mesmo WhatsApp atende a Doce Cabana e a Alma da Lagoa. Montei um atendente que responde 24h em português, espanhol e inglês, separando as duas (cabanas, aptos, pet, café), e passa o pedido de reserva pronto. Posso te mostrar em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 7. Pousada La Creación (RX47)
@@ -63,6 +69,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: com 16 quartos, o volume de perguntas no verão é alto; sem Instagram encontrado, o WhatsApp deve ser o canal principal.
 - Oferta: Plano Temporada, para testar no verão.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, pessoal da La Creación, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi o terraço na cobertura com vista de vocês. Montei um atendente de WhatsApp que responde hóspede 24h em português, espanhol e inglês e passa o pedido de reserva pronto pra vocês confirmarem. Quem cuida do WhatsApp aí?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 8. Pousada Village do Luz (RX48)
@@ -72,6 +79,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: hóspede estrangeiro perguntando em espanhol ou inglês fora do horário.
 - Oferta: Plano Ano, pelo público estrangeiro que vem também fora do verão.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Aqui é o Caue, vizinho do Rosa, trabalho com tecnologia. Vi a borda infinita com spa de vocês e hóspede falando em "amazing architecture". Fiz um atendente de WhatsApp que responde 24h em português, espanhol e inglês e passa a reserva pronta pra vocês. Te mando um vídeo curto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 9. Pousada Villa Bella (RX49)
@@ -81,4 +89,5 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: kitesurfista chega fora do verão e pergunta de vento, equipamento e disponibilidade em qualquer horário.
 - Oferta: Plano Ano, porque o kite movimenta a Barra fora da temporada.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro no Rosa e mexo com tecnologia. Vi que o site de vocês tem página própria de kitesurf e windsurf. Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês e te entrega o pedido de reserva pronto. Faz sentido conversar 10 min essa semana?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________

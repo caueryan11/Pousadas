@@ -14,3 +14,6 @@ Princípio: responder curto, com honestidade, e devolver uma pergunta. Nunca inv
 | "Já tenho um sistema/motor de reserva." | Ótimo, ele complementa: pode mandar o link do seu motor quando o hóspede quiser fechar. O foco é responder rápido no WhatsApp. |
 | "Quem é você?" | Sou o Caue, moro aqui no Rosa, trabalho com tecnologia e montei isso pensando nas pousadas da região. Posso passar aí e te mostrar ao vivo. |
 | Administradora: "São muitos imóveis diferentes." | É aí que mais ajuda: cada imóvel tem a sua ficha (capacidade, pet, roupa de cama, regras), e ele responde a pergunta certa sobre o imóvel certo. Faço uma proposta para a carteira toda. Quantos imóveis vocês têm na temporada? |
+
+## "Mas o hóspede pergunta de tudo, não só de reserva"
+> Por isso o atendente vem com um guia da pousada: as tuas dicas de restaurante, praia, trilha e onde ver baleia, além das distâncias daqui. O que não estiver no guia, ele não inventa: passa pra ti.

@@ -9,6 +9,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: volume alto e muita pergunta de pet "sob consulta" que precisa de resposta.
 - Oferta: Plano Ano (volume alto).
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui do lado, no Rosa, e trabalho com tecnologia. Vi que o café da Colina Verde é muito elogiado. Montei um atendente de WhatsApp que responde 24h em PT, ES e EN, inclusive o "aceita pet?", e passa o pedido de reserva pronto pra vocês confirmarem. Quem cuida do WhatsApp aí?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 2. Pousada Garopaba (GA32)
@@ -18,6 +19,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: pousada em fase de montar processos; primeira temporada.
 - Oferta: Plano Temporada (testar no primeiro verão).
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui do lado, no Rosa, e trabalho com tecnologia. Vi que a Pousada Garopaba é nova e já abre com recepção 24h e aceitando pet. Montei um atendente de WhatsApp que responde em PT, ES e EN e passa o pedido de reserva pronto. Dá pra encaixar agora, enquanto vocês montam os processos. Te mostro em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 3. Residencial da Praça (GA33)
@@ -27,6 +29,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: duas hospedagens no mesmo telefone; público de hostel pergunta muito e em várias línguas.
 - Oferta: Plano Temporada por unidade e condição para as duas, a propor na conversa.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui do lado, no Rosa. Vi o Residencial da Praça, pertinho do Centro Histórico, e pelo telefone parece que a Garopaba Pousada-Hostel é da mesma casa. Montei um atendente de WhatsApp que responde 24h em PT, ES e EN pelas duas e passa o pedido de reserva pronto. Confere? Se sim, te mostro em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 4. Pousada Costa Azul (GA34)
@@ -36,6 +39,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: público sensível a preço pergunta muito valor e disponibilidade antes de fechar.
 - Oferta: Plano Temporada (ticket baixo, foco no verão).
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro no Rosa, aqui do lado, e trabalho com tecnologia. Vi a Costa Azul, com aptos de mini-cozinha a uma quadra da praia. Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês (preço, café, check-in) e passa o pedido de reserva pronto pra você confirmar. Faz sentido eu te mostrar rapidinho?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 5. Acqua Viva (GA35)
@@ -45,6 +49,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: hóspedes que voltam todo ano e novos perguntando pelo WhatsApp; atendimento familiar (hipótese).
 - Oferta: Plano Temporada.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui do lado, no Rosa. Gostei do "40 anos nas memórias das suas férias" da Acqua Viva. Montei um atendente de WhatsApp que responde hóspede 24h em PT, ES e EN e passa o pedido de reserva pronto pra vocês confirmarem, sem perder o jeito da casa. Te mando um vídeo curto mostrando?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 6. Morada do Sol Apart Hotel (GA36)
@@ -54,6 +59,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: perguntas que chegam no almoço e depois das 22h.
 - Oferta: Plano Temporada; Ano se tiverem movimento fora do verão.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, Georgia, tudo bem? Sou o Caue, moro aqui do lado, no Rosa. Vi que vocês atendem das 8h às 12h e das 14h às 22h, e que os hóspedes elogiam muito vocês dois. Montei um atendente de WhatsApp que cobre o resto do horário em PT, ES e EN e deixa o pedido de reserva pronto pra vocês. Te mando um vídeo curto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 7. Pousada Santa Terezinha (GA50)
@@ -63,6 +69,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: muita pergunta de preço e disponibilidade em pouco tempo, no verão.
 - Oferta: Plano Temporada (ticket baixo, testar).
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui do lado, no Rosa. Vi a Santa Terezinha, a duas quadras da praia e com um dos melhores preços do centro. Montei um atendente de WhatsApp que responde 24h em PT, ES e EN (valores, café, check-in) e passa o pedido de reserva pronto pra você confirmar. Quem responde as mensagens aí hoje?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 8. Residencial Colibri (GA61)
@@ -72,4 +79,5 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: famílias perguntando capacidade, criança e estrutura antes de reservar.
 - Oferta: Plano Temporada.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui do lado, no Rosa. Vi que o Colibri tem playground, coisa que família com criança sempre pergunta. Montei um atendente de WhatsApp que responde 24h em PT, ES e EN (capacidade, café, check-in) e passa o pedido de reserva pronto pra você confirmar. Te mostro em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________

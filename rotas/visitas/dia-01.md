@@ -9,6 +9,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: alto volume de perguntas em espanhol no verão (hipótese). Levar a versão em espanhol na visita, caso a conversa vá por aí.
 - Oferta: Plano Temporada. Público argentino concentrado no verão.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, Diego e Ceci, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi hóspedes de Buenos Aires elogiando vocês no TripAdvisor, e que a Inka tem acesso privado à praia. Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e passa o pedido de reserva pronto pra vocês confirmarem. Faz sentido eu mostrar em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 2. Pousada Cacau (RX28)
@@ -18,6 +19,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: muito WhatsApp para responder, especialmente pergunta repetida de pet e preço (hipótese).
 - Oferta: Plano Ano. Volume alto.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, pessoal da Cacau, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que vocês aceitam pet e têm quase 900 avaliações no Booking, então imagino que o WhatsApp não para. Montei um atendente que responde 24h em português, espanhol e inglês e passa o pedido de reserva pronto. Faz sentido conversar 10 min essa semana?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 3. Pousada Rosa (RX75)
@@ -27,6 +29,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: público argentino grande, e o atendimento em espanhol depende de uma pessoa só. (Não citar a avaliação sobre manutenção.)
 - Oferta: Plano Temporada, alinhado ao pico de argentinos.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. A Pousada Rosa é pioneira daqui, e vi hóspede argentino elogiando o Martin. Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e passa o pedido de reserva pronto. Faz sentido conversar 10 min essa semana?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 4. Pousada Sol & Sal (RX76)
@@ -36,6 +39,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: muito volume de contato o ano todo.
 - Oferta: Plano Ano, pelo volume.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi que a Sol & Sal é 2º lugar no Rosa no TripAdvisor, com Travelers' Choice. Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês e te entrega o pedido de reserva pronto. Posso te mostrar em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 5. Fazenda Verde by Neco (RX83)
@@ -45,6 +49,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: volume alto de argentinos perguntando em espanhol, também à noite.
 - Oferta: Plano Ano (porte, público estrangeiro, também espaço de casamentos).
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, Neco, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Li na La Nación a Fazenda Verde como "complejo icónico para los argentinos". Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e passa o pedido de reserva pronto pra vocês. Faz sentido eu te mostrar em 10 min?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 6. Pousada Kirana (RX97)
@@ -54,6 +59,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: pousada nova, com público argentino e donos que fazem tudo.
 - Oferta: Plano Temporada (nova, testar no verão).
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, Patricio e Javier, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Li a matéria da La Nación sobre a Kirana. Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e passa o pedido de reserva pronto pra vocês. Posso passar aí e mostrar em 10 min?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 7. Pousada Além do Jardim (RX98)
@@ -63,6 +69,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: Réveillon e janeiro concentram perguntas de jovens argentinos, a qualquer hora.
 - Oferta: Plano Temporada.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, Edgardo, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Li na La Nación você comparando o Réveillon a um "viaje de egresados permanente". Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e passa a reserva pronta pra você. Te mando um vídeo curto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 8. Imobiliária Trip (AD02)
@@ -72,6 +79,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: com reservas desse valor, cada pedido que fica sem resposta à noite pesa; perguntas repetidas por casa.
 - Oferta: Plano Ano + condição para a carteira, a combinar. Gancho: uma única reserva dessas paga o serviço do ano.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, pessoal da Trip, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi as casas de temporada de vocês no Rosa, Rosa Norte e Alto Arroio. Montei um atendente de WhatsApp que responde 24h, em português, espanhol e inglês, as dúvidas de cada casa e passa o pedido de reserva pronto pra equipe. Quem cuida do WhatsApp de temporada aí?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 9. Portal Praia do Rosa (AD03)
@@ -81,4 +89,5 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: aluguel de temporada misturado com venda; perguntas de temporada chegando fora do horário (hipótese).
 - Oferta: Plano Ano para a parte de temporada + condição para a carteira, a combinar.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, Ellen, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi o Portal Praia do Rosa aqui no centrinho. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as dúvidas dos imóveis de temporada e passa o pedido pronto pra vocês. Vocês trabalham bastante com temporada?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________

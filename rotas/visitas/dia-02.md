@@ -9,6 +9,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: hóspede estrangeiro escrevendo em inglês ou espanhol fora do horário; perguntas iguais para cada casa.
 - Oferta: Plano Ano (público estrangeiro, opera o ano todo) + condição para as unidades, a combinar.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que a Sal cuida da Seiva da Lagoa, do Buda da Lagoa e das Goa Casas do Mar, e que o site já tem versão em inglês. Montei um atendente de WhatsApp que responde 24h em PT/ES/EN as dúvidas de cada casa e passa a reserva pronta. Faz sentido conversar 10 min essa semana?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 2. Praia do Rosa Imóveis (AD22)
@@ -18,6 +19,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: se fizer temporada, perguntas repetidas e fora do horário. Se não fizer, pode ser parceira de indicação (conhece donos de pousada).
 - Oferta: se fizer temporada, Plano Ano + condição para a carteira, a combinar; se não, conversa de indicação.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que vocês estão no Rosa desde 1989. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as perguntas de hóspedes e passa o pedido de reserva pronto. Vocês também administram imóveis de temporada, ou trabalham mais com venda?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 3. Casa de Praia Imóveis (RA02)
@@ -27,12 +29,14 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: pergunta de temporada que chega à noite, domingo ou no almoço fica para o dia seguinte (hipótese).
 - Oferta: Plano Ano por unidade + condição para a carteira; gancho é cobrir fora do horário comercial.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que vocês atendem temporada, mensal e anual, em horário comercial. Montei um atendente de WhatsApp que cobre a noite e o fim de semana em PT/ES/EN, responde sobre cada imóvel e deixa o pedido de reserva pronto pra equipe. Faz sentido conversar 10 min essa semana?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 4. Lá vem Férias (RX84)
 - **Onde:** gere a Pousada Gauleses (RX73) no Rosa
 - **Contato:** não encontrado (o site cita WhatsApp)
 - (sem preparo: ver arquivo de leads)
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 5. Flor do Mar – Casas para Alugar (AD23)
@@ -42,6 +46,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: dono atende pessoalmente as perguntas das quatro casas; pedidos de Réveillon e Carnaval chegando à noite.
 - Oferta: um plano por casa, com condição para as quatro juntas, a combinar. Se quiser testar, Plano Temporada.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, pessoal da Flor do Mar, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi as quatro casas de vocês, Hibisco, Íris, Bromélia e Lavanda, a 100 m do mar. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as perguntas de cada casa e passa a reserva pronta. Posso passar aí 10 min pra mostrar?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 6. Pousada Refúgio do Rosa (RN09)
@@ -51,6 +56,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: duas linhas de WhatsApp (BR e AR) para acompanhar, muita pergunta em espanhol à noite (hipótese).
 - Oferta: Plano Temporada; o argumento é responder em espanhol de madrugada sem ninguém acordado.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que vocês estão há 18 anos no Rosa e até têm número argentino. Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês (preço, kitchenette, check-in) e passa o pedido de reserva pronto. Te mando um vídeo curto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 7. Morada da Praia do Rosa (RN10)
@@ -60,6 +66,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: público argentino forte no verão, perguntas em espanhol fora de hora (hipótese).
 - Oferta: Plano Temporada, focado em janeiro.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, vizinho aqui do Rosa, trabalho com tecnologia. Vi os quartos com hidromassagem e a piscina com solário da Morada. Fiz um atendente de WhatsApp que responde hóspede 24h em espanhol, português e inglês e te passa o pedido de reserva pronto pra confirmar. Posso te mostrar rapidinho?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 8. Pousada Gopak (RX03)
@@ -69,6 +76,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: o site gera contato, mas a conversa no WhatsApp depende de alguém disponível na hora (hipótese).
 - Oferta: Plano Ano. Já tem cultura de reserva direta e porte médio. Posicionar o atendente como complemento do site, não concorrente.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, Simone, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que a Gopak investe bastante em reserva direta pelo site. Montei um atendente de WhatsApp que complementa isso: responde 24h em português, espanhol e inglês e passa o pedido de reserva pronto pra vocês confirmarem. Faz sentido conversar 10 min essa semana?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 9. Vida Sol e Mar EcoResort (RX06)
@@ -78,4 +86,5 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: muitos tipos de unidade e perguntas em três idiomas o ano todo (hipótese).
 - Oferta: Plano Ano. Porte grande, abre fora do verão por causa das baleias. Grupo Litman: a ligação com a Alexia Consultoria (AD01) é só **inferida** pelo sobrenome. Não citar na mensagem; se a conversa abrir espaço, perguntar e levar condição para as duas operações.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, Enrique, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que o Vida Sol e Mar recebe gente para ver baleias de julho a outubro, além do verão. Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês (studios, chalés, vilas) e passa o pedido de reserva pronto pra equipe. Posso te mostrar em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________

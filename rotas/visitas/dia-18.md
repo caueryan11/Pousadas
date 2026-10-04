@@ -9,6 +9,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: temporada dividindo atenção com a construtora e as vendas; perguntas repetidas por imóvel.
 - Oferta: Plano Ano + condição para a carteira, a combinar.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro na Praia do Rosa e trabalho com tecnologia. Vi que a Zaluski aluga casas e apartamentos por temporada em Garopaba, Morrinhos e Ferraz. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as dúvidas de cada imóvel e passa o pedido pronto pra equipe. Quem cuida da temporada aí?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 2. Heriberto Giraldi Imóveis (AD17)
@@ -18,6 +19,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: ele mesmo atende vendas e temporada; pergunta de hóspede chegando à noite e no fim de semana.
 - Oferta: carteira pequena: Plano Temporada por imóvel pode bastar; se houver mais imóveis, Plano Ano + condição para a carteira, a combinar.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, Heriberto, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que o senhor trabalha com venda e aluguel de temporada em Garopaba há mais de 35 anos. Montei um atendente de WhatsApp que responde 24h, em português, espanhol e inglês, as perguntas dos imóveis e passa o pedido de reserva pronto. Quem atende o WhatsApp aí, o senhor mesmo?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 3. Gralha Azul Locações (AD21)
@@ -27,6 +29,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: atendimento dividido entre a agência e a locação; perguntas repetidas e fora do horário no verão.
 - Oferta: Plano Ano + condição para a carteira, a combinar.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que a Gralha Azul faz aluguel de temporada em Garopaba e Imbituba, junto com a agência. Montei um atendente de WhatsApp que responde 24h, em português, espanhol e inglês, as perguntas de cada imóvel e passa o pedido de reserva pronto. Quem cuida das locações aí?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 4. Pousada Bronzatto (GA12)
@@ -36,6 +39,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: família dividindo recepção e WhatsApp; perguntas repetidas sobre garagem, café e check-in.
 - Oferta: Plano Temporada; se a pousada fica aberta o ano todo, Plano Ano.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro no Rosa, aqui do lado. Pousada familiar desde 1994 a 50 m da praia é coisa rara. Montei um atendente de WhatsApp que responde hóspede 24h em PT, ES e EN (preço, café, garagem, check-in) e passa o pedido de reserva pronto pra família confirmar. Quem cuida do WhatsApp aí, vocês mesmos?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 5. Pousada Village Garopaba (GA13)
@@ -45,6 +49,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: tempo entre a pergunta e a resposta (perguntar como funciona, não afirmar).
 - Oferta: Plano Ano (piscina aquecida segura hóspede fora do verão; volume alto).
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, pessoal do Village, tudo bem? Sou o Caue, moro aqui do lado, no Rosa. Piscina aquecida e coberta em Garopaba é argumento pro ano inteiro. Montei um atendente de WhatsApp que responde hóspede 24h em português, espanhol e inglês e passa o pedido de reserva pronto pra vocês só confirmarem. Posso te mostrar em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 6. Hotel Pousada da Lagoa (GA21)
@@ -54,6 +59,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: muita pergunta sobre pet e estrutura; dono respondendo pessoalmente (hipótese).
 - Oferta: Plano Ano (sauna atrai hóspede fora do verão; volume bom).
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, vizinho aqui do Rosa, trabalho com tecnologia. Sauna com sala de repouso e pousada que aceita pet: imagino quanta pergunta chega sobre isso. Montei um atendente de WhatsApp que responde 24h em PT, ES e EN e passa o pedido de reserva pronto pra você confirmar. Quem responde essas mensagens hoje, você mesmo?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 7. Pousada do Sol Garopaba (GA24)
@@ -63,6 +69,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: dono atendendo sozinho; pergunta de turista estrangeiro em inglês (hipótese, pela listagem em inglês).
 - Oferta: Plano Temporada (pousada pequena, testar no verão).
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui do lado, no Rosa. Vi a Pousada do Sol entre os primeiros B&Bs de Garopaba no TripAdvisor. Montei um atendente de WhatsApp que responde hóspede 24h em PT, ES e EN e passa o pedido de reserva pronto pra você só confirmar. Posso te mostrar como funciona em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 8. Pousada Poente do Sol (GA25)
@@ -72,4 +79,5 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: dono cuidando de tudo; perguntas do site caindo no WhatsApp (hipótese).
 - Oferta: Plano Temporada.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro no Rosa, aqui do lado, e trabalho com tecnologia. Vi que a Poente do Sol trabalha com reserva direta pelo site. Montei um atendente de WhatsApp que responde hóspede 24h em PT, ES e EN e te passa o pedido de reserva pronto pra confirmar. Te mando um vídeo curto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________

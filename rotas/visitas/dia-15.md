@@ -9,6 +9,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: recebe estrangeiro também fora do verão e responde em inglês na mão (hipótese).
 - Oferta: Plano Ano. Funciona o ano inteiro e já tem público em inglês.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, vizinho aqui do Rosa, trabalho com tecnologia. Vi que a Pousada do Morro está há 25 anos no Capão e abre o ano todo. Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês (preço, café, check-in, como chegar) e passa a reserva pronta pra vocês confirmarem. Faz sentido conversar 10 min essa semana?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 2. Pousada Sol da Ferrugem (FE06)
@@ -18,6 +19,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: pedido de reserva chega por site e WhatsApp e o dono concilia na mão (hipótese).
 - Oferta: Plano Temporada. Pousada tradicional e de porte médio; o verão concentra o movimento.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi que a Sol da Ferrugem funciona desde 1998, é quase uma instituição aí. Fiz um atendente de WhatsApp que responde hóspede 24h em português, espanhol e inglês e te passa o pedido de reserva pronto pra só confirmar. Posso te mostrar em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 3. Pousada das Palmeiras (FE07)
@@ -27,6 +29,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: hóspede pergunta muito a diferença entre suíte, chalé e loft, e preço por tipo (hipótese).
 - Oferta: Plano Temporada. Pousada pequena, bom para testar.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui no Rosa e trabalho com tecnologia. Vi que a Das Palmeiras tem suítes, chalés e lofts com cozinha, e a equipe tem 9,6 no Booking. Montei um atendente de WhatsApp que explica cada acomodação 24h, em português, espanhol e inglês, e passa a reserva pronta. Te mando um vídeo curto mostrando?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 4. Chalés da Barrinha (FE12)
@@ -36,6 +39,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: família pergunta capacidade, roupa de cama e pet; dono responde um por um (hipótese).
 - Oferta: Plano Temporada. Poucas unidades, operação de verão.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi os chalés de 96 m² de vocês, "entre a lagoa e o mar" na Barra. Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês (capacidade, pet, check-in) e passa o pedido de reserva pronto. Quem atende o WhatsApp aí, você mesmo?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 5. Recanto do Sossego (FE13)
@@ -45,6 +49,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: três números publicados; mensagens podem se espalhar entre eles (hipótese).
 - Oferta: Plano Temporada.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi o Recanto do Sossego numa lista como "melhor para atendimento dos funcionários". Montei um atendente de WhatsApp que segue esse padrão 24h, em português, espanhol e inglês (pet, cozinha, piscina, check-in) e passa a reserva pronta. Te mando um vídeo curto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 6. Pousada Koh Phangan (FE16)
@@ -54,6 +59,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: público jovem e argentino, que manda mensagem de madrugada e em espanhol (hipótese).
 - Oferta: Plano Temporada (operação de verão, público jovem) em cada uma, com condição para as duas se o dono for o mesmo. Se a parceria com a LaFerrugem.com (FE09) andar, alinhar antes.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi uma avaliação em espanhol chamando a Koh Phangan de "la mejor pousada de Ferrugem". Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e passa o pedido de reserva pronto. Se a Don Antonio também for de vocês, serve pras duas. Te mando um vídeo curto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 7. Pousada Maunaloa (FE21)
@@ -63,6 +69,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: hóspede estrangeiro com dificuldade de idioma no atendimento (hipótese, a partir de um relato em inglês; **não citar na mensagem**, só puxar o assunto de idiomas se o dono trouxer).
 - Oferta: Plano Temporada. O ponto forte aqui é o atendimento em espanhol e inglês.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi que a Maunaloa fica a 50 m do mar e não cobra taxa pra pet pequeno, coisa que muita gente procura. Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês e passa o pedido de reserva pronto. Posso te mostrar em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 8. Pousada Paradise Ferrugem (FE22)
@@ -72,6 +79,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: a família reveza o celular e o WhatsApp não para no verão (hipótese).
 - Oferta: Plano Temporada.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui perto, no Rosa, e trabalho com tecnologia. Vi que a Paradise é familiar, está aí desde 1994 e tem a equipe com nota 9,2 no Booking. Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês e te passa a reserva pronta pra só confirmar. Quem cuida do WhatsApp na família?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 9. Pousada Kalua Praia (FE23)
@@ -81,4 +89,5 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: dono dividido entre restaurante e pousada no verão; mensagem chega em espanhol a toda hora (hipótese). Não falar de avaliações.
 - Oferta: Plano Temporada. Mandar em espanhol.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, Beto, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi hóspede argentino dizendo que na Kalua se sentiu "como en casa". Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e passa o pedido de reserva pronto pra você confirmar. Te mostro em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________

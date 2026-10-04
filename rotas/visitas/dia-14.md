@@ -9,6 +9,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: a mesma pergunta ("quantos dias no Réveillon?", "como alugar?") repetida por dezenas de pessoas, para casas e pousada ao mesmo tempo.
 - Oferta: Plano Ano + condição conjunta para a carteira e a pousada, a combinar. Mostrar o atendente explicando a regra dos pacotes de 5 a 10 dias.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que vocês cuidam dos imóveis de temporada e da Pousada Caminho do Mar, e que no Réveillon e no Carnaval só fecham pacotes de 5 a 10 dias. Montei um atendente de WhatsApp que explica isso 24h, em PT/ES/EN, e passa o pedido pronto. Te mostro em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 2. Praia da Ferrugem Aluguel (AD18)
@@ -18,6 +19,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: a mesma pergunta repetida para cada casa, muitas vezes em espanhol; pico em pacotes de Réveillon e Carnaval.
 - Oferta: Plano Ano + condição para a carteira, a combinar. Puxar o espanhol como argumento.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que vocês reúnem várias casas da Ferrugem, como as Casas Amarelas e a Morada da Neide, com pacotes de Réveillon e Carnaval. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as perguntas de cada casa e passa o pedido pronto. Te mando um vídeo curto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 3. PRAIADAFERRUGEM.net (Gabriel Jean Burg) (AD19)
@@ -27,6 +29,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: um único número respondendo pelos aptos e por quatro pousadas, com perguntas repetidas; Villa Luana tem público argentino (Booking es-ar, laferrugem.com).
 - Oferta: Plano Ano + condição conjunta para os aptos e as pousadas, a combinar. Falar com quem decide, uma vez só.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, Gabriel, tudo bem? Sou o Caue, moro no Rosa e trabalho com tecnologia. Vi que a família aluga temporada na Ferrugem desde 2013 e que o mesmo WhatsApp atende os aptos, a Canoa Azul, o El Pátio, a Beleza Pura e a Villa Luana. Montei um atendente que responde 24h, em PT/ES/EN, por todas e passa a reserva pronta. Faz sentido conversar 10 min?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 4. Ferrujão Pousada e Restaurante (FE04)
@@ -36,12 +39,14 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: volume alto de perguntas em espanhol, chegando à noite, espalhado em mais de um número (hipótese).
 - Oferta: Plano Ano por unidade e proposta de condição para as 3. É o lead mais forte da Ferrugem: falar com quem decide (César, se for ele), uma vez só.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Queria falar com o César, se possível. Sou o Caue, moro no Rosa e trabalho com tecnologia. Li na La Nación que uns 70% dos hóspedes do Ferrujão são argentinos. Montei um atendente de WhatsApp que responde 24h em espanhol, português e inglês e passa o pedido de reserva pronto. Serve pro Ferrujão, a Capão e a Pé na Areia. Posso mostrar em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 5. Residencial LaFerrugem + agência LaFerrugem.com (FE36)
 - **Onde:** R. das Baleias 64/69
 - **Contato:** WhatsApp **+598 94 259 977**; +55 48 99136-3814
 - (sem preparo: ver arquivo de leads)
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 6. Pousada A Cabana (GA17)
@@ -51,6 +56,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: atendimento muito centrado no João; volume alto e pergunta em espanhol.
 - Oferta: Plano Ano (volume alto e público hispanofalante). Confirmar se o João é o dono.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, João, tudo bem? Sou o Caue, moro aqui do lado, no Rosa. Vi que A Cabana tem até site em espanhol e que os hóspedes elogiam muito o seu atendimento. Montei um atendente de WhatsApp que responde 24h em PT, ES e EN e passa o pedido de reserva pronto pra você confirmar. Te mando um vídeo de 1 min?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 7. Convés Imobiliária (AD20)
@@ -60,6 +66,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: equipe dividida entre venda e temporada; perguntas repetidas para imóveis em várias praias.
 - Oferta: Plano Ano + condição para a carteira, a combinar.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, pessoal da Convés, tudo bem? Sou o Caue, moro na Praia do Rosa e trabalho com tecnologia. Vi que vocês estão na região desde 2016, com sede na Ferrugem, e têm imóveis também na Silveira, Ferraz e Pedra Branca. Montei um atendente de WhatsApp que responde 24h, em PT/ES/EN, as perguntas de cada imóvel e passa o pedido pronto. Posso mostrar em 1 minuto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 8. Pousada da Ferrugem (FE01)
@@ -69,6 +76,7 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: os próprios donos atendem tudo, inclusive o WhatsApp à noite (hipótese).
 - Oferta: Plano Temporada. Operação pequena e familiar; o atendente ajuda a manter o mesmo cuidado no WhatsApp sem prender os donos no celular.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Sou o Caue, moro aqui perto, no Rosa, e trabalho com tecnologia. Vi no Booking hóspede elogiando os "proprietários muito atenciosos" da Pousada da Ferrugem. Montei um atendente de WhatsApp que responde 24h em português, espanhol e inglês e passa o pedido de reserva pronto pra vocês só confirmarem. Quem cuida do WhatsApp aí, vocês mesmos?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
 
 ## 9. Pousada da Praia Ferrugem (FE02)
@@ -78,4 +86,5 @@ Folha de campo. Leve impressa ou no celular. Depois de cada visita, anote: com q
 - Dor provável: muita pergunta repetida sobre pet e disponibilidade das suítes com hidro (hipótese).
 - Oferta: Plano Temporada. Pousada pé na areia que opera forte no verão; bom para testar.
 - **Se não encontrar o dono, deixe recado ou mande depois:** Oi, tudo bem? Aqui é o Caue, moro no Rosa e trabalho com tecnologia. Vi o "refúgio a 30 m do mar" de vocês, com hidromassagem e aceitando pet. Fiz um atendente de WhatsApp que responde hóspede 24h (pet, preço, check-in) em português, espanhol e inglês e te entrega o pedido de reserva pronto. Te mando um vídeo curto?
+- **Concierge:** pergunte onde ele manda o hóspede jantar, ver baleia e passar dia de chuva (é o começo do guia dele).
 - **Anotação:** ________________________________
