@@ -66,4 +66,4 @@ O atendente também funciona como guia: responde com base no guia da pousada (`g
 **O que não prometer:**
 - Distância exata de rota. O bot dá estimativa, ou rota real se ligarmos a API do Google Maps.
 - Avistamento de baleia.
-- Passeio embarcado (ver regras em `guias/regional.md`).
+- Passeio de barco para ver baleia: suspenso, o bot não indica.

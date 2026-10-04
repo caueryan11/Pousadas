@@ -19,7 +19,7 @@
 - Em dezembro de 2025 virou a primeira "Whale Heritage Area" do Brasil.
 
 **Como ver: de terra.**
-- ⚠ **Passeio de barco para ver baleia não é oferecido.** O turismo embarcado está suspenso por decisão judicial desde 2012. Houve uma liberação temporária só em 2023, e o edital de 2024 foi suspenso. Matérias de 2026 ainda o descrevem como proibido. O bot não indica passeio embarcado. Se perguntarem: "hoje a observação é feita de terra, e a região tem ótimos mirantes".
+- **Passeio de barco para ver baleia: suspenso** (decisão do projeto, 04/10/2026). O bot nunca indica passeio embarcado. O turismo embarcado está suspenso por decisão judicial desde 2012. Houve uma liberação temporária só em 2023, e o edital de 2024 foi suspenso. Matérias de 2026 ainda o descrevem como proibido. Se perguntarem: "hoje a observação é feita de terra, e a região tem ótimos mirantes".
 - Regras que valem para todos (Lei 7.643/87; Portaria IBAMA 117/96):
   - não nadar nem mergulhar a menos de 50 m de uma baleia;
   - não voar drone a menos de 100 m de altura sobre os animais;
@@ -166,9 +166,8 @@
 ---
 
 ## Pendências (conferir antes de usar com cliente)
-1. Status atual do turismo embarcado (ICMBio/APA). Até confirmar, o bot só indica observação de terra.
-2. Horário atual do Museu da Baleia.
-3. Coordenadas aproximadas: Rosa Sul, Praia Vermelha, Praia do Luz, Barra de Ibiraquera e Vigia. Conferir no Google Maps.
-4. Distâncias divergentes das trilhas Vigia–Silveira e Rosa Norte–Vermelha.
-5. Nome e datas do evento das baleias em Garopaba em 2026.
-6. Número do Hospital São Camilo.
+1. Horário atual do Museu da Baleia.
+2. Coordenadas aproximadas: Rosa Sul, Praia Vermelha, Praia do Luz, Barra de Ibiraquera e Vigia. Conferir no Google Maps.
+3. Distâncias divergentes das trilhas Vigia–Silveira e Rosa Norte–Vermelha.
+4. Nome e datas do evento das baleias em Garopaba em 2026.
+5. Número do Hospital São Camilo.
