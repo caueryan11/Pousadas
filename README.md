@@ -41,3 +41,5 @@ A rede desta sessão bloqueia a abertura de sites (Google Maps, Booking, Instagr
 3. **Idioma das avaliações e motor de reserva**: não verificados, salvo onde está anotado.
 
 **Antes de cada contato**, abra o Instagram ou o site e confira o número de WhatsApp (leva 30 segundos).
+
+- `guias/`: concierge local (guia regional, modelo de guia por pousada, exemplo da Fazenda Verde, distâncias).

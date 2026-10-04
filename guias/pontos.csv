@@ -1,0 +1,18 @@
+nome,tipo,lat,lon,status,fonte,km_publicado_rosa,min_publicado_rosa
+Praia do Rosa (vila/centrinho),praia,-28.1269,-48.6514,fonte,findlatitudeandlongitude,,
+Rosa Norte (estacionamento),praia,-28.1217,-48.6379,fonte,turismo.garopaba.sc.gov.br,,
+Rosa Sul,praia,-28.1330,-48.6420,aprox,conferir,,
+Praia Vermelha,praia,-28.1150,-48.6365,aprox,interpolada; conferir,,
+Praia do Ouvidor (início da trilha),praia,-28.1081,-48.6357,fonte,turismo.garopaba.sc.gov.br,,
+Praia da Ferrugem,praia,-28.0747,-48.6236,fonte,mapcarta,,
+Praia do Silveira,praia,-28.0386,-48.6077,fonte,sandee.com,,
+Praia/Mirante da Vigia,mirante,-28.0290,-48.6080,aprox,conferir,,
+Centro de Garopaba,cidade,-28.0233,-48.6133,fonte,geografos,,
+Siriú,praia,-27.9878,-48.6300,fonte,pt.wikipedia,,
+Praia do Luz,praia,-28.1414,-48.6423,aprox,duas fontes divergentes,,
+Lagoa de Ibiraquera,lagoa,-28.1176,-48.6706,fonte,wikidata/mapcarta,,
+Barra de Ibiraquera,praia,-28.1550,-48.6560,aprox,conferir,,
+Centro de Imbituba,cidade,-28.2400,-48.6703,fonte,geografos,,
+Praia do Porto / Museu da Baleia,museu,-28.2273,-48.6650,fonte,visite.museus.gov.br,,
+Aeroporto de Florianópolis (FLN),aeroporto,-27.6703,-48.5525,fonte,"pt.wikipedia · visitpraiadorosa.com: 82–90 km, 1h20–1h30 do Rosa",85,85
+Aeroporto de Jaguaruna (JJG),aeroporto,-28.6753,-49.0596,fonte,ourairports.com · meusroteirosdeviagem: ~90 km do Rosa,90,

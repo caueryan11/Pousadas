@@ -89,6 +89,8 @@ p{margin:0;max-width:62ch}
 .answer b{font-family:var(--display);font-size:1.1rem;display:block;line-height:1.1}
 .answer span{font-size:.92rem;color:var(--muted)}
 
+.answers.guia{grid-template-columns:1fr}
+
 /* QUEM DECIDE */
 .split{display:grid;grid-template-columns:1fr 1fr;gap:20px}
 @media (max-width:700px){.split{grid-template-columns:1fr}}
@@ -303,6 +305,32 @@ footer .sign{font-family:var(--hand);font-size:1.8rem;color:var(--ink)}
       <div class="answer"><svg viewBox="0 0 56 56" aria-hidden="true"><circle cx="28" cy="28" r="26" fill="var(--sand)"/><circle cx="22" cy="28" r="8" fill="none" stroke="var(--ink)" stroke-width="3"/><path d="M30 28 h14 v6 M38 28 v5" stroke="var(--ink)" stroke-width="3" fill="none" stroke-linecap="round"/></svg><div><b>Check-in e check-out</b><span>horários, chegada tarde, chave</span></div></div>
       <div class="answer"><svg viewBox="0 0 56 56" aria-hidden="true"><circle cx="28" cy="28" r="26" fill="var(--rosa-soft)"/><path d="M28 12 c-8 0 -13 6 -13 13 c0 9 13 20 13 20 s13 -11 13 -20 c0 -7 -5 -13 -13 -13z" fill="var(--rosa)"/><circle cx="28" cy="25" r="5" fill="#FFFFFF"/></svg><div><b>Como chegar</b><span>de Florianópolis, de Porto Alegre, da rodoviária</span></div></div>
       <div class="answer"><svg viewBox="0 0 56 56" aria-hidden="true"><circle cx="28" cy="28" r="26" fill="var(--sea-soft)"/><rect x="17" y="13" width="22" height="30" rx="4" fill="var(--surface)" stroke="var(--sea)" stroke-width="3"/><path d="M22 22 h12 M22 28 h12 M22 34 h8" stroke="var(--sea)" stroke-width="2.5" stroke-linecap="round"/></svg><div><b>Regras da casa</b><span>silêncio, visitas, cancelamento</span></div></div>
+    </div>
+  </section>
+
+  <!-- CONCIERGE -->
+  <section class="demo" aria-labelledby="h-guia">
+    <div class="phone">
+      <div class="screen">
+        <div class="topbar"><span class="avatar" aria-hidden="true">P</span><div><b>Pousada Exemplo</b><small>online · guia da região</small></div></div>
+        <div class="chat">
+          <div class="msg in">¿Dónde puedo ver ballenas? Estamos con chicos 🐋<span class="meta">09:12</span></div>
+          <div class="msg out">¡Es temporada! De julio a noviembre se ven desde la costa. Con chicos, el costón del Rosa es lo más cómodo: sendero corto y fácil, a unos 20 min a pie. Llevá binoculares 😉<span class="meta">09:12</span></div>
+          <div class="msg in">📍 Ubicación compartida<span class="meta">16:40</span></div>
+          <div class="msg out">Estás a ~2 km del estacionamiento de Rosa Norte. Desde ahí, el sendero a Praia Vermelha tiene ~1,5 km (30 min, fácil). Volvé antes de que oscurezca 🙂<span class="meta">16:40</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="stack">
+      <span class="eyebrow">Além da reserva</span>
+      <h2 id="h-guia">Também vira o guia da sua pousada</h2>
+      <p class="lead">Junto com o atendente, montamos um guia com as <b>suas</b> dicas e as informações da região. O hóspede pergunta no WhatsApp e recebe a resposta na hora, no idioma dele.</p>
+      <div class="answers guia">
+        <div class="answer"><svg viewBox="0 0 56 56" aria-hidden="true"><circle cx="28" cy="28" r="26" fill="var(--sea-soft)"/><path d="M10 32 q10 -12 26 -6 q6 2 10 -4 q-1 8 -6 11 q-12 8 -30 -1z" fill="var(--sea)"/><circle cx="20" cy="29" r="1.6" fill="#FFFFFF"/><path d="M30 20 q-2 -6 2 -8 M30 20 q3 -5 6 -5" stroke="var(--sea)" stroke-width="2" fill="none" stroke-linecap="round"/></svg><div><b>Onde ver baleia</b><span>mirantes de terra, melhor época e cuidados</span></div></div>
+        <div class="answer"><svg viewBox="0 0 56 56" aria-hidden="true"><circle cx="28" cy="28" r="26" fill="var(--rosa-soft)"/><circle cx="18" cy="36" r="5" fill="var(--rosa)"/><circle cx="38" cy="20" r="5" fill="var(--rosa)"/><path d="M18 36 q2 -14 20 -16" stroke="var(--rosa)" stroke-width="2.5" stroke-dasharray="3 4" fill="none"/></svg><div><b>Quão longe fica</b><span>distância e tempo a pé ou de carro, de onde o hóspede estiver</span></div></div>
+        <div class="answer"><svg viewBox="0 0 56 56" aria-hidden="true"><circle cx="28" cy="28" r="26" fill="var(--sand)"/><rect x="16" y="13" width="24" height="30" rx="3" fill="var(--surface)" stroke="var(--ink)" stroke-width="2.5"/><path d="M21 21 h14 M21 27 h14 M21 33 h9" stroke="var(--ink)" stroke-width="2.5" stroke-linecap="round"/><path d="M36 38 l4 4" stroke="var(--rosa)" stroke-width="3" stroke-linecap="round"/></svg><div><b>As dicas do dono</b><span>restaurante, trilha, dia de chuva: o que você já indica</span></div></div>
+      </div>
+      <p class="hand">o que não está no guia, ele não inventa: passa pra você</p>
     </div>
   </section>
 

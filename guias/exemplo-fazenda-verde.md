@@ -81,3 +81,28 @@ As distâncias saem de `scripts/distancias.py` a partir do ponto aproximado do R
 - Booking: booking.com/hotel/br/fazenda-verde.html
 - Agregadores: trivago, hotels.com, trip.com, hotelsantacatarina
 - Facebook: facebook.com/praiadorosafazendaverdeargentina
+
+## Distâncias
+
+Calculadas a partir do ponto aproximado do centrinho do Rosa (-28.1269, -48.6514), porque a coordenada da pousada ainda não foi encontrada. Com a coordenada real, rodar `python3 scripts/distancias.py LAT LON` de novo.
+
+| Lugar | Tipo | Linha reta | Estrada (est.) | A pé | Carro (est.) | Obs. |
+|---|---|---|---|---|---|---|
+| Rosa Sul | praia | 1.1 km | 1.6 km | 21 min | 3 min | coordenada aproximada |
+| Rosa Norte (estacionamento) | praia | 1.4 km | 2.0 km | 27 min | 4 min |  |
+| Praia do Luz | praia | 1.8 km | 2.6 km | 34 min | 5 min | coordenada aproximada |
+| Praia Vermelha | praia | 2.0 km | 2.8 km | 37 min | 6 min | coordenada aproximada |
+| Lagoa de Ibiraquera | lagoa | 2.1 km | 3.0 km | 40 min | 6 min |  |
+| Praia do Ouvidor (início da trilha) | praia | 2.6 km | 3.6 km | 48 min | 7 min |  |
+| Barra de Ibiraquera | praia | 3.2 km | 4.4 km | 59 min | 9 min | coordenada aproximada |
+| Praia da Ferrugem | praia | 6.4 km | 9.0 km | — | 18 min |  |
+| Praia do Silveira | praia | 10.7 km | 15.0 km | — | 20 min |  |
+| Praia do Porto / Museu da Baleia | museu | 11.2 km | 15.7 km | — | 21 min |  |
+| Praia/Mirante da Vigia | mirante | 11.7 km | 16.4 km | — | 22 min | coordenada aproximada |
+| Centro de Garopaba | cidade | 12.1 km | 17.0 km | — | 23 min |  |
+| Centro de Imbituba | cidade | 12.7 km | 17.8 km | — | 24 min |  |
+| Siriú | praia | 15.6 km | 21.9 km | — | 29 min |  |
+| Aeroporto de Florianópolis (FLN) | aeroporto | 51.7 km | 72.4 km | — | 1h07 | publicado (do Rosa): ~85 km, ~1h25 |
+| Aeroporto de Jaguaruna (JJG) | aeroporto | 72.9 km | 102.0 km | — | 1h34 | publicado (do Rosa): ~90 km |
+
+**Como o bot responderia** (exemplo): "Pra Praia Vermelha: da pousada até o estacionamento do Rosa Norte são uns 2 km (cerca de 25 min a pé). De lá começa a trilha, de ~1,5 km e uns 30 min, leve e bem marcada, com escadas. Leva água e tênis 🙂"

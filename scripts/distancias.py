@@ -14,7 +14,11 @@ import sys
 
 FATOR_ESTRADA = 1.4
 PE_KMH = 4.5
-CARRO_KMH = 35  # estradas de chão e centro na temporada
+
+
+def carro_kmh(km):
+    # estrada de chão e centrinho na temporada; BR-101 nos trechos longos
+    return 30 if km <= 10 else 45 if km <= 30 else 65
 
 
 def haversine(lat1, lon1, lat2, lon2):
@@ -29,7 +33,7 @@ def haversine(lat1, lon1, lat2, lon2):
 def estimativa(km_reta):
     km = km_reta * FATOR_ESTRADA
     pe = km / PE_KMH * 60
-    carro = km / CARRO_KMH * 60
+    carro = km / carro_kmh(km) * 60
     return km, pe, carro
 
 
@@ -52,13 +56,20 @@ def main():
             continue
         reta = haversine(lat, lon, float(p["lat"]), float(p["lon"]))
         km, pe, carro = estimativa(reta)
-        linhas.append((reta, p["nome"], p["tipo"], km, pe, carro))
+        nota = ""
+        if p.get("km_publicado_rosa"):
+            nota = f"publicado (do Rosa): ~{p['km_publicado_rosa']} km"
+            if p.get("min_publicado_rosa"):
+                nota += f", ~{fmt_min(float(p['min_publicado_rosa']))}"
+        if p.get("status") == "aprox":
+            nota = (nota + "; " if nota else "") + "coordenada aproximada"
+        linhas.append((reta, p["nome"], p["tipo"], km, pe, carro, nota))
     linhas.sort()
-    print("| Lugar | Tipo | Linha reta | Estrada (est.) | A pé | Carro |")
-    print("|---|---|---|---|---|---|")
-    for reta, nome, tipo, km, pe, carro in linhas:
+    print("| Lugar | Tipo | Linha reta | Estrada (est.) | A pé | Carro (est.) | Obs. |")
+    print("|---|---|---|---|---|---|---|")
+    for reta, nome, tipo, km, pe, carro, nota in linhas:
         a_pe = fmt_min(pe) if km <= 6 else "—"
-        print(f"| {nome} | {tipo} | {reta:.1f} km | {km:.1f} km | {a_pe} | {fmt_min(carro)} |")
+        print(f"| {nome} | {tipo} | {reta:.1f} km | {km:.1f} km | {a_pe} | {fmt_min(carro)} | {nota} |")
 
 
 if __name__ == "__main__":
