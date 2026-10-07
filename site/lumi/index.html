@@ -397,14 +397,14 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
       </div>
       <div class="noite-tela" id="noite-tela" aria-hidden="true"><i class="onda"></i><i class="onda b"></i></div>
       <div class="lado h" id="lado-h" aria-live="polite">
-        <div class="msg-n" data-de="0.50" data-ate="0.61" hidden><span class="rosto">🇦🇷</span><span class="bal"><i>Sofía · hóspede</i>¿Aceptan perritos?<small>23:12</small></span></div>
-        <div class="msg-n" data-de="0.62" data-ate="0.78" hidden><span class="rosto">🎙️</span><span class="bal"><i>Lucas · hóspede</i>Áudio: "farmácia aberta perto?"<small>02:40</small></span></div>
-        <div class="msg-n" data-de="0.80" data-ate="0.935" hidden><span class="rosto">J</span><span class="bal"><i>Juliana · hóspede</i>Vaga de 10 a 15/01 para 2?<small>05:58</small></span></div>
+        <div class="msg-n" data-de="0.50" data-ate="0.62" hidden><span class="rosto">🇦🇷</span><span class="bal"><i>Sofía · hóspede</i>¿Aceptan perritos?<small>23:12</small></span></div>
+        <div class="msg-n" data-de="0.62" data-ate="0.80" hidden><span class="rosto">🎙️</span><span class="bal"><i>Lucas · hóspede</i>Áudio: "farmácia aberta perto?"<small>02:40</small></span></div>
+        <div class="msg-n" data-de="0.80" data-ate="0.945" hidden><span class="rosto">J</span><span class="bal"><i>Juliana · hóspede</i>Vaga de 10 a 15/01 para 2?<small>05:58</small></span></div>
       </div>
       <div class="lado l" id="lado-l" aria-live="polite">
-        <div class="msg-n" data-de="0.555" data-ate="0.61" hidden><span class="rosto lumi"><img src="icone-32.png" alt="Lumi"></span><span class="bal"><i>Lumi</i>¡Sí! Hasta 10 kg, en los chalés.<small>23:12</small></span></div>
-        <div class="msg-n" data-de="0.69" data-ate="0.78" hidden><span class="rosto lumi"><img src="icone-32.png" alt="Lumi"></span><span class="bal"><i>Lumi</i>A 1,2 km, aberta 24h. Mandei o mapa 📍<small>02:40</small></span></div>
-        <div class="msg-n" data-de="0.87" data-ate="0.935" hidden><span class="rosto lumi"><img src="icone-32.png" alt="Lumi"></span><span class="bal"><i>Lumi</i>Anotei! A Carla confirma e te chama.<small>05:58</small></span></div>
+        <div class="msg-n" data-de="0.535" data-ate="0.62" hidden><span class="rosto lumi"><img src="icone-32.png" alt="Lumi"></span><span class="bal"><i>Lumi</i>¡Sí! Hasta 10 kg, en los chalés.<small>23:12</small></span></div>
+        <div class="msg-n" data-de="0.67" data-ate="0.80" hidden><span class="rosto lumi"><img src="icone-32.png" alt="Lumi"></span><span class="bal"><i>Lumi</i>A 1,2 km, aberta 24h. Mandei o mapa 📍<small>02:40</small></span></div>
+        <div class="msg-n" data-de="0.85" data-ate="0.945" hidden><span class="rosto lumi"><img src="icone-32.png" alt="Lumi"></span><span class="bal"><i>Lumi</i>Anotei! A Carla confirma e te chama.<small>05:58</small></span></div>
       </div>
       <div class="resumo-noite" id="resumo-noite" data-de="0.945" data-ate="1.01" hidden><img src="icone-32.png" alt="Lumi"><span><b>Bom dia, Carla ☀️</b>Enquanto você dormia: 3 hóspedes respondidos e 1 pedido de reserva pronto.</span></div>
       <p class="noite-legenda">Ilustração. Conversa de exemplo.</p>
@@ -742,7 +742,8 @@ $("copiar").addEventListener("click", async e => {
     rotulo.textContent = rot(m);
     titulo.classList.toggle("some", p > 0.12);
     for (const b of itens) {
-      const ver = p >= +b.dataset.de && p < +b.dataset.ate;
+      const folga = b.hidden ? 0 : 0.008;
+      const ver = p >= +b.dataset.de - folga && p < +b.dataset.ate + folga;
       if (ver && b.hidden) {
         b.hidden = false; b.classList.remove("entra-n"); void b.offsetWidth; b.classList.add("entra-n");
         if (b === resumo) posicionar();
