@@ -45,11 +45,11 @@ section{padding-block:clamp(72px,9vw,120px)}
 .texto-voo .wrap{display:grid;gap:18px}
 .texto-voo .sub{color:#C9D6DC}
 .acoes{display:flex;flex-wrap:wrap;gap:12px}
-.topo{position:absolute;top:0;left:0;right:0;z-index:6}
-.topo .wrap{display:flex;justify-content:space-between;align-items:center;height:68px}
+.topo{position:absolute;top:0;left:0;right:0;z-index:6;background:var(--noite);border-bottom:1px solid rgba(255,248,238,.08)}
+.topo .wrap{display:flex;justify-content:space-between;align-items:center;height:56px}
 .marca{font:800 1.15rem var(--display);font-stretch:125%;text-decoration:none;letter-spacing:-.01em}
 .marca span{color:var(--sol-2)}
-.marca-svg{height:50px;filter:drop-shadow(0 2px 6px rgba(0,0,0,.35));width:auto;display:block}
+.marca-svg{height:30px;width:auto;display:block}
 .rec{display:flex;align-items:center;gap:8px;font-size:.85rem;color:#C9D6DC}
 .rec i{width:9px;height:9px;border-radius:50%;background:var(--sol);animation:rec 1.4s infinite}
 @keyframes rec{50%{opacity:.25}}
@@ -58,7 +58,7 @@ section{padding-block:clamp(72px,9vw,120px)}
 /* celular em pé: a foto inteira (16:9) no alto, sem cortar as bordas, com a mesma foto desfocada preenchendo o fundo */
 @media (max-aspect-ratio: 4/5){
   .filme-fundo{display:block;position:absolute;inset:-30px;width:calc(100% + 60px);height:calc(100% + 60px);object-fit:cover;filter:blur(22px) brightness(.55) saturate(1.1)}
-  .palco{--foto-topo:72px;--foto-alt:75vw}
+  .palco{--foto-topo:56px;--foto-alt:75vw}
   .filme{inset:auto 0 auto 0;top:var(--foto-topo);height:var(--foto-alt);width:100%;object-fit:cover;background:transparent;box-shadow:0 24px 50px -20px rgba(0,0,0,.7)}
   /* o texto começa abaixo da foto, nunca por cima */
   .texto-voo{top:calc(var(--foto-topo) + var(--foto-alt) + 20px);bottom:auto;padding-bottom:0}
@@ -75,7 +75,7 @@ section{padding-block:clamp(72px,9vw,120px)}
 }
 .palco::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,34,48,.55),transparent 22%,transparent 50%,rgba(13,34,48,.9));pointer-events:none}
 .topo,.texto-voo,.barra-tempo{z-index:3}
-.barra-tempo{position:absolute;left:0;right:0;top:0;height:3px;background:rgba(255,248,238,.15)}
+.barra-tempo{position:absolute;left:0;right:0;top:56px;height:3px;background:rgba(255,248,238,.15)}
 .barra-tempo i{display:block;height:100%;width:0;background:var(--sol)}
 .clipe{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .site-lista p{color:#C9D6DC}.site-lista .ico{background:rgba(255,248,238,.08)}
