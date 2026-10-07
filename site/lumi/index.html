@@ -1,0 +1,674 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>[hidden]{display:none!important}</style>
+<title>Lumi para pousadas</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%20role%3D%22img%22%20aria-label%3D%22Lumi%22%3E%3Ctitle%3ELumi%3C/title%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2216%22%20fill%3D%22%230B5C4B%22/%3E%3Cg%20transform%3D%22rotate%28-8%2032%2034%29%22%3E%3Cpath%20fill%3D%22%23FFC83D%22%20d%3D%22M32%2010C40.5%2010%2050%2022%2050%2035C50%2045.5%2042%2053%2032%2053C22%2053%2014%2045.5%2014%2035C14%2022%2023.5%2010%2032%2010Z%22/%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22%23FFF3C4%22%20stroke-width%3D%222.6%22%20stroke-linecap%3D%22round%22%20d%3D%22M21%2022.5Q24%2017.5%2028.5%2016%22/%3E%3Cellipse%20cx%3D%2226%22%20cy%3D%2235%22%20rx%3D%223.4%22%20ry%3D%224.8%22%20fill%3D%22%230F1F1A%22/%3E%3Cellipse%20cx%3D%2238.5%22%20cy%3D%2235%22%20rx%3D%223.4%22%20ry%3D%224.8%22%20fill%3D%22%230F1F1A%22/%3E%3C/g%3E%3C/svg%3E%0A">
+<meta name="description" content="A Lumi atende o WhatsApp da pousada 24 horas, em português, espanhol e inglês, com as suas informações. Você só entra no que é decisão sua.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Onest:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: SaaS clássico em faixas. Herói em duas colunas (promessa + celular ao vivo), bento de recursos com mini-demos, faixa verde "você no comando", passos, relatório, preço único, perguntas, fechamento. */
+:root{
+  --bg:#F6F8F7; --bg-2:#ECF1EF; --card:#FFFFFF; --fg:#0F1F1A; --fg-2:#4A5C56; --line:#DCE5E1;
+  --brand:#0B5C4B; --brand-2:#0E7A63; --mint:#2BD47D; --mint-soft:#DDF7E9; --on-brand:#F2FBF7; --on-brand-2:#B7DDD0;
+  --sombra:0 1px 2px rgba(15,31,26,.06),0 12px 32px -12px rgba(15,31,26,.18);
+  --display:"Sora","Segoe UI",system-ui,sans-serif;
+  --corpo:"Onest",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0B1411; --bg-2:#111D19; --card:#15241F; --fg:#E6F0EC; --fg-2:#9DB2AA; --line:#24372F;
+  --brand:#0F3F35; --brand-2:#2BD47D; --mint-soft:#163A2C; --on-brand-2:#9CC9BA;
+  --sombra:0 1px 2px rgba(0,0,0,.4),0 16px 40px -16px rgba(0,0,0,.6); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0B1411; --bg-2:#111D19; --card:#15241F; --fg:#E6F0EC; --fg-2:#9DB2AA; --line:#24372F;
+  --brand:#0F3F35; --brand-2:#2BD47D; --mint-soft:#163A2C; --on-brand-2:#9CC9BA;
+  --sombra:0 1px 2px rgba(0,0,0,.4),0 16px 40px -16px rgba(0,0,0,.6); color-scheme:dark}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--corpo);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+::selection{background:var(--mint);color:#06281F}
+a{color:inherit;text-underline-offset:3px}
+:focus-visible{outline:3px solid var(--mint);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1160px;margin:0 auto;padding-inline:20px}
+h1,h2,h3{font-family:var(--display);margin:0;letter-spacing:-.025em;text-wrap:balance}
+h1{font-size:clamp(2.3rem,5.2vw,3.9rem);line-height:1.06;font-weight:800}
+h2{font-size:clamp(1.8rem,3.6vw,2.7rem);line-height:1.1;font-weight:700}
+h3{font-size:1.15rem;line-height:1.3;font-weight:700;letter-spacing:-.01em}
+p{margin:0}
+.sub{color:var(--fg-2);font-size:1.12rem;max-width:58ch}
+section{padding-block:clamp(72px,9vw,120px)}
+.cabeca{display:grid;gap:14px;max-width:720px;margin-bottom:44px}
+.ic{width:22px;height:22px;flex:none;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font:600 1rem/1 var(--corpo);text-decoration:none;cursor:pointer;
+  border:0;border-radius:12px;padding:16px 22px;transition:transform .15s ease,background-color .15s ease,box-shadow .15s ease}
+.btn-pri{background:var(--mint);color:#06281F;box-shadow:0 8px 22px -10px rgba(43,212,125,.9)}
+.btn-pri:hover{transform:translateY(-1px);box-shadow:0 12px 26px -10px rgba(43,212,125,1)}
+.btn-sec{background:transparent;color:var(--fg);box-shadow:inset 0 0 0 1.5px var(--line)}
+.btn-sec:hover{box-shadow:inset 0 0 0 1.5px var(--fg-2)}
+
+/* nav */
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:66px}
+.logo{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:800;font-size:1.35rem;text-decoration:none;letter-spacing:-.03em}
+.logo .logo-svg{height:36px;width:auto;display:block}
+.nav-links{display:flex;gap:28px;font-weight:500;color:var(--fg-2)}
+.nav-links a{text-decoration:none}.nav-links a:hover{color:var(--fg)}
+.nav .btn{padding:11px 16px;font-size:.94rem}
+@media (max-width:820px){.nav-links{display:none}}
+
+/* herói */
+.heroi{padding-block:clamp(48px,7vw,88px) clamp(64px,8vw,104px)}
+.heroi .wrap{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:56px;align-items:center}
+@media (max-width:900px){.heroi .wrap{grid-template-columns:minmax(0,1fr);gap:48px}}
+.selo{display:inline-flex;align-items:center;gap:8px;padding:7px 12px 7px 9px;border-radius:999px;background:var(--mint-soft);color:var(--brand-2);font-weight:600;font-size:.9rem;width:max-content;max-width:100%}
+.selo .ponto{width:8px;height:8px;border-radius:50%;background:var(--mint);box-shadow:0 0 0 4px color-mix(in srgb,var(--mint) 30%,transparent)}
+.heroi-texto{display:grid;gap:22px;min-width:0}
+.heroi-texto h1 span{color:var(--brand-2)}
+.acoes{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
+.garantias{display:flex;flex-wrap:wrap;gap:10px 22px;color:var(--fg-2);font-size:.95rem;list-style:none;padding:0;margin:4px 0 0}
+.garantias li{display:flex;align-items:center;gap:8px}
+.garantias .ic{width:18px;height:18px;color:var(--brand-2)}
+
+.demo{display:grid;gap:16px;justify-items:center;min-width:0}
+.abas{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;padding:5px;border-radius:14px;background:var(--bg-2);border:1px solid var(--line);max-width:100%}
+.abas button{font:600 .9rem/1 var(--corpo);color:var(--fg-2);background:transparent;border:0;border-radius:10px;padding:10px 13px;cursor:pointer}
+.abas button[aria-selected="true"]{background:var(--card);color:var(--fg);box-shadow:var(--sombra)}
+.celular{position:relative;width:min(350px,100%);border-radius:44px;padding:11px;background:#0C1512;box-shadow:0 50px 90px -40px rgba(11,92,75,.55),0 0 0 1px rgba(255,255,255,.06) inset}
+.tela{height:540px;border-radius:34px;overflow:hidden;display:flex;flex-direction:column;background:#EFE7DE}
+.wa-barra{display:flex;align-items:center;gap:10px;padding:16px 14px 12px;background:#075E54;color:#fff}
+.wa-barra .av{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;font:700 1rem var(--display);background:#2BD47D;color:#06281F}
+.wa-barra b{display:block;font-size:.98rem;line-height:1.2}.wa-barra small{font-size:.78rem;opacity:.85}
+.conversa{flex:1;overflow-y:auto;padding:14px 11px;display:flex;flex-direction:column;gap:7px;color:#111B21;scrollbar-width:none}
+.conversa::-webkit-scrollbar{display:none}
+.dia{align-self:center;font-size:.72rem;background:#FFFFFFD0;color:#54656F;padding:4px 10px;border-radius:8px;margin-bottom:4px}
+.m{max-width:84%;padding:7px 10px 6px;border-radius:10px;font-size:.9rem;line-height:1.42;box-shadow:0 1px .5px rgba(11,20,26,.13)}
+.m.c{align-self:flex-start;background:#fff;border-top-left-radius:2px}
+.m.l{align-self:flex-end;background:#D9FDD3;border-top-right-radius:2px}
+.m .h{display:block;text-align:right;font-size:.68rem;color:#667781;margin-top:1px}
+.m.audio{display:flex;align-items:center;gap:8px}
+.m.audio .play{width:26px;height:26px;border-radius:50%;background:#54656F;display:grid;place-items:center}
+.m.audio .play svg{width:11px;height:11px;fill:#fff}
+.m.audio .onda{display:flex;align-items:center;gap:2px;height:22px}
+.m.audio .onda i{display:block;width:3px;border-radius:2px;background:#8696A0}
+.digit{align-self:flex-end;background:#D9FDD3;border-radius:10px;padding:11px 13px;display:flex;gap:4px}
+.digit i{width:6px;height:6px;border-radius:50%;background:#5F7A5A;animation:pisca 1.1s infinite}
+.digit i:nth-child(2){animation-delay:.15s}.digit i:nth-child(3){animation-delay:.3s}
+@keyframes pisca{0%,80%,100%{opacity:.25}40%{opacity:1}}
+.entra{animation:entra .32s cubic-bezier(.16,1,.3,1) both}
+@keyframes entra{from{opacity:0;transform:translateY(8px) scale(.98)}to{opacity:1;transform:none}}
+.aviso{position:absolute;left:50%;bottom:-26px;transform:translateX(-50%);width:min(330px,92vw);background:var(--card);color:var(--fg);border:1px solid var(--line);
+  border-radius:16px;padding:12px 14px;box-shadow:var(--sombra);display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:.88rem;line-height:1.4}
+.aviso.entra{animation-name:entra-aviso}
+@keyframes entra-aviso{from{opacity:0;transform:translate(-50%,10px)}to{opacity:1;transform:translate(-50%,0)}}
+.aviso .ico{grid-row:span 2;width:36px;height:36px;border-radius:10px;background:var(--mint-soft);color:var(--brand-2);display:grid;place-items:center}
+.aviso[hidden]{display:none}
+.aviso b{font-weight:700}
+.aviso span{color:var(--fg-2)}
+.nota-ex{font-size:.82rem;color:var(--fg-2);margin-top:34px}
+
+/* para quem */
+.faixa{border-block:1px solid var(--line);background:var(--card)}
+.faixa .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px 28px;padding-block:22px}
+.faixa p{font-weight:600;color:var(--fg-2)}
+.segs{display:flex;flex-wrap:wrap;gap:10px 26px;list-style:none;margin:0;padding:0;font-family:var(--display);font-weight:600;color:var(--fg)}
+.segs li{display:flex;align-items:center;gap:8px}
+.segs .ic{color:var(--brand-2)}
+
+/* dia */
+.dia-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:56px;align-items:center}
+@media (max-width:860px){.dia-grid{grid-template-columns:minmax(0,1fr);gap:36px}}
+.linha-tempo{list-style:none;margin:0;padding:0;display:grid;position:relative}
+.linha-tempo::before{content:"";position:absolute;left:69px;top:20px;bottom:20px;width:2px;background:var(--line)}
+.linha-tempo li{display:grid;grid-template-columns:52px 22px minmax(0,1fr);gap:10px;align-items:start;padding:12px 0}
+.linha-tempo time{font:700 1rem var(--display);font-variant-numeric:tabular-nums;color:var(--fg-2);padding-top:1px}
+.linha-tempo .bola{width:14px;height:14px;margin:6px 0 0 4px;border-radius:50%;background:var(--card);border:3px solid var(--brand-2);position:relative;z-index:1}
+.linha-tempo q{quotes:"“" "”";font-weight:600}
+.linha-tempo small{display:block;color:var(--fg-2);font-size:.95rem}
+.linha-tempo small b{color:var(--brand-2);font-weight:600}
+
+/* bento */
+.bento{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:16px}
+.b{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:26px;display:grid;gap:12px;align-content:start;min-width:0}
+.b p{color:var(--fg-2)}
+.b-4{grid-column:span 4}.b-2{grid-column:span 2}.b-3{grid-column:span 3}
+@media (max-width:960px){.b-4,.b-2,.b-3{grid-column:span 6}}
+@media (min-width:600px) and (max-width:960px){.b-2,.b-3{grid-column:span 3}}
+.mini{margin-top:8px;border-radius:14px;background:var(--bg-2);padding:14px;display:grid;gap:8px;font-size:.92rem}
+.faq-linha{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center;padding:10px 12px;border-radius:10px;background:var(--card);border:1px solid var(--line)}
+.faq-linha span{color:var(--fg-2)}
+.faq-linha b{font-weight:600;text-align:right}
+.ok{display:inline-flex;align-items:center;gap:6px;font-size:.78rem;font-weight:600;color:var(--brand-2)}
+.ok .ic{width:15px;height:15px}
+.onda-g{display:flex;align-items:center;gap:3px;height:40px}
+.onda-g i{flex:1;max-width:5px;border-radius:3px;background:var(--brand-2);opacity:.75}
+.transc{font-style:italic;color:var(--fg)}
+.idiomas{display:grid;gap:8px}
+.idiomas div{display:flex;justify-content:space-between;gap:10px;padding:9px 12px;border-radius:10px;background:var(--card);border:1px solid var(--line)}
+.idiomas span{color:var(--fg-2);font-size:.82rem;font-weight:600;letter-spacing:.04em}
+.resumo{border-radius:14px;background:var(--card);border:1px solid var(--line);padding:14px 16px;display:grid;gap:6px}
+.resumo .topo-r{display:flex;align-items:center;gap:8px;font-weight:700}
+.resumo .topo-r i{width:9px;height:9px;border-radius:50%;background:#F2B233;font-style:normal}
+.resumo dl{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 14px;margin:0;font-size:.92rem}
+.resumo dt{color:var(--fg-2)}.resumo dd{margin:0;font-weight:500}
+.resumo a{font-weight:600;color:var(--brand-2);font-size:.92rem}
+.bolhas{display:grid;gap:8px}
+.bolha{padding:9px 12px;border-radius:12px;max-width:92%;font-size:.92rem}
+.bolha.cli{background:var(--card);border:1px solid var(--line);justify-self:start}
+.bolha.lu{background:var(--mint-soft);justify-self:end}
+.ritmo{display:flex;align-items:center;gap:14px}
+.ritmo .digit{align-self:auto;background:var(--mint-soft)}
+.ritmo .digit i{background:var(--brand-2)}
+.ritmo b{font-family:var(--display);font-size:1.6rem;letter-spacing:-.02em}
+.ritmo small{color:var(--fg-2);font-size:.88rem}
+
+/* comando */
+.comando{background:var(--brand);color:var(--on-brand)}
+.comando .sub{color:var(--on-brand-2)}
+.comando h2{color:#fff}
+.comando-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:56px;align-items:start}
+@media (max-width:860px){.comando-grid{grid-template-columns:minmax(0,1fr);gap:36px}}
+.regras{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 32px;list-style:none;margin:0;padding:0}
+@media (max-width:560px){.regras{grid-template-columns:minmax(0,1fr)}}
+.regras li{display:grid;gap:8px}
+.regras .ico{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:rgba(255,255,255,.08);color:var(--mint)}
+.regras h3{color:#fff}
+.regras p{color:var(--on-brand-2);font-size:.98rem}
+
+/* passos */
+.passos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px 20px;list-style:none;margin:0;padding:0;counter-reset:p}
+@media (max-width:820px){.passos{grid-template-columns:minmax(0,1fr)}}
+.passos li{counter-increment:p;display:grid;gap:10px;padding-top:30px;border-top:2px solid var(--line);position:relative;align-content:start}
+.passos li::before{content:counter(p);position:absolute;top:-17px;left:0;width:32px;height:32px;border-radius:50%;background:var(--brand-2);color:var(--bg);display:grid;place-items:center;font:700 .95rem var(--display)}
+.passos p{color:var(--fg-2)}
+.passos .quando{font-size:.88rem;font-weight:600;color:var(--brand-2)}
+
+/* relatório */
+.rel-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:56px;align-items:center}
+@media (max-width:860px){.rel-grid{grid-template-columns:minmax(0,1fr);gap:36px}}
+.rel{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:24px;box-shadow:var(--sombra);display:grid;gap:16px}
+.rel header{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.rel header b{font-family:var(--display);font-size:1.1rem}
+.rel header span{color:var(--fg-2);font-size:.88rem}
+.rel-nums{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.rel-nums div{background:var(--bg-2);border-radius:12px;padding:12px 14px}
+.rel-nums b{display:block;font:700 1.5rem var(--display);font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.rel-nums span{color:var(--fg-2);font-size:.88rem}
+.barras{display:grid;gap:10px;font-size:.9rem}
+.barras div{display:grid;grid-template-columns:minmax(0,1fr) 40px;gap:6px 10px;align-items:center}
+.barras .tr{height:8px;border-radius:4px;background:var(--bg-2);overflow:hidden;grid-column:1/-1}
+.barras .tr i{display:block;height:100%;border-radius:4px;background:var(--brand-2)}
+.barras small{text-align:right;color:var(--fg-2);font-variant-numeric:tabular-nums}
+.rel .nota{font-size:.8rem;color:var(--fg-2)}
+
+/* tour */
+.tour-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:48px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:26px;padding:clamp(24px,4vw,44px)}
+@media (max-width:820px){.tour-grid{grid-template-columns:minmax(0,1fr)}}
+.tour-cel{width:min(220px,100%);justify-self:center;aspect-ratio:9/16;border-radius:28px;padding:8px;background:#0C1512;box-shadow:var(--sombra)}
+.tour-cel video{width:100%;height:100%;object-fit:cover;border-radius:21px;display:block;background:#000}
+.tour-lista{list-style:none;margin:18px 0 0;padding:0;display:grid;gap:10px;color:var(--fg-2)}
+.tour-lista li{display:grid;grid-template-columns:22px minmax(0,1fr);gap:10px}
+.tour-lista .ic{color:var(--brand-2);width:20px;height:20px;margin-top:2px}
+.tour-preco{margin-top:18px;font-weight:600}
+
+/* preço */
+.preco{background:var(--bg-2)}
+.plano{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);background:var(--card);border:1px solid var(--line);border-radius:26px;overflow:hidden;box-shadow:var(--sombra)}
+@media (max-width:860px){.plano{grid-template-columns:minmax(0,1fr)}}
+.plano-valor{padding:clamp(28px,4vw,44px);display:grid;gap:18px;align-content:start;border-right:1px solid var(--line)}
+@media (max-width:860px){.plano-valor{border-right:0;border-bottom:1px solid var(--line)}}
+.plano-valor h3{font-size:1.4rem}
+.valores{display:grid;gap:14px}
+.valores div{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.valores b{font:800 clamp(2.2rem,4vw,2.9rem)/1 var(--display);letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.valores span{color:var(--fg-2)}
+.plano-valor .pag{color:var(--fg-2);font-size:.95rem}
+.plano-valor .btn{justify-self:start}
+.inclui{padding:clamp(28px,4vw,44px);display:grid;gap:14px;align-content:start}
+.inclui h3{font-size:1rem}
+.inclui ul{list-style:none;margin:0;padding:0;display:grid;gap:11px}
+.inclui li{display:grid;grid-template-columns:22px minmax(0,1fr);gap:10px}
+.inclui .ic{color:var(--brand-2);width:20px;height:20px;margin-top:2px}
+
+/* perguntas */
+.faq{max-width:820px;display:grid}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 0;font:600 1.08rem/1.4 var(--display);letter-spacing:-.01em}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary .ic{transition:transform .2s ease;color:var(--brand-2)}
+.faq details[open] summary .ic{transform:rotate(45deg)}
+.faq details p{color:var(--fg-2);padding-bottom:22px;max-width:68ch}
+
+/* fechamento */
+.fecha{padding-block:0 clamp(72px,9vw,120px)}
+.fecha-box{background:var(--brand);color:var(--on-brand);border-radius:30px;padding:clamp(32px,6vw,72px);display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:40px;align-items:center;position:relative;overflow:hidden}
+@media (max-width:860px){.fecha-box{grid-template-columns:minmax(0,1fr)}}
+.fecha-box::after{content:"";position:absolute;right:-120px;top:-120px;width:380px;height:380px;border-radius:50%;background:radial-gradient(circle,rgba(43,212,125,.35),transparent 65%);pointer-events:none}
+.fecha-box .sub{color:var(--on-brand-2);margin-top:14px}
+.fecha-box h2{color:#fff}
+.contato{display:grid;gap:12px;position:relative;z-index:1}
+.numero{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 14px;border-radius:12px;background:rgba(255,255,255,.08);font:600 1.05rem var(--display);font-variant-numeric:tabular-nums}
+.numero span{user-select:all}
+.numero button{font:600 .85rem var(--corpo);color:var(--on-brand);background:rgba(255,255,255,.12);border:0;border-radius:8px;padding:8px 10px;cursor:pointer}
+.numero button:hover{background:rgba(255,255,255,.2)}
+footer{border-top:1px solid var(--line);color:var(--fg-2);font-size:.9rem}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;padding-block:28px}
+
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-scissors" viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4 8.1 15.9M14.5 14.5 20 20M8.1 8.1 12 12"/></symbol>
+  <symbol id="i-razor" viewBox="0 0 24 24"><path d="M4 20 14 10"/><path d="M12 6l6 6 3-3-6-6z"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11 12 4l9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6"/></symbol>
+  <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8h14l-1 13H6z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></symbol>
+  <symbol id="i-hand" viewBox="0 0 24 24"><path d="M8 13V5.5a1.5 1.5 0 0 1 3 0V12"/><path d="M11 11.5v-7a1.5 1.5 0 0 1 3 0V12"/><path d="M14 6.5a1.5 1.5 0 0 1 3 0V13"/><path d="M8 13v-1.5a1.5 1.5 0 0 0-3 0V14a7 7 0 0 0 7 7h1a6 6 0 0 0 6-6V9.5a1.5 1.5 0 0 0-3 0"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7M18.5 20a6.5 6.5 0 0 0-2.5-5.1"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M10 9v6M14 9v6"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4z"/><path d="M10 21h4"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+</svg>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="#topo" aria-label="Lumi, início"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168.01 64" aria-hidden="true" class="logo-svg"><rect width="64" height="64" rx="16" fill="#0B5C4B"/><g transform="rotate(-8 32 34)"><path fill="#FFC83D" d="M32 10C40.5 10 50 22 50 35C50 45.5 42 53 32 53C22 53 14 45.5 14 35C14 22 23.5 10 32 10Z"/><path fill="none" stroke="#FFF3C4" stroke-width="2.6" stroke-linecap="round" d="M21 22.5Q24 17.5 28.5 16"/><ellipse cx="26" cy="35" rx="3.4" ry="4.8" fill="#0F1F1A"/><ellipse cx="38.5" cy="35" rx="3.4" ry="4.8" fill="#0F1F1A"/></g><g transform="translate(76.64 47) scale(0.04286)" fill="currentColor"><path transform="translate(0 0)" d="M131.2 9.5Q94.5 9.5 78.5 -1.4Q62.5 -12.2 58.8 -30Q55 -47.8 55 -67V-614Q55 -633.5 58.6 -650.9Q62.2 -668.2 78.1 -679.1Q94 -690 131.2 -690Q168.5 -690 184 -679.1Q199.5 -668.2 203.2 -650.9Q207 -633.5 207 -613.5V-122.5H481.2Q498.2 -122.5 513 -119.6Q527.8 -116.8 537.1 -102.8Q546.5 -88.8 546.5 -56.8Q546.5 -25.5 536.9 -11.4Q527.2 2.8 512.6 6.1Q498 9.5 481 9.5Z"/><path transform="translate(555 0)" d="M256.2 8.2Q209.5 8.2 169.4 -9.6Q129.2 -27.5 99.2 -60.2Q69.2 -93 52.8 -137.4Q36.2 -181.8 36.2 -235V-416Q36.2 -436 39.9 -453Q43.5 -470 59.4 -480.8Q75.2 -491.5 111.5 -491.5Q148.8 -491.5 164.2 -480.6Q179.8 -469.8 183.4 -452.4Q187 -435 187 -415V-234.8Q187 -205.5 197.4 -184.4Q207.8 -163.2 228.1 -151.9Q248.5 -140.5 277 -140.5Q305.8 -140.5 326.5 -152.2Q347.2 -164 358.8 -185.1Q370.2 -206.2 370.2 -234.8V-416.8Q370.2 -436.8 373.9 -453.8Q377.5 -470.8 393.4 -481.1Q409.2 -491.5 445.8 -491.5Q482.8 -491.5 498.1 -480.6Q513.5 -469.8 517.1 -452.4Q520.8 -435 520.8 -415.8V-64Q520.8 -45.2 517.1 -28.8Q513.5 -12.2 497.8 -1.9Q482 8.5 445.5 8.5Q419 8.5 403.9 2.5Q388.8 -3.5 382 -12.9Q375.2 -22.2 373.8 -32.1Q372.2 -42 372.2 -49.8L385 -60.8Q381.8 -56.5 371.8 -45.5Q361.8 -34.5 345.2 -22Q328.8 -9.5 306.6 -0.6Q284.5 8.2 256.2 8.2Z"/><path transform="translate(1105 0)" d="M114 9.2Q77.8 9.2 62 -1.6Q46.2 -12.5 43 -29.9Q39.8 -47.2 39.8 -66.5V-416.8Q39.8 -436.5 43.4 -453.2Q47 -470 62.9 -480.4Q78.8 -490.8 115.8 -490.8Q153 -490.8 169.9 -476.1Q186.8 -461.5 186.8 -428.8L174 -417.5Q176.2 -422.8 186 -434.6Q195.8 -446.5 211.9 -459.9Q228 -473.2 249.4 -482.6Q270.8 -492 296.2 -492Q328.5 -492 355.1 -482.5Q381.8 -473 403.4 -454.2Q425 -435.5 440.8 -408.2Q454.8 -428 474.9 -447.1Q495 -466.2 522.2 -479.1Q549.5 -492 583.5 -492Q642 -492 682.5 -462.5Q723 -433 743.9 -377.8Q764.8 -322.5 764.8 -244.8V-66.2Q764.8 -47 761.1 -29.6Q757.5 -12.2 741.8 -1.5Q726 9.2 688.8 9.2Q652.2 9.2 636.4 -2Q620.5 -13.2 617.2 -30.6Q614 -48 614 -67.2V-245.8Q614 -276.5 606.8 -297.8Q599.5 -319 585.4 -330.4Q571.2 -341.8 549.2 -341.8Q526 -341.8 509.9 -331.1Q493.8 -320.5 485.6 -299.2Q477.5 -278 477.5 -245V-66Q477.5 -46.2 472.9 -28.6Q468.2 -11 451.6 -0.5Q435 10 398.5 9Q363.2 8.5 348 -2.9Q332.8 -14.2 329.8 -31.5Q326.8 -48.8 326.8 -67.2V-245.8Q326.8 -276.5 319.9 -298.1Q313 -319.8 298.9 -330.8Q284.8 -341.8 262 -341.8Q236.5 -341.8 220.8 -328.9Q205 -316 197.6 -294.4Q190.2 -272.8 190.2 -245.8V-65.5Q190.2 -46.2 186.6 -28.9Q183 -11.5 167.1 -1.1Q151.2 9.2 114 9.2Z"/><path transform="translate(1898 0)" d="M111.8 9.5Q75.5 9.5 59.6 -1.4Q43.8 -12.2 40.5 -29.6Q37.2 -47 37.2 -66.2V-415.2Q37.2 -434.5 40.9 -451.5Q44.5 -468.5 60.4 -479.2Q76.2 -490 112.8 -490Q149.2 -490 164.6 -479.1Q180 -468.2 183.6 -450.9Q187.2 -433.5 187.2 -413.2V-65.2Q187.2 -46 183.6 -28.6Q180 -11.2 164.5 -0.9Q149 9.5 111.8 9.5Z"/><circle cx="2010" cy="-622" r="92" fill="#F0A500"/></g></svg>
+</a>
+    <nav class="nav-links" aria-label="Seções">
+      <a href="#recursos">Como funciona</a>
+      <a href="#preco">Preço</a>
+      <a href="#perguntas">Perguntas</a>
+    </nav>
+    <a class="btn btn-pri" href="#falar">Quero a Lumi</a>
+  </div>
+</header>
+
+<main id="topo">
+  <section class="heroi">
+    <div class="wrap">
+      <div class="heroi-texto">
+        <span class="selo"><span class="ponto" aria-hidden="true"></span>Atendente de WhatsApp para pousadas</span>
+        <h1>O hóspede pergunta às 23h. <span>A pousada responde na hora.</span></h1>
+        <p class="sub">A Lumi atende o WhatsApp da sua pousada 24 horas com as suas informações: preço, regras, café, pet, como chegar. Fala português, espanhol e inglês, entende áudio, indica o que tem perto e te entrega o pedido de reserva pronto.</p>
+        <div class="acoes">
+          <a class="btn btn-pri" href="#falar">Ver a Lumi na minha pousada <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn-sec" href="#recursos">Como funciona</a>
+        </div>
+        <ul class="garantias">
+          <li><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>No número da pousada</li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-hand"/></svg>Reserva e preço final com você</li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-clock"/></svg>Pronta em uma semana</li>
+        </ul>
+      </div>
+
+      <div class="demo">
+        <div class="abas" role="tablist" aria-label="Exemplos de conversa">
+          <button role="tab" id="aba-pet" data-seg="pet" aria-selected="true">Pet</button>
+          <button role="tab" id="aba-espanhol" data-seg="espanhol" aria-selected="false">Espanhol</button>
+          <button role="tab" id="aba-reserva" data-seg="reserva" aria-selected="false">Reserva</button>
+          <button role="tab" id="aba-guia" data-seg="guia" aria-selected="false">Guia local</button>
+          <button role="tab" id="aba-audio" data-seg="audio" aria-selected="false">Áudio</button>
+        </div>
+        <div class="celular" role="tabpanel" aria-labelledby="aba-pet" id="painel">
+          <div class="tela">
+            <div class="wa-barra"><span class="av" id="av" aria-hidden="true">V</span><div><b id="nome">Pousada Vista Mar</b><small id="status">online</small></div></div>
+            <div class="conversa" id="conversa" aria-live="polite"></div>
+          </div>
+          <div class="aviso" id="aviso">
+            <span class="ico" aria-hidden="true"><svg class="ic"><use href="#i-bell"/></svg></span>
+            <b>Para você decidir</b>
+            <span id="aviso-texto"></span>
+          </div>
+        </div>
+        <p class="nota-ex">Conversas de exemplo, de uma pousada fictícia. Os valores são ilustrativos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap dia-grid">
+      <div class="cabeca" style="margin-bottom:0">
+        <h2>Quem não recebe resposta reserva em outro lugar.</h2>
+        <p class="sub">O hóspede pergunta para várias pousadas ao mesmo tempo e fica com quem responde primeiro. E as mensagens chegam justo quando você está recebendo alguém, servindo o café ou dormindo.</p>
+      </div>
+      <ol class="linha-tempo" aria-label="Um dia comum no WhatsApp de uma pousada">
+        <li><time>07:40</time><span class="bola" aria-hidden="true"></span><div><q>Que horas é o check-in?</q><small>Você está servindo o café. <b>A Lumi já respondeu.</b></small></div></li>
+        <li><time>14:15</time><span class="bola" aria-hidden="true"></span><div><q>¿Aceptan mascotas?</q><small>Você está recebendo hóspedes. <b>A Lumi respondeu em espanhol.</b></small></div></li>
+        <li><time>19:30</time><span class="bola" aria-hidden="true"></span><div><q>Onde tem farmácia aberta?</q><small>Um hóspede precisa agora. <b>A Lumi indicou a mais perto, com o mapa.</b></small></div></li>
+        <li><time>23:50</time><span class="bola" aria-hidden="true"></span><div><q>Tem vaga de 10 a 15 de janeiro?</q><small>Você está dormindo. <b>O pedido de reserva te espera pronto de manhã.</b></small></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="recursos" style="padding-top:0">
+    <div class="wrap">
+      <div class="cabeca">
+        <h2>Responde como a sua pousada responderia.</h2>
+        <p class="sub">Na implantação, montamos com você a base de conhecimento da Lumi a partir do seu site e das suas regras: acomodações, preços por temporada, mínimo de diárias, café, pet, check-in, como chegar. Ela só fala o que está nessa base.</p>
+      </div>
+      <div class="bento">
+        <article class="b b-4">
+          <h3>Resposta na hora, 24 horas</h3>
+          <p>As perguntas de sempre, respondidas com as suas regras, de dia ou de madrugada.</p>
+          <div class="mini" aria-label="Exemplo de respostas aprovadas">
+            <div class="faq-linha"><span>Aceitam pet?</span><b>Até 10 kg, nos chalés</b></div>
+            <div class="faq-linha"><span>Café incluso?</span><b>Sim, das 8h às 10h30</b></div>
+            <div class="faq-linha"><span>Mínimo no Réveillon?</span><b>5 noites</b></div>
+            <div class="faq-linha"><span>Check-in?</span><b>A partir das 14h</b></div>
+            <span class="ok"><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg>Da base de conhecimento aprovada por você</span>
+          </div>
+        </article>
+        <article class="b b-2">
+          <h3>Fala três idiomas</h3>
+          <p>Argentino, uruguaio, gringo: cada um no idioma dele.</p>
+          <div class="mini idiomas">
+            <div>Café das 8h às 10h30.<span>PT</span></div>
+            <div>Desayuno de 8 a 10:30.<span>ES</span></div>
+            <div>Breakfast 8 to 10:30am.<span>EN</span></div>
+          </div>
+        </article>
+        <article class="b b-2">
+          <h3>Entende áudio</h3>
+          <p>O hóspede manda áudio, a Lumi entende e responde por escrito.</p>
+          <div class="mini">
+            <div class="onda-g" aria-hidden="true" id="onda-g"></div>
+            <span class="transc">“Oi, dá pra chegar depois das 22h?”</span>
+          </div>
+        </article>
+        <article class="b b-4">
+          <h3>Guia local com mapa</h3>
+          <p>Mercado, farmácia, restaurante, praia, trilha: a Lumi indica o que tem perto da pousada com a distância, se está aberto agora e a nota no Google, e manda o mapa da região com tudo marcado.</p>
+          <div class="mini bolhas">
+            <span class="bolha cli">Onde tem farmácia aberta agora?</span>
+            <span class="bolha lu">A mais perto é a Farmácia do Centrinho, a 1,2 km da pousada (uns 3 min de carro), aberta até as 22h. Te mandei o mapa com tudo perto 📍</span>
+          </div>
+        </article>
+        <article class="b b-3">
+          <h3>Te passa a reserva pronta</h3>
+          <p>Datas, quantas pessoas, idade das crianças, pet e nome: chega tudo num resumo no seu WhatsApp, com o link para responder. Se você só reserva pelo site, ela manda o hóspede para o site.</p>
+          <div class="mini">
+            <div class="resumo">
+              <div class="topo-r"><i aria-hidden="true"></i>Pedido de reserva · Martín</div>
+              <dl>
+                <dt>Datas</dt><dd>10/01 a 15/01 · 5 noites</dd>
+                <dt>Pessoas</dt><dd>2 adultos + 1 criança (4 anos)</dd>
+                <dt>Obs.</dt><dd>Escreve em espanhol, vem com pet</dd>
+              </dl>
+              <a href="#recursos">Responder o Martín</a>
+            </div>
+          </div>
+        </article>
+        <article class="b b-3">
+          <h3>Não inventa resposta</h3>
+          <p>O que não está nas suas informações, ela não chuta: avisa o hóspede que vai passar para você.</p>
+          <div class="mini bolhas">
+            <span class="bolha cli">Vocês fazem transfer do aeroporto?</span>
+            <span class="bolha lu">Não tenho essa informação aqui. Já passei para a Carla, que te responde em breve.</span>
+          </div>
+          <div class="mini ritmo" style="margin-top:0">
+            <span class="digit" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span><b>2 a 6 s</b><br><small>“digitando…” antes de cada resposta</small></span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="comando">
+    <div class="wrap comando-grid">
+      <div class="cabeca" style="margin-bottom:0">
+        <h2>A Lumi atende. Você decide.</h2>
+        <p class="sub">Ela cuida do repetitivo e da madrugada. Reserva, dinheiro e exceção continuam com você.</p>
+      </div>
+      <ul class="regras">
+        <li><span class="ico" aria-hidden="true"><svg class="ic"><use href="#i-hand"/></svg></span><h3>Não confirma reserva nem cobra</h3><p>Disponibilidade, sinal, Pix, desconto e grupo grande chegam para você decidir.</p></li>
+        <li><span class="ico" aria-hidden="true"><svg class="ic"><use href="#i-pause"/></svg></span><h3>Sai de cena quando você entra</h3><p>Respondeu um hóspede pelo celular? A Lumi fica quieta naquela conversa por 3 horas.</p></li>
+        <li><span class="ico" aria-hidden="true"><svg class="ic"><use href="#i-users"/></svg></span><h3>Não responde família nem fornecedor</h3><p>Quem está salvo na agenda do celular da pousada e os grupos ficam de fora.</p></li>
+        <li><span class="ico" aria-hidden="true"><svg class="ic"><use href="#i-shield"/></svg></span><h3>Nunca finge ser gente</h3><p>Se o hóspede perguntar se é robô, ela responde com a verdade: é o atendimento virtual da pousada.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="cabeca">
+        <h2>No ar em uma semana, no WhatsApp da pousada.</h2>
+        <p class="sub">Você não precisa configurar nada. A gente monta, liga e ajusta junto com você.</p>
+      </div>
+      <ol class="passos">
+        <li><span class="quando">Dia 1</span><h3>Conversa de 30 minutos</h3><p>Levantamos acomodações, preços por temporada, regras e as perguntas que mais chegam. A gente já parte do seu site.</p></li>
+        <li><span class="quando">Dias 2 a 5</span><h3>Montamos e você aprova</h3><p>A base de conhecimento e o guia local da sua região. Você revisa as respostas antes de a Lumi entrar no ar.</p></li>
+        <li><span class="quando">Dia 7</span><h3>Ligada no número da pousada</h3><p>A Lumi começa a atender. Na primeira semana acompanhamos as conversas e ajustamos o que precisar.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap rel-grid">
+      <div class="cabeca" style="margin-bottom:0">
+        <h2>Todo dia 1º, o resumo do seu mês.</h2>
+        <p class="sub">Quantos hóspedes a Lumi atendeu, quantos chegaram fora do horário, em que idioma e o que mais procuraram na região. Chega no seu WhatsApp, só com números.</p>
+      </div>
+      <article class="rel" aria-label="Exemplo de relatório mensal">
+        <header><b>Pousada Vista Mar · janeiro</b><span>Exemplo</span></header>
+        <div class="rel-nums">
+          <div><b>214</b><span>hóspedes atendidos</span></div>
+          <div><b>38%</b><span>fora do horário</span></div>
+          <div><b>27</b><span>pedidos de reserva</span></div>
+          <div><b>41%</b><span>em espanhol</span></div>
+        </div>
+        <div class="barras" aria-label="O que mais procuraram na região">
+          <div><span>Mercado</span><small>31%</small><span class="tr"><i style="width:31%"></i></span></div>
+          <div><span>Restaurante</span><small>24%</small><span class="tr"><i style="width:24%"></i></span></div>
+          <div><span>Farmácia</span><small>12%</small><span class="tr"><i style="width:12%"></i></span></div>
+        </div>
+        <p class="nota">Números de exemplo.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="tour" style="padding-top:0">
+    <div class="wrap">
+      <div class="tour-grid">
+        <div>
+          <h2>E para o hóspede ter vontade de chamar: o tour em vídeo.</h2>
+          <p class="sub" style="margin-top:14px">Com as fotos que você já tem, montamos um vídeo como se um drone atravessasse a pousada: da entrada ao quarto, passando pela sala e pela vista. O hóspede vê no Instagram ou no site e chama no WhatsApp, onde a Lumi já está esperando.</p>
+          <ul class="tour-lista">
+            <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Vídeo em pé para Reels e Stories, e deitado para o site</span></li>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Mostra só o que existe nas suas fotos: nada inventado</span></li>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Também vira um site animado, em que o tour anda conforme o hóspede rola a página</span></li>
+          </ul>
+          <p class="tour-preco">Tour em vídeo a partir de R$ 690, pagamento único.</p>
+          <a class="btn btn-sec" href="https://recepcao-24h-production.up.railway.app/tour/" style="margin-top:16px">Ver o tour funcionando <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+        <div class="tour-cel"><video src="media/tour-em-pe.mp4" muted loop playsinline autoplay preload="metadata" aria-label="Exemplo de tour em vídeo de uma pousada parceira"></video></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="preco" id="preco">
+    <div class="wrap">
+      <div class="cabeca">
+        <h2>Um preço, tudo incluído.</h2>
+        <p class="sub">Uma implantação feita junto com você e uma mensalidade fixa.</p>
+      </div>
+      <div class="plano">
+        <div class="plano-valor">
+          <h3>Lumi para pousadas</h3>
+          <div class="valores">
+            <div><b>R$ 1.500</b><span>implantação</span></div>
+            <div><b>R$ 297</b><span>por mês</span></div>
+          </div>
+          <p class="pag">A implantação é paga metade na assinatura e metade na entrega. Com o site da pousada junto (combo Farol): R$ 2.500 + R$ 497/mês.</p>
+          <a class="btn btn-pri" href="#falar">Quero a Lumi</a>
+        </div>
+        <div class="inclui">
+          <h3>O que está incluído</h3>
+          <ul>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Base de conhecimento montada com você a partir do seu site, revisada antes de entrar no ar</span></li>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Atendimento 24 horas no número de WhatsApp da pousada</span></li>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Português, espanhol e inglês, e entende áudio</span></li>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Guia local com mapa da região</span></li>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Pedido de reserva pronto no seu WhatsApp, ou o link do seu site</span></li>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Relatório todo dia 1º</span></li>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Atualização de preços e regras sempre que você pedir</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="perguntas">
+    <div class="wrap">
+      <div class="cabeca"><h2>Perguntas frequentes</h2></div>
+      <div class="faq">
+        <details><summary>O hóspede vai perceber que é automático?<svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>A Lumi responde direto, no tom da pousada, sem ficar se anunciando. Se o hóspede perguntar se está falando com um robô, ela fala a verdade: é o atendimento virtual, e você entra quando precisa.</p></details>
+        <details><summary>Ela confirma reserva?<svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Não. Ela junta datas, pessoas e o nome e te manda o pedido pronto, ou manda o hóspede para o seu site de reservas. Disponibilidade, sinal e confirmação continuam com você.</p></details>
+        <details><summary>E se ela não souber responder?<svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Ela não chuta. Avisa o hóspede que passou para você e te manda o resumo da conversa.</p></details>
+        <details><summary>Preciso trocar de número ou de celular?<svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Não. A Lumi é ligada ao WhatsApp que a pousada já usa, e o celular continua funcionando normal.</p></details>
+        <details><summary>Ela vai responder minha família ou fornecedores?<svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Não. Contatos salvos na agenda do celular e grupos ficam de fora. E se você responder um hóspede pelo celular, ela para naquela conversa por 3 horas.</p></details>
+        <details><summary>E na alta temporada, quando o preço muda?<svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>É só avisar que a gente atualiza preços, mínimo de diárias e regras. Está incluído na mensalidade.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="fecha" id="falar">
+    <div class="wrap">
+      <div class="fecha-box">
+        <div>
+          <h2>Quer ver a Lumi respondendo como a sua pousada?</h2>
+          <p class="sub">Chama a gente no WhatsApp. Montamos um teste com as informações do seu site e mostramos no seu celular.</p>
+        </div>
+        <div class="contato">
+          <a class="btn btn-pri" id="cta" href="https://wa.me/5551996990017?text=Oi!%20Vi%20a%20p%C3%A1gina%20da%20Lumi%20e%20quero%20ver%20ela%20na%20minha%20pousada." target="_blank" rel="noopener">Chamar no WhatsApp <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <div class="numero"><span>(51) 9 9699-0017</span><button type="button" id="copiar">Copiar</button></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap"><span>Lumi · um produto Farol</span><span>As conversas e números desta página são exemplos.</span></div>
+</footer>
+
+<script>
+const CONVERSAS = {
+  pet: {nome:"Pousada Vista Mar", av:"V", aviso:"Cachorro de 15 kg (a regra é até 10 kg): você decide.", msgs:[
+    ["c","Oi! Vocês aceitam cachorro?","22:47"],
+    ["l","Oi! Aceitamos pets de até 10 kg nos chalés, com taxa de R$ 50 por diária. Qual o porte do seu?","22:47"],
+    ["c","Ele tem uns 15 kg, é bem tranquilo","22:48"],
+    ["l","Entendi! Como passa um pouco da regra, passei para a Carla ver com você. Ela te responde aqui em breve.","22:48"]]},
+  espanhol: {nome:"Pousada Vista Mar", av:"V", aviso:"Martín (espanhol): 2 adultos, 10 a 15/01.", msgs:[
+    ["c","¡Hola! ¿Cuánto sale la noche en enero para 2?","23:12"],
+    ["l","¡Hola! En enero la suite para 2 sale R$ 690 por noche, con desayuno incluido. El mínimo es de 3 noches. ¿Qué fechas tenés en mente?","23:12"],
+    ["c","Del 10 al 15, soy Martín","23:13"],
+    ["l","¡Perfecto, Martín! Le pasé tu pedido a Carla, que confirma la disponibilidad y te escribe por acá.","23:13"]]},
+  reserva: {nome:"Pousada Vista Mar", av:"V", aviso:"Juliana: 2 adultos + criança de 4 anos, 20 a 23/02, chalé.", msgs:[
+    ["c","Tem vaga de 20 a 23 de fevereiro? Somos 2 adultos e uma criança de 4 anos","07:58"],
+    ["l","Bom dia! Para essas datas, quem confirma a disponibilidade é a Carla. Me diz seu nome e se prefere suíte ou chalé?","07:58"],
+    ["c","Juliana, chalé","07:59"],
+    ["l","Anotado, Juliana! Passei o pedido para a Carla, que confirma a disponibilidade e te manda os dados do sinal.","07:59"]]},
+  guia: {nome:"Pousada Vista Mar", av:"V", aviso:"", msgs:[
+    ["c","Tem mercado perto aberto agora?","20:31"],
+    ["l","Tem sim! O Mercado do Centrinho fica a 650 m da pousada (8 min a pé) e está aberto até as 22h. Para compra grande, o Supermercado da Praia fica a 4 km. Te mandei o mapa com tudo perto 📍 Fonte: Google Maps","20:31"]]},
+  audio: {nome:"Pousada Vista Mar", av:"V", aviso:"", msgs:[
+    ["a","0:12","21:05"],
+    ["l","Oi! Pode chegar depois das 22h, sim: é só avisar o horário que deixamos a chave no cofre da recepção. O check-in é a partir das 14h.","21:05"]]}
+};
+
+const $ = id => document.getElementById(id);
+const conversa = $("conversa"), aviso = $("aviso");
+const reduzido = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const espera = ms => new Promise(r => setTimeout(r, ms));
+let rodada = 0;
+
+function onda(n, alturas) {
+  return Array.from({length:n}, (_, i) => `<i style="height:${alturas(i)}px"></i>`).join("");
+}
+function bolha([tipo, texto, hora], animar) {
+  const el = document.createElement("div");
+  if (tipo === "a") {
+    el.className = "m c audio";
+    el.setAttribute("aria-label", "Áudio de " + texto);
+    el.innerHTML = `<span class="play" aria-hidden="true"><svg viewBox="0 0 10 10"><path d="M2 1l7 4-7 4z"/></svg></span>
+      <span class="onda" aria-hidden="true">${onda(24, i => 5 + Math.round(Math.abs(Math.sin(i * 1.7)) * 15))}</span>
+      <span style="font-size:.78rem;color:#667781">${texto}</span><span class="h" style="margin-left:4px">${hora}</span>`;
+  } else {
+    el.className = "m " + tipo;
+    el.textContent = texto;
+    const h = document.createElement("span"); h.className = "h"; h.textContent = hora; el.appendChild(h);
+  }
+  if (animar) el.classList.add("entra");
+  return el;
+}
+function cabecalho(c) { $("nome").textContent = c.nome; $("av").textContent = c.av; $("aviso-texto").textContent = c.aviso; }
+
+function mostrarInteira(seg) {
+  const c = CONVERSAS[seg];
+  cabecalho(c);
+  conversa.innerHTML = '<span class="dia">HOJE</span>';
+  c.msgs.forEach(m => conversa.appendChild(bolha(m, false)));
+  aviso.hidden = !c.aviso;
+  conversa.scrollTop = conversa.scrollHeight;
+}
+async function tocar(seg) {
+  if (reduzido) return mostrarInteira(seg);
+  const minha = ++rodada, c = CONVERSAS[seg];
+  cabecalho(c);
+  conversa.innerHTML = '<span class="dia">HOJE</span>';
+  aviso.hidden = true;
+  for (const m of c.msgs) {
+    if (m[0] === "l") {
+      const d = document.createElement("div"); d.className = "digit"; d.innerHTML = "<i></i><i></i><i></i>";
+      conversa.appendChild(d); conversa.scrollTop = conversa.scrollHeight;
+      $("status").textContent = "digitando…";
+      await espera(1400); d.remove();
+      if (minha !== rodada) return;
+      $("status").textContent = "online";
+    } else {
+      await espera(700);
+      if (minha !== rodada) return;
+    }
+    conversa.appendChild(bolha(m, true)); conversa.scrollTop = conversa.scrollHeight;
+  }
+  await espera(500);
+  if (minha !== rodada) return;
+  aviso.hidden = !c.aviso; aviso.classList.remove("entra"); void aviso.offsetWidth; aviso.classList.add("entra");
+}
+
+const abas = document.querySelectorAll('[role="tab"]');
+abas.forEach((b, i) => {
+  b.addEventListener("click", () => {
+    abas.forEach(x => x.setAttribute("aria-selected", String(x === b)));
+    $("painel").setAttribute("aria-labelledby", b.id);
+    tocar(b.dataset.seg);
+  });
+  b.addEventListener("keydown", e => {
+    const d = e.key === "ArrowRight" ? 1 : e.key === "ArrowLeft" ? -1 : 0;
+    if (!d) return;
+    const prox = abas[(i + d + abas.length) % abas.length]; prox.focus(); prox.click();
+  });
+});
+
+$("onda-g").innerHTML = onda(40, i => 8 + Math.round(Math.abs(Math.sin(i * 0.9) * Math.cos(i * 0.37)) * 30));
+
+$("copiar").addEventListener("click", async e => {
+  const b = e.currentTarget;
+  try { await navigator.clipboard.writeText("+55 51 99699-0017"); b.textContent = "Copiado"; }
+  catch { const r = document.createRange(); r.selectNodeContents(b.previousElementSibling); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = "Selecionado"; }
+  setTimeout(() => b.textContent = "Copiar", 1800);
+});
+
+// A primeira tela já vem completa; a animação roda ao trocar de aba.
+mostrarInteira("pet");
+</script>
