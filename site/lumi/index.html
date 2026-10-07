@@ -70,7 +70,9 @@ section{padding-block:clamp(72px,9vw,120px)}
 .noite{position:relative;height:320vh;padding-block:0;background:#0B1411;color:#F2FBF7}
 .noite-palco{position:sticky;top:66px;height:calc(100vh - 66px);overflow:hidden;z-index:2}
 .noite-foto{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
-.noite-palco::after{content:"";position:absolute;inset:0;pointer-events:none;
+#noite-canvas{z-index:1}
+#noite-foto.pronto{visibility:hidden}
+.noite-palco::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:2;
   background:linear-gradient(90deg,rgba(6,16,13,.72),rgba(6,16,13,.18) 42%,transparent 65%),linear-gradient(0deg,rgba(6,16,13,.45),transparent 30%)}
 .noite-relogio{position:absolute;top:18px;right:20px;z-index:4;display:flex;align-items:center;gap:8px;
   font:700 clamp(1.3rem,2.4vw,2rem)/1 var(--display);font-variant-numeric:tabular-nums;letter-spacing:-.02em;
@@ -387,6 +389,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
   <section class="noite" id="noite" aria-label="Uma noite na pousada: das 18h às 7h, a Lumi responde enquanto a dona dorme">
     <div class="noite-palco">
       <div class="noite-barra" aria-hidden="true"><i id="noite-barra"></i></div>
+      <canvas class="noite-foto" id="noite-canvas" aria-hidden="true"></canvas>
       <img class="noite-foto" id="noite-foto" src="media/noite/q960/q001.webp" fetchpriority="high" alt="Pousada ao entardecer; a câmera entra até o celular da recepção, que fica aceso a noite toda até o amanhecer">
       <div class="noite-relogio" aria-hidden="true"><span id="noite-hora">18:00</span><small id="noite-rotulo">fim de tarde</small></div>
       <div class="noite-titulo" id="noite-titulo">
@@ -679,29 +682,38 @@ $("copiar").addEventListener("click", async e => {
 });
 
 
-// Abertura "uma noite na pousada": a rolagem escolhe o quadro (96 fotos dos dois vídeos), a hora e as mensagens.
+// Abertura "uma noite na pousada": a rolagem escolhe o momento da noite (96 quadros dos dois vídeos), a hora e as mensagens.
+// Fluido: os quadros já decodificados são desenhados num canvas, com fade entre um e o seguinte, e a cena desliza
+// até a posição da rolagem em vez de saltar.
 (() => {
   const $n = id => document.getElementById(id);
-  const sec = $n("noite"), palco = sec.querySelector(".noite-palco"), foto = $n("noite-foto"), hora = $n("noite-hora"),
-        rotulo = $n("noite-rotulo"), barra = $n("noite-barra"), titulo = $n("noite-titulo"), tela = $n("noite-tela"),
-        ladoH = $n("lado-h"), ladoL = $n("lado-l"), resumo = $n("resumo-noite"),
-        itens = [...sec.querySelectorAll(".msg-n"), resumo];
-  const TOTAL = 96, imgs = [], ok = new Array(TOTAL).fill(false);
+  const sec = $n("noite"), palco = sec.querySelector(".noite-palco"), foto = $n("noite-foto"), cv = $n("noite-canvas"),
+        ctx = cv.getContext("2d"), hora = $n("noite-hora"), rotulo = $n("noite-rotulo"), barra = $n("noite-barra"),
+        titulo = $n("noite-titulo"), tela = $n("noite-tela"), ladoH = $n("lado-h"), ladoL = $n("lado-l"),
+        resumo = $n("resumo-noite"), itens = [...sec.querySelectorAll(".msg-n"), resumo];
+  const TOTAL = 96, quadros = new Array(TOTAL), RW = 16, RH = 9;
   const PASTA = innerWidth < 700 ? "q640" : "q960";   // celular baixa as fotos menores
   const cam = i => `media/noite/${PASTA}/q${String(i + 1).padStart(3, "0")}.webp`;
   if (PASTA === "q640") foto.src = cam(0);
-  let atual = 0, pedindo = false;
-  const carregar = i => { if (imgs[i]) return; const im = new Image(); im.decoding = "async";
-    im.onload = () => { ok[i] = true; }; im.src = cam(i); imgs[i] = im; };
+  const carregar = i => {
+    if (quadros[i] !== undefined) return;
+    quadros[i] = null;
+    const im = new Image(); im.decoding = "async"; im.src = cam(i);
+    im.decode().then(() => { quadros[i] = im; pedir(); }).catch(() => { quadros[i] = undefined; });
+  };
   for (let i = 0; i < TOTAL; i += 8) carregar(i);
   const resto = () => { for (const passo of [4, 2, 1]) for (let i = 0; i < TOTAL; i += passo) carregar(i); };
-  if (document.readyState === "complete") setTimeout(resto, 200); else addEventListener("load", () => setTimeout(resto, 200), {once: true});
-  // tela do celular na imagem (fração do quadro 960x540)
+  if (document.readyState === "complete") setTimeout(resto, 150); else addEventListener("load", () => setTimeout(resto, 150), {once: true});
+
+  // tela do celular na imagem (fração do quadro 16:9)
   const CEL = {x0: .40, x1: .595, y0: .71, y1: .81};
-  function ponto(fx, fy) {   // fração da imagem -> pixel no palco, com object-fit: cover
-    const pr = palco.getBoundingClientRect(), r = foto.getBoundingClientRect();
-    const nw = foto.naturalWidth || 960, nh = foto.naturalHeight || 540, k = Math.max(r.width / nw, r.height / nh);
-    return [r.left - pr.left + (r.width - nw * k) / 2 + fx * nw * k, r.top - pr.top + (r.height - nh * k) / 2 + fy * nh * k];
+  function ponto(fx, fy) {   // fração da imagem -> pixel no palco, com "cover"
+    const pr = palco.getBoundingClientRect(), r = cv.getBoundingClientRect(), k = Math.max(r.width / RW, r.height / RH);
+    return [r.left - pr.left + (r.width - RW * k) / 2 + fx * RW * k, r.top - pr.top + (r.height - RH * k) / 2 + fy * RH * k];
+  }
+  function medir() {   // canvas no tamanho da tela (até 2x de densidade)
+    const r = cv.getBoundingClientRect(), d = Math.min(devicePixelRatio || 1, 2);
+    cv.width = Math.round(r.width * d); cv.height = Math.round(r.height * d);
   }
   function posicionar() {
     const [xa, ya] = ponto(CEL.x0, CEL.y0), [xb, yb] = ponto(CEL.x1, CEL.y1), ym = (ya + yb) / 2;
@@ -716,7 +728,7 @@ $("copiar").addEventListener("click", async e => {
   const chegou = () => { tela.classList.remove("chega"); void tela.offsetWidth; tela.classList.add("chega"); };
   const passos = [...sec.querySelectorAll(".passo-n")];
   // no celular em pé, quem manda na hora é o texto que está passando logo abaixo da foto
-  function prog() {
+  function alvo() {
     if (passos.length && getComputedStyle(passos[0].parentElement).display !== "none") {
       const linha = palco.getBoundingClientRect().bottom + 60;
       const pos = passos.map(el => [el.getBoundingClientRect().top, +el.dataset.p]);
@@ -733,9 +745,14 @@ $("copiar").addEventListener("click", async e => {
   // 18h às 23h no 1º vídeo; noite até ~5h e amanhecer até 7h no 2º (o céu clareia em ~74% da rolagem)
   const minutos = p => p < 0.5 ? 18 * 60 + p * 2 * 300 : p < 0.74 ? 23 * 60 + (p - 0.5) / 0.24 * 360 : 29 * 60 + (p - 0.74) / 0.26 * 120;
   const rot = m => { const h = Math.floor(m / 60) % 24; return h >= 18 && h < 20 ? "fim de tarde" : h >= 5 && h < 8 ? "amanhecer" : "noite"; };
-  function aplicar() {
-    pedindo = false;
-    const p = prog();
+  const perto = i => { for (let d = 0; d < TOTAL; d++) { if (quadros[i - d]) return quadros[i - d]; if (quadros[i + d]) return quadros[i + d]; } return null; };
+  function desenhar(im, a) {   // "cover" no canvas
+    const k = Math.max(cv.width / im.naturalWidth, cv.height / im.naturalHeight), w = im.naturalWidth * k, h = im.naturalHeight * k;
+    ctx.globalAlpha = a; ctx.drawImage(im, (cv.width - w) / 2, (cv.height - h) / 2, w, h);
+  }
+  let atual = -1, ultimo = "", rodando = false;
+  const reduzido = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function textos(p) {
     barra.style.width = (p * 100).toFixed(1) + "%";
     const m = Math.round(minutos(p)), h = Math.floor(m / 60) % 24;
     hora.textContent = `${String(h).padStart(2, "0")}:${String(m % 60).padStart(2, "0")}`;
@@ -751,14 +768,30 @@ $("copiar").addEventListener("click", async e => {
       }
       if (!ver) b.hidden = true;
     }
-    let i = Math.round(p * (TOTAL - 1));
-    for (let d = 0; d < TOTAL && !ok[i]; d++) { if (ok[i - d]) { i -= d; break; } if (ok[i + d]) { i += d; break; } }
-    if (ok[i] && i !== atual) { foto.src = imgs[i].src; atual = i; }
   }
-  addEventListener("scroll", () => { if (!pedindo) { pedindo = true; requestAnimationFrame(aplicar); } }, {passive: true});
-  addEventListener("resize", () => { posicionar(); aplicar(); });
-  foto.addEventListener("load", posicionar, {once: true});
-  if (matchMedia("(prefers-reduced-motion: reduce)").matches && !matchMedia("(max-aspect-ratio: 4/5)").matches) sec.style.height = "100vh";
-  posicionar(); aplicar();
+  function quadro(p) {
+    const f = p * (TOTAL - 1), i = Math.floor(f), t = f - i;
+    const a = quadros[i] || perto(i), b = i + 1 < TOTAL ? quadros[i + 1] : null;
+    if (!a) return;
+    const chave = `${i}:${t.toFixed(2)}:${!!b}`;
+    if (chave === ultimo) return;
+    ultimo = chave;
+    ctx.globalAlpha = 1; desenhar(a, 1);
+    if (b && t > 0.02 && quadros[i]) desenhar(b, t);   // fade para o próximo quadro
+    if (atual < 0) foto.classList.add("pronto");
+    atual = i;
+  }
+  let cur = alvo();
+  function tique() {
+    const t = alvo(), dif = t - cur;
+    cur = reduzido || Math.abs(dif) < 0.0004 ? t : cur + dif * 0.16;   // desliza até a rolagem
+    textos(cur); quadro(cur);
+    if (cur !== t) requestAnimationFrame(tique); else rodando = false;
+  }
+  function pedir() { if (!rodando) { rodando = true; requestAnimationFrame(tique); } }
+  addEventListener("scroll", pedir, {passive: true});
+  addEventListener("resize", () => { medir(); ultimo = ""; posicionar(); pedir(); });
+  if (reduzido && !matchMedia("(max-aspect-ratio: 4/5)").matches) sec.style.height = "100vh";
+  medir(); posicionar(); textos(cur); pedir();
 })();
 </script>
