@@ -130,7 +130,7 @@ section{padding-block:clamp(72px,9vw,120px)}
   .noite-palco{height:var(--foto-alt,75vw);--foto-alt:75vw}
   .noite-palco::after{background:linear-gradient(0deg,rgba(6,16,13,.35),transparent 35%)}
   .noite-titulo{display:none}
-  .noite-relogio{top:auto;bottom:10px;right:10px;font-size:1.15rem;padding:6px 10px}
+  .noite-relogio{top:10px;left:10px;right:auto;bottom:auto;font-size:1.15rem;padding:6px 10px}
   .noite-legenda{top:8px;bottom:auto;right:10px;font-size:.62rem}
   .lado{width:min(140px,36vw)}
   .msg-n .bal{font-size:.62rem;padding:4px 7px}
@@ -391,15 +391,15 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
           <p>Role a página e acompanhe uma noite na pousada: enquanto você dorme, a Lumi atende o WhatsApp.</p>
         </div>
       </div>
-      <div class="noite-tela" id="noite-tela" aria-hidden="true"><i class="luz"></i><i class="onda"></i><i class="onda b"></i></div>
+      <div class="noite-tela" id="noite-tela" aria-hidden="true"><i class="onda"></i><i class="onda b"></i></div>
       <div class="lado h" id="lado-h" aria-live="polite">
-        <div class="msg-n" data-de="0.505" data-ate="0.63" hidden><span class="rosto">🇦🇷</span><span class="bal"><i>Sofía · hóspede</i>¿Aceptan perritos?<small>23:12</small></span></div>
-        <div class="msg-n" data-de="0.645" data-ate="0.80" hidden><span class="rosto">🎙️</span><span class="bal"><i>Lucas · hóspede</i>Áudio: "farmácia aberta perto?"<small>02:40</small></span></div>
-        <div class="msg-n" data-de="0.86" data-ate="0.935" hidden><span class="rosto">J</span><span class="bal"><i>Juliana · hóspede</i>Vaga de 10 a 15/01 para 2?<small>05:58</small></span></div>
+        <div class="msg-n" data-de="0.50" data-ate="0.61" hidden><span class="rosto">🇦🇷</span><span class="bal"><i>Sofía · hóspede</i>¿Aceptan perritos?<small>23:12</small></span></div>
+        <div class="msg-n" data-de="0.62" data-ate="0.78" hidden><span class="rosto">🎙️</span><span class="bal"><i>Lucas · hóspede</i>Áudio: "farmácia aberta perto?"<small>02:40</small></span></div>
+        <div class="msg-n" data-de="0.80" data-ate="0.935" hidden><span class="rosto">J</span><span class="bal"><i>Juliana · hóspede</i>Vaga de 10 a 15/01 para 2?<small>05:58</small></span></div>
       </div>
       <div class="lado l" id="lado-l" aria-live="polite">
-        <div class="msg-n" data-de="0.515" data-ate="0.63" hidden><span class="rosto lumi"><img src="icone-32.png" alt="Lumi"></span><span class="bal"><i>Lumi</i>¡Sí! Hasta 10 kg, en los chalés.<small>23:12</small></span></div>
-        <div class="msg-n" data-de="0.655" data-ate="0.80" hidden><span class="rosto lumi"><img src="icone-32.png" alt="Lumi"></span><span class="bal"><i>Lumi</i>A 1,2 km, aberta 24h. Mandei o mapa 📍<small>02:40</small></span></div>
+        <div class="msg-n" data-de="0.555" data-ate="0.61" hidden><span class="rosto lumi"><img src="icone-32.png" alt="Lumi"></span><span class="bal"><i>Lumi</i>¡Sí! Hasta 10 kg, en los chalés.<small>23:12</small></span></div>
+        <div class="msg-n" data-de="0.69" data-ate="0.78" hidden><span class="rosto lumi"><img src="icone-32.png" alt="Lumi"></span><span class="bal"><i>Lumi</i>A 1,2 km, aberta 24h. Mandei o mapa 📍<small>02:40</small></span></div>
         <div class="msg-n" data-de="0.87" data-ate="0.935" hidden><span class="rosto lumi"><img src="icone-32.png" alt="Lumi"></span><span class="bal"><i>Lumi</i>Anotei! A Carla confirma e te chama.<small>05:58</small></span></div>
       </div>
       <div class="resumo-noite" id="resumo-noite" data-de="0.945" data-ate="1.01" hidden><img src="icone-32.png" alt="Lumi"><span><b>Bom dia, Carla ☀️</b>Enquanto você dormia: 3 hóspedes respondidos e 1 pedido de reserva pronto.</span></div>
@@ -409,8 +409,8 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
       <div class="passo-n" data-p="0"><h1>O hóspede pergunta às 23h. A pousada responde na hora.</h1><p>Role e acompanhe uma noite na pousada.</p></div>
       <div class="passo-n" data-p="0.1"><span class="hora-p">18h</span><p>As luzes acendem, você ainda está recebendo hóspedes, e o WhatsApp não para.</p></div>
       <div class="passo-n" data-p="0.52"><span class="hora-p">23h12</span><p>A Sofía, de Buenos Aires, quer saber se pode levar a cachorrinha. A Lumi responde em espanhol, com a regra da pousada.</p></div>
-      <div class="passo-n" data-p="0.66"><span class="hora-p">2h40</span><p>Chega um áudio: onde tem farmácia aberta? A Lumi entende, indica a mais perto e manda o mapa.</p></div>
-      <div class="passo-n" data-p="0.875"><span class="hora-p">5h58</span><p>Pedido de vaga para janeiro. A Lumi anota tudo e deixa pronto para você confirmar.</p></div>
+      <div class="passo-n" data-p="0.63"><span class="hora-p">2h40</span><p>Chega um áudio: onde tem farmácia aberta? A Lumi entende, indica a mais perto e manda o mapa.</p></div>
+      <div class="passo-n" data-p="0.81"><span class="hora-p">5h58</span><p>Pedido de vaga para janeiro. A Lumi anota tudo e deixa pronto para você confirmar.</p></div>
       <div class="passo-n" data-p="0.97"><span class="hora-p">7h</span><p>Você acorda com o resumo da noite. Ninguém ficou sem resposta.</p></div>
     </div>
   </section>
@@ -815,8 +815,9 @@ mostrarInteira("pet");
   }
   function posicionar() {
     const [xa, ya] = ponto(CEL.x0, CEL.y0), [xb, yb] = ponto(CEL.x1, CEL.y1), ym = (ya + yb) / 2;
-    Object.assign(ladoH.style, {left: (xa - 8) + "px", top: (ym - 14) + "px"});
-    Object.assign(ladoL.style, {left: (xb + 8) + "px", top: (ym - 14) + "px"});
+    const largura = palco.getBoundingClientRect().width, max = largura < 600 ? 140 : 190;   // nunca passa da borda da tela
+    Object.assign(ladoH.style, {left: (xa - 8) + "px", top: (ym - 46) + "px", width: Math.min(max, xa - 8 - 8) + "px"});
+    Object.assign(ladoL.style, {left: (xb + 8) + "px", top: (ym + 22) + "px", width: Math.min(max, largura - xb - 8 - 8) + "px"});
     Object.assign(resumo.style, {left: (xa + xb) / 2 + "px", top: (ya - 10) + "px"});
     Object.assign(tela.style, {left: (xa + xb) / 2 + "px", top: ym + "px", width: (xb - xa) * 1.15 + "px", height: (yb - ya) * 1.6 + "px"});
   }
