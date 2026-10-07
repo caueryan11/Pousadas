@@ -10,4 +10,7 @@ Cópias:
 
 - Railway (projeto `pousadas-site`, serviço `recepcao-24h`): https://recepcao-24h-production.up.railway.app
 - Deploy automático a cada push na branch `claude/prospeccao-whatsapp-pousadas-k0akrw` (pasta `site/`, servida pelo `index.html`).
-- Ao editar a página, atualize `index.html` (é cópia de `recepcao-24h-whatsapp.html`).
+- `/` redireciona para `/lumi/` (desde 07/10/2026). A página antiga continua em `/recepcao-24h-whatsapp.html` (nome e preços antigos).
+- `/lumi/`: landing da Lumi para pousadas (fonte: `../lumi-pousadas/index.html` na pasta do projeto).
+- `/tour/`: landing do tour em vídeo da pousada (fonte: `../tour-pousada/index.html`). Vídeos em `tour/media/`.
+- As duas têm botões uma para a outra (links absolutos no domínio do Railway).
