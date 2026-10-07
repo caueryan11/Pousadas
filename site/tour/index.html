@@ -58,7 +58,7 @@ section{padding-block:clamp(72px,9vw,120px)}
 /* celular em pé: a foto inteira (16:9) no alto, sem cortar as bordas, com a mesma foto desfocada preenchendo o fundo */
 @media (max-aspect-ratio: 4/5){
   .filme-fundo{display:block;position:absolute;inset:-30px;width:calc(100% + 60px);height:calc(100% + 60px);object-fit:cover;filter:blur(22px) brightness(.55) saturate(1.1)}
-  .filme{inset:auto 0 auto 0;top:max(84px, 13vh);height:auto;aspect-ratio:16/9;object-fit:cover;background:transparent;box-shadow:0 24px 50px -20px rgba(0,0,0,.7)}
+  .filme{inset:auto 0 auto 0;top:max(84px, 12vh);height:auto;aspect-ratio:4/3;object-fit:cover;background:transparent;box-shadow:0 24px 50px -20px rgba(0,0,0,.7)}
 }
 .palco::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,34,48,.55),transparent 22%,transparent 50%,rgba(13,34,48,.9));pointer-events:none}
 .topo,.texto-voo,.barra-tempo{z-index:3}
