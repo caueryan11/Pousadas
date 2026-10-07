@@ -19,11 +19,11 @@
   --corpo:"Onest",system-ui,-apple-system,"Segoe UI",sans-serif;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#0B1411; --bg-2:#111D19; --card:#15241F; --fg:#E6F0EC; --fg-2:#9DB2AA; --line:#24372F;
+  --bg:#0F221D; --bg-2:#142C26; --card:#18322B; --fg:#E8F1ED; --fg-2:#A3B8B0; --line:#28463D;
   --brand:#0F3F35; --brand-2:#2BD47D; --mint-soft:#163A2C; --on-brand-2:#9CC9BA;
   --sombra:0 1px 2px rgba(0,0,0,.4),0 16px 40px -16px rgba(0,0,0,.6); color-scheme:dark}}
 :root[data-theme="dark"]{
-  --bg:#0B1411; --bg-2:#111D19; --card:#15241F; --fg:#E6F0EC; --fg-2:#9DB2AA; --line:#24372F;
+  --bg:#0F221D; --bg-2:#142C26; --card:#18322B; --fg:#E8F1ED; --fg-2:#A3B8B0; --line:#28463D;
   --brand:#0F3F35; --brand-2:#2BD47D; --mint-soft:#163A2C; --on-brand-2:#9CC9BA;
   --sombra:0 1px 2px rgba(0,0,0,.4),0 16px 40px -16px rgba(0,0,0,.6); color-scheme:dark}
 
@@ -135,6 +135,11 @@ section{padding-block:clamp(72px,9vw,120px)}
 .bento{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:16px}
 .b{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:26px;display:grid;gap:12px;align-content:start;min-width:0}
 .b p{color:var(--fg-2)}
+.b-destaque{background:var(--brand);color:var(--on-brand);border-color:transparent}
+.b-destaque p{color:var(--on-brand-2)}
+.b-destaque .mini{background:rgba(255,255,255,.07)}
+.b-destaque .bolha.cli{background:rgba(255,255,255,.1);border-color:transparent;color:var(--on-brand)}
+.b-destaque .bolha.lu{background:var(--mint);color:#06281F}
 .b-4{grid-column:span 4}.b-2{grid-column:span 2}.b-3{grid-column:span 3}
 @media (max-width:960px){.b-4,.b-2,.b-3{grid-column:span 6}}
 @media (min-width:600px) and (max-width:960px){.b-2,.b-3{grid-column:span 3}}
@@ -296,11 +301,10 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
   <section class="heroi">
     <div class="wrap">
       <div class="heroi-texto">
-        <span class="selo"><span class="ponto" aria-hidden="true"></span>Atendente de WhatsApp para pousadas</span>
-        <h1>O hóspede pergunta às 23h. <span>A pousada responde na hora.</span></h1>
+        <h1>O hóspede pergunta às 23h. A pousada responde na hora.</h1>
         <p class="sub">A Lumi atende o WhatsApp da sua pousada 24 horas com as suas informações: preço, regras, café, pet, como chegar. Fala português, espanhol e inglês, entende áudio, indica o que tem perto e te entrega o pedido de reserva pronto.</p>
         <div class="acoes">
-          <a class="btn btn-pri" href="#falar">Ver a Lumi na minha pousada <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn-pri" href="#falar">Ver a Lumi na minha pousada</a>
           <a class="btn btn-sec" href="#recursos">Como funciona</a>
         </div>
         <ul class="garantias">
@@ -384,7 +388,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
             <span class="transc">“Oi, dá pra chegar depois das 22h?”</span>
           </div>
         </article>
-        <article class="b b-4">
+        <article class="b b-4 b-destaque">
           <h3>Guia local com mapa</h3>
           <p>Mercado, farmácia, restaurante, praia, trilha: a Lumi indica o que tem perto da pousada com a distância, se está aberto agora e a nota no Google, e manda o mapa da região com tudo marcado.</p>
           <div class="mini bolhas">
@@ -480,17 +484,17 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
     <div class="wrap">
       <div class="tour-grid">
         <div>
-          <h2>E para o hóspede ter vontade de chamar: o tour em vídeo.</h2>
-          <p class="sub" style="margin-top:14px">Com as fotos que você já tem, montamos um vídeo como se um drone atravessasse a pousada: da entrada ao quarto, passando pela sala e pela vista. O hóspede vê no Instagram ou no site e chama no WhatsApp, onde a Lumi já está esperando.</p>
+          <h2>E para o hóspede ter vontade de chamar: a Mira, irmã da Lumi.</h2>
+          <p class="sub" style="margin-top:14px">A Mira é o tour em vídeo da pousada. Com as fotos que você já tem, montamos um vídeo como se um drone atravessasse a pousada: da entrada ao quarto, passando pela sala e pela vista. O hóspede vê no Instagram ou no site e chama no WhatsApp, onde a Lumi já está esperando.</p>
           <ul class="tour-lista">
             <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Vídeo em pé para Reels e Stories, e deitado para o site</span></li>
             <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Mostra só o que existe nas suas fotos: nada inventado</span></li>
             <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Também vira um site animado, em que o tour anda conforme o hóspede rola a página</span></li>
           </ul>
-          <p class="tour-preco">Tour em vídeo a partir de R$ 690, pagamento único.</p>
-          <a class="btn btn-sec" href="https://recepcao-24h-production.up.railway.app/tour/" style="margin-top:16px">Ver o tour funcionando <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <p class="tour-preco">Mira a partir de R$ 690, pagamento único.</p>
+          <a class="btn btn-sec" href="https://recepcao-24h-production.up.railway.app/tour/" style="margin-top:16px">Conhecer a Mira</a>
         </div>
-        <div class="tour-cel"><video src="media/tour-em-pe.mp4" muted loop playsinline autoplay preload="metadata" aria-label="Exemplo de tour em vídeo de uma pousada parceira"></video></div>
+        <div class="tour-cel"><video src="media/tour-em-pe.mp4" muted loop playsinline autoplay preload="metadata" aria-label="Exemplo da Mira: tour em vídeo de uma pousada parceira"></video></div>
       </div>
     </div>
   </section>
@@ -549,7 +553,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
           <p class="sub">Chama a gente no WhatsApp. Montamos um teste com as informações do seu site e mostramos no seu celular.</p>
         </div>
         <div class="contato">
-          <a class="btn btn-pri" id="cta" href="https://wa.me/5551996990017?text=Oi!%20Vi%20a%20p%C3%A1gina%20da%20Lumi%20e%20quero%20ver%20ela%20na%20minha%20pousada." target="_blank" rel="noopener">Chamar no WhatsApp <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn-pri" id="cta" href="https://wa.me/5551996990017?text=Oi!%20Vi%20a%20p%C3%A1gina%20da%20Lumi%20e%20quero%20ver%20ela%20na%20minha%20pousada." target="_blank" rel="noopener">Chamar no WhatsApp</a>
           <div class="numero"><span>(51) 9 9699-0017</span><button type="button" id="copiar">Copiar</button></div>
         </div>
       </div>
@@ -558,7 +562,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
 </main>
 
 <footer>
-  <div class="wrap"><span>Lumi · um produto Farol</span><span>As conversas e números desta página são exemplos.</span></div>
+  <div class="wrap"><span>Lumi e Mira, da Farol</span><span>As conversas e números desta página são exemplos.</span></div>
 </footer>
 
 <script>
