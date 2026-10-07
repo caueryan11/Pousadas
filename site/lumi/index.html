@@ -4,6 +4,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <style>[hidden]{display:none!important}</style>
 <title>Lumi para pousadas</title>
+<link rel="preload" as="image" href="media/noite/q640/q001.webp" media="(max-width: 699px)">
+<link rel="preload" as="image" href="media/noite/q960/q001.webp" media="(min-width: 700px)">
 <link rel="icon" type="image/png" sizes="32x32" href="icone-32.png">
 <link rel="icon" type="image/png" sizes="192x192" href="icone-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="icone-180.png">
@@ -65,7 +67,7 @@ section{padding-block:clamp(72px,9vw,120px)}
 
 /* herói */
 /* abertura "uma noite na pousada": a rolagem passa das 18h às 7h */
-.noite{position:relative;height:420vh;padding-block:0;background:#0B1411;color:#F2FBF7}
+.noite{position:relative;height:320vh;padding-block:0;background:#0B1411;color:#F2FBF7}
 .noite-palco{position:sticky;top:66px;height:calc(100vh - 66px);overflow:hidden;z-index:2}
 .noite-foto{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
 .noite-palco::after{content:"";position:absolute;inset:0;pointer-events:none;
@@ -137,9 +139,10 @@ section{padding-block:clamp(72px,9vw,120px)}
   .msg-n .bal{font-size:.62rem;padding:4px 7px}
   .msg-n .rosto,.msg-n .rosto.lumi,.msg-n .rosto.lumi img{width:18px;height:18px}
   .resumo-noite{font-size:.62rem;width:min(230px,72vw)}
-  .noite-passos{display:block;position:relative;z-index:1;padding:0 20px 30vh}
-  .passo-n{min-height:62vh;padding-top:28px;display:grid;align-content:start;gap:10px}
-  .passo-n:first-child{min-height:50vh}
+  .noite-passos{display:block;position:relative;z-index:1;padding:0 20px 4vh}
+  .passo-n{min-height:36vh;padding-top:22px;display:grid;align-content:start;gap:8px}
+  .passo-n:first-child{min-height:28vh}
+  .passo-n:last-child{min-height:0;padding-bottom:12px}
   .passo-n h1{font-size:clamp(1.9rem,8.6vw,2.5rem);color:#fff;line-height:1.08}
   .passo-n .hora-p{font:700 1.5rem/1 var(--display);color:var(--mint);font-variant-numeric:tabular-nums}
   .passo-n p{color:#CFE6DD;font-size:1rem;line-height:1.55;max-width:34ch}
@@ -384,7 +387,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
   <section class="noite" id="noite" aria-label="Uma noite na pousada: das 18h às 7h, a Lumi responde enquanto a dona dorme">
     <div class="noite-palco">
       <div class="noite-barra" aria-hidden="true"><i id="noite-barra"></i></div>
-      <img class="noite-foto" id="noite-foto" src="media/noite/quadros/q001.jpg" alt="Pousada ao entardecer; a câmera entra até o celular da recepção, que fica aceso a noite toda até o amanhecer">
+      <img class="noite-foto" id="noite-foto" src="media/noite/q960/q001.webp" fetchpriority="high" alt="Pousada ao entardecer; a câmera entra até o celular da recepção, que fica aceso a noite toda até o amanhecer">
       <div class="noite-relogio" aria-hidden="true"><span id="noite-hora">18:00</span><small id="noite-rotulo">fim de tarde</small></div>
       <div class="noite-titulo" id="noite-titulo">
         <div class="wrap">
@@ -684,11 +687,15 @@ $("copiar").addEventListener("click", async e => {
         ladoH = $n("lado-h"), ladoL = $n("lado-l"), resumo = $n("resumo-noite"),
         itens = [...sec.querySelectorAll(".msg-n"), resumo];
   const TOTAL = 96, imgs = [], ok = new Array(TOTAL).fill(false);
-  const cam = i => `media/noite/quadros/q${String(i + 1).padStart(3, "0")}.jpg`;
+  const PASTA = innerWidth < 700 ? "q640" : "q960";   // celular baixa as fotos menores
+  const cam = i => `media/noite/${PASTA}/q${String(i + 1).padStart(3, "0")}.webp`;
+  if (PASTA === "q640") foto.src = cam(0);
   let atual = 0, pedindo = false;
   const carregar = i => { if (imgs[i]) return; const im = new Image(); im.decoding = "async";
     im.onload = () => { ok[i] = true; }; im.src = cam(i); imgs[i] = im; };
-  for (const passo of [8, 4, 2, 1]) for (let i = 0; i < TOTAL; i += passo) carregar(i);
+  for (let i = 0; i < TOTAL; i += 8) carregar(i);
+  const resto = () => { for (const passo of [4, 2, 1]) for (let i = 0; i < TOTAL; i += passo) carregar(i); };
+  if (document.readyState === "complete") setTimeout(resto, 200); else addEventListener("load", () => setTimeout(resto, 200), {once: true});
   // tela do celular na imagem (fração do quadro 960x540)
   const CEL = {x0: .40, x1: .595, y0: .71, y1: .81};
   function ponto(fx, fy) {   // fração da imagem -> pixel no palco, com object-fit: cover
