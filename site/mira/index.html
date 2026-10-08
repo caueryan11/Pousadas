@@ -326,3 +326,11 @@ document.getElementById("copiar").addEventListener("click", async e => {
   setTimeout(() => b.textContent = "Copiar", 1800);
 });
 </script>
+<script>
+// Vídeos dos formatos: tocam quando aparecem na tela e pausam fora dela (o autoplay sozinho às vezes fica parado).
+(() => {
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const obs = new IntersectionObserver(es => es.forEach(e => e.isIntersecting ? e.target.play().catch(() => {}) : e.target.pause()), {threshold: .25});
+  document.querySelectorAll("video.clipe").forEach(v => obs.observe(v));
+})();
+</script>
