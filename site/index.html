@@ -299,10 +299,10 @@ section{padding-block:clamp(72px,9vw,120px)}
 .rel .nota{font-size:.8rem;color:var(--fg-2)}
 
 /* tour */
-.tour-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:48px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:26px;padding:clamp(24px,4vw,44px)}
+.tour-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:44px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:26px;padding:clamp(24px,4vw,44px)}
 @media (max-width:820px){.tour-grid{grid-template-columns:minmax(0,1fr)}}
-.tour-cel{width:min(220px,100%);justify-self:center;aspect-ratio:9/16;border-radius:28px;padding:8px;background:#0C1512;box-shadow:var(--sombra)}
-.tour-cel video{width:100%;height:100%;object-fit:cover;border-radius:21px;display:block;background:#000}
+.tour-video{width:100%;aspect-ratio:16/9;border-radius:18px;overflow:hidden;background:#0C1512;box-shadow:var(--sombra)}
+.tour-video video{width:100%;height:100%;object-fit:cover;display:block}
 .tour-lista{list-style:none;margin:18px 0 0;padding:0;display:grid;gap:10px;color:var(--fg-2)}
 .tour-lista li{display:grid;grid-template-columns:22px minmax(0,1fr);gap:10px}
 .tour-lista .ic{color:var(--brand-2);width:20px;height:20px;margin-top:2px}
@@ -596,7 +596,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
           <p class="tour-preco">Mira a partir de R$ 690, pagamento único.</p>
           <a class="btn btn-sec" href="/mira/" style="margin-top:16px">Conhecer a Mira</a>
         </div>
-        <div class="tour-cel"><video src="media/tour-em-pe.mp4" muted loop playsinline autoplay preload="metadata" aria-label="Exemplo da Mira: tour em vídeo de uma pousada parceira"></video></div>
+        <div class="tour-video"><video id="tour-video" data-src="media/tour-1005.mp4" poster="media/tour-1005.jpg" muted loop playsinline preload="none" aria-label="Exemplo da Mira: tour em vídeo de uma pousada parceira, da sala ao quarto"></video></div>
       </div>
     </div>
   </section>
@@ -793,5 +793,17 @@ $("copiar").addEventListener("click", async e => {
   addEventListener("resize", () => { medir(); ultimo = ""; posicionar(); pedir(); });
   if (reduzido && !matchMedia("(max-aspect-ratio: 4/5)").matches) sec.style.height = "100vh";
   medir(); posicionar(); textos(cur); pedir();
+})();
+// Vídeo da Mira: só baixa quando a seção chega perto da tela, e pausa fora dela.
+(() => {
+  const v = document.getElementById("tour-video");
+  if (!v) return;
+  const parado = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  new IntersectionObserver(([e]) => {
+    if (e.isIntersecting) {
+      if (!v.src) v.src = v.dataset.src;
+      if (!parado) v.play().catch(() => {});
+    } else v.pause();
+  }, {rootMargin: "200px 0px"}).observe(v);
 })();
 </script>
