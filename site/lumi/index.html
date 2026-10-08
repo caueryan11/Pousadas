@@ -682,7 +682,7 @@ $("copiar").addEventListener("click", async e => {
 });
 
 
-// Abertura "uma noite na pousada": a rolagem escolhe o momento da noite (96 quadros dos dois vídeos), a hora e as mensagens.
+// Abertura "uma noite na pousada": a rolagem escolhe o momento da noite (192 quadros dos dois vídeos, 16 por segundo), a hora e as mensagens.
 // Fluido: os quadros já decodificados são desenhados num canvas, com fade entre um e o seguinte, e a cena desliza
 // até a posição da rolagem em vez de saltar.
 (() => {
@@ -691,7 +691,7 @@ $("copiar").addEventListener("click", async e => {
         ctx = cv.getContext("2d"), hora = $n("noite-hora"), rotulo = $n("noite-rotulo"), barra = $n("noite-barra"),
         titulo = $n("noite-titulo"), tela = $n("noite-tela"), ladoH = $n("lado-h"), ladoL = $n("lado-l"),
         resumo = $n("resumo-noite"), itens = [...sec.querySelectorAll(".msg-n"), resumo];
-  const TOTAL = 96, quadros = new Array(TOTAL), RW = 16, RH = 9;
+  const TOTAL = 192, quadros = new Array(TOTAL), RW = 16, RH = 9;
   const PASTA = innerWidth < 700 ? "q640" : "q960";   // celular baixa as fotos menores
   const cam = i => `media/noite/${PASTA}/q${String(i + 1).padStart(3, "0")}.webp`;
   if (PASTA === "q640") foto.src = cam(0);
@@ -701,8 +701,8 @@ $("copiar").addEventListener("click", async e => {
     const im = new Image(); im.decoding = "async"; im.src = cam(i);
     im.decode().then(() => { quadros[i] = im; pedir(); }).catch(() => { quadros[i] = undefined; });
   };
-  for (let i = 0; i < TOTAL; i += 8) carregar(i);
-  const resto = () => { for (const passo of [4, 2, 1]) for (let i = 0; i < TOTAL; i += passo) carregar(i); };
+  for (let i = 0; i < TOTAL; i += 16) carregar(i);
+  const resto = () => { for (const passo of [8, 4, 2, 1]) for (let i = 0; i < TOTAL; i += passo) carregar(i); };
   if (document.readyState === "complete") setTimeout(resto, 150); else addEventListener("load", () => setTimeout(resto, 150), {once: true});
 
   // tela do celular na imagem (fração do quadro 16:9)
