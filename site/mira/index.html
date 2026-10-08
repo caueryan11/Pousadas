@@ -143,6 +143,9 @@ section{padding-block:clamp(72px,9vw,120px)}
 .inclui li::before{content:"";width:8px;height:8px;margin-top:8px;border-radius:50%;background:var(--sol)}
 .plano .btn{justify-self:start;padding:12px 18px;font-size:.92rem}
 .rodape-preco{font-size:.85rem;color:var(--tinta-2)}
+.resumo{margin:0;font-size:.98rem;line-height:1.45;color:var(--tinta)}
+.plano.destaque .resumo{color:#FFF8EE}
+.nota-precos a{color:inherit;text-decoration:underline;text-underline-offset:3px}
 .nota-precos{margin-top:22px;color:var(--tinta-2);max-width:780px}
 
 /* fechamento */
@@ -231,7 +234,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true" class="lumi-ico"><rect width="64" height="64" rx="16" fill="#0B5C4B"/><g transform="rotate(-8 32 34)"><path fill="#FFC83D" d="M32 10C40.5 10 50 22 50 35C50 45.5 42 53 32 53C22 53 14 45.5 14 35C14 22 23.5 10 32 10Z"/><path fill="none" stroke="#FFF3C4" stroke-width="2.6" stroke-linecap="round" d="M21 22.5Q24 17.5 28.5 16"/><ellipse cx="26" cy="35" rx="3.4" ry="4.8" fill="#0F1F1A"/><ellipse cx="38.5" cy="35" rx="3.4" ry="4.8" fill="#0F1F1A"/></g></svg>
 
         <h2>O hóspede viu a Mira e chamou no WhatsApp. Quem responde?</h2>
-        <p class="sub" style="margin-top:16px">A Lumi, irmã da Mira. Ela atende o WhatsApp da hospedagem 24 horas com as suas informações: preço, regras, café, pet, como chegar. Fala português, espanhol e inglês, entende áudio e indica mercado, farmácia e restaurante perto, com o mapa.</p>
+        <p class="sub" style="margin-top:16px">A Lumi, irmã da Mira. Ela atende o WhatsApp da hospedagem de dia e de noite, com as suas informações: preço, regras, café, pet, como chegar. Fala português, espanhol e inglês, entende áudio e indica mercado, farmácia e restaurante perto, com o mapa.</p>
         <p class="sub" style="margin-top:12px">Pedido de reserva, desconto ou pedido especial chega pronto para você decidir. Ela não confirma reserva nem cobra sozinha.</p>
         <div class="acoes" style="margin-top:22px"><a class="btn" href="/">Conhecer a Lumi</a></div>
       </div>
@@ -251,15 +254,19 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
       <p class="sub" style="margin-top:16px">Pagamento único para o vídeo. O site tem implantação e mensalidade, como qualquer site no ar.</p>
       <div class="precos">
         <article class="plano"><h3>Mira</h3><p class="valor">R$ 690<small>pagamento único</small></p>
-          <ul class="inclui"><li>Vídeo em pé, para Reels e Stories</li><li>Vídeo deitado, para site e YouTube</li><li>Roteiro aprovado por você antes</li><li>Feito com as fotos que você já tem</li></ul><a class="btn" href="#pedir">Quero esse</a></article>
+          <p class="resumo">Um vídeo que passeia pela sua hospedagem como um drone, feito com as fotos que você já tem.</p>
+          <ul class="inclui"><li>2 arquivos do mesmo passeio: um em pé, para o Instagram, e um deitado, para o site e o YouTube</li><li>Antes de fazer, você aprova a ordem dos ambientes</li><li>Você só manda as fotos</li></ul><a class="btn" href="#pedir">Quero esse</a></article>
         <article class="plano destaque"><span class="selo-preco">Recomendado</span><h3>Mira + Reels</h3><p class="valor">R$ 1.190<small>pagamento único</small></p>
-          <ul class="inclui"><li>Tudo da Mira</li><li>4 Reels curtos, um por ambiente</li><li>Para postar ao longo do mês</li></ul><a class="btn" href="#pedir">Quero esse</a></article>
-        <article class="plano"><h3>Site animado</h3><p class="valor">R$ 2.200<small>+ R$ 297/mês</small></p>
-          <ul class="inclui"><li>Site da hospedagem com o tour que anda na rolagem</li><li>Mira incluída</li><li>Botão de reserva sempre à mão</li><li>Site no ar e ajustes inclusos na mensalidade</li></ul><a class="btn" href="#pedir">Quero esse</a></article>
-        <article class="plano"><h3>Site + Lumi</h3><p class="valor">R$ 3.200<small>+ R$ 497/mês</small></p>
-          <ul class="inclui"><li>Tudo do Site animado</li><li>Lumi: atendente de WhatsApp 24 h com a sua base de conhecimento</li><li>Entende áudio e responde em português, espanhol e inglês</li></ul><a class="btn" href="#pedir">Quero esse</a></article>
+          <p class="resumo">O vídeo da Mira e mais vídeos curtos para postar no Instagram o mês inteiro.</p>
+          <ul class="inclui"><li>Tudo da Mira (os 2 vídeos do passeio)</li><li>Mais 4 vídeos curtos em pé, um de cada ambiente: quarto, piscina, café…</li><li>Dá para postar um por semana durante um mês</li></ul><a class="btn" href="#pedir">Quero esse</a></article>
+        <article class="plano"><h3>Site com tour</h3><p class="valor">R$ 2.200<small>+ R$ 297/mês</small></p>
+          <p class="resumo">O site da sua hospedagem, com o passeio em vídeo que anda quando o hóspede rola a página, como nesta aqui.</p>
+          <ul class="inclui"><li>O vídeo da Mira já vem incluído</li><li>Botão para o hóspede te chamar no WhatsApp em todas as telas</li><li>A mensalidade mantém o site no ar e cobre as trocas que você pedir: fotos, preços, textos</li></ul><a class="btn" href="#pedir">Quero esse</a></article>
+        <article class="plano"><h3>Site com tour + Lumi</h3><p class="valor">R$ 3.200<small>+ R$ 497/mês</small></p>
+          <p class="resumo">O site com o passeio e mais uma atendente que responde o WhatsApp da hospedagem por você.</p>
+          <ul class="inclui"><li>Tudo do Site com tour (site + vídeo da Mira)</li><li>Lumi: responde de dia e de noite com as suas informações (preço, regras, café, pet, como chegar)</li><li>Entende áudio e responde em português, espanhol e inglês</li><li>Pedido de reserva chega pronto para você confirmar</li></ul><a class="btn" href="#pedir">Quero esse</a></article>
       </div>
-      <p class="nota-precos">Mudou a decoração ou chegou a temporada? A atualização da Mira sai por <b>R$ 490</b>.</p>
+      <p class="nota-precos">Só quer a atendente de WhatsApp, sem site novo? <a href="/">Veja a Lumi</a>. Mudou a decoração ou chegou a temporada? Refazer o vídeo da Mira sai por <b>R$ 490</b>.</p>
     </div>
   </section>
 
