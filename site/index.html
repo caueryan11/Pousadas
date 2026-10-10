@@ -3,13 +3,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <style>[hidden]{display:none!important}</style>
-<title>Lumi para pousadas</title>
+<title>Lumi · atendente de WhatsApp da pousada, 24h</title>
 <link rel="preload" as="image" href="media/noite/q640/q001.webp" media="(max-width: 699px)">
 <link rel="preload" as="image" href="media/noite/q960/q001.webp" media="(min-width: 700px)">
 <link rel="icon" type="image/png" sizes="32x32" href="icone-32.png">
 <link rel="icon" type="image/png" sizes="192x192" href="icone-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="icone-180.png">
-<meta name="description" content="A Lumi atende o WhatsApp da pousada 24 horas, em português, espanhol e inglês, com as suas informações. Você só entra no que é decisão sua.">
+<meta name="description" content="A Lumi atende o WhatsApp da sua pousada 24 horas, em português, espanhol e inglês, só com o que você aprovou. Você assume a conversa quando quiser. Garantia de 14 dias, sem fidelidade. Da Farol Hospeda.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Onest:wght@400;500;600;700&display=swap">
@@ -326,6 +326,35 @@ section{padding-block:clamp(72px,9vw,120px)}
 .inclui ul{list-style:none;margin:0;padding:0;display:grid;gap:11px}
 .inclui li{display:grid;grid-template-columns:22px minmax(0,1fr);gap:10px}
 .inclui .ic{color:var(--brand-2);width:20px;height:20px;margin-top:2px}
+.faixas{display:inline-flex;gap:4px;padding:4px;border-radius:999px;background:var(--bg-2);border:1px solid var(--line);margin-top:22px}
+.faixas button{border:0;background:transparent;color:var(--fg-2);font:600 .95rem var(--corpo);padding:10px 18px;border-radius:999px;cursor:pointer}
+.faixas button[aria-checked="true"]{background:var(--brand);color:var(--on-brand)}
+.faixa-legenda{color:var(--fg-2);margin:12px 0 0;font-size:.95rem}
+.planos-farol{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:22px;align-items:start}
+@media (max-width:960px){.planos-farol{grid-template-columns:minmax(0,1fr)}}
+.plano-f,.lumi-faz{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:26px;display:grid;gap:14px;position:relative}
+.plano-f.destaque{border:2px solid var(--brand-2);box-shadow:var(--sombra)}
+.selo-plano{position:absolute;top:-13px;left:22px;background:var(--brand-2);color:#fff;font:700 .78rem var(--corpo);padding:5px 11px;border-radius:999px}
+.plano-f h3,.lumi-faz h3{font-size:1.15rem}
+.plano-f .v{margin:0;display:flex;align-items:baseline;gap:8px}
+.plano-f .v b{font:800 clamp(2rem,3.4vw,2.5rem)/1 var(--display);letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.plano-f .v span,.plano-f .impl{color:var(--fg-2)}
+.plano-f .impl{margin:-6px 0 0;font-size:.95rem}
+.plano-f ul,.lumi-faz ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.plano-f li,.lumi-faz li{display:grid;grid-template-columns:22px minmax(0,1fr);gap:10px;font-size:.96rem}
+.plano-f .ic,.lumi-faz .ic{color:var(--brand-2);width:20px;height:20px;margin-top:2px}
+.plano-f .btn{justify-self:start}
+.lumi-faz{background:var(--mint-soft);border-color:transparent}
+.nota-planos{margin-top:20px;color:var(--fg-2);max-width:780px}
+.nota-planos a,.diag a,footer a{color:var(--brand-2);font-weight:600}
+.farol-tag{margin-right:auto;margin-left:-4px;font-size:.82rem;color:#B7DDD0;text-decoration:none;border-left:1px solid rgba(255,255,255,.2);padding-left:12px;white-space:nowrap}
+.farol-tag:hover{color:#fff}
+@media (max-width:520px){.farol-tag{font-size:.72rem;padding-left:8px;margin-left:-6px}}
+@media (max-width:520px){.nav-links + .btn{white-space:nowrap;padding:10px 14px}}
+@media (max-width:340px){.farol-tag{display:none}}
+@media (max-width:520px){.so-largo{display:none}}
+.prova-farol{margin-top:22px;color:var(--fg-1,inherit);font-weight:600;max-width:780px}
+.diag{margin-top:10px;font-size:.95rem;color:var(--fg-2)}
 
 /* perguntas */
 .faq{max-width:820px;display:grid}
@@ -350,6 +379,45 @@ section{padding-block:clamp(72px,9vw,120px)}
 .numero button:hover{background:rgba(255,255,255,.2)}
 footer{border-top:1px solid var(--line);color:var(--fg-2);font-size:.9rem}
 footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;padding-block:28px}
+
+/* CRO: CTA na abertura, selos, conta, objeções, botão fixo no celular */
+.noite-titulo .acoes{margin-top:4px}
+.noite .btn-sec{color:#F2FBF7;box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.4)}
+.noite .btn-sec:hover{box-shadow:inset 0 0 0 1.5px #fff}
+.dica-rolar{color:#9CC9BA!important;font-size:.85rem!important;margin-top:2px}
+.passo-n:first-child{gap:12px}
+.passo-n:first-child .acoes{margin-top:2px}
+.passo-n:first-child .btn{width:100%;max-width:360px}
+.nota-fila{margin-top:36px;padding:16px 18px;border-radius:14px;background:var(--mint-soft);color:var(--fg);max-width:780px;font-size:.98rem}
+.impl-nota{font-size:.85rem;color:var(--fg-2);margin:-4px 0 0}
+.selos{list-style:none;margin:22px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:10px 22px;color:var(--fg);font-weight:600;font-size:.95rem}
+.selos li{display:flex;align-items:center;gap:8px}
+.selos .ic{width:18px;height:18px;color:var(--brand-2)}
+.conta{margin-top:36px;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:clamp(22px,3vw,32px);display:grid;gap:18px;box-shadow:var(--sombra)}
+.conta h3{font-size:1.25rem}
+.conta-texto{display:grid;gap:8px;max-width:68ch}
+.conta-texto p{color:var(--fg-2)}
+.conta-campos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+@media (max-width:640px){.conta-campos{grid-template-columns:minmax(0,1fr)}}
+.conta-campos label{display:grid;gap:6px;font-weight:600;font-size:.92rem;color:var(--fg-2)}
+.conta-in{display:flex;align-items:center;gap:6px;background:var(--bg-2);border:1.5px solid var(--line);border-radius:12px;padding:0 12px}
+.conta-in:focus-within{border-color:var(--brand-2)}
+.conta-in i{font-style:normal;color:var(--fg-2);font-weight:600}
+.conta-in input{width:100%;min-width:0;border:0;background:transparent;color:var(--fg);font:700 1.25rem var(--display);padding:12px 0;outline:0;font-variant-numeric:tabular-nums}
+.conta-in input:focus-visible{outline:0}
+.conta-res{font-size:1.1rem;line-height:1.5}
+.conta-res b{font-family:var(--display);font-size:1.35rem;color:var(--brand-2);font-variant-numeric:tabular-nums}
+.conta-nota{font-size:.85rem;color:var(--fg-2)}
+.objecoes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:22px}
+@media (max-width:860px){.objecoes{grid-template-columns:minmax(0,1fr)}}
+.objecoes article{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;display:grid;gap:8px;align-content:start}
+.objecoes h3{font-size:1.05rem}
+.objecoes p{color:var(--fg-2);font-size:.96rem}
+.cta-fixa{position:fixed;left:0;right:0;bottom:0;z-index:30;display:none;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));
+  background:rgba(15,34,29,.94);backdrop-filter:blur(8px);border-top:1px solid rgba(255,255,255,.1);transition:transform .25s ease,opacity .25s ease}
+.cta-fixa .btn{width:100%;padding:15px 18px}
+.cta-fixa.fora{transform:translateY(110%);opacity:0;pointer-events:none}
+@media (max-width:820px){.cta-fixa{display:block}body{padding-bottom:76px}}
 
 @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 </style>
@@ -376,12 +444,13 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
   <div class="wrap">
     <a class="logo" href="#topo" aria-label="Lumi, início"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168.01 64" aria-hidden="true" class="logo-svg"><rect width="64" height="64" rx="16" fill="#0B5C4B"/><g transform="rotate(-8 32 34)"><path fill="#FFC83D" d="M32 10C40.5 10 50 22 50 35C50 45.5 42 53 32 53C22 53 14 45.5 14 35C14 22 23.5 10 32 10Z"/><path fill="none" stroke="#FFF3C4" stroke-width="2.6" stroke-linecap="round" d="M21 22.5Q24 17.5 28.5 16"/><ellipse cx="26" cy="35" rx="3.4" ry="4.8" fill="#0F1F1A"/><ellipse cx="38.5" cy="35" rx="3.4" ry="4.8" fill="#0F1F1A"/></g><g transform="translate(76.64 47) scale(0.04286)" fill="currentColor"><path transform="translate(0 0)" d="M131.2 9.5Q94.5 9.5 78.5 -1.4Q62.5 -12.2 58.8 -30Q55 -47.8 55 -67V-614Q55 -633.5 58.6 -650.9Q62.2 -668.2 78.1 -679.1Q94 -690 131.2 -690Q168.5 -690 184 -679.1Q199.5 -668.2 203.2 -650.9Q207 -633.5 207 -613.5V-122.5H481.2Q498.2 -122.5 513 -119.6Q527.8 -116.8 537.1 -102.8Q546.5 -88.8 546.5 -56.8Q546.5 -25.5 536.9 -11.4Q527.2 2.8 512.6 6.1Q498 9.5 481 9.5Z"/><path transform="translate(555 0)" d="M256.2 8.2Q209.5 8.2 169.4 -9.6Q129.2 -27.5 99.2 -60.2Q69.2 -93 52.8 -137.4Q36.2 -181.8 36.2 -235V-416Q36.2 -436 39.9 -453Q43.5 -470 59.4 -480.8Q75.2 -491.5 111.5 -491.5Q148.8 -491.5 164.2 -480.6Q179.8 -469.8 183.4 -452.4Q187 -435 187 -415V-234.8Q187 -205.5 197.4 -184.4Q207.8 -163.2 228.1 -151.9Q248.5 -140.5 277 -140.5Q305.8 -140.5 326.5 -152.2Q347.2 -164 358.8 -185.1Q370.2 -206.2 370.2 -234.8V-416.8Q370.2 -436.8 373.9 -453.8Q377.5 -470.8 393.4 -481.1Q409.2 -491.5 445.8 -491.5Q482.8 -491.5 498.1 -480.6Q513.5 -469.8 517.1 -452.4Q520.8 -435 520.8 -415.8V-64Q520.8 -45.2 517.1 -28.8Q513.5 -12.2 497.8 -1.9Q482 8.5 445.5 8.5Q419 8.5 403.9 2.5Q388.8 -3.5 382 -12.9Q375.2 -22.2 373.8 -32.1Q372.2 -42 372.2 -49.8L385 -60.8Q381.8 -56.5 371.8 -45.5Q361.8 -34.5 345.2 -22Q328.8 -9.5 306.6 -0.6Q284.5 8.2 256.2 8.2Z"/><path transform="translate(1105 0)" d="M114 9.2Q77.8 9.2 62 -1.6Q46.2 -12.5 43 -29.9Q39.8 -47.2 39.8 -66.5V-416.8Q39.8 -436.5 43.4 -453.2Q47 -470 62.9 -480.4Q78.8 -490.8 115.8 -490.8Q153 -490.8 169.9 -476.1Q186.8 -461.5 186.8 -428.8L174 -417.5Q176.2 -422.8 186 -434.6Q195.8 -446.5 211.9 -459.9Q228 -473.2 249.4 -482.6Q270.8 -492 296.2 -492Q328.5 -492 355.1 -482.5Q381.8 -473 403.4 -454.2Q425 -435.5 440.8 -408.2Q454.8 -428 474.9 -447.1Q495 -466.2 522.2 -479.1Q549.5 -492 583.5 -492Q642 -492 682.5 -462.5Q723 -433 743.9 -377.8Q764.8 -322.5 764.8 -244.8V-66.2Q764.8 -47 761.1 -29.6Q757.5 -12.2 741.8 -1.5Q726 9.2 688.8 9.2Q652.2 9.2 636.4 -2Q620.5 -13.2 617.2 -30.6Q614 -48 614 -67.2V-245.8Q614 -276.5 606.8 -297.8Q599.5 -319 585.4 -330.4Q571.2 -341.8 549.2 -341.8Q526 -341.8 509.9 -331.1Q493.8 -320.5 485.6 -299.2Q477.5 -278 477.5 -245V-66Q477.5 -46.2 472.9 -28.6Q468.2 -11 451.6 -0.5Q435 10 398.5 9Q363.2 8.5 348 -2.9Q332.8 -14.2 329.8 -31.5Q326.8 -48.8 326.8 -67.2V-245.8Q326.8 -276.5 319.9 -298.1Q313 -319.8 298.9 -330.8Q284.8 -341.8 262 -341.8Q236.5 -341.8 220.8 -328.9Q205 -316 197.6 -294.4Q190.2 -272.8 190.2 -245.8V-65.5Q190.2 -46.2 186.6 -28.9Q183 -11.5 167.1 -1.1Q151.2 9.2 114 9.2Z"/><path transform="translate(1898 0)" d="M111.8 9.5Q75.5 9.5 59.6 -1.4Q43.8 -12.2 40.5 -29.6Q37.2 -47 37.2 -66.2V-415.2Q37.2 -434.5 40.9 -451.5Q44.5 -468.5 60.4 -479.2Q76.2 -490 112.8 -490Q149.2 -490 164.6 -479.1Q180 -468.2 183.6 -450.9Q187.2 -433.5 187.2 -413.2V-65.2Q187.2 -46 183.6 -28.6Q180 -11.2 164.5 -0.9Q149 9.5 111.8 9.5Z"/><circle cx="2010" cy="-622" r="92" fill="#F0A500"/></g></svg>
 </a>
+    <a class="farol-tag" href="https://farolhospeda.com.br">da Farol Hospeda</a>
     <nav class="nav-links" aria-label="Seções">
       <a href="#recursos">Como funciona</a>
       <a href="#preco">Preço</a>
       <a href="#perguntas">Perguntas</a>
     </nav>
-    <a class="btn btn-pri" href="#falar">Quero a Lumi</a>
+    <a class="btn btn-pri" href="https://wa.me/5548984683798?text=Oi!%20Vi%20o%20site%20da%20Lumi%20e%20quero%20saber%20como%20fica%20para%20a%20minha%20pousada." target="_blank" rel="noopener"><span class="so-largo">Falar no </span>WhatsApp</a>
   </div>
 </header>
 
@@ -395,7 +464,9 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
       <div class="noite-titulo" id="noite-titulo">
         <div class="wrap">
           <h1>O hóspede pergunta às 23h. A pousada responde na hora.</h1>
-          <p>Role a página e acompanhe uma noite na pousada: enquanto você dorme, a Lumi atende o WhatsApp.</p>
+          <p>A Lumi atende o WhatsApp da sua pousada 24 horas, em português, espanhol e inglês, só com o que você aprovou. Você assume a conversa quando quiser.</p>
+          <div class="acoes"><a class="btn btn-pri" data-cta href="https://wa.me/5548984683798?text=Oi!%20Vi%20o%20site%20da%20Lumi%20e%20quero%20saber%20como%20fica%20para%20a%20minha%20pousada." target="_blank" rel="noopener">Falar com a Ray no WhatsApp</a><a class="btn btn-sec" href="#recursos">Ver como funciona</a></div>
+          <p class="dica-rolar">Role a página e acompanhe uma noite na pousada: enquanto você dorme, a Lumi atende.</p>
         </div>
       </div>
       <div class="noite-tela" id="noite-tela" aria-hidden="true"><i class="onda"></i><i class="onda b"></i></div>
@@ -413,7 +484,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
       <p class="noite-legenda">Ilustração. Conversa de exemplo.</p>
     </div>
     <div class="noite-passos" aria-hidden="false">
-      <div class="passo-n" data-p="0"><h1>O hóspede pergunta às 23h. A pousada responde na hora.</h1><p>Role e acompanhe uma noite na pousada.</p></div>
+      <div class="passo-n" data-p="0"><h1>O hóspede pergunta às 23h. A pousada responde na hora.</h1><p>A Lumi atende o WhatsApp da sua pousada 24h, em 3 idiomas, só com o que você aprovou. Você assume quando quiser.</p><div class="acoes"><a class="btn btn-pri" data-cta href="https://wa.me/5548984683798?text=Oi!%20Vi%20o%20site%20da%20Lumi%20e%20quero%20saber%20como%20fica%20para%20a%20minha%20pousada." target="_blank" rel="noopener">Falar com a Ray no WhatsApp</a></div><p class="dica-rolar">↓ Role e acompanhe uma noite na pousada.</p></div>
       <div class="passo-n" data-p="0.1"><span class="hora-p">18h</span><p>As luzes acendem, você ainda está recebendo hóspedes, e o WhatsApp não para.</p></div>
       <div class="passo-n" data-p="0.52"><span class="hora-p">23h12</span><p>A Sofía, de Buenos Aires, quer saber se pode levar a cachorrinha. A Lumi responde em espanhol, com a regra da pousada.</p></div>
       <div class="passo-n" data-p="0.63"><span class="hora-p">2h40</span><p>Chega um áudio: onde tem farmácia aberta? A Lumi entende, indica a mais perto e manda o mapa.</p></div>
@@ -426,15 +497,16 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
     <div class="wrap">
       <div class="heroi-texto">
         <h2>Sua pousada atendendo no WhatsApp, 24 horas.</h2>
-        <p class="sub">A Lumi atende o WhatsApp da sua pousada 24 horas com as suas informações: preço, regras, café, pet, como chegar. Fala português, espanhol e inglês, entende áudio, indica o que tem perto e te entrega o pedido de reserva pronto.</p>
+        <p class="sub">A Lumi atende o WhatsApp da sua pousada 24 horas com as suas informações: preço, regras, café, pet, como chegar. Fala português, espanhol e inglês, entende áudio, indica o que tem perto e te entrega o pedido de reserva pronto. Quem confirma a reserva é você.</p>
         <div class="acoes">
-          <a class="btn btn-pri" href="#falar">Ver a Lumi na minha pousada</a>
-          <a class="btn btn-sec" href="#recursos">Como funciona</a>
+          <a class="btn btn-pri" data-cta href="https://wa.me/5548984683798?text=Oi!%20Vi%20o%20site%20da%20Lumi%20e%20quero%20saber%20como%20fica%20para%20a%20minha%20pousada." target="_blank" rel="noopener">Quero a Lumi na minha pousada</a>
+          <a class="btn btn-sec" href="#preco">Ver preços</a>
         </div>
         <ul class="garantias">
-          <li><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>No número da pousada</li>
-          <li><svg class="ic" aria-hidden="true"><use href="#i-hand"/></svg>Reserva e preço final com você</li>
-          <li><svg class="ic" aria-hidden="true"><use href="#i-clock"/></svg>Pronta em uma semana</li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>No número que a pousada já usa</li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-shield"/></svg>Garantia de 14 dias</li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-hand"/></svg>Sem fidelidade</li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-clock"/></svg>No ar em até 5 dias úteis depois do seu OK</li>
         </ul>
       </div>
     </div>
@@ -537,7 +609,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
       </div>
       <ul class="regras">
         <li><span class="ico" aria-hidden="true"><svg class="ic"><use href="#i-hand"/></svg></span><h3>Não confirma reserva nem cobra</h3><p>Disponibilidade, sinal, Pix, desconto e grupo grande chegam para você decidir.</p></li>
-        <li><span class="ico" aria-hidden="true"><svg class="ic"><use href="#i-pause"/></svg></span><h3>Sai de cena quando você entra</h3><p>Respondeu um hóspede pelo celular? A Lumi fica quieta naquela conversa por 3 horas.</p></li>
+        <li><span class="ico" aria-hidden="true"><svg class="ic"><use href="#i-pause"/></svg></span><h3>Sai de cena quando você entra</h3><p>Respondeu um hóspede pelo celular? A Lumi fica quieta naquela conversa por 3 horas. Quer que ela volte antes? É só mandar <b>#lumi</b>. O seu jeito de atender continua sendo o seu.</p></li>
         <li><span class="ico" aria-hidden="true"><svg class="ic"><use href="#i-users"/></svg></span><h3>Não responde família nem fornecedor</h3><p>Quem está salvo na agenda do celular da pousada e os grupos ficam de fora.</p></li>
         <li><span class="ico" aria-hidden="true"><svg class="ic"><use href="#i-shield"/></svg></span><h3>Nunca finge ser gente</h3><p>Se o hóspede perguntar se é robô, ela responde com a verdade: é o atendimento virtual da pousada.</p></li>
       </ul>
@@ -547,14 +619,15 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
   <section>
     <div class="wrap">
       <div class="cabeca">
-        <h2>No ar em uma semana, no WhatsApp da pousada.</h2>
-        <p class="sub">Você não precisa configurar nada. A gente monta, liga e ajusta junto com você.</p>
+        <h2>No ar em até 5 dias úteis depois do seu OK.</h2>
+        <p class="sub">Você não precisa configurar nada nem trocar de número. A gente monta, você aprova, a gente liga e ajusta junto com você.</p>
       </div>
       <ol class="passos">
-        <li><span class="quando">Dia 1</span><h3>Conversa de 30 minutos</h3><p>Levantamos acomodações, preços por temporada, regras e as perguntas que mais chegam. A gente já parte do seu site.</p></li>
-        <li><span class="quando">Dias 2 a 5</span><h3>Montamos e você aprova</h3><p>A base de conhecimento e o guia local da sua região. Você revisa as respostas antes de a Lumi entrar no ar.</p></li>
-        <li><span class="quando">Dia 7</span><h3>Ligada no número da pousada</h3><p>A Lumi começa a atender. Na primeira semana acompanhamos as conversas e ajustamos o que precisar.</p></li>
+        <li><span class="quando">Passo 1</span><h3>Conversa de 30 minutos</h3><p>Levantamos acomodações, preços por temporada, regras e as perguntas que mais chegam. A gente já parte do seu site.</p></li>
+        <li><span class="quando">Passo 2</span><h3>Montamos e você aprova</h3><p>As respostas da Lumi e o guia local da sua região. Nada vai ao ar sem o seu OK: você lê e corrige antes.</p></li>
+        <li><span class="quando">Passo 3 · até 5 dias úteis depois do OK</span><h3>Ligada no número da pousada</h3><p>A Lumi começa a atender. Na primeira semana acompanhamos as conversas e ajustamos o que precisar. Não gostou? Garantia de 14 dias.</p></li>
       </ol>
+      <p class="nota-fila">A implantação é feita por uma pessoa, uma pousada de cada vez. Por isso o número de implantações por semana é limitado, e o verão (dezembro a março) está chegando: quem combina antes entra antes na fila.</p>
     </div>
   </section>
 
@@ -604,31 +677,79 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
   <section class="preco" id="preco">
     <div class="wrap">
       <div class="cabeca">
-        <h2>Um preço, tudo incluído.</h2>
-        <p class="sub">Uma implantação feita junto com você e uma mensalidade fixa.</p>
+        <h2>A Lumi vem nos planos da Farol Hospeda.</h2>
+        <p class="sub">Site, Google e a Lumi atendendo no seu WhatsApp, num pacote só. O valor muda com o tamanho da pousada.</p>
       </div>
-      <div class="plano">
-        <div class="plano-valor">
-          <h3>Lumi para pousadas</h3>
-          <div class="valores">
-            <div><b>R$ 1.500</b><span>implantação</span></div>
-            <div><b>R$ 297</b><span>por mês</span></div>
-          </div>
-          <p class="pag">A implantação é paga metade na assinatura e metade na entrega. Com o site da pousada junto (combo Farol): R$ 2.500 + R$ 497/mês.</p>
-          <a class="btn btn-pri" href="#falar">Quero a Lumi</a>
-        </div>
-        <div class="inclui">
-          <h3>O que está incluído</h3>
+      <div class="faixas" role="radiogroup" aria-label="Quantas acomodações?">
+        <button type="button" role="radio" aria-checked="true" data-faixa="0">Até 5</button>
+        <button type="button" role="radio" aria-checked="false" data-faixa="1">6 a 12</button>
+        <button type="button" role="radio" aria-checked="false" data-faixa="2">13 ou mais</button>
+      </div>
+      <p class="faixa-legenda">Valores para pousadas com <b id="faixa-txt">até 5 acomodações</b>.</p>
+      <div class="planos-farol">
+        <article class="plano-f destaque">
+          <span class="selo-plano">Recomendado</span>
+          <h3>Reserva Direta</h3>
+          <p class="v"><b data-v="690|790|890">R$ 690</b><span>por mês</span></p>
+          <p class="impl">+ implantação única de <b>R$ 3.900</b></p>
           <ul>
-            <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Base de conhecimento montada com você a partir do seu site, revisada antes de entrar no ar</span></li>
-            <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Atendimento 24 horas no número de WhatsApp da pousada</span></li>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span><b>A Lumi atendendo no seu WhatsApp</b>, do jeito que você configurar</span></li>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Site em três idiomas com botão Reservar direto</span></li>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Ficha do Google completa</span></li>
+          </ul>
+          <a class="btn btn-pri" data-cta href="https://wa.me/5548984683798?text=Oi!%20Vi%20os%20planos%20no%20site%20da%20Lumi%20e%20quero%20saber%20como%20fica%20o%20Reserva%20Direta%20para%20a%20minha%20pousada." target="_blank" rel="noopener">Quero esse · falar com a Ray</a>
+          <p class="impl-nota">Mensal + implantação. Sem fidelidade: para parar, é só avisar com 30 dias.</p>
+        </article>
+        <article class="plano-f">
+          <h3>Completo</h3>
+          <p class="v"><b data-v="990|1.190|1.490">R$ 990</b><span>por mês</span></p>
+          <p class="impl">+ implantação única de <b>R$ 4.900</b></p>
+          <ul>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Tudo do Reserva Direta, <b>com a Lumi</b></span></li>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>De 20 a 28 posts de Instagram por mês</span></li>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Você aprova cada post antes de ir ao ar</span></li>
+          </ul>
+          <a class="btn btn-sec" href="https://wa.me/5548984683798?text=Oi!%20Vi%20os%20planos%20no%20site%20da%20Lumi%20e%20quero%20saber%20como%20fica%20o%20plano%20Completo%20para%20a%20minha%20pousada." target="_blank" rel="noopener">Quero esse · falar com a Ray</a>
+          <p class="impl-nota">Mensal + implantação. Sem fidelidade: para parar, é só avisar com 30 dias.</p>
+        </article>
+        <div class="lumi-faz">
+          <h3>Em todo plano com a Lumi</h3>
+          <ul>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Respostas montadas com você a partir do seu site, revisadas antes de entrar no ar</span></li>
             <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Português, espanhol e inglês, e entende áudio</span></li>
             <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Guia local com mapa da região</span></li>
-            <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Pedido de reserva pronto no seu WhatsApp, ou o link do seu site</span></li>
-            <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Relatório todo dia 1º</span></li>
-            <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Atualização de preços e regras sempre que você pedir</span></li>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Pedido de reserva pronto no seu WhatsApp</span></li>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Relatório todo dia 1º e atualização de preços e regras quando você pedir</span></li>
           </ul>
         </div>
+      </div>
+      <ul class="selos" aria-label="O que vale em todo plano">
+        <li><svg class="ic" aria-hidden="true"><use href="#i-shield"/></svg>Garantia de 14 dias</li>
+        <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg>Sem fidelidade (aviso de 30 dias)</li>
+        <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg>Tudo no seu nome</li>
+        <li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg>Nada vai ao ar sem o seu OK</li>
+      </ul>
+      <p class="prova-farol">A Farol Hospeda já cuida do site e do Google do Refúgio da Silveira e do Hostel Vale do Rosa, aqui da região.</p>
+      <p class="nota-planos">Só site e Google, sem a Lumi: plano Essencial a partir de R$ 490/mês + R$ 2.900 de implantação (R$ 490, 550 ou 590 por mês conforme o tamanho). <a href="https://farolhospeda.com.br/#investimento">Ver todos os planos na Farol Hospeda</a></p>
+
+      <div class="conta" id="conta" aria-label="Calculadora: quanto custa uma reserva perdida">
+        <div class="conta-texto">
+          <h3>É caro? Faça a conta com os seus números.</h3>
+          <p>Quanto vale, para a sua pousada, cada hóspede que pergunta de madrugada, não recebe resposta e fecha em outro lugar? Os números abaixo são só um exemplo: mude para os da sua pousada.</p>
+        </div>
+        <div class="conta-campos">
+          <label>Diária média<span class="conta-in"><i>R$</i><input type="number" id="c-diaria" value="350" min="0" step="10" inputmode="numeric"></span></label>
+          <label>Noites por reserva<span class="conta-in"><input type="number" id="c-noites" value="3" min="1" step="1" inputmode="numeric"></span></label>
+          <label>Reservas perdidas por mês<span class="conta-in"><input type="number" id="c-perdidas" value="2" min="0" step="1" inputmode="numeric"></span></label>
+        </div>
+        <p class="conta-res" aria-live="polite">Com esses números, são <b id="c-total">R$ 2.100</b> por mês que vão para outra pousada. A Lumi, no Reserva Direta, custa <b id="c-plano">R$ 690</b> por mês.</p>
+        <p class="conta-nota">A gente não promete quantas reservas a Lumi vai salvar: só mostra a conta para você decidir.</p>
+      </div>
+
+      <div class="objecoes" aria-label="Dúvidas de quem está decidindo">
+        <article><h3>Vai tirar o meu jeito de atender?</h3><p>Não. A Lumi responde com as suas palavras e as suas regras, no tom da sua pousada. Quando você entra na conversa, ela sai de cena por 3 horas. Reserva, preço final e exceção continuam com você.</p></article>
+        <article><h3>E se ela errar o preço?</h3><p>Ela só fala o que está na base que você aprovou. O que não sabe, não chuta: avisa o hóspede que vai passar para você e te manda o resumo.</p></article>
+        <article><h3>E se eu não gostar?</h3><p>Garantia de 14 dias. Depois, sem fidelidade: para parar, é só avisar com 30 dias. Tudo fica no seu nome.</p></article>
       </div>
     </div>
   </section>
@@ -637,11 +758,15 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
     <div class="wrap">
       <div class="cabeca"><h2>Perguntas frequentes</h2></div>
       <div class="faq">
+        <details><summary>Meu atendimento é humanizado, do meu jeito. A Lumi vai tirar isso?<svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Não. A Lumi responde com as suas palavras e as suas regras, no tom da sua pousada. Ela cuida das perguntas repetidas e da madrugada. Quando você quiser falar com o hóspede, é só responder: ela sai de cena naquela conversa por 3 horas (e volta antes se você mandar #lumi). Reserva, preço final e qualquer exceção continuam com você.</p></details>
+        <details><summary>E se ela errar o preço ou inventar alguma coisa?<svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Ela só fala o que está na base de respostas que você leu e aprovou. O que não está lá, ela não chuta: avisa o hóspede que vai passar para você e te manda o resumo da conversa.</p></details>
         <details><summary>O hóspede vai perceber que é automático?<svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>A Lumi responde direto, no tom da pousada, sem ficar se anunciando. Se o hóspede perguntar se está falando com um robô, ela fala a verdade: é o atendimento virtual, e você entra quando precisa.</p></details>
         <details><summary>Ela confirma reserva?<svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Não. Ela junta datas, pessoas e o nome e te manda o pedido pronto, ou manda o hóspede para o seu site de reservas. Disponibilidade, sinal e confirmação continuam com você.</p></details>
-        <details><summary>E se ela não souber responder?<svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Ela não chuta. Avisa o hóspede que passou para você e te manda o resumo da conversa.</p></details>
+        <details><summary>É caro?<svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Depende do que uma reserva perdida custa para você. <a href="#conta">Faça a conta com os seus números</a>: diária média, noites por reserva e quantas reservas você acha que perde por mês por não responder a tempo. Compare com a mensalidade do plano. A implantação é paga uma vez só.</p></details>
         <details><summary>Preciso trocar de número ou de celular?<svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Não. A Lumi é ligada ao WhatsApp que a pousada já usa, e o celular continua funcionando normal.</p></details>
-        <details><summary>Ela vai responder minha família ou fornecedores?<svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Não. Contatos salvos na agenda do celular e grupos ficam de fora. E se você responder um hóspede pelo celular, ela para naquela conversa por 3 horas.</p></details>
+        <details><summary>Tem fidelidade? E se eu não gostar?<svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Garantia de 14 dias. Depois, sem fidelidade: para parar, é só avisar com 30 dias. Tudo fica no seu nome (número, site, Google) e nada vai ao ar sem o seu OK.</p></details>
+        <details><summary>Quanto tempo até ficar no ar?<svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Até 5 dias úteis depois de você aprovar as respostas. A implantação é feita por uma pessoa, uma pousada de cada vez, então antes do verão a fila anda por ordem de chegada.</p></details>
+        <details><summary>Ela vai responder minha família ou fornecedores?<svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Não. Contatos salvos na agenda do celular e grupos ficam de fora.</p></details>
         <details><summary>E na alta temporada, quando o preço muda?<svg class="ic" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>É só avisar que a gente atualiza preços, mínimo de diárias e regras. Está incluído na mensalidade.</p></details>
       </div>
     </div>
@@ -652,11 +777,12 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
       <div class="fecha-box">
         <div>
           <h2>Quer ver a Lumi respondendo como a sua pousada?</h2>
-          <p class="sub">Chama a gente no WhatsApp. Montamos um teste com as informações do seu site e mostramos no seu celular.</p>
+          <p class="sub">Chama a Ray no WhatsApp. Ela monta um teste com as informações do seu site e te mostra no seu celular, sem compromisso. Garantia de 14 dias e sem fidelidade.</p>
         </div>
         <div class="contato">
-          <a class="btn btn-pri" id="cta" href="https://wa.me/5551996990017?text=Oi!%20Vi%20a%20p%C3%A1gina%20da%20Lumi%20e%20quero%20ver%20ela%20na%20minha%20pousada." target="_blank" rel="noopener">Chamar no WhatsApp</a>
-          <div class="numero"><span>(51) 9 9699-0017</span><button type="button" id="copiar">Copiar</button></div>
+          <a class="btn btn-pri" id="cta" data-cta href="https://wa.me/5548984683798?text=Oi!%20Vi%20o%20site%20da%20Lumi%20e%20quero%20ver%20um%20teste%20com%20as%20informa%C3%A7%C3%B5es%20da%20minha%20pousada." target="_blank" rel="noopener">Falar com a Ray no WhatsApp</a>
+          <div class="numero"><span>(48) 98468-3798</span><button type="button" id="copiar">Copiar</button></div>
+          <p class="diag">Ou peça o <a href="https://farolhospeda.com.br/#diagnostico">diagnóstico grátis da sua pousada</a>.</p>
         </div>
       </div>
     </div>
@@ -664,8 +790,12 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
 </main>
 
 <footer>
-  <div class="wrap"><span>Lumi e Mira, da Farol</span><span>As conversas e números desta página são exemplos.</span></div>
+  <div class="wrap"><span>Lumi e Mira são da <a href="https://farolhospeda.com.br">Farol Hospeda</a></span><span>As conversas e números desta página são exemplos.</span></div>
 </footer>
+
+<div class="cta-fixa" id="cta-fixa" aria-label="Falar no WhatsApp">
+  <a class="btn btn-pri" href="https://wa.me/5548984683798?text=Oi!%20Vi%20o%20site%20da%20Lumi%20e%20quero%20saber%20como%20fica%20para%20a%20minha%20pousada." target="_blank" rel="noopener">Falar com a Ray no WhatsApp</a>
+</div>
 
 <script>
 const $ = id => document.getElementById(id);
@@ -676,7 +806,7 @@ $("onda-g").innerHTML = onda(40, i => 8 + Math.round(Math.abs(Math.sin(i * 0.9) 
 
 $("copiar").addEventListener("click", async e => {
   const b = e.currentTarget;
-  try { await navigator.clipboard.writeText("+55 51 99699-0017"); b.textContent = "Copiado"; }
+  try { await navigator.clipboard.writeText("+55 48 98468-3798"); b.textContent = "Copiado"; }
   catch { const r = document.createRange(); r.selectNodeContents(b.previousElementSibling); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = "Selecionado"; }
   setTimeout(() => b.textContent = "Copiar", 1800);
 });
@@ -805,5 +935,43 @@ $("copiar").addEventListener("click", async e => {
       if (!parado) v.play().catch(() => {});
     } else v.pause();
   }, {rootMargin: "200px 0px"}).observe(v);
+})();
+// Planos da Farol Hospeda: o valor por mês muda com o número de acomodações (mesma tabela do farolhospeda.com.br).
+(() => {
+  const nomes = ["até 5 acomodações", "6 a 12 acomodações", "13 ou mais acomodações"];
+  const bts = document.querySelectorAll(".faixas button");
+  bts.forEach(b => b.addEventListener("click", () => {
+    const f = +b.dataset.faixa;
+    bts.forEach(x => x.setAttribute("aria-checked", String(x === b)));
+    document.getElementById("faixa-txt").textContent = nomes[f];
+    document.querySelectorAll("[data-v]").forEach(el => el.textContent = "R$ " + el.dataset.v.split("|")[f]);
+    if (window.contaLumi) window.contaLumi();
+  }));
+})();
+// Conta "é caro?": diária × noites × reservas perdidas, com os números que o dono digitar. Sem promessa, só a conta.
+(() => {
+  const $c = id => document.getElementById(id);
+  const d = $c("c-diaria"), n = $c("c-noites"), p = $c("c-perdidas"), total = $c("c-total"), plano = $c("c-plano");
+  if (!d) return;
+  const reais = v => "R$ " + Math.round(v).toLocaleString("pt-BR");
+  const faixa = () => +(document.querySelector(".faixas button[aria-checked='true']")?.dataset.faixa || 0);
+  window.contaLumi = () => {
+    const v = Math.max(0, +d.value || 0) * Math.max(0, +n.value || 0) * Math.max(0, +p.value || 0);
+    total.textContent = reais(v);
+    plano.textContent = "R$ " + ["690", "790", "890"][faixa()];
+  };
+  [d, n, p].forEach(i => i.addEventListener("input", window.contaLumi));
+  window.contaLumi();
+})();
+// Botão fixo de WhatsApp no celular: some enquanto um botão principal da página já está na tela.
+(() => {
+  const fixa = document.getElementById("cta-fixa"), alvos = document.querySelectorAll("[data-cta]");
+  if (!fixa || !("IntersectionObserver" in window)) return;
+  const vis = new Set();
+  const io = new IntersectionObserver(es => {
+    es.forEach(e => e.isIntersecting ? vis.add(e.target) : vis.delete(e.target));
+    fixa.classList.toggle("fora", vis.size > 0);
+  }, {threshold: 0.5});
+  alvos.forEach(a => io.observe(a));
 })();
 </script>
