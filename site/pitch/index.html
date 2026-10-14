@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<base href="/pitch/">
+<script>if(location.pathname=="/pitch")history.replaceState(null,"","/pitch/"+location.search+location.hash)</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Farol Hospeda · Do Google à reserva direta</title>
+<meta name="description" content="Site, Google, WhatsApp e a Lumi trabalhando juntos para a sua pousada receber reserva direta, sem comissão.">
+<meta name="theme-color" content="#05212B">
+<meta property="og:title" content="Farol Hospeda · Do Google à reserva direta">
+<meta property="og:description" content="Quatro peças, um caminho só: Google, site, WhatsApp e a Lumi.">
+<meta property="og:image" content="assets/img/fim-de-tarde-1000.webp">
+<link rel="icon" href="assets/farol.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,500;0,700;1,400&family=Young+Serif&display=swap">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+<link rel="preload" as="image" href="assets/img/fim-de-tarde-2000.webp" media="(min-width: 700px)">
+<link rel="preload" as="image" href="assets/img/fim-de-tarde-1000.webp" media="(max-width: 699px)">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+<a class="pular" href="#caminho">Pular para o conteúdo</a>
+
+<header class="topo" id="topo">
+  <a class="marca" href="#abertura" aria-label="Farol Hospeda, início">
+    <svg class="marca-farol" viewBox="0 0 32 32" aria-hidden="true"><path d="M13 12h6l2 17H11z" fill="currentColor" opacity=".9"/><rect x="12" y="7" width="8" height="5" rx="1.2" fill="#DDA853"/><path d="M16 3.5 20 7h-8z" fill="currentColor"/><path d="M20.5 8.2 31 5v7z M11.5 8.2 1 5v7z" fill="#DDA853" opacity=".35"/></svg>
+    <span>Farol Hospeda</span>
+  </a>
+  <nav class="topo-nav" aria-label="Seções">
+    <a href="#caminho">O caminho</a>
+    <a href="#demonstracao">Demonstração</a>
+    <a href="#investimento">Investimento</a>
+  </nav>
+  <a class="botao botao-ouro botao-pequeno js-whats" href="#" target="_blank" rel="noopener"><i class="ph ph-whatsapp-logo" aria-hidden="true"></i>Falar no WhatsApp</a>
+</header>
+
+<main>
+
+<!-- 1. ABERTURA -->
+<section class="abertura" id="abertura" aria-labelledby="abertura-titulo">
+  <div class="abertura-foto" aria-hidden="true">
+    <picture>
+      <source media="(max-width: 699px)" srcset="assets/img/fim-de-tarde-1000.webp">
+      <img src="assets/img/fim-de-tarde-2000.webp" alt="" width="2000" height="1116" fetchpriority="high">
+    </picture>
+    <div class="abertura-feixe"></div>
+  </div>
+  <div class="abertura-conteudo">
+    <h1 id="abertura-titulo">Quantas reservas diretas a sua pousada perde hoje?</h1>
+    <p class="abertura-sub">Resposta que demorou, link que não abre, planilha esquecida. Ninguém tem esse número, mas dá para ver onde ele se esconde.</p>
+    <div class="abertura-acoes">
+      <a class="botao botao-ouro" href="#problema">Ver onde a reserva se perde</a>
+    </div>
+  </div>
+  <p class="legenda-foto">Imagem ilustrativa</p>
+</section>
+
+<!-- 2. O PROBLEMA -->
+<section class="problema" id="problema" aria-labelledby="problema-titulo">
+  <div class="problema-texto">
+    <h2 id="problema-titulo">Cada fornecedor cuida do seu pedaço, e o caminho fica sem dono.</h2>
+    <p>Muitas vezes a agência entrega o site e some. O motor de reservas não conversa com o WhatsApp. O chatbot responde, mas não sabe o que tem perto da praia. E o hóspede que perguntou às 23h recebeu resposta às 9h, quando já tinha fechado em outro lugar.</p>
+    <p class="problema-fecho">A reserva muitas vezes se perde no caminho até a pousada.</p>
+  </div>
+  <div class="pecas" aria-label="Peças soltas: fornecedores que não conversam entre si">
+    <div class="peca" style="--x:-4%;--y:6%;--r:-5deg;--dx:-28px;--dy:-14px">
+      <i class="ph ph-browser" aria-hidden="true"></i>
+      <strong>Agência de site</strong>
+      <span>Site bonito, link do Google apontando para a página errada.</span>
+    </div>
+    <div class="peca" style="--x:46%;--y:0%;--r:4deg;--dx:24px;--dy:-20px">
+      <i class="ph ph-calendar-dots" aria-hidden="true"></i>
+      <strong>Motor de reservas</strong>
+      <span>Mais uma mensalidade, mais um login.</span>
+    </div>
+    <div class="peca" style="--x:8%;--y:52%;--r:3deg;--dx:-22px;--dy:18px">
+      <i class="ph ph-robot" aria-hidden="true"></i>
+      <strong>Chatbot genérico</strong>
+      <span>Responde menu de opções. Não indica a farmácia aberta.</span>
+    </div>
+    <div class="peca" style="--x:54%;--y:46%;--r:-3deg;--dx:30px;--dy:22px">
+      <i class="ph ph-table" aria-hidden="true"></i>
+      <strong>Planilha</strong>
+      <span>Pedido anotado no papel, perdido no domingo.</span>
+    </div>
+    <svg class="pecas-fios" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M30 22 L48 18" /><path d="M24 40 L22 56" /><path d="M64 34 L66 50" /><path d="M42 70 L56 66" />
+    </svg>
+  </div>
+</section>
+
+<!-- 3. O CAMINHO (LOOP) -->
+<section class="caminho" id="caminho" aria-labelledby="caminho-titulo">
+  <div class="caminho-intro">
+    <h2 id="caminho-titulo">Do Google à reserva direta, sem pagar comissão</h2>
+    <p>São quatro peças. Cada uma encaixa na anterior e entrega o hóspede para a próxima.</p>
+    <div class="praia-campo">
+      <label for="praia">Onde fica a sua pousada?</label>
+      <input id="praia" type="text" inputmode="text" autocomplete="off" maxlength="40" placeholder="Garopaba" aria-describedby="praia-ajuda">
+      <span id="praia-ajuda" class="ajuda">Só para o exemplo da busca. Nada é enviado.</span>
+    </div>
+  </div>
+
+  <div class="loop-trilho" id="loop-trilho">
+    <div class="loop-palco">
+      <div class="loop-figura" aria-hidden="true">
+        <svg class="loop-svg" viewBox="0 0 600 600">
+          <circle class="loop-anel-fundo" cx="300" cy="300" r="210"/>
+          <circle class="loop-anel-gira" cx="300" cy="300" r="250"/>
+          <path class="loop-aceso" id="loop-aceso" d="M90 300 A210 210 0 1 1 510 300 A210 210 0 1 1 90 300"/>
+          <g id="loop-dados"></g>
+        </svg>
+        <p class="loop-retorno">Boas avaliações ajudam a aparecer no Google</p>
+        <div class="loop-centro">
+          <div class="loop-feixe"></div>
+          <svg class="loop-farol" viewBox="0 0 32 32"><path d="M13 12h6l2 17H11z" fill="currentColor"/><rect x="12" y="7" width="8" height="5" rx="1.2" fill="#F0C97A"/><path d="M16 3.5 20 7h-8z" fill="currentColor"/></svg>
+          <span class="loop-centro-rotulo">Reserva direta</span>
+        </div>
+        <div class="no" data-no="1" style="--px:15%;--py:50%;--ox:-60px;--oy:0px"><i class="ph ph-magnifying-glass"></i><span>Google</span></div>
+        <div class="no" data-no="2" style="--px:50%;--py:15%;--ox:0px;--oy:-60px"><i class="ph ph-browser"></i><span>Site</span></div>
+        <div class="no" data-no="3" style="--px:85%;--py:50%;--ox:60px;--oy:0px"><i class="ph ph-whatsapp-logo"></i><span>WhatsApp</span></div>
+        <div class="no no-lumi" data-no="4" style="--px:50%;--py:85%;--ox:0px;--oy:60px"><svg viewBox="0 0 64 64"><g transform="rotate(-8 32 34)"><path fill="#FFC83D" d="M32 10C40.5 10 50 22 50 35C50 45.5 42 53 32 53C22 53 14 45.5 14 35C14 22 23.5 10 32 10Z"/><ellipse cx="26" cy="35" rx="3.4" ry="4.8" fill="#0F1F1A"/><ellipse cx="38.5" cy="35" rx="3.4" ry="4.8" fill="#0F1F1A"/></g></svg><span>Lumi</span></div>
+      </div>
+
+      <div class="loop-textos">
+        <ol class="loop-marcas" aria-hidden="true"><li></li><li></li><li></li><li></li></ol>
+        <article class="passo" data-passo="1">
+          <p class="passo-num">1 de 4</p>
+          <h3>Ser encontrado no Google</h3>
+          <p class="passo-ganho">A ficha da pousada fica completa, com fotos e avaliações à vista, e o site é feito para aparecer para quem busca a região.</p>
+          <div class="mini mini-busca" aria-hidden="true">
+            <div class="mini-barra"><i class="ph ph-magnifying-glass"></i><span>pousada em <b class="js-praia">Garopaba</b></span></div>
+            <div class="mini-resultado">
+              <span class="mini-nome">Sua pousada</span>
+              <span class="mini-nota"><i class="ph ph-star"></i> 4,9 <em>(nota de exemplo)</em></span>
+              <span class="mini-meta">Pousada · <span class="js-praia">Garopaba</span> · Site · WhatsApp</span>
+            </div>
+          </div>
+          <p class="passo-tras"><b>Por trás:</b> a ficha do Google arrumada como pousada (categoria, endereço, fotos, horários e o link certo do site) e um site escrito para aparecer em quem busca a região.</p>
+        </article>
+        <article class="passo" data-passo="2">
+          <p class="passo-num">2 de 4</p>
+          <h3>Um site que convence</h3>
+          <p class="passo-ganho">A praia na primeira tela, os apartamentos, o vídeo do passeio (opcional) e a nota. Abre rápido no celular.</p>
+          <figure class="mini mini-site" id="mini-site">
+            <div class="ms-barra" aria-hidden="true"><span class="ms-bolas"><i></i><i></i><i></i></span><span class="ms-url"><i class="ph ph-lock-simple"></i> suapousada.com.br</span></div>
+            <div class="ms-tela">
+              <div class="ms-pagina">
+                <div class="ms-hero">
+                  <canvas id="passeio-canvas" width="640" height="360" role="img" aria-label="Exemplo de site de pousada: a primeira tela mostra o vídeo do passeio, feito com fotos de uma hospedagem parceira"></canvas>
+                  <div class="ms-nav" aria-hidden="true"><span class="ms-logo">Pousada Exemplo</span><span class="ms-links">Quartos · Passeio · Como chegar</span><span class="ms-lang">PT ES EN</span></div>
+                  <div class="ms-hero-txt" aria-hidden="true">
+                    <span class="ms-nota"><i class="ph ph-star"></i> 4,9 · exemplo</span>
+                    <strong>Um passeio pela casa antes de chegar</strong>
+                    <span class="ms-cta"><i class="ph ph-whatsapp-logo"></i> Reservar pelo WhatsApp</span>
+                  </div>
+                  <span class="ms-play" aria-hidden="true"><i class="ph ph-play"></i> Vídeo do passeio</span>
+                </div>
+                <div class="ms-quartos" aria-hidden="true">
+                  <span class="ms-sec">Quartos</span>
+                  <div class="ms-cards">
+                    <span><img src="assets/passeio/p20.webp" alt="" loading="lazy"><b>Suíte vista mar</b></span>
+                    <span><img src="assets/passeio/p30.webp" alt="" loading="lazy"><b>Loft do jardim</b></span>
+                    <span><img src="assets/passeio/p40.webp" alt="" loading="lazy"><b>Casa da lagoa</b></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <figcaption>Site de exemplo. O vídeo do passeio no fundo é feito só com fotos de uma hospedagem parceira</figcaption>
+          </figure>
+          <p class="passo-tras"><b>Por trás:</b> site em português, espanhol e inglês, no seu domínio e no seu nome. O vídeo do passeio é opcional e usa só as fotos que você já tem.</p>
+        </article>
+        <article class="passo" data-passo="3">
+          <p class="passo-num">3 de 4</p>
+          <h3>Direto para o WhatsApp</h3>
+          <p class="passo-ganho">Botão em toda a página. Quem gostou chama na hora, sem procurar o número.</p>
+          <div class="mini mini-botao" aria-hidden="true"><span class="mini-whats"><i class="ph ph-whatsapp-logo"></i> Reservar pelo WhatsApp</span></div>
+          <p class="passo-tras"><b>Por trás:</b> um toque abre a conversa com a pousada, sem copiar número. É o mesmo botão que você vê no canto desta página.</p>
+        </article>
+        <article class="passo" data-passo="4">
+          <p class="passo-num">4 de 4</p>
+          <h3>A Lumi atende e anota a reserva</h3>
+          <p class="passo-ganho">Responde a qualquer hora, em português, espanhol e inglês. Anota datas e pessoas e passa para você confirmar.</p>
+          <div class="mini mini-pedido" aria-hidden="true">
+            <span class="mini-pedido-titulo"><i class="ph ph-bell-simple"></i> Pedido de reserva pronto</span>
+            <span>3 a 8 de janeiro · 2 adultos e 1 criança · espanhol</span>
+            <span class="mini-pedido-acao">Você confirma a vaga e o valor</span>
+          </div>
+          <p class="passo-tras"><b>Por trás:</b> ela usa só as respostas que você aprovou, entende áudio e indica praia, restaurante e farmácia com mapa. Não confirma vaga nem cobra. Quando você entra na conversa, ela se afasta por 3 horas.</p>
+        </article>
+        <article class="passo passo-fecho" data-passo="5">
+          <h3>A reserva fica com você</h3>
+          <p class="passo-ganho">Quem chega pelo Google e pelo site fecha direto no WhatsApp, sem a comissão do Booking e do Airbnb.</p>
+          <p class="passo-tras">E o círculo fecha: o hóspede bem atendido pode deixar uma avaliação, e boas avaliações ajudam a pousada a aparecer no Google.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. DEMONSTRAÇÃO -->
+<section class="demo" id="demonstracao" aria-labelledby="demo-titulo">
+  <div class="demo-fundo" aria-hidden="true">
+    <img src="assets/img/recepcao-noite-2000.webp" srcset="assets/img/recepcao-noite-1000.webp 1000w, assets/img/recepcao-noite-2000.webp 2000w" sizes="100vw" alt="" loading="lazy" decoding="async" width="2000" height="1116">
+  </div>
+  <div class="demo-cabeca">
+    <p class="selo"><i class="ph ph-play-circle" aria-hidden="true"></i> Demonstração · pousadas e conversas fictícias</p>
+    <h2 id="demo-titulo">23h40: a recepção fechou e o hóspede está no WhatsApp.</h2>
+    <p>Escolha uma pousada e veja o caminho de um pedido: o hóspede escreve, a Lumi responde, o pedido sai anotado e o dono recebe o aviso.</p>
+  </div>
+
+  <div class="demo-corpo">
+    <div class="demo-escolha" role="radiogroup" aria-label="Escolha uma pousada fictícia">
+      <button class="cartao-pousada" role="radio" aria-checked="true" data-cenario="mare">
+        <strong>Casa Maré Mansa</strong>
+        <span>14 bangalôs pé na areia</span>
+        <span class="idioma">Hóspede escreve em espanhol</span>
+      </button>
+      <button class="cartao-pousada" role="radio" aria-checked="false" data-cenario="vento">
+        <strong>Pousada Ponta do Vento</strong>
+        <span>18 suítes com vista para o mar</span>
+        <span class="idioma">Hóspede escreve em inglês</span>
+      </button>
+      <button class="cartao-pousada" role="radio" aria-checked="false" data-cenario="jacaranda">
+        <strong>Vila Jacarandá</strong>
+        <span>22 chalés na mata</span>
+        <span class="idioma">Hóspede manda áudio</span>
+      </button>
+      <button class="botao botao-linha" id="demo-repetir" type="button"><i class="ph ph-arrow-counter-clockwise" aria-hidden="true"></i>Repetir a conversa</button>
+    </div>
+
+    <div class="telefones">
+      <div class="telefone" aria-label="WhatsApp da pousada, visto pelo hóspede">
+        <div class="tel-topo">
+          <span class="tel-avatar" aria-hidden="true"><i class="ph ph-house-line"></i></span>
+          <span><strong id="tel-nome">Casa Maré Mansa</strong><small id="tel-status">atendimento virtual</small></span>
+        </div>
+        <div class="tel-conversa" id="tel-conversa" role="log" aria-live="polite" aria-label="Conversa de demonstração"></div>
+      </div>
+      <div class="telefone telefone-dono" aria-label="WhatsApp do dono">
+        <div class="tel-topo">
+          <span class="tel-avatar tel-avatar-lumi" aria-hidden="true"><svg viewBox="0 0 64 64"><g transform="rotate(-8 32 34)"><path fill="#FFC83D" d="M32 10C40.5 10 50 22 50 35C50 45.5 42 53 32 53C22 53 14 45.5 14 35C14 22 23.5 10 32 10Z"/><ellipse cx="26" cy="35" rx="3.4" ry="4.8" fill="#0F1F1A"/><ellipse cx="38.5" cy="35" rx="3.4" ry="4.8" fill="#0F1F1A"/></g></svg></span>
+          <span><strong>Lumi · avisos</strong><small>no seu WhatsApp pessoal</small></span>
+        </div>
+        <div class="tel-dono" id="tel-dono" aria-live="polite">
+          <p class="tel-espera" id="tel-espera"><i class="ph ph-moon-stars" aria-hidden="true"></i>Você está dormindo. Quando houver um pedido, ele chega aqui pronto.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="demo-nota">Na vida real, a Lumi responde só com o que você aprovou e, se o hóspede perguntar, diz que é o atendimento virtual da pousada. Valores saem sempre com a ressalva de que a pousada confirma na reserva. Se você responder o hóspede pelo celular, ela para naquela conversa por 3 horas.</p>
+</section>
+
+<!-- 6. INVESTIMENTO -->
+<section class="investimento" id="investimento" aria-labelledby="inv-titulo">
+  <div class="inv-cabeca">
+    <h2 id="inv-titulo">Investimento</h2>
+    <p>Tabela oficial da Farol Hospeda. A implantação aparece sempre junto da mensalidade, e não tem comissão sobre reserva.</p>
+    <p class="faixas-rotulo" id="faixas-rotulo">Quantas acomodações a pousada tem?</p>
+    <div class="faixas" role="radiogroup" aria-labelledby="faixas-rotulo">
+      <button role="radio" aria-checked="false" data-faixa="0">Até 5</button>
+      <button role="radio" aria-checked="false" data-faixa="1">6 a 12</button>
+      <button role="radio" aria-checked="true" data-faixa="2">13 ou mais</button>
+    </div>
+  </div>
+
+  <div class="planos">
+    <article class="plano" data-plano="essencial">
+      <h3>Essencial</h3>
+      <p class="plano-quem">Site e Google, sem a Lumi</p>
+      <p class="plano-preco"><span class="js-mensal" data-valores="490,550,590">R$ 590</span><small>/mês</small></p>
+      <p class="plano-impl">+ R$ 2.900 de implantação, uma vez</p>
+      <ul>
+        <li>Site em português, espanhol e inglês, no seu domínio</li>
+        <li>Ficha do Google completa e corrigida</li>
+        <li>Hospedagem do site e ajustes de texto e preço</li>
+        <li>Relatório mensal</li>
+      </ul>
+      <button class="botao botao-linha js-escolher" type="button" aria-pressed="false">Escolher este plano</button>
+    </article>
+    <article class="plano plano-destaque" data-plano="reserva">
+      <p class="plano-tag">Recomendado</p>
+      <h3>Reserva Direta</h3>
+      <p class="plano-quem">Tudo do Essencial, com a Lumi no WhatsApp</p>
+      <p class="plano-preco"><span class="js-mensal" data-valores="690,790,890">R$ 890</span><small>/mês</small></p>
+      <p class="plano-impl">+ R$ 3.900 de implantação, uma vez</p>
+      <ul>
+        <li>Tudo do Essencial</li>
+        <li>A Lumi no WhatsApp da pousada, em português, espanhol e inglês, entendendo áudio</li>
+        <li>Guia da região com mapa: praia, restaurante, mercado, farmácia</li>
+        <li>Pedido de reserva anotado e enviado para você confirmar</li>
+        <li>Atualização de preço e regra incluída</li>
+      </ul>
+      <button class="botao botao-ouro js-escolher" type="button" aria-pressed="true">Escolher este plano</button>
+    </article>
+    <article class="plano" data-plano="completo">
+      <h3>Completo</h3>
+      <p class="plano-quem">Tudo do Reserva Direta, mais Instagram</p>
+      <p class="plano-preco"><span class="js-mensal" data-valores="990,1190,1490">R$ 1.490</span><small>/mês</small></p>
+      <p class="plano-impl">+ R$ 4.900 de implantação, uma vez</p>
+      <ul>
+        <li>Tudo do Reserva Direta, com a Lumi</li>
+        <li>De 20 a 28 posts de Instagram por mês</li>
+        <li>Você aprova cada post antes de ir ao ar</li>
+      </ul>
+      <button class="botao botao-linha js-escolher" type="button" aria-pressed="false">Escolher este plano</button>
+    </article>
+  </div>
+  <p class="opcional"><i class="ph ph-film-strip" aria-hidden="true"></i> Opcional em qualquer plano: <strong>vídeo do passeio</strong>, feito com as suas fotos. R$ 690 (em pé e deitado) ou R$ 1.190 com mais 4 vídeos curtos. Pagamento único.</p>
+
+  <div class="impl">
+    <div class="impl-entrega">
+      <h3>O que a implantação entrega</h3>
+      <ol class="impl-linha">
+        <li><strong>Você manda o material pelo WhatsApp</strong><span>Fotos, preços, regras da casa, horários. Acesso de convidado ao Google. A gente não pede senha.</span></li>
+        <li><strong>A equipe da Farol Hospeda monta</strong><span>Site, ficha do Google e, com a Lumi, as respostas dela a partir do seu material.</span></li>
+        <li><strong>Você revisa e aprova por escrito</strong><span>Nada vai ao ar sem o seu OK. Mensagem de WhatsApp vale.</span></li>
+        <li><strong>Entra no ar</strong><span>A Lumi, em até 5 dias úteis depois das respostas aprovadas, conectada com você, no número da pousada. No fim, testamos juntos um pedido de reserva. O prazo do site vai na proposta.</span></li>
+      </ol>
+    </div>
+
+    <div class="reserva-perdida" aria-labelledby="rp-titulo">
+      <h3 id="rp-titulo">Uma reserva perdida custa quanto?</h3>
+      <div class="rp-campos">
+        <div class="campo">
+          <label for="rp-diaria">Sua diária média</label>
+          <div class="campo-moeda"><span>R$</span><input id="rp-diaria" inputmode="numeric" autocomplete="off" value="1.200"></div>
+        </div>
+        <div class="campo">
+          <label for="rp-noites">Noites por estadia</label>
+          <div class="campo-moeda campo-sem-moeda"><input id="rp-noites" inputmode="numeric" autocomplete="off" value="3"></div>
+        </div>
+      </div>
+      <p class="ajuda">Valores de exemplo. Troque pelos seus.</p>
+      <p class="rp-resultado" aria-live="polite"><span class="rp-numero" id="rp-valor">R$ 3.600</span><span id="rp-frase">é quanto vale uma estadia dessas. Um pedido sem resposta pode acabar em outra pousada.</span></p>
+      <p class="rp-compara" id="rp-compara"></p>
+    </div>
+  </div>
+</section>
+
+<!-- 7. COMO FUNCIONA A ENTRADA -->
+<section class="entrada" id="entrada" aria-labelledby="entrada-titulo">
+  <h2 id="entrada-titulo">Como funciona a entrada</h2>
+  <ol class="entrada-passos">
+    <li><i class="ph ph-presentation-chart" aria-hidden="true"></i><strong>Demonstração</strong><span>A gente olha a sua pousada como o hóspede olha: Google, site, Instagram e WhatsApp.</span></li>
+    <li><i class="ph ph-handshake" aria-hidden="true"></i><strong>Sinal depois da demo</strong><span>Só se fizer sentido para você. O valor do sinal vai na proposta, e o restante da implantação quando estiver no ar.</span></li>
+    <li><i class="ph ph-check-circle" aria-hidden="true"></i><strong>Você aprova tudo</strong><span>Site, ficha do Google, respostas da Lumi e cada post.</span></li>
+    <li><i class="ph ph-lighthouse" aria-hidden="true"></i><strong>No ar</strong><span>A mensalidade começa no mês seguinte.</span></li>
+  </ol>
+  <div class="termos">
+    <div class="termo"><strong>Sem fidelidade</strong><p>Para cancelar, basta avisar com 30 dias.</p></div>
+    <div class="termo"><strong>Garantia de 14 dias</strong><p>Se em até 14 dias depois de entrar no ar você não quiser continuar, devolvemos a segunda parcela da implantação.</p></div>
+    <div class="termo"><strong>Tudo no seu nome</strong><p>Domínio, site, Google e Instagram. Se sair, leva tudo.</p></div>
+    <div class="termo"><strong>Nada vai ao ar sem o seu OK</strong><p>Você aprova antes, e cada mudança de preço ou regra também.</p></div>
+  </div>
+
+  <div class="limites">
+    <h3>O que a gente não promete</h3>
+    <ul>
+      <li>A Lumi não confirma vaga, não cobra, não dá desconto e não fecha o valor total. Isso é com você.</li>
+      <li>Não prometemos número de reservas. Prometemos o caminho arrumado e um relatório todo mês.</li>
+    </ul>
+  </div>
+
+  <p class="prova"><i class="ph ph-hourglass-medium" aria-hidden="true"></i> Primeiros clientes em implantação. Resultado medido só aparece aqui com nome e autorização.</p>
+</section>
+
+<!-- 8. FECHAMENTO -->
+<section class="fechamento" id="fechamento" aria-labelledby="fecho-titulo">
+  <div class="fechamento-foto" aria-hidden="true">
+    <img src="assets/img/amanhecer-2000.webp" srcset="assets/img/amanhecer-1000.webp 1000w, assets/img/amanhecer-2000.webp 2000w" sizes="100vw" alt="" loading="lazy" decoding="async" width="2000" height="1116">
+  </div>
+  <div class="fechamento-conteudo">
+    <h2 id="fecho-titulo">De manhã, o pedido já está esperando por você.</h2>
+    <p>Quem chega pelo Google e pelo site faz o pedido direto no WhatsApp da pousada, e você confirma. Vamos olhar a sua pousada juntos?</p>
+    <a class="botao botao-ouro botao-grande js-whats" href="#" target="_blank" rel="noopener"><i class="ph ph-whatsapp-logo" aria-hidden="true"></i>Falar no WhatsApp</a>
+    <p class="fone">(48) 98468-3798</p>
+  </div>
+  <p class="legenda-foto">Imagem ilustrativa</p>
+</section>
+
+</main>
+
+<footer class="rodape">
+  <p><strong>Farol Hospeda.</strong> A Lumi e o vídeo do passeio são produtos da Farol Hospeda.</p>
+  <p>Imagens de abertura, demonstração e fechamento são ilustrativas. O vídeo do passeio de exemplo usa fotos de uma hospedagem parceira. Pousadas, nomes e conversas da demonstração são fictícios. Google, Booking, Airbnb e WhatsApp são marcas dos seus donos.</p>
+</footer>
+
+<a class="whats-flutuante js-whats" href="#" target="_blank" rel="noopener" aria-label="Falar no WhatsApp"><i class="ph ph-whatsapp-logo" aria-hidden="true"></i></a>
+
+<script src="app.js" defer></script>
+</body>
+</html>
