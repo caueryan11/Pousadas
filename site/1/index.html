@@ -10,7 +10,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="preload" as="image" href="/1/assets/poster.jpg">
+<link rel="preload" as="image" href="/1/assets/poster.jpg" media="(min-width: 900px)">
+<link rel="preload" as="image" href="/1/assets/poster-mobile.jpg" media="(max-width: 899px)">
 
 <style>
 /* ==========================================================================
@@ -579,22 +580,32 @@ section{ position:relative; }
 
     <!-- Hotspots timed to the footage (seconds) -->
     <div class="hotspots">
-      <article class="hotspot" data-in="0.55" data-out="1.6" data-pos="bl">
+      <!-- data-m-*: timing/text for the vertical mobile footage (living room → glass → terrace edge) -->
+      <article class="hotspot" data-in="0.55" data-out="1.6" data-pos="bl"
+               data-m-in="0.3" data-m-out="2.3"
+               data-m-idx="01 / 04 · A Grande Sala"
+               data-m-title="Sala de Estar Panorâmica"
+               data-m-text="Sofás baixos, mesa em mármore Calacatta e piso de nogueira em tábuas largas, tudo voltado para a cidade.">
         <div class="hotspot__idx">01 / 04 · Chegada</div>
         <h2>Elevador Privativo</h2>
         <p>Um elevador com chave abre direto em um hall revestido de nogueira. Sem corredor, sem vizinhos no andar.</p>
       </article>
-      <article class="hotspot" data-in="1.75" data-out="3.55" data-pos="tr">
+      <article class="hotspot" data-in="1.75" data-out="3.55" data-pos="tr"
+               data-m-in="2.5" data-m-out="4.5"
+               data-m-idx="02 / 04 · A Fachada"
+               data-m-text="Vidros de 3,35 m de altura correm de parede a parede, com o Empire State Building centralizado no vão.">
         <div class="hotspot__idx">02 / 04 · A Grande Sala</div>
         <h2>Janelas do Piso ao Teto</h2>
         <p>Vidros de 3,35 m de altura envolvem 12,8 m lineares da grande sala, emoldurados por uma única coluna de pedra.</p>
       </article>
-      <article class="hotspot" data-in="3.75" data-out="5.75" data-pos="bl">
+      <article class="hotspot" data-in="3.75" data-out="5.75" data-pos="bl"
+               data-m-in="4.7" data-m-out="6.5">
         <div class="hotspot__idx">03 / 04 · Interior e Exterior</div>
         <h2>Paredes de Vidro Embutidas</h2>
         <p>A fachada sul desliza por completo e se abre para um terraço de pedra aquecida de 102&nbsp;m².</p>
       </article>
-      <article class="hotspot" data-in="6.0" data-out="99" data-pos="tr">
+      <article class="hotspot" data-in="6.0" data-out="99" data-pos="tr"
+               data-m-in="6.7" data-m-out="99">
         <div class="hotspot__idx">04 / 04 · A Vista</div>
         <h2>Vista Desimpedida de Midtown</h2>
         <p>O Empire State Building, ao sul, protegido por direitos aéreos. Nada se erguerá no caminho.</p>
@@ -861,7 +872,7 @@ const CONFIG = {
   FRAMES: {
     count: 381,
     fps: 48,
-    dir: { lg: '/1/assets/frames/lg/', sm: '/1/assets/frames/sm/' },   // 1280x720 / 960x540
+    dir: { lg: '/1/assets/frames/lg/', mobile: '/1/assets/frames/mobile/' },   // 1280x720 landscape / 540x960 portrait
     name: (i) => `f${String(i).padStart(3, '0')}.webp`,
     concurrency: 8,
     revealStride: 8,   // hero is revealed once every 8th frame (48 frames, ~1/8 of the weight) is in
@@ -872,7 +883,21 @@ const CONFIG = {
   SCROLL_VIEWPORTS: 5,                     // pinned scroll length, in viewport heights
   SPRING: { omega: 14, maxSpeed: 1.2 },   // critically damped spring on progress; maxSpeed in progress/s
   END_HOLD: 0.06,                          // last 6% of the pin holds the final frame
+  // Phones get a separate, vertical walkthrough (1080x1920 source, 8 s, interpolated to 48 fps).
+  MOBILE: {
+    VIDEO_SRC: '/1/assets/skyline-mobile-scrub.mp4',   // all-intra 540x960 fallback
+    VIDEO_FALLBACK: null,
+    POSTER: '/1/assets/poster-mobile.jpg',
+  },
 };
+
+// Same criteria as before for the light set: narrow screen, short side < 700 px, or data-saver.
+const IS_MOBILE = Math.min(window.innerWidth, window.innerHeight) < 700 || window.innerWidth < 900 ||
+  !!(navigator.connection && navigator.connection.saveData);
+if (IS_MOBILE) {
+  CONFIG.VIDEO_SRC = CONFIG.MOBILE.VIDEO_SRC;
+  CONFIG.VIDEO_FALLBACK = CONFIG.MOBILE.VIDEO_FALLBACK;
+}
 
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
@@ -1004,7 +1029,7 @@ async function loadVideo(onProgress) {
   // Over http(s) we download the whole file first (real byte progress, seeks never wait on the network).
   // On file:// fetch is blocked, so we let the <video> element load the file and read buffered ranges.
   const canFetch = /^https?:$/.test(location.protocol) && 'ReadableStream' in window;
-  for (const src of [CONFIG.VIDEO_SRC, CONFIG.VIDEO_FALLBACK]) {
+  for (const src of [CONFIG.VIDEO_SRC, CONFIG.VIDEO_FALLBACK].filter(Boolean)) {
     try {
       if (canFetch) { await viaFetch(src, onProgress); state.mode = 'blob'; }
       else { await viaElement(src, onProgress); state.mode = 'element'; }
@@ -1027,9 +1052,7 @@ const Frames = (() => {
   const F = CONFIG.FRAMES;
   const imgs = new Array(F.count).fill(null);
   let loadedCount = 0;
-  const small = Math.min(window.innerWidth, window.innerHeight) < 700 || window.innerWidth < 900 ||
-    (navigator.connection && navigator.connection.saveData);
-  const dir = small ? F.dir.sm : F.dir.lg;
+  const dir = IS_MOBILE ? F.dir.mobile : F.dir.lg;
 
   function order() {
     const seen = new Set(), out = [];
@@ -1128,6 +1151,19 @@ const Painter = (() => {
 
 /* --------------------------------------------------------- Scrub engine */
 const hud = { el: $('.hud'), fill: $('.hud__fill'), time: $('[data-time]'), dur: $('[data-dur]') };
+// On phones each hotspot can swap in its own timing/text (data-m-*) to match the vertical footage.
+if (IS_MOBILE) {
+  $$('.hotspot').forEach((el) => {
+    const d = el.dataset;
+    if (d.mIn) d.in = d.mIn;
+    if (d.mOut) d.out = d.mOut;
+    if (d.mIdx) $('.hotspot__idx', el).textContent = d.mIdx;
+    if (d.mTitle) $('h2', el).textContent = d.mTitle;
+    if (d.mText) $('p', el).textContent = d.mText;
+  });
+  video.poster = CONFIG.MOBILE.POSTER;
+  video.style.backgroundImage = `url("${CONFIG.MOBILE.POSTER}")`;
+}
 const hotspots = $$('.hotspot').map((el) => ({ el, tin: +el.dataset.in, tout: +el.dataset.out, on: false }));
 
 function placeTicks() {
@@ -1311,7 +1347,7 @@ async function boot() {
     // Reduced motion or no GSAP: load lightly, no pin/scrub
     video.preload = 'metadata';
     video.src = CONFIG.VIDEO_SRC;
-    video.addEventListener('error', () => { video.src = CONFIG.VIDEO_FALLBACK; }, { once: true });
+    if (CONFIG.VIDEO_FALLBACK) video.addEventListener('error', () => { video.src = CONFIG.VIDEO_FALLBACK; }, { once: true });
     initStatic();
     await Loader.finish();
     return;
