@@ -1,0 +1,120 @@
+/* =========================================================
+   layout.css — scene, stage and layer positioning
+   Two modes:
+   - default (no JS / reduced motion / video-less): content flows
+     normally over a sticky background frame. Fully readable.
+   - html.is-scrub: one 100svh stage is pinned by ScrollTrigger and
+     every layer is stacked absolutely on top of the video.
+   ========================================================= */
+
+.scene { position: relative; }
+.stage { position: relative; isolation: isolate; }
+
+/* ---------- media ---------- */
+.media {
+  position: sticky; top: 0;
+  height: 100vh; height: 100svh;
+  margin-bottom: -100vh; margin-bottom: -100svh;
+  z-index: -1;
+  overflow: hidden;
+  background: var(--ink);
+}
+.media__video,
+.media__fallback {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;           /* fills any viewport, never distorts */
+  object-position: 50% 50%;
+}
+.media__video { transform-origin: 50% 50%; }
+
+/* Canvas renderer (js/scrub-video.js, canvas mode). Hidden until it has drawn
+   a real frame, then it replaces the <video> (which keeps decoding off-screen). */
+.media__canvas {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  display: block;
+  transform-origin: 50% 50%;
+  opacity: 0;
+}
+html.is-canvas .media__canvas { opacity: 1; }
+html.is-canvas .media__video { opacity: 0; }
+html.no-video .media__canvas { display: none; }
+.media__video--decoder { opacity: 0; pointer-events: none; }   /* 2nd decoder, never shown */
+/* scaled by the scroll timeline: keep them on their own GPU layer */
+html.is-scrub .media__video,
+html.is-scrub .media__canvas { will-change: transform; }
+
+/* Fallback painted under the video; visible if the video can't load */
+.media__fallback {
+  z-index: -1;
+  background:
+    radial-gradient(120% 80% at 70% 20%, rgba(255, 196, 140, .55), transparent 60%),
+    radial-gradient(90% 70% at 15% 85%, rgba(127, 196, 200, .45), transparent 65%),
+    linear-gradient(180deg, #2a2620 0%, #14130f 100%);
+}
+html.no-video .media__video { display: none; }
+
+.media__veil {
+  position: absolute; inset: 0;
+  background:
+    linear-gradient(180deg, rgba(13,13,11,.55) 0%, rgba(13,13,11,.05) 35%, rgba(13,13,11,.15) 65%, rgba(13,13,11,.75) 100%);
+  pointer-events: none;
+}
+.media__grain {
+  position: absolute; inset: 0;   /* was -50%: a 4× larger blended layer for a static texture */
+  opacity: .09;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  mix-blend-mode: overlay;
+}
+
+/* ---------- static flow (default) ---------- */
+.layer { position: relative; padding: 0 var(--gutter); }
+.hero { min-height: 100vh; min-height: 100svh; }
+.story { overflow-x: clip; }
+.story .chapter { min-height: 80vh; min-height: 80svh; display: flex; flex-direction: column; justify-content: center; }
+.work { padding-top: 12vh; padding-bottom: 12vh; }
+.hud { display: none; }
+
+/* ---------- pinned scrub mode ---------- */
+html.is-scrub .stage {
+  height: 100vh; height: 100svh;
+  overflow: hidden;
+}
+html.is-scrub .media { position: absolute; inset: 0; height: auto; margin: 0; }
+html.is-scrub .layer { position: absolute; inset: 0; }
+html.is-scrub .hero { min-height: 0; }
+html.is-scrub .story { pointer-events: none; }
+html.is-scrub .story .chapter {
+  position: absolute;
+  min-height: 0;
+  visibility: hidden;          /* GSAP autoAlpha reveals them */
+}
+html.is-scrub .work {
+  padding-top: 0; padding-bottom: 0;
+  display: flex; flex-direction: column; justify-content: center;
+  visibility: hidden;
+}
+html.is-scrub .hud { display: flex; }
+
+/* Layers the timeline fades/moves: promote them so scroll-driven opacity,
+   transform (and the desktop-only blur, see js/timeline.js) are applied by the
+   compositor instead of repainting the text every frame. */
+html.is-scrub .hero,
+html.is-scrub .story .chapter,
+html.is-scrub .work { will-change: transform, opacity; }
+html.is-scrub.fx-blur .hero,
+html.is-scrub.fx-blur .story .chapter { will-change: transform, opacity, filter; }
+
+/* Chapter anchoring inside the pinned stage */
+html.is-scrub .chapter--left   { left: var(--gutter); bottom: 14vh; max-width: min(62ch, 72vw); }
+html.is-scrub .chapter--right  { right: var(--gutter); top: 18vh; max-width: min(56ch, 80vw); text-align: right; align-items: flex-end; }
+html.is-scrub .chapter--center { inset: 0 var(--gutter); justify-content: center; text-align: center; align-items: center; }
+
+@media (max-width: 720px) {
+  html.is-scrub .chapter--left,
+  html.is-scrub .chapter--right { left: var(--gutter); right: var(--gutter); max-width: none; }
+  html.is-scrub .chapter--left  { bottom: 12vh; }
+  html.is-scrub .chapter--right { top: auto; bottom: 12vh; text-align: left; align-items: flex-start; }
+}

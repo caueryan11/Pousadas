@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="pt-BR" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <base href="/2/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Saltline Studio — Espaços que respiram</title>
+  <meta name="description" content="A Saltline é um estúdio de design independente que cria experiências digitais para marcas de hospitalidade à beira-mar." />
+  <meta name="theme-color" content="#0d0d0b" />
+
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;800;900&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Ir para o conteúdo</a>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header" role="banner">
+    <a class="brand" href="#top" aria-label="Saltline Studio, voltar ao topo">
+      <span class="brand__mark" aria-hidden="true">S/</span>
+      <span class="brand__name">Saltline<sup>®</sup></span>
+    </a>
+    <nav class="site-nav" aria-label="Principal">
+      <ul>
+        <li><a href="#story">Estúdio</a></li>
+        <li><a href="#work">Projetos</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+    <p class="badge" role="status">
+      <span class="badge__dot" aria-hidden="true"></span>
+      Disponível para projetos
+    </p>
+  </header>
+
+  <main id="main">
+    <!-- =============================================================
+         SCRUB SCENE
+         Everything inside .scene is pinned while the page scrolls.
+         The timeline (js/timeline.js) maps scroll progress to:
+           0%        hero
+           20–70%    storytelling overlays (video walks through the inn)
+           75–90%    project showcase
+           100%      pin releases -> footer
+         ============================================================= -->
+    <section class="scene" id="top" aria-label="Apresentação do estúdio Saltline">
+      <div class="stage" data-stage>
+
+        <!-- ---------- VIDEO LAYER ----------
+             TROCAR O VÍDEO AQUI (swap the video here):
+             1. Put your file in /assets.
+             2. Edit/reorder the <source> tags below. The browser picks the first one it can play.
+             3. For the smoothest scrubbing, encode with a keyframe on EVERY frame. ffmpeg is now installed and the
+                optimized versions were already generated (assets/scene-scrub.mp4 ~9.6 MB, assets/scene-scrub.webm ~26 MB).
+                Commands used:
+                ffmpeg -i in.mp4 -c:v libx264 -g 1 -crf 24 -an -movflags +faststart -vf scale=1280:-2 assets/scene-scrub.mp4
+                ffmpeg -i in.mp4 -c:v libvpx-vp9 -g 1 -crf 34 -b:v 0 -an -vf scale=1280:-2 assets/scene-scrub.webm
+             Only the mp4 is published (webm and original omitted to keep the deploy small).
+             4. Phones in portrait load data-portrait-src instead (9:16 centre crop, 3.7 MB vs 9.6 MB):
+                ffmpeg -i in.mp4 -c:v libx264 -g 1 -crf 24 -pix_fmt yuv420p -an -movflags +faststart -vf "crop=trunc(ih*9/16/2)*2:ih,scale=-2:720" assets/scene-scrub-portrait.mp4
+             5. data-fps MUST match the file's frame rate (ffprobe shows r_frame_rate). The canvas
+                renderer (js/scrub-video.js) blends neighbouring frames using it.
+             preload="none" + poster: JS fetches the file once as a blob (js/scrub-video.js).
+             With preload="auto" the browser downloaded it a second time AND Chrome's cache lock
+             made the blob fetch wait up to 20 s for that first download — no smooth seeking meanwhile.
+             The poster (first frame, 70 KB) paints instantly; regenerate it when the video changes:
+                ffmpeg -i assets/scene-scrub.mp4 -frames:v 1 -q:v 4 assets/scene-poster.jpg
+        -->
+        <div class="media" aria-hidden="true">
+          <video class="media__video" data-scrub-video muted playsinline preload="none" poster="assets/scene-poster.jpg" disablepictureinpicture tabindex="-1"
+                 data-fps="24"
+                 data-portrait-src="assets/scene-scrub-portrait.mp4"
+                 data-portrait-media="(max-aspect-ratio: 5/8)">
+            <source src="assets/scene-scrub.mp4"  type="video/mp4" />
+          </video>
+          <div class="media__fallback"></div>
+          <div class="media__veil" data-veil></div>
+          <div class="media__grain"></div>
+        </div>
+
+        <!-- ---------- 1. HERO (0%) ---------- -->
+        <div class="layer hero" data-hero>
+          <p class="eyebrow hero__eyebrow">
+            <span>Estúdio de design independente</span>
+            <span aria-hidden="true">—</span>
+            <span>Desde 2019, litoral brasileiro</span>
+          </p>
+          <h1 class="hero__title" data-split>
+            <span class="hero__line">Espaços</span>
+            <span class="hero__line hero__line--indent"><em>que</em> respiram</span>
+          </h1>
+          <div class="hero__foot">
+            <p class="hero__lede">Criamos portas digitais para marcas de hospitalidade que vivem à beira-mar: sites em que você quase consegue entrar.</p>
+            <div class="scroll-cue" data-scroll-cue>
+              <span class="scroll-cue__track" aria-hidden="true"><span class="scroll-cue__thumb"></span></span>
+              <span>Role para entrar</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ---------- 2. STORYTELLING (20–70%) ---------- -->
+        <div class="layer story" id="story" data-story>
+          <h2 class="visually-hidden">Como trabalhamos</h2>
+
+          <article class="chapter chapter--left" data-chapter>
+            <p class="chapter__index">01 / Chegada</p>
+            <h3 class="chapter__title" data-split>Todo lugar começa num primeiro passo.</h3>
+            <p class="chapter__body">Começamos por onde o seu hóspede começa: a porta, a luz, o som do corredor.</p>
+          </article>
+
+          <article class="chapter chapter--right" data-chapter>
+            <p class="chapter__index">02 / Resultados</p>
+            <h3 class="chapter__title" data-split>Design calmo. Números altos.</h3>
+            <dl class="metrics">
+              <div class="metric"><dt>Reservas diretas</dt><dd><span data-count="38" data-prefix="+" data-suffix="%">+38%</span></dd></div>
+              <div class="metric"><dt>Tempo médio de carregamento</dt><dd><span data-count="1.2" data-decimals="1" data-suffix="s">1.2s</span></dd></div>
+              <div class="metric"><dt>Prêmios do setor</dt><dd><span data-count="14">14</span></dd></div>
+            </dl>
+          </article>
+
+          <article class="chapter chapter--center" data-chapter>
+            <p class="chapter__index">03 / Ofício</p>
+            <blockquote class="chapter__quote">
+              <p data-split>“Design é o silêncio entre as ondas.”</p>
+            </blockquote>
+          </article>
+
+          <article class="chapter chapter--left" data-chapter>
+            <p class="chapter__index">04 / Horizonte</p>
+            <h3 class="chapter__title" data-split>Então o quarto se abre para o mar.</h3>
+            <p class="chapter__body">Marca, fluxos de reserva e web imersiva: um só time, uma só maré.</p>
+          </article>
+        </div>
+
+        <!-- ---------- 3. SHOWCASE (75–90%) ---------- -->
+        <div class="layer work" id="work" data-work>
+          <header class="work__head">
+            <p class="eyebrow">Projetos selecionados · 2024—2026</p>
+            <h2 class="work__title" data-split>Espaços que construímos</h2>
+          </header>
+          <ul class="cards" role="list">
+            <li class="card" data-card style="--hue: 18">
+              <a class="card__link" href="#contact">
+                <span class="card__art" aria-hidden="true"><span class="card__num">01</span></span>
+                <span class="card__meta">
+                  <span class="card__name">Maré Pousada</span>
+                  <span class="card__tags">Marca · Site · 2026</span>
+                </span>
+                <span class="card__arrow" aria-hidden="true">↗</span>
+              </a>
+            </li>
+            <li class="card" data-card style="--hue: 190">
+              <a class="card__link" href="#contact">
+                <span class="card__art" aria-hidden="true"><span class="card__num">02</span></span>
+                <span class="card__meta">
+                  <span class="card__name">Casa Duna</span>
+                  <span class="card__tags">UX de reservas · 2025</span>
+                </span>
+                <span class="card__arrow" aria-hidden="true">↗</span>
+              </a>
+            </li>
+            <li class="card" data-card style="--hue: 42">
+              <a class="card__link" href="#contact">
+                <span class="card__art" aria-hidden="true"><span class="card__num">03</span></span>
+                <span class="card__meta">
+                  <span class="card__name">Lumen Inn</span>
+                  <span class="card__tags">Web imersiva · 2025</span>
+                </span>
+                <span class="card__arrow" aria-hidden="true">↗</span>
+              </a>
+            </li>
+            <li class="card" data-card style="--hue: 150">
+              <a class="card__link" href="#contact">
+                <span class="card__art" aria-hidden="true"><span class="card__num">04</span></span>
+                <span class="card__meta">
+                  <span class="card__name">Alto Mar Spa</span>
+                  <span class="card__tags">Identidade · Arte · 2024</span>
+                </span>
+                <span class="card__arrow" aria-hidden="true">↗</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- ---------- HUD (progress) ---------- -->
+        <div class="hud" aria-hidden="true">
+          <span class="hud__label" data-hud-label>00 — Intro</span>
+          <span class="hud__bar"><span class="hud__fill" data-hud-fill></span></span>
+          <span class="hud__time" data-hud-time>0.00s</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= 4. FOOTER / CONTACT (100%) ================= -->
+  <footer class="footer" id="contact">
+    <p class="eyebrow">Tem um lugar que merece ser visitado?</p>
+    <a class="cta" href="mailto:hello@saltline.studio">
+      <span class="cta__text">Vamos conversar</span>
+      <span class="cta__arrow" aria-hidden="true">→</span>
+    </a>
+    <div class="footer__grid">
+      <address class="footer__col">
+        <span class="footer__label">Estúdio</span>
+        Rua da Praia 120<br />Florianópolis, SC
+      </address>
+      <div class="footer__col">
+        <span class="footer__label">Email</span>
+        <a href="mailto:hello@saltline.studio">hello@saltline.studio</a>
+      </div>
+      <nav class="footer__col" aria-label="Redes sociais">
+        <span class="footer__label">Redes</span>
+        <ul class="socials">
+          <li><a href="https://www.instagram.com/" rel="noopener" target="_blank">Instagram<span class="visually-hidden"> (abre em nova aba)</span></a></li>
+          <li><a href="https://www.behance.net/" rel="noopener" target="_blank">Behance<span class="visually-hidden"> (abre em nova aba)</span></a></li>
+          <li><a href="https://www.linkedin.com/" rel="noopener" target="_blank">LinkedIn<span class="visually-hidden"> (abre em nova aba)</span></a></li>
+          <li><a href="https://www.awwwards.com/" rel="noopener" target="_blank">Awwwards<span class="visually-hidden"> (abre em nova aba)</span></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer__base">
+      <p>© <span data-year>2026</span> Saltline Studio. Todos os direitos reservados.</p>
+      <a href="#top" class="to-top">Voltar ao topo ↑</a>
+    </div>
+    <p class="footer__giant" aria-hidden="true">Saltline</p>
+  </footer>
+
+  <!-- Libraries (fixed versions) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
+  <!-- App (ES modules run after deferred scripts, in order) -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
