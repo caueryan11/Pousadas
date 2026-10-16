@@ -1,0 +1,1377 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>The Skyline Collection · Residência 71A</title>
+<meta name="description" content="Residência 71A no The Skyline Collection: cobertura de andar inteiro em Midtown Manhattan, com janelas do piso ao teto e vista desimpedida. Conceito de demonstração.">
+<meta name="theme-color" content="#0e0e0f">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="/1/assets/poster.jpg">
+
+<style>
+/* ==========================================================================
+   Tokens
+   ========================================================================== */
+:root{
+  --ink:#0d0d0e;
+  --char:#141416;
+  --graphite:#1b1b1e;
+  --lead:#26262a;
+  --text:#f2eee7;
+  --text-2:#bdb7ad;
+  --muted:#8a857d;
+  --copper:#b47a52;
+  --copper-2:#8e5a3a;
+  --champagne:#d9c4a1;
+  --line:rgba(217,196,161,.16);
+  --line-strong:rgba(217,196,161,.34);
+
+  --serif:"Cormorant Garamond", "Cormorant", Garamond, "Times New Roman", serif;
+  --sans:"Jost", "Helvetica Neue", Arial, sans-serif;
+
+  --gutter:clamp(16px, 4vw, 56px);
+  --max:1360px;
+  --ease:cubic-bezier(.22,.61,.24,1);
+  --ease-out:cubic-bezier(.16,1,.3,1);
+  --vh:100vh;
+}
+@supports (height:100svh){ :root{ --vh:100svh; } }
+
+*,*::before,*::after{ box-sizing:border-box; }
+html{ -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+html.lenis, html.lenis body{ height:auto; }
+.lenis.lenis-smooth{ scroll-behavior:auto !important; }
+.lenis.lenis-stopped{ overflow:hidden; }
+html.is-loading, html.is-loading body{ overflow:hidden; }
+
+body{
+  margin:0;
+  background:var(--ink);
+  color:var(--text);
+  font-family:var(--sans);
+  font-weight:300;
+  font-size:16px;
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  overflow-x:hidden;
+}
+img,svg,video{ display:block; max-width:100%; }
+a{ color:inherit; }
+button,input,textarea,select{ font:inherit; color:inherit; }
+::selection{ background:var(--copper); color:var(--ink); }
+:focus-visible{ outline:1px solid var(--champagne); outline-offset:4px; }
+
+.skip{
+  position:fixed; left:16px; top:-60px; z-index:200;
+  background:var(--champagne); color:var(--ink); padding:10px 16px;
+  font-size:12px; letter-spacing:.2em; text-transform:uppercase; text-decoration:none;
+  transition:top .3s var(--ease);
+}
+.skip:focus{ top:16px; }
+.sr-only{ position:absolute!important; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; border:0; }
+
+/* Type primitives */
+.eyebrow{
+  font-family:var(--sans); font-weight:400; font-size:11px;
+  letter-spacing:.34em; text-transform:uppercase; color:var(--champagne);
+  display:inline-flex; align-items:center; gap:14px;
+}
+.eyebrow::before{ content:""; width:28px; height:1px; background:var(--copper); }
+.display{
+  font-family:var(--serif); font-weight:300; line-height:1.02; letter-spacing:-.01em; margin:0;
+}
+.display em{ font-style:italic; color:var(--champagne); }
+.spec-label{
+  font-size:10.5px; letter-spacing:.32em; text-transform:uppercase; color:var(--muted); font-weight:400;
+}
+.wrap{ width:100%; max-width:var(--max); margin:0 auto; padding:0 var(--gutter); }
+
+/* ==========================================================================
+   Preloader
+   ========================================================================== */
+.preloader{
+  position:fixed; inset:0; z-index:100; background:var(--ink);
+  display:grid; place-items:center;
+  clip-path:inset(0 0 0 0);
+  transition:clip-path 1.25s var(--ease-out), visibility 0s linear 1.3s;
+}
+.preloader.is-done{ clip-path:inset(0 0 100% 0); visibility:hidden; }
+.preloader__inner{ width:min(420px, calc(100% - 48px)); text-align:center; }
+.preloader__mark{ font-size:10.5px; letter-spacing:.42em; text-transform:uppercase; color:var(--text-2); margin-bottom:38px; }
+.preloader__count{
+  font-family:var(--serif); font-weight:300; font-size:clamp(76px, 14vw, 132px); line-height:1;
+  font-variant-numeric:tabular-nums lining-nums; color:var(--text); letter-spacing:-.02em;
+  display:inline-flex; align-items:flex-start; gap:4px;
+}
+.preloader__count sup{ font-family:var(--sans); font-size:13px; letter-spacing:.2em; color:var(--copper); margin-top:18px; }
+.preloader__bar{ position:relative; height:1px; background:var(--line); margin:34px 0 18px; overflow:hidden; }
+.preloader__bar span{ position:absolute; inset:0; background:linear-gradient(90deg, var(--copper-2), var(--champagne)); transform-origin:0 50%; transform:scaleX(0); }
+.preloader__note{ display:flex; justify-content:space-between; font-size:10px; letter-spacing:.3em; text-transform:uppercase; color:var(--muted); }
+.preloader.is-done .preloader__inner{ opacity:0; transform:translateY(-24px); transition:opacity .5s var(--ease), transform .8s var(--ease); }
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+.site-head{
+  position:fixed; inset:0 0 auto 0; z-index:50;
+  display:flex; align-items:center; justify-content:space-between; gap:24px;
+  padding:22px var(--gutter);
+  background:linear-gradient(180deg, rgba(13,13,14,.72), rgba(13,13,14,0));
+  transition:transform .6s var(--ease), background .4s var(--ease);
+}
+.site-head.is-solid{ background:rgba(13,13,14,.86); -webkit-backdrop-filter:blur(12px); backdrop-filter:blur(12px); border-bottom:1px solid var(--line); }
+.wordmark{ display:flex; align-items:center; gap:14px; text-decoration:none; }
+.wordmark__glyph{ width:30px; height:30px; flex:none; }
+.wordmark__text{ font-size:10.5px; letter-spacing:.38em; text-transform:uppercase; font-weight:400; line-height:1.4; }
+.wordmark__text b{ display:block; font-weight:400; color:var(--champagne); letter-spacing:.38em; }
+.nav{ display:flex; align-items:center; gap:clamp(18px, 2.6vw, 40px); }
+.nav a{
+  font-size:10.5px; letter-spacing:.3em; text-transform:uppercase; text-decoration:none; color:var(--text-2);
+  position:relative; padding:6px 0; transition:color .3s var(--ease);
+}
+.nav a::after{ content:""; position:absolute; left:0; right:0; bottom:0; height:1px; background:var(--copper); transform:scaleX(0); transform-origin:right; transition:transform .5s var(--ease); }
+.nav a:hover{ color:var(--text); }
+.nav a:hover::after{ transform:scaleX(1); transform-origin:left; }
+.nav .btn-ghost{ padding:11px 18px; border:1px solid var(--line-strong); color:var(--text); }
+.nav .btn-ghost::after{ display:none; }
+.nav .btn-ghost:hover{ border-color:var(--champagne); }
+
+/* ==========================================================================
+   Hero / video stage
+   ========================================================================== */
+.hero{ position:relative; height:var(--vh); min-height:520px; background:var(--ink); overflow:hidden; }
+.stage{ position:absolute; inset:0; }
+.stage__clip{
+  position:absolute; inset:0; overflow:hidden;
+  clip-path:inset(14% 9% 15% 9% round 2px);
+  will-change:clip-path;
+  background:var(--char);
+}
+.stage__video{
+  position:absolute; inset:0; width:100%; height:100%; object-fit:cover;
+  transform:scale(1.08); transform-origin:50% 55%;
+  will-change:transform;
+  background:var(--char) url("/1/assets/poster.jpg") center/cover no-repeat;
+}
+.stage__canvas{
+  position:absolute; inset:0; width:100%; height:100%; display:none;
+  transform:scale(1.08); transform-origin:50% 55%; will-change:transform;
+}
+.is-canvas .stage__canvas{ display:block; }
+.is-canvas .stage__video{ visibility:hidden; }
+.stage__veil{
+  position:absolute; inset:0; pointer-events:none;
+  background:
+    radial-gradient(120% 90% at 50% 45%, rgba(13,13,14,0) 45%, rgba(13,13,14,.55) 100%),
+    linear-gradient(180deg, rgba(13,13,14,.35) 0%, rgba(13,13,14,0) 22%, rgba(13,13,14,0) 62%, rgba(13,13,14,.7) 100%);
+}
+.stage__shade{ position:absolute; inset:0; background:var(--ink); opacity:0; pointer-events:none; }
+/* Cinematic frame ticks (sit on the initial inset) */
+.stage__frame{ position:absolute; inset:14% 9% 15% 9%; pointer-events:none; }
+.stage__frame i{ position:absolute; width:18px; height:18px; border-color:var(--copper); border-style:solid; border-width:0; }
+.stage__frame i:nth-child(1){ left:-10px; top:-10px; border-left-width:1px; border-top-width:1px; }
+.stage__frame i:nth-child(2){ right:-10px; top:-10px; border-right-width:1px; border-top-width:1px; }
+.stage__frame i:nth-child(3){ left:-10px; bottom:-10px; border-left-width:1px; border-bottom-width:1px; }
+.stage__frame i:nth-child(4){ right:-10px; bottom:-10px; border-right-width:1px; border-bottom-width:1px; }
+
+.hero__title{
+  position:absolute; left:0; right:0; top:50%; transform:translateY(-50%);
+  text-align:center; padding:0 var(--gutter); pointer-events:none;
+}
+.hero__title .eyebrow{ justify-content:center; margin-bottom:22px; }
+.hero__title .eyebrow::after{ content:""; width:28px; height:1px; background:var(--copper); }
+.hero__title h1{ font-size:clamp(46px, 8.4vw, 132px); text-shadow:0 2px 40px rgba(0,0,0,.45); }
+.hero__title p{ margin:22px 0 0; font-size:11px; letter-spacing:.42em; text-transform:uppercase; color:var(--text-2); }
+
+.hero__hint{
+  position:absolute; left:50%; bottom:clamp(24px, 4vh, 40px); transform:translateX(-50%);
+  display:flex; flex-direction:column; align-items:center; gap:12px;
+  font-size:10px; letter-spacing:.36em; text-transform:uppercase; color:var(--text-2);
+}
+.hero__hint span{ width:1px; height:44px; background:linear-gradient(var(--champagne), transparent); position:relative; overflow:hidden; }
+.hero__hint span::after{ content:""; position:absolute; left:0; top:-40%; width:1px; height:40%; background:var(--text); animation:drip 2.2s var(--ease) infinite; }
+@keyframes drip{ to{ top:110%; } }
+
+/* Hotspots */
+.hotspots{ position:absolute; inset:0; pointer-events:none; }
+.hotspot{
+  position:absolute; max-width:min(360px, 78vw);
+  opacity:0; transform:translateY(26px);
+  transition:opacity .9s var(--ease), transform 1.1s var(--ease-out);
+}
+.hotspot.is-active{ opacity:1; transform:none; }
+.hotspot__idx{ display:flex; align-items:center; gap:12px; font-size:10px; letter-spacing:.34em; color:var(--champagne); text-transform:uppercase; }
+.hotspot__idx::before{ content:""; width:0; height:1px; background:var(--copper); transition:width 1.1s var(--ease-out) .15s; }
+.hotspot.is-active .hotspot__idx::before{ width:42px; }
+.hotspot h2{ font-family:var(--serif); font-weight:300; font-size:clamp(30px, 3.4vw, 50px); line-height:1.04; margin:14px 0 12px; text-shadow:0 2px 30px rgba(0,0,0,.55); }
+.hotspot p{ margin:0; font-size:13.5px; line-height:1.7; color:var(--text-2); text-shadow:0 1px 18px rgba(0,0,0,.7); }
+.hotspot[data-pos="bl"]{ left:calc(var(--gutter) + 2vw); bottom:16vh; }
+.hotspot[data-pos="tr"]{ right:calc(var(--gutter) + 2vw); top:17vh; text-align:right; }
+.hotspot[data-pos="tr"] .hotspot__idx{ justify-content:flex-end; }
+.hotspot[data-pos="br"]{ right:calc(var(--gutter) + 2vw); bottom:16vh; text-align:right; }
+.hotspot[data-pos="br"] .hotspot__idx{ justify-content:flex-end; }
+.hotspot[data-pos="tl"]{ left:calc(var(--gutter) + 2vw); top:17vh; }
+
+/* HUD */
+.hud{
+  position:absolute; left:var(--gutter); right:var(--gutter); bottom:clamp(18px, 3.4vh, 34px);
+  display:grid; grid-template-columns:1fr minmax(120px, 2.2fr) 1fr; align-items:center; gap:28px;
+  font-size:10px; letter-spacing:.3em; text-transform:uppercase; color:var(--text-2);
+  opacity:0; transition:opacity .8s var(--ease);
+}
+.hud.is-on{ opacity:1; }
+.hud__time{ text-align:right; font-variant-numeric:tabular-nums; }
+.hud__track{ position:relative; height:1px; background:rgba(242,238,231,.18); }
+.hud__fill{ position:absolute; inset:0; background:var(--champagne); transform-origin:0 50%; transform:scaleX(0); }
+.hud__tick{ position:absolute; top:-3px; width:1px; height:7px; background:var(--copper); }
+
+/* ==========================================================================
+   Sections
+   ========================================================================== */
+section{ position:relative; }
+.section-pad{ padding:clamp(96px, 14vw, 200px) 0; }
+
+/* Residence intro */
+.intro{ background:var(--ink); }
+.intro__grid{ display:grid; grid-template-columns:repeat(12, 1fr); gap:clamp(20px, 3vw, 48px); align-items:start; }
+.intro__lead{ grid-column:1 / span 7; }
+.intro__lead h2{ font-size:clamp(40px, 5.6vw, 86px); margin-top:28px; }
+.intro__body{ grid-column:9 / span 4; padding-top:clamp(12px, 5vw, 92px); color:var(--text-2); font-size:15px; }
+.intro__body p{ margin:0 0 1.2em; }
+.intro__sig{ font-family:var(--serif); font-style:italic; font-size:22px; color:var(--champagne); margin-top:28px !important; }
+
+.specs{
+  margin:clamp(72px, 9vw, 140px) 0 0; padding:0;
+  display:grid; grid-template-columns:repeat(4, 1fr);
+  border-top:1px solid var(--line);
+}
+.specs div{ padding:30px 24px 30px 0; border-bottom:1px solid var(--line); }
+.specs div + div{ padding-left:24px; border-left:1px solid var(--line); }
+.specs div:nth-child(4n+1){ padding-left:0; border-left:0; }
+.specs dt{ font-size:10.5px; letter-spacing:.32em; text-transform:uppercase; color:var(--muted); }
+.specs dd{ margin:12px 0 0; font-family:var(--serif); font-weight:300; font-size:clamp(28px, 2.8vw, 42px); line-height:1.05; font-variant-numeric:lining-nums; }
+.specs dd small{ font-family:var(--sans); font-size:11px; letter-spacing:.2em; color:var(--text-2); margin-left:6px; text-transform:uppercase; }
+.specs__note{ margin-top:18px; font-size:11px; letter-spacing:.18em; color:var(--muted); text-transform:uppercase; }
+
+/* Gallery */
+.gallery{ background:var(--char); }
+.gallery__head{ display:flex; justify-content:space-between; align-items:flex-end; gap:32px; margin-bottom:clamp(44px, 6vw, 84px); flex-wrap:wrap; }
+.gallery__head h2{ font-size:clamp(38px, 5vw, 76px); margin-top:22px; }
+.gallery__head p{ max-width:360px; color:var(--text-2); font-size:14.5px; margin:0; }
+.mosaic{
+  display:grid; grid-template-columns:repeat(12, 1fr);
+  grid-auto-rows:clamp(150px, 15vw, 220px);
+  gap:clamp(10px, 1.4vw, 20px);
+}
+.tile{ position:relative; margin:0; overflow:hidden; background:var(--graphite); isolation:isolate; }
+.tile img{ width:100%; height:100%; object-fit:cover; transform:scale(1.04); transition:transform 1.6s var(--ease-out), filter 1s var(--ease); filter:saturate(.92) brightness(.92); }
+.tile:hover img{ transform:scale(1.0); filter:saturate(1) brightness(1); }
+.tile figcaption{
+  position:absolute; left:0; right:0; bottom:0; padding:22px 22px 18px;
+  display:flex; justify-content:space-between; align-items:flex-end; gap:16px;
+  background:linear-gradient(0deg, rgba(13,13,14,.82), rgba(13,13,14,0));
+  font-size:10px; letter-spacing:.3em; text-transform:uppercase; color:var(--text-2);
+}
+.tile figcaption strong{ display:block; font-family:var(--serif); font-weight:400; font-size:22px; letter-spacing:0; text-transform:none; color:var(--text); margin-top:4px; line-height:1.15; }
+.tile figcaption > span:last-child{ color:var(--champagne); white-space:nowrap; }
+.t-great   { grid-column:1 / span 7; grid-row:span 3; }
+.t-spire   { grid-column:8 / span 5; grid-row:span 4; }
+.t-ceiling { grid-column:1 / span 3; grid-row:span 2; }
+.t-walnut  { grid-column:4 / span 4; grid-row:span 1; }
+.t-concierge{ grid-column:4 / span 4; grid-row:span 1; }
+.t-plan    { grid-column:1 / span 6; grid-row:span 3; }
+.t-spa     { grid-column:7 / span 3; grid-row:span 2; }
+.t-valet   { grid-column:10 / span 3; grid-row:span 2; }
+.t-terrace { grid-column:7 / span 6; grid-row:span 1; }
+.t-windows { grid-column:1 / span 12; grid-row:span 2; }
+
+/* Composed (non-photo) tiles */
+.tile--compose{
+  background:
+    radial-gradient(140% 120% at 100% 0%, rgba(180,122,82,.16), transparent 55%),
+    linear-gradient(160deg, #1f1f23, #151517);
+  border:1px solid var(--line);
+  padding:24px; display:flex; flex-direction:column; justify-content:space-between;
+}
+.tile--compose::before{
+  content:""; position:absolute; inset:0; z-index:-1; opacity:.5;
+  background-image:repeating-linear-gradient(90deg, rgba(217,196,161,.05) 0 1px, transparent 1px 28px);
+}
+.tile--compose .tile__icon{ width:56px; height:56px; color:var(--champagne); }
+.tile--compose h3{ font-family:var(--serif); font-weight:300; font-size:clamp(24px, 2.2vw, 32px); line-height:1.08; margin:0 0 8px; }
+.tile--compose p{ margin:0; font-size:12.5px; color:var(--text-2); line-height:1.6; }
+.tile--compose .spec-label{ display:block; margin-bottom:10px; color:var(--champagne); }
+.tile--row{ flex-direction:row; align-items:center; gap:22px; justify-content:flex-start; }
+.tile--row .tile__icon{ flex:none; }
+
+/* Floor plan */
+.t-plan{ padding:26px 26px 22px; }
+.plan{ width:100%; height:100%; display:flex; flex-direction:column; gap:12px; }
+.plan__head{ display:flex; justify-content:space-between; align-items:baseline; gap:12px; flex-wrap:wrap; }
+.plan__head h3{ margin:0; }
+.plan svg{ flex:1; min-height:0; width:100%; }
+.plan .wall{ fill:none; stroke:var(--champagne); stroke-width:3.2; }
+.plan .part{ fill:none; stroke:var(--champagne); stroke-width:1.2; opacity:.8; }
+.plan .glass{ fill:none; stroke:var(--copper); stroke-width:1; }
+.plan .terr{ fill:rgba(217,196,161,.04); stroke:var(--champagne); stroke-width:.8; stroke-dasharray:4 4; opacity:.7; }
+.plan .door{ fill:none; stroke:var(--text-2); stroke-width:.7; }
+.plan text{ font-family:var(--sans); font-size:8.2px; letter-spacing:.22em; fill:var(--text-2); text-transform:uppercase; }
+.plan text.big{ font-size:9.5px; fill:var(--text); }
+.plan .draw{ stroke-dasharray:1; stroke-dashoffset:0; }
+.is-enhanced .plan .draw{ stroke-dashoffset:1; transition:stroke-dashoffset 2.6s var(--ease); }
+.is-enhanced .plan.is-in .draw{ stroke-dashoffset:0; }
+.is-enhanced .plan text{ opacity:0; transition:opacity 1s var(--ease) 1.4s; }
+.is-enhanced .plan.is-in text{ opacity:1; }
+
+/* Amenities */
+.amenities{ background:var(--ink); }
+.amen__grid{ display:grid; grid-template-columns:repeat(12, 1fr); gap:clamp(20px, 3vw, 48px); }
+.amen__intro{ grid-column:1 / span 4; }
+.amen__intro h2{ font-size:clamp(38px, 4.4vw, 66px); margin-top:22px; }
+.amen__intro p{ color:var(--text-2); font-size:14.5px; margin:24px 0 0; max-width:340px; }
+.amen__list{ grid-column:6 / span 7; list-style:none; margin:0; padding:0; border-top:1px solid var(--line); counter-reset:a; }
+.amen__list li{
+  display:grid; grid-template-columns:56px 1fr auto; gap:20px; align-items:baseline;
+  padding:26px 0; border-bottom:1px solid var(--line); counter-increment:a;
+}
+.amen__list li::before{ content:counter(a, decimal-leading-zero); font-size:10.5px; letter-spacing:.3em; color:var(--copper); }
+.amen__list h3{ margin:0; font-family:var(--serif); font-weight:400; font-size:clamp(22px, 2vw, 28px); line-height:1.2; }
+.amen__list p{ margin:6px 0 0; font-size:13.5px; color:var(--text-2); }
+.amen__list span{ font-size:10px; letter-spacing:.3em; text-transform:uppercase; color:var(--muted); white-space:nowrap; }
+
+/* Tour / contact */
+.tour{ background:var(--char); border-top:1px solid var(--line); }
+.tour__grid{ display:grid; grid-template-columns:repeat(12, 1fr); gap:clamp(24px, 4vw, 64px); }
+.tour__info{ grid-column:1 / span 5; }
+.tour__info h2{ font-size:clamp(42px, 5.4vw, 84px); margin-top:22px; }
+.tour__info > p{ color:var(--text-2); font-size:15px; max-width:420px; margin:26px 0 0; }
+.loc{ margin-top:48px; display:grid; grid-template-columns:1fr 1fr; gap:28px; }
+.loc address{ font-style:normal; font-size:14px; line-height:1.8; color:var(--text); }
+.loc .spec-label{ display:block; margin-bottom:10px; }
+.loc a{ text-decoration:none; border-bottom:1px solid var(--line-strong); transition:border-color .3s; }
+.loc a:hover{ border-color:var(--champagne); }
+.map{ margin-top:36px; border:1px solid var(--line); background:var(--ink); aspect-ratio:16/8; position:relative; overflow:hidden; }
+.map svg{ width:100%; height:100%; }
+.map__coords{ position:absolute; left:16px; bottom:12px; font-size:9.5px; letter-spacing:.28em; color:var(--muted); text-transform:uppercase; }
+
+.form{ grid-column:7 / span 6; align-self:start; border:1px solid var(--line); padding:clamp(26px, 4vw, 56px); background:linear-gradient(180deg, rgba(255,255,255,.015), rgba(255,255,255,0)); }
+.form h3{ margin:0 0 6px; font-family:var(--serif); font-weight:300; font-size:32px; }
+.form > p{ margin:0 0 34px; color:var(--text-2); font-size:13.5px; }
+.field{ position:relative; margin-bottom:26px; }
+.field-row{ display:grid; grid-template-columns:1fr 1fr; gap:24px; }
+.field label{ display:block; font-size:10px; letter-spacing:.32em; text-transform:uppercase; color:var(--muted); margin-bottom:8px; }
+.field input, .field textarea{
+  width:100%; background:transparent; border:0; border-bottom:1px solid var(--line-strong);
+  padding:10px 0 12px; font-size:16px; font-weight:300; color:var(--text); border-radius:0;
+  transition:border-color .35s var(--ease);
+  color-scheme:dark;
+}
+.field textarea{ resize:vertical; min-height:96px; line-height:1.6; }
+.field input:focus, .field textarea:focus{ outline:none; border-bottom-color:var(--champagne); }
+.field input::placeholder, .field textarea::placeholder{ color:#5f5b55; }
+.field[data-invalid] input, .field[data-invalid] textarea{ border-bottom-color:#c57b62; }
+.field__err{ display:block; min-height:18px; margin-top:6px; font-size:11.5px; letter-spacing:.04em; color:#d9937a; }
+.btn{
+  display:inline-flex; align-items:center; justify-content:center; gap:16px;
+  padding:18px 30px; border:1px solid var(--champagne); background:var(--champagne); color:var(--ink);
+  font-size:11px; font-weight:500; letter-spacing:.32em; text-transform:uppercase; cursor:pointer;
+  transition:background .4s var(--ease), color .4s var(--ease);
+}
+.btn svg{ width:22px; transition:transform .5s var(--ease-out); }
+.btn:hover{ background:transparent; color:var(--champagne); }
+.btn:hover svg{ transform:translateX(6px); }
+.form__foot{ display:flex; justify-content:space-between; align-items:center; gap:20px; flex-wrap:wrap; margin-top:8px; }
+.form__foot small{ font-size:11px; color:var(--muted); max-width:260px; line-height:1.5; }
+.form__done{ display:none; }
+.form.is-sent form{ display:none; }
+.form.is-sent .form__done{ display:block; }
+.form__done h3{ font-size:40px; }
+.form__done p{ color:var(--text-2); }
+
+/* Footer */
+.foot{ background:var(--ink); padding:72px 0 calc(36px + env(safe-area-inset-bottom)); border-top:1px solid var(--line); }
+.foot__top{ display:flex; justify-content:space-between; align-items:flex-end; gap:32px; flex-wrap:wrap; }
+.foot__big{ font-family:var(--serif); font-weight:300; font-size:clamp(40px, 7vw, 108px); line-height:.95; margin:0; letter-spacing:-.01em; }
+.foot__big em{ color:var(--champagne); }
+.foot__meta{ display:flex; gap:40px; font-size:10.5px; letter-spacing:.3em; text-transform:uppercase; color:var(--text-2); flex-wrap:wrap; }
+.demo-note{
+  margin-top:56px; padding:20px 0 0; border-top:1px solid var(--line);
+  display:flex; justify-content:space-between; gap:24px; flex-wrap:wrap;
+  font-size:11.5px; line-height:1.7; color:var(--muted);
+}
+.demo-note strong{ color:var(--champagne); font-weight:400; letter-spacing:.24em; text-transform:uppercase; font-size:10.5px; margin-right:10px; }
+.demo-note p{ margin:0; max-width:780px; }
+
+/* Reveal */
+.is-enhanced [data-reveal]{ opacity:0; transform:translateY(34px); transition:opacity 1.1s var(--ease), transform 1.3s var(--ease-out); transition-delay:var(--d, 0s); }
+.is-enhanced [data-reveal].is-in{ opacity:1; transform:none; }
+
+/* ==========================================================================
+   Static mode (reduced motion / no GSAP): no pin, no scrub
+   ========================================================================== */
+.is-static .hero{ height:auto; min-height:0; overflow:visible; }
+.is-static .stage{ position:relative; height:var(--vh); min-height:480px; }
+.is-static .stage__clip{ clip-path:none; }
+.is-static .stage__video{ transform:none; }
+.is-static .stage__frame, .is-static .hero__hint, .is-static .hud{ display:none; }
+.is-static .hotspots{ position:relative; inset:auto; pointer-events:auto; display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:32px; padding:56px var(--gutter) 24px; max-width:var(--max); margin:0 auto; }
+.is-static .hotspot{ position:static; opacity:1; transform:none; max-width:none; text-align:left !important; }
+.is-static .hotspot .hotspot__idx{ justify-content:flex-start !important; }
+.is-static .hotspot .hotspot__idx::before{ width:42px; }
+.is-static .hotspot h2{ font-size:30px; text-shadow:none; }
+.is-static .play-tour{ display:inline-flex; }
+.play-tour{ display:none; position:absolute; left:50%; bottom:32px; transform:translateX(-50%); }
+
+.motion-pill{
+  position:fixed; right:16px; bottom:calc(16px + env(safe-area-inset-bottom)); z-index:60;
+  display:flex; align-items:center; gap:14px; max-width:calc(100% - 32px);
+  padding:10px 10px 10px 16px; background:rgba(20,20,22,.92); border:1px solid var(--line-strong);
+  -webkit-backdrop-filter:blur(10px); backdrop-filter:blur(10px);
+  font-size:11.5px; line-height:1.45; color:var(--text-2);
+}
+.motion-pill[hidden]{ display:none; }
+.motion-pill button{
+  flex:none; padding:9px 14px; border:1px solid var(--champagne); background:transparent; color:var(--champagne);
+  font-size:10px; letter-spacing:.24em; text-transform:uppercase; cursor:pointer;
+}
+.motion-pill button:hover{ background:var(--champagne); color:var(--ink); }
+
+@media (prefers-reduced-motion: reduce){
+  html:not(.motion-forced) *, html:not(.motion-forced) *::before, html:not(.motion-forced) *::after{ animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important; scroll-behavior:auto !important; }
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+@media (max-width: 1080px){
+  .intro__lead{ grid-column:1 / -1; }
+  .intro__body{ grid-column:1 / span 9; padding-top:0; }
+  .specs{ grid-template-columns:repeat(2, 1fr); }
+  .specs div:nth-child(4n+1){ padding-left:24px; border-left:1px solid var(--line); }
+  .specs div:nth-child(2n+1){ padding-left:0; border-left:0; }
+  .mosaic{ grid-template-columns:repeat(6, 1fr); grid-auto-rows:clamp(150px, 24vw, 230px); }
+  .t-great{ grid-column:1 / span 6; grid-row:span 2; }
+  .t-spire{ grid-column:1 / span 3; grid-row:span 3; }
+  .t-ceiling{ grid-column:4 / span 3; grid-row:span 2; }
+  .t-walnut{ grid-column:4 / span 3; grid-row:span 1; }
+  .t-concierge{ grid-column:1 / span 6; }
+  .t-plan{ grid-column:1 / span 6; grid-row:span 3; }
+  .t-spa{ grid-column:1 / span 3; }
+  .t-valet{ grid-column:4 / span 3; }
+  .t-terrace{ grid-column:1 / span 6; grid-row:span 2; }
+  .t-windows{ grid-column:1 / span 6; }
+  .amen__intro{ grid-column:1 / -1; }
+  .amen__list{ grid-column:1 / -1; }
+  .tour__info, .form{ grid-column:1 / -1; }
+  .nav a:not(.btn-ghost){ display:none; }
+}
+@media (max-width: 640px){
+  body{ font-size:15px; }
+  .site-head{ padding:16px var(--gutter); }
+  .wordmark__text{ font-size:9.5px; letter-spacing:.3em; }
+  .nav .btn-ghost{ padding:9px 12px; font-size:9.5px; letter-spacing:.24em; }
+  .stage__clip{ clip-path:inset(18% 5% 22% 5% round 2px); }
+  .stage__frame{ inset:18% 5% 22% 5%; }
+  .stage__frame i{ width:12px; height:12px; }
+  .hero__title h1{ font-size:clamp(40px, 12.5vw, 64px); }
+  .hero__title p{ letter-spacing:.3em; font-size:9.5px; }
+  .hero__title .eyebrow{ font-size:9.5px; letter-spacing:.26em; }
+  .hero__title .eyebrow::before, .hero__title .eyebrow::after{ display:none; }
+  .hotspot{ left:var(--gutter) !important; right:var(--gutter) !important; top:auto !important; bottom:calc(64px + env(safe-area-inset-bottom)) !important; text-align:left !important; max-width:none; }
+  .hotspot .hotspot__idx{ justify-content:flex-start !important; }
+  .hotspot h2{ font-size:32px; }
+  .hotspot p{ font-size:13px; }
+  .hud{ grid-template-columns:1fr auto; gap:16px; }
+  .hud__label{ display:none; }
+  .hud__track{ order:0; }
+  .intro__body{ grid-column:1 / -1; }
+  .specs{ grid-template-columns:1fr 1fr; }
+  .specs div{ padding:22px 14px 22px 0; }
+  .specs div:nth-child(2n){ padding-left:14px; }
+  .mosaic{ grid-template-columns:1fr 1fr; grid-auto-rows:150px; }
+  .t-great,.t-concierge,.t-plan,.t-terrace,.t-windows{ grid-column:1 / -1; }
+  .t-great{ grid-row:span 2; }
+  .t-spire{ grid-column:1 / span 1; grid-row:span 4; }
+  .t-ceiling{ grid-column:2 / span 1; grid-row:span 2; }
+  .t-walnut{ grid-column:2 / span 1; grid-row:span 2; }
+  .t-plan{ grid-row:span 3; padding:18px; }
+  .t-spa,.t-valet{ grid-column:span 1; grid-row:span 2; padding:18px; }
+  .t-concierge{ grid-row:span 1; }
+  .t-windows{ grid-row:span 2; }
+  .tile figcaption{ padding:16px 14px 12px; }
+  .tile figcaption strong{ font-size:18px; }
+  .tile figcaption > span:last-child{ display:none; }
+  .amen__list li{ grid-template-columns:40px 1fr; }
+  .amen__list span{ grid-column:2; }
+  .field-row{ grid-template-columns:1fr; gap:0; }
+  .loc{ grid-template-columns:1fr; }
+  .btn{ width:100%; }
+  .play-tour.btn{ width:auto; white-space:nowrap; }
+}
+</style>
+</head>
+
+<body>
+<a class="skip" href="#residence">Ir para os detalhes da residência</a>
+
+<!-- Preloader -->
+<div class="preloader" id="preloader" role="status" aria-live="polite" aria-label="Carregando o percurso pela residência">
+  <div class="preloader__inner">
+    <div class="preloader__mark">The Skyline Collection · Residência 71A</div>
+    <div class="preloader__count"><span data-count>0</span><sup>%</sup></div>
+    <div class="preloader__bar" aria-hidden="true"><span data-bar></span></div>
+    <div class="preloader__note"><span>Preparando o percurso</span><span>Midtown · NYC</span></div>
+  </div>
+</div>
+
+<div class="motion-pill" id="motion-pill" role="status" hidden><span data-motion-text></span><button type="button"></button></div>
+
+<header class="site-head">
+  <a class="wordmark" href="#top" aria-label="The Skyline Collection, voltar ao topo">
+    <svg class="wordmark__glyph" viewBox="0 0 30 30" aria-hidden="true">
+      <rect x=".5" y=".5" width="29" height="29" fill="none" stroke="#b47a52"/>
+      <path d="M6 24V15h3v9M11 24V9h3l0 15M16 24V5.5l1.5-2 1.5 2V24M21 24V12h3v12" fill="none" stroke="#d9c4a1" stroke-width="1"/>
+    </svg>
+    <span class="wordmark__text">The Skyline<b>Collection</b></span>
+  </a>
+  <nav class="nav" aria-label="Principal">
+    <a href="#residence">Residência</a>
+    <a href="#gallery">Galeria</a>
+    <a href="#amenities">Comodidades</a>
+    <a class="btn-ghost" href="#tour">Visita Privada</a>
+  </nav>
+</header>
+
+<main id="top">
+  <!-- Hero: pinned, scroll-scrubbed walkthrough -->
+  <section class="hero" id="hero" aria-label="Vídeo do percurso pela Residência 71A">
+    <div class="stage">
+      <div class="stage__clip">
+        <video class="stage__video" id="tour-video" muted playsinline preload="auto" poster="/1/assets/poster.jpg"
+               aria-label="Percurso pela Residência 71A: o hall do elevador privativo, a grande sala com janelas do piso ao teto, o terraço e o skyline de Midtown"
+               disablepictureinpicture disableremoteplayback></video>
+        <canvas class="stage__canvas" id="tour-canvas" role="img" aria-label="Percurso pela Residência 71A: o hall do elevador privativo, a grande sala com janelas do piso ao teto, o terraço e o skyline de Midtown"></canvas>
+        <div class="stage__veil"></div>
+        <div class="stage__shade"></div>
+      </div>
+      <div class="stage__frame" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+
+      <div class="hero__title">
+        <span class="eyebrow">Residência 71A · Midtown Manhattan</span>
+        <h1 class="display">The <em>Skyline</em> Collection</h1>
+        <p>Cobertura de andar inteiro, 248 m acima da Fifth Avenue</p>
+      </div>
+
+      <div class="hero__hint" aria-hidden="true">Role para entrar<span></span></div>
+      <button class="btn play-tour" type="button" id="play-tour">Reproduzir o percurso</button>
+
+      <div class="hud" aria-hidden="true">
+        <span class="hud__label">Percurso · Residência 71A</span>
+        <div class="hud__track"><div class="hud__fill"></div></div>
+        <span class="hud__time"><span data-time>00:00</span> / <span data-dur>00:08</span></span>
+      </div>
+    </div>
+
+    <!-- Hotspots timed to the footage (seconds) -->
+    <div class="hotspots">
+      <article class="hotspot" data-in="0.55" data-out="1.6" data-pos="bl">
+        <div class="hotspot__idx">01 / 04 · Chegada</div>
+        <h2>Elevador Privativo</h2>
+        <p>Um elevador com chave abre direto em um hall revestido de nogueira. Sem corredor, sem vizinhos no andar.</p>
+      </article>
+      <article class="hotspot" data-in="1.75" data-out="3.55" data-pos="tr">
+        <div class="hotspot__idx">02 / 04 · A Grande Sala</div>
+        <h2>Janelas do Piso ao Teto</h2>
+        <p>Vidros de 3,35 m de altura envolvem 12,8 m lineares da grande sala, emoldurados por uma única coluna de pedra.</p>
+      </article>
+      <article class="hotspot" data-in="3.75" data-out="5.75" data-pos="bl">
+        <div class="hotspot__idx">03 / 04 · Interior e Exterior</div>
+        <h2>Paredes de Vidro Embutidas</h2>
+        <p>A fachada sul desliza por completo e se abre para um terraço de pedra aquecida de 102&nbsp;m².</p>
+      </article>
+      <article class="hotspot" data-in="6.0" data-out="99" data-pos="tr">
+        <div class="hotspot__idx">04 / 04 · A Vista</div>
+        <h2>Vista Desimpedida de Midtown</h2>
+        <p>O Empire State Building, ao sul, protegido por direitos aéreos. Nada se erguerá no caminho.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Residence -->
+  <section class="intro section-pad" id="residence" aria-labelledby="residence-title">
+    <div class="wrap">
+      <div class="intro__grid">
+        <div class="intro__lead" data-reveal>
+          <span class="eyebrow">A Residência</span>
+          <h2 class="display" id="residence-title">Medida não em metros quadrados, <em>mas em skyline.</em></h2>
+        </div>
+        <div class="intro__body" data-reveal style="--d:.15s">
+          <p>A Residência 71A ocupa todo o septuagésimo primeiro andar, com orientação sul, leste e oeste. Todos os ambientes principais se voltam para a cidade, e a grande sala encara diretamente o Empire State Building.</p>
+          <p>Os interiores são revestidos em nogueira americana de corte radial, mármore Calacatta acetinado e reboco desempenado à mão, com iluminação embutida em sancas para que as janelas permaneçam limpas depois do anoitecer.</p>
+          <p class="intro__sig">Disponível para visita reservada.</p>
+        </div>
+      </div>
+
+      <dl class="specs" data-reveal>
+        <div><dt>Valor pedido</dt><dd>US$ 28,5<small style="text-transform:none">mi</small></dd></div>
+        <div><dt>Área interna</dt><dd>451<small style="text-transform:none">m²</small></dd></div>
+        <div><dt>Terraço</dt><dd>102<small style="text-transform:none">m²</small></dd></div>
+        <div><dt>Dormitórios</dt><dd>3<small>+ biblioteca</small></dd></div>
+        <div><dt>Banheiros</dt><dd>3,5</dd></div>
+        <div><dt>Pé-direito</dt><dd>3,45<small style="text-transform:none">m</small></dd></div>
+        <div><dt>Orientação</dt><dd>S · L · O</dd></div>
+        <div><dt>Condomínio</dt><dd>US$ 9.840<small style="text-transform:none">/ mês</small></dd></div>
+      </dl>
+      <p class="specs__note">Anúncio de demonstração · valores ilustrativos</p>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery section-pad" id="gallery" aria-labelledby="gallery-title">
+    <div class="wrap">
+      <div class="gallery__head">
+        <div data-reveal>
+          <span class="eyebrow">Detalhes &amp; Planta</span>
+          <h2 class="display" id="gallery-title">Materiais discretos, <em>vistas eloquentes.</em></h2>
+        </div>
+        <p data-reveal style="--d:.1s">Imagens do percurso, a planta do andar inteiro e os serviços que acompanham o edifício.</p>
+      </div>
+
+      <div class="mosaic">
+        <figure class="tile t-great" data-reveal>
+          <img src="/1/assets/img/great-room.jpg" alt="Grande sala com dois sofás cor creme, mesa de centro em mármore e o skyline de Midtown além do vidro" loading="lazy" decoding="async" width="1600" height="900">
+          <figcaption><span>Grande Sala<strong>Onze metros e meio, da parede ao vidro</strong></span><span>01</span></figcaption>
+        </figure>
+
+        <figure class="tile t-spire" data-reveal style="--d:.1s">
+          <img src="/1/assets/img/spire.jpg" alt="O Empire State Building iluminado ao entardecer, visto do terraço" loading="lazy" decoding="async" width="600" height="1080">
+          <figcaption><span>Ao Sul<strong>O Empire State, emoldurado</strong></span><span>02</span></figcaption>
+        </figure>
+
+        <figure class="tile t-ceiling" data-reveal>
+          <img src="/1/assets/img/ceiling.jpg" alt="Iluminação em sanca ao longo do teto e uma coluna redonda de pedra" loading="lazy" decoding="async" width="860" height="620">
+          <figcaption><span>Arquitetura<strong>Luz de sanca embutida</strong></span><span>03</span></figcaption>
+        </figure>
+
+        <figure class="tile t-walnut" data-reveal style="--d:.08s">
+          <img src="/1/assets/img/walnut.jpg" alt="Piso de nogueira em tábuas largas encontrando um tapete de lã claro" loading="lazy" decoding="async" width="1100" height="420">
+          <figcaption><span>Materiais<strong>Nogueira de corte radial, tábuas de 23 cm</strong></span><span>04</span></figcaption>
+        </figure>
+
+        <div class="tile tile--compose tile--row t-concierge" data-reveal style="--d:.12s">
+          <svg class="tile__icon" viewBox="0 0 56 56" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1">
+            <path d="M8 40h40M10 40a18 18 0 0 1 36 0"/><path d="M28 22v-4M24 18h8"/><path d="M4 44h48"/>
+          </svg>
+          <div><span class="spec-label">Serviço</span><h3>Concierge 24 Horas</h3><p>Porteiro, concierge e gerente residencial no local, dia e noite.</p></div>
+        </div>
+
+        <div class="tile tile--compose t-plan" data-reveal>
+          <div class="plan" id="plan">
+            <div class="plan__head"><h3>Planta do Andar Inteiro</h3><span class="spec-label">Residência 71A · 451 <span style="text-transform:none">m²</span></span></div>
+            <svg viewBox="0 0 620 400" role="img" aria-labelledby="plan-t plan-d">
+              <title id="plan-t">Planta da Residência 71A</title>
+              <desc id="plan-d">Hall do elevador privativo e biblioteca a oeste, cozinha e sala de jantar ao norte, grande sala central abrindo-se ao sul para o terraço, e a suíte master com o terceiro quarto a leste.</desc>
+              <!-- terrace -->
+              <rect class="terr draw" pathLength="1" x="150" y="300" width="300" height="78"/>
+              <!-- outer walls -->
+              <rect class="wall draw" pathLength="1" x="20" y="20" width="580" height="280"/>
+              <!-- partitions -->
+              <path class="part draw" pathLength="1" d="M130 20V300M130 120H20M130 210H20M130 120H450M290 20V120M450 20V300M450 150H600M530 20V150"/>
+              <!-- glass on the south facade -->
+              <path class="glass draw" pathLength="1" d="M150 296H430M150 304H430M20 40V280M600 170V290M16 40V280M604 170V290"/>
+              <!-- elevator -->
+              <rect class="part draw" pathLength="1" x="34" y="34" width="40" height="40"/>
+              <path class="door" d="M40 40L68 68M68 40L40 68"/>
+              <!-- door swings -->
+              <path class="door" d="M130 70a24 24 0 0 1 -24 24M130 150a22 22 0 0 0 -22 -22M450 200a24 24 0 0 0 -24 24M450 60a22 22 0 0 1 -22 22"/>
+              <text x="28" y="98">Hall</text><text x="28" y="110" font-size="6.5">Elevador privativo</text>
+              <text x="28" y="170">Biblioteca</text>
+              <text x="28" y="258">Lavabo</text>
+              <text x="160" y="72">Cozinha</text>
+              <text x="320" y="72">Jantar</text>
+              <text class="big" x="226" y="214">Grande Sala</text>
+              <text x="470" y="72">Quarto 3</text>
+              <text x="540" y="72" font-size="7">Banho</text>
+              <text class="big" x="474" y="232">Suíte Master</text>
+              <text x="262" y="346">Terraço</text>
+              <!-- compass + scale -->
+              <g transform="translate(560 350)" class="door"><circle r="14"/><path d="M0 -10L4 6 0 3 -4 6Z" fill="currentColor"/></g>
+              <text x="553" y="384" font-size="7">N</text>
+              <path class="door" d="M20 360h80M20 356v8M60 358v4M100 356v8"/>
+              <text x="20" y="378" font-size="6.5">0 · 3 · 6 m</text>
+            </svg>
+          </div>
+        </div>
+
+        <div class="tile tile--compose t-spa" data-reveal style="--d:.08s">
+          <svg class="tile__icon" viewBox="0 0 56 56" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1">
+            <path d="M6 34c4-3 8-3 11 0s8 3 11 0 8-3 11 0 8 3 11 0"/><path d="M6 42c4-3 8-3 11 0s8 3 11 0 8-3 11 0 8 3 11 0"/><circle cx="28" cy="18" r="7"/>
+          </svg>
+          <div><span class="spec-label">Bem-estar</span><h3>O Spa</h3><p>Piscina de água salgada de 23 m, hammam e duas salas de tratamento.</p></div>
+        </div>
+
+        <div class="tile tile--compose t-valet" data-reveal style="--d:.16s">
+          <svg class="tile__icon" viewBox="0 0 56 56" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1">
+            <path d="M8 36l5-12h30l5 12v8H8z"/><circle cx="17" cy="44" r="4"/><circle cx="39" cy="44" r="4"/><path d="M8 36h40M20 24l3-8h10l3 8"/>
+          </svg>
+          <div><span class="spec-label">Chegada</span><h3>Valet &amp; Pátio de Acesso</h3><p>Porte-cochère fechado, com estacionamento assistido e carregamento para veículos elétricos.</p></div>
+        </div>
+
+        <figure class="tile t-terrace" data-reveal style="--d:.1s">
+          <img src="/1/assets/img/terrace.jpg" alt="Paredes de vidro abertas para um terraço de pedra com poltronas e o skyline" loading="lazy" decoding="async" width="1600" height="900">
+          <figcaption><span>Terraço<strong>102 m², pedra aquecida</strong></span><span>05</span></figcaption>
+        </figure>
+
+        <figure class="tile t-windows" data-reveal>
+          <img src="/1/assets/img/skyline.jpg" alt="Vista panorâmica ao entardecer de Midtown Manhattan, da borda do terraço" loading="lazy" decoding="async" width="1600" height="900" style="object-position:50% 40%">
+          <figcaption><span>Panorama<strong>Do Hudson ao East River, sem interrupções</strong></span><span>06</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Amenities -->
+  <section class="amenities section-pad" id="amenities" aria-labelledby="amen-title">
+    <div class="wrap amen__grid">
+      <div class="amen__intro" data-reveal>
+        <span class="eyebrow">O Edifício</span>
+        <h2 class="display" id="amen-title">Três mil metros quadrados <em>de comodidades privativas.</em></h2>
+        <p>Distribuídas em três andares e compartilhadas por sessenta e quatro residências, para que nada jamais pareça cheio.</p>
+      </div>
+      <ol class="amen__list">
+        <li data-reveal><div><h3>Concierge &amp; Gerente Residencial</h3><p>Atendimento vinte e quatro horas, com um responsável dedicado à Residência 71A.</p></div><span>24 / 7</span></li>
+        <li data-reveal style="--d:.05s"><div><h3>O Spa &amp; a Piscina</h3><p>Piscina de raia com água salgada, hammam, banheira fria e duas salas de tratamento.</p></div><span>12º andar</span></li>
+        <li data-reveal style="--d:.1s"><div><h3>Valet &amp; Pátio de Acesso</h3><p>Chegada privativa de carro pela 57th Street, estacionamento assistido e carregamento para veículos elétricos.</p></div><span>Térreo</span></li>
+        <li data-reveal style="--d:.15s"><div><h3>O Sky Club</h3><p>Lounge dos moradores, sala de jantar reservada e cozinha de apoio no 80º andar.</p></div><span>80º andar</span></li>
+        <li data-reveal style="--d:.2s"><div><h3>Adega &amp; Sala de Cinema</h3><p>Armazenamento privativo climatizado e sala de cinema com vinte lugares.</p></div><span>Subsolo</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Private tour -->
+  <section class="tour section-pad" id="tour" aria-labelledby="tour-title">
+    <div class="wrap tour__grid">
+      <div class="tour__info" data-reveal>
+        <span class="eyebrow">Mediante Agendamento</span>
+        <h2 class="display" id="tour-title">Agende uma <em>visita privada.</em></h2>
+        <p>As visitas são conduzidas pessoalmente por nosso diretor comercial, ao entardecer se desejado, quando a cidade está em seu melhor momento vista do septuagésimo primeiro andar.</p>
+
+        <div class="loc">
+          <div>
+            <span class="spec-label">Galeria de Vendas</span>
+            <address>The Skyline Collection<br>Midtown, Manhattan<br>New York, NY 10019</address>
+          </div>
+          <div>
+            <span class="spec-label">Contato</span>
+            <address><a href="tel:+12125550171">+1 (212) 555-0171</a><br><a href="mailto:tours@skyline-collection.example">tours@skyline-collection.example</a></address>
+          </div>
+        </div>
+
+        <div class="map" aria-hidden="true">
+          <svg viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice">
+            <g transform="rotate(-29 200 100)" stroke="rgba(217,196,161,.13)" stroke-width=".6">
+              <path d="M-100 20H500M-100 44H500M-100 68H500M-100 92H500M-100 116H500M-100 140H500M-100 164H500M-100 188H500M-100 212H500"/>
+              <path d="M40 -100V300M100 -100V300M160 -100V300M220 -100V300M280 -100V300M340 -100V300"/>
+              <rect x="160" y="-80" width="120" height="124" fill="rgba(217,196,161,.06)" stroke="rgba(217,196,161,.25)"/>
+              <path d="M-100 150 C 60 120, 200 210, 520 120" stroke="rgba(180,122,82,.45)" stroke-width="1.2" fill="none"/>
+            </g>
+            <text x="248" y="40" fill="rgba(217,196,161,.5)" font-family="Jost, sans-serif" font-size="7" letter-spacing="2">CENTRAL PARK</text>
+            <circle cx="200" cy="110" r="13" fill="none" stroke="#b47a52" stroke-width=".8" opacity=".6"/>
+            <circle cx="200" cy="110" r="3.5" fill="#d9c4a1"/>
+            <text x="214" y="126" fill="#f2eee7" font-family="Jost, sans-serif" font-size="7.5" letter-spacing="2">RESIDÊNCIA 71A</text>
+          </svg>
+          <span class="map__coords">40,7646° N · 73,9781° O · Ilustrativo</span>
+        </div>
+      </div>
+
+      <div class="form" id="form-card" data-reveal style="--d:.12s">
+        <form id="tour-form" novalidate>
+          <h3>Solicite uma visita</h3>
+          <p>Respondemos em até um dia útil para confirmar o horário.</p>
+          <div class="field-row">
+            <div class="field">
+              <label for="f-name">Nome completo</label>
+              <input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="e-name" placeholder="Alexandra Reyes">
+              <span class="field__err" id="e-name" aria-live="polite"></span>
+            </div>
+            <div class="field">
+              <label for="f-email">E-mail</label>
+              <input id="f-email" name="email" type="email" autocomplete="email" required aria-describedby="e-email" placeholder="nome@dominio.com.br">
+              <span class="field__err" id="e-email" aria-live="polite"></span>
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-date">Data preferida</label>
+            <input id="f-date" name="date" type="date" required aria-describedby="e-date">
+            <span class="field__err" id="e-date" aria-live="polite"></span>
+          </div>
+          <div class="field">
+            <label for="f-msg">Mensagem <span style="text-transform:none;letter-spacing:.05em">(opcional)</span></label>
+            <textarea id="f-msg" name="message" rows="3" maxlength="800" aria-describedby="e-msg" placeholder="Horário preferido, dúvidas sobre a residência…"></textarea>
+            <span class="field__err" id="e-msg" aria-live="polite"></span>
+          </div>
+          <div class="form__foot">
+            <button class="btn" type="submit">Solicitar visita
+              <svg viewBox="0 0 22 10" aria-hidden="true" fill="none" stroke="currentColor"><path d="M0 5h20M16 1l4 4-4 4"/></svg>
+            </button>
+            <small>Formulário de demonstração: nada é enviado nem armazenado.</small>
+          </div>
+        </form>
+        <div class="form__done" tabindex="-1" id="form-done" role="status">
+          <span class="eyebrow">Solicitação recebida</span>
+          <h3 class="display">Obrigado, <em data-name></em></h3>
+          <p>Em um site real, nossa equipe comercial confirmaria agora a sua visita para <strong data-date></strong>. Esta é uma demonstração de design, portanto nenhuma mensagem foi enviada.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__top">
+      <p class="foot__big">The <em>Skyline</em><br>Collection</p>
+      <div class="foot__meta"><span>Residência 71A</span><span>Midtown · Manhattan · NY</span><span>© 2026</span></div>
+    </div>
+    <div class="demo-note">
+      <p><strong>Material de demonstração</strong>Esta página é um conceito de design. The Skyline Collection, a Residência 71A, todos os preços, valores, plantas, endereços e dados de contato são fictícios. Não constitui oferta de venda ou locação e não tem vínculo com nenhuma imobiliária ou incorporadora. Vídeo e imagens foram gerados por IA.</p>
+      <p>Conceito &amp; desenvolvimento: demo</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Libraries (pinned versions). The page degrades to a static layout if they fail to load. -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+
+<script type="module">
+/* ==========================================================================
+   Config: swap VIDEO_SRC for an absolute URL when hosting elsewhere
+   (CodePen, Artifacts) where the relative /1/assets/ folder is not available.
+   ========================================================================== */
+const CONFIG = {
+  // Primary renderer: pre-rendered frame sequence drawn on <canvas>.
+  // 381 frames = 8 s motion-interpolated from 24 to 48 fps (ffmpeg minterpolate, mci), WebP q50.
+  FRAMES: {
+    count: 381,
+    fps: 48,
+    dir: { lg: '/1/assets/frames/lg/', sm: '/1/assets/frames/sm/' },   // 1280x720 / 960x540
+    name: (i) => `f${String(i).padStart(3, '0')}.webp`,
+    concurrency: 8,
+    revealStride: 8,   // hero is revealed once every 8th frame (48 frames, ~1/8 of the weight) is in
+  },
+  // Fallback renderer (frames unavailable): seek a <video>. Swap for an absolute URL on CodePen/Artifacts.
+  VIDEO_SRC: '/1/assets/skyline-scrub.mp4',   // all-intra 1280px encode, made for scrubbing
+  VIDEO_FALLBACK: '/1/assets/source.mp4',     // original 1080p file
+  SCROLL_VIEWPORTS: 5,                     // pinned scroll length, in viewport heights
+  SPRING: { omega: 14, maxSpeed: 1.2 },   // critically damped spring on progress; maxSpeed in progress/s
+  END_HOLD: 0.06,                          // last 6% of the pin holds the final frame
+};
+
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
+const fmt = (t) => { const s = Math.max(0, t); return `00:${String(Math.floor(s)).padStart(2, '0')}`; };
+
+const root = document.documentElement;
+// Motion mode. Static (no pin/scrub) when: the OS asks for reduced motion, the URL has ?static,
+// or GSAP failed to load. A visitor can opt back in ("Ativar animação"), remembered per browser.
+const MOTION_KEY = 'skyline:motion';
+const store = {
+  get() { try { return localStorage.getItem(MOTION_KEY); } catch (e) { return null; } },
+  set(v) { try { v ? localStorage.setItem(MOTION_KEY, v) : localStorage.removeItem(MOTION_KEY); } catch (e) { /* private mode */ } },
+};
+const prefersReduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const forcedStatic = /[?&]static\b/.test(location.search);
+const motionOptIn = store.get() === 'on';
+const reduced = forcedStatic || (prefersReduced && !motionOptIn);
+const hasGSAP = !!(window.gsap && window.ScrollTrigger);
+const ENHANCED = hasGSAP && !reduced;
+root.classList.add(ENHANCED ? 'is-enhanced' : 'is-static');
+if (ENHANCED && prefersReduced) root.classList.add('motion-forced');
+const staticReason = !hasGSAP ? 'cdn' : forcedStatic ? 'url' : prefersReduced && !motionOptIn ? 'os' : null;
+if (!hasGSAP) console.warn('[skyline] GSAP/ScrollTrigger unavailable: static layout.');
+if (staticReason && hasGSAP) console.info(`[skyline] static layout (reason: ${staticReason === 'url' ? '?static in URL' : 'prefers-reduced-motion'}).`);
+
+function initMotionToggle() {
+  const pill = $('#motion-pill'), text = $('[data-motion-text]', pill), btn = $('button', pill);
+  if (ENHANCED && !(prefersReduced && motionOptIn)) return;   // normal case: nothing to show
+  if (!hasGSAP) return;                                         // libraries missing: toggle would not help
+  pill.hidden = false;
+  if (ENHANCED) {
+    text.textContent = 'Animação ativada apesar do “reduzir movimento” do sistema.';
+    btn.textContent = 'Desativar';
+    btn.addEventListener('click', () => { store.set(null); location.reload(); });
+  } else {
+    text.textContent = staticReason === 'url'
+      ? 'Modo estático (?static na URL).'
+      : 'Rolagem animada desativada: o sistema pede “reduzir movimento”.';
+    btn.textContent = 'Ativar animação';
+    btn.addEventListener('click', () => {
+      if (staticReason === 'os') store.set('on');
+      const url = new URL(location.href);
+      url.searchParams.delete('static');
+      location.href = url.pathname + (url.search || '') + url.hash;
+    });
+  }
+}
+
+const video = $('#tour-video');
+const canvas = $('#tour-canvas');
+// target/current are normalised progress (0..1) through the footage; vel is the spring velocity.
+const state = { target: 0, current: 0, vel: 0, duration: 8, ready: false, mode: 'none' };
+const stats = { ticks: 0, draws: 0, seeks: 0 };
+window.__skyline = { video, canvas, state, stats, CONFIG };   // handy for debugging
+
+/* ---------------------------------------------------------------- Loader */
+const Loader = (() => {
+  const el = $('#preloader'), num = $('[data-count]'), bar = $('[data-bar]');
+  let real = 0, shown = 0, finishing = null, last = performance.now(), stopped = false;
+  const set = (p) => { real = Math.max(real, clamp(p)); };
+  const step = () => {
+    if (stopped) return;
+    last = performance.now();
+    shown += (real - shown) * 0.09;
+    if (real - shown < 0.004) shown = real;
+    num.textContent = Math.round(shown * 100);
+    bar.style.transform = `scaleX(${shown})`;
+    if (finishing && shown >= 0.999) { stopped = true; clearInterval(watchdog); finishing(); finishing = null; }
+  };
+  const tick = () => { step(); if (!stopped) requestAnimationFrame(tick); };
+  // Watchdog: background tabs pause rAF; keep the counter moving so the page never stays locked.
+  const watchdog = setInterval(() => { if (performance.now() - last > 250) step(); }, 120);
+  requestAnimationFrame(tick);
+  const finish = () => new Promise((res) => {
+    set(1);
+    finishing = () => {
+      el.classList.add('is-done');
+      root.classList.remove('is-loading');
+      el.setAttribute('aria-label', 'Percurso pronto');
+      setTimeout(res, reduced ? 50 : 650);
+    };
+    if (reduced) { shown = 1; }
+  });
+  return { set, finish };
+})();
+
+/* ------------------------------------------------------- Video loading */
+function whenReady(v, timeout = 15000) {
+  return new Promise((resolve, reject) => {
+    if (v.readyState >= 3) return resolve();
+    const done = () => { clean(); resolve(); };
+    const fail = () => { clean(); reject(v.error || new Error('video error')); };
+    const t = setTimeout(done, timeout);
+    const clean = () => { clearTimeout(t); v.removeEventListener('canplaythrough', done); v.removeEventListener('error', fail); };
+    v.addEventListener('canplaythrough', done, { once: true });
+    v.addEventListener('error', fail, { once: true });
+  });
+}
+
+async function viaFetch(src, onProgress) {
+  const res = await fetch(src);
+  if (!res.ok || !res.body) throw new Error(`HTTP ${res.status}`);
+  const total = Number(res.headers.get('content-length')) || 0;
+  const reader = res.body.getReader();
+  const chunks = []; let got = 0;
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    chunks.push(value); got += value.length;
+    if (total) onProgress((got / total) * 0.96);
+  }
+  video.src = URL.createObjectURL(new Blob(chunks, { type: 'video/mp4' }));
+  await whenReady(video);
+}
+
+async function viaElement(src, onProgress) {
+  video.src = src;
+  video.load();
+  const poll = setInterval(() => {
+    if (video.duration && video.buffered.length) {
+      onProgress((video.buffered.end(video.buffered.length - 1) / video.duration) * 0.96);
+    }
+  }, 120);
+  try { await whenReady(video, 12000); } finally { clearInterval(poll); }
+}
+
+async function loadVideo(onProgress) {
+  // Over http(s) we download the whole file first (real byte progress, seeks never wait on the network).
+  // On file:// fetch is blocked, so we let the <video> element load the file and read buffered ranges.
+  const canFetch = /^https?:$/.test(location.protocol) && 'ReadableStream' in window;
+  for (const src of [CONFIG.VIDEO_SRC, CONFIG.VIDEO_FALLBACK]) {
+    try {
+      if (canFetch) { await viaFetch(src, onProgress); state.mode = 'blob'; }
+      else { await viaElement(src, onProgress); state.mode = 'element'; }
+      return true;
+    } catch (err) {
+      console.warn(`[skyline] could not load ${src}`, err);
+      if (canFetch) {  // last resort: let the element try the same URL
+        try { await viaElement(src, onProgress); state.mode = 'element'; return true; } catch (e) { /* next */ }
+      }
+    }
+  }
+  return false;
+}
+
+/* ------------------------------------------------------ Frame sequence */
+// Loads frames coarse-to-fine (every 32nd, 16th, 8th ... frame) so the whole timeline is scrubbable
+// early; the hero is revealed after the `revealStride` pass and the rest streams in behind it.
+// Plain <img> elements work over file:// and http alike (drawing them never reads pixels back).
+const Frames = (() => {
+  const F = CONFIG.FRAMES;
+  const imgs = new Array(F.count).fill(null);
+  let loadedCount = 0;
+  const small = Math.min(window.innerWidth, window.innerHeight) < 700 || window.innerWidth < 900 ||
+    (navigator.connection && navigator.connection.saveData);
+  const dir = small ? F.dir.sm : F.dir.lg;
+
+  function order() {
+    const seen = new Set(), out = [];
+    const push = (i) => { if (!seen.has(i)) { seen.add(i); out.push(i); } };
+    push(0); push(F.count - 1);
+    for (const s of [32, 16, 8, 4, 2, 1]) for (let i = 0; i < F.count; i += s) push(i);
+    return out;
+  }
+
+  function loadOne(i) {
+    return new Promise((resolve) => {
+      const img = new Image();
+      img.decoding = 'async';
+      img.onload = () => {
+        imgs[i] = img; loadedCount++; resolve(true);
+        if (loadedCount === F.count) stats.allFramesMs = Math.round(performance.now());
+        // Warm the decoder off the main thread; not awaited (decode() can stall in background tabs).
+        if (img.decode) img.decode().catch(() => {});
+      };
+      img.onerror = () => resolve(false);
+      img.src = dir + F.name(i);
+    });
+  }
+
+  // Resolves when the reveal pass is in (or rejects if the first frame cannot load at all).
+  function load(onProgress) {
+    const queue = order();
+    const revealSet = new Set(queue.filter((i) => i % F.revealStride === 0 || i === F.count - 1));
+    let revealDone = 0, failures = 0;
+    return new Promise((resolve, reject) => {
+      let resolved = false;
+      const worker = async () => {
+        while (queue.length) {
+          const i = queue.shift();
+          const ok = await loadOne(i);
+          if (!ok) { failures++; if (i === 0 && !resolved) { resolved = true; reject(new Error('frames unavailable')); queue.length = 0; return; } }
+          if (revealSet.has(i)) {
+            revealDone++;
+            onProgress(revealDone / revealSet.size);
+            if (!resolved && revealDone === revealSet.size) { resolved = true; stats.revealMs = Math.round(performance.now()); resolve({ failures }); }
+          }
+        }
+      };
+      for (let w = 0; w < F.concurrency; w++) worker();
+    });
+  }
+
+  // Nearest decoded frame to index i (searches outward while the fine passes are still streaming)
+  function nearest(i) {
+    if (imgs[i]) return i;
+    for (let d = 1; d < 40; d++) {
+      if (imgs[i - d]) return i - d;
+      if (imgs[i + d]) return i + d;
+    }
+    return -1;
+  }
+
+  return { load, nearest, imgs, get loaded() { return loadedCount; }, get dir() { return dir; } };
+})();
+
+/* ------------------------------------------------------- Canvas render */
+const Painter = (() => {
+  const ctx = canvas.getContext('2d', { alpha: false });
+  let w = 0, h = 0, lastKey = '';
+  function resize() {
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    const nw = Math.round(canvas.clientWidth * dpr), nh = Math.round(canvas.clientHeight * dpr);
+    if (nw && nh && (nw !== w || nh !== h)) { w = canvas.width = nw; h = canvas.height = nh; lastKey = ''; ctx.imageSmoothingQuality = 'high'; }
+  }
+  function cover(img, alpha) {
+    const iw = img.naturalWidth, ih = img.naturalHeight;
+    const s = Math.max(w / iw, h / ih);
+    const dw = iw * s, dh = ih * s;
+    ctx.globalAlpha = alpha;
+    ctx.drawImage(img, (w - dw) / 2, (h - dh) * 0.55, dw, dh);
+  }
+  // pos is a fractional frame index: draw floor(pos), then cross-fade the next frame by the fraction.
+  function draw(pos) {
+    if (!w) resize();
+    const a = Frames.nearest(Math.floor(pos));
+    if (a < 0) return;
+    const frac = pos - Math.floor(pos);
+    const bIdx = Math.floor(pos) + 1;
+    const b = frac > 0.04 && Frames.imgs[bIdx] && a === Math.floor(pos) ? bIdx : -1;
+    const key = b < 0 ? `${a}` : `${a}:${b}:${frac.toFixed(2)}`;
+    if (key === lastKey) return;
+    lastKey = key;
+    cover(Frames.imgs[a], 1);
+    if (b >= 0) cover(Frames.imgs[b], frac);
+    ctx.globalAlpha = 1;
+    stats.draws++;
+  }
+  window.addEventListener('resize', () => { resize(); draw(state.current * (CONFIG.FRAMES.count - 1)); });
+  return { draw, resize };
+})();
+
+/* --------------------------------------------------------- Scrub engine */
+const hud = { el: $('.hud'), fill: $('.hud__fill'), time: $('[data-time]'), dur: $('[data-dur]') };
+const hotspots = $$('.hotspot').map((el) => ({ el, tin: +el.dataset.in, tout: +el.dataset.out, on: false }));
+
+function placeTicks() {
+  const track = $('.hud__track');
+  hotspots.forEach((h) => {
+    const i = document.createElement('span');
+    i.className = 'hud__tick';
+    i.style.left = `${(h.tin / state.duration) * 100}%`;
+    track.appendChild(i);
+  });
+}
+
+function render(t) {
+  hud.fill.style.transform = `scaleX(${t / state.duration})`;
+  hud.time.textContent = fmt(t);
+  for (const h of hotspots) {
+    const on = t >= h.tin && t < h.tout;
+    if (on !== h.on) { h.on = on; h.el.classList.toggle('is-active', on); }
+  }
+}
+
+// Scroll progress of the pin -> normalised footage progress (the tail of the pin holds the last frame)
+function scrollToFootage(p) {
+  return clamp(p / (1 - CONFIG.END_HOLD));
+}
+
+// The scroll position only sets a target; a rAF loop chases it with a critically damped spring
+// (no overshoot) whose speed is capped, so wheel bursts, trackpad flicks and touch flings all
+// turn into the same continuous camera move.
+function stepSpring(dt) {
+  const { omega, maxSpeed } = CONFIG.SPRING;
+  const x = state.current, v = state.vel, d = state.target - x;
+  let nv = v + (omega * omega * d - 2 * omega * v) * dt;
+  nv = Math.max(-maxSpeed, Math.min(maxSpeed, nv));
+  let nx = x + nv * dt;
+  if (Math.abs(state.target - nx) < 0.00015 && Math.abs(nv) < 0.002) { nx = state.target; nv = 0; }
+  state.current = clamp(nx); state.vel = nv;
+}
+
+function startScrubLoop() {
+  gsap.ticker.add(() => {
+    stats.ticks++;
+    const dt = Math.min(gsap.ticker.deltaRatio(60) / 60, 1 / 20);
+    stepSpring(dt);
+    const p = state.current;
+    if (state.mode === 'frames') {
+      Painter.draw(p * (CONFIG.FRAMES.count - 1));
+    } else if (state.ready) {
+      // Video fallback: only issue a new seek once the previous one is done (no seek queue).
+      const t = p * Math.max(0, state.duration - 1 / 30);
+      if (!video.seeking && Math.abs(video.currentTime - t) > 1 / 48) { video.currentTime = t; stats.seeks++; }
+    }
+    render(p * state.duration);
+  });
+}
+
+/* ------------------------------------------------------ Smooth scrolling */
+let lenis = null;
+function initLenis() {
+  if (!window.Lenis) { console.warn('[skyline] Lenis unavailable: native scroll.'); return; }
+  lenis = new Lenis({ lerp: 0.085, smoothWheel: true, wheelMultiplier: 0.9 });
+  lenis.on('scroll', ScrollTrigger.update);
+  gsap.ticker.add((time) => lenis.raf(time * 1000));
+  gsap.ticker.lagSmoothing(0);
+}
+
+function initAnchors() {
+  $$('a[href^="#"]').forEach((a) => a.addEventListener('click', (e) => {
+    const id = a.getAttribute('href');
+    const target = id === '#top' ? 0 : $(id);
+    if (target === null) return;
+    e.preventDefault();
+    if (lenis) lenis.scrollTo(target, { duration: 1.6 });
+    else if (target === 0) window.scrollTo({ top: 0 });
+    else target.scrollIntoView();
+    if (target) { target.setAttribute('tabindex', '-1'); target.focus({ preventScroll: true }); }
+  }));
+}
+
+/* --------------------------------------------------------------- Hero */
+function initHero() {
+  gsap.registerPlugin(ScrollTrigger);
+  ScrollTrigger.config({ ignoreMobileResize: true });
+
+  const tl = gsap.timeline({
+    defaults: { ease: 'none' },
+    scrollTrigger: {
+      trigger: '#hero',
+      start: 'top top',
+      end: () => `+=${window.innerHeight * CONFIG.SCROLL_VIEWPORTS}`,
+      pin: true,
+      scrub: 0.6,
+      anticipatePin: 1,
+      invalidateOnRefresh: true,
+      onUpdate: (self) => {
+        state.target = scrollToFootage(self.progress);
+        hud.el.classList.toggle('is-on', self.progress > 0.015 && self.progress < 0.995);
+      },
+      onToggle: (self) => { if (!self.isActive) hud.el.classList.remove('is-on'); },
+    },
+  });
+
+  tl.to('.stage__clip', { clipPath: 'inset(0% 0% 0% 0% round 0px)', duration: 0.13, ease: 'power1.inOut' }, 0)
+    .to('.stage__frame', { autoAlpha: 0, scale: 1.08, duration: 0.07 }, 0)
+    .to('.hero__title', { autoAlpha: 0, yPercent: -30, duration: 0.07 }, 0)
+    .to('.hero__hint', { autoAlpha: 0, duration: 0.03 }, 0)
+    .to('.stage__video, .stage__canvas', { scale: 1, duration: 0.94 }, 0)
+    .to('.stage__shade', { opacity: 0.45, duration: 0.05 }, 0.95)
+    .set({}, {}, 1);
+}
+
+/* ---------------------------------------------------------------- Reveal */
+function initReveal() {
+  const els = $$('[data-reveal], #plan');
+  if (!('IntersectionObserver' in window)) { els.forEach((e) => e.classList.add('is-in')); return; }
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((en) => { if (en.isIntersecting) { en.target.classList.add('is-in'); io.unobserve(en.target); } });
+  }, { rootMargin: '0px 0px -12% 0px', threshold: 0.08 });
+  els.forEach((e) => io.observe(e));
+}
+
+/* ------------------------------------------------------------------ Form */
+function initForm() {
+  const form = $('#tour-form'), card = $('#form-card'), done = $('#form-done');
+  const date = $('#f-date');
+  const tomorrow = new Date(); tomorrow.setDate(tomorrow.getDate() + 1);
+  const iso = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+  date.min = iso(tomorrow);
+
+  const rules = {
+    name: (v) => (v.trim().length < 2 ? 'Informe seu nome completo.' : ''),
+    email: (v) => (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v.trim()) ? 'Informe um endereço de e-mail válido.' : ''),
+    date: (v) => (!v ? 'Escolha uma data de preferência.' : v < date.min ? 'Escolha uma data a partir de amanhã.' : ''),
+    message: (v) => (v.length > 800 ? 'Mantenha a mensagem com até 800 caracteres.' : ''),
+  };
+  const check = (input) => {
+    const msg = rules[input.name] ? rules[input.name](input.value) : '';
+    const field = input.closest('.field');
+    field.toggleAttribute('data-invalid', !!msg);
+    input.setAttribute('aria-invalid', msg ? 'true' : 'false');
+    $('.field__err', field).textContent = msg;
+    return !msg;
+  };
+  form.addEventListener('blur', (e) => { if (e.target.name) check(e.target); }, true);
+  form.addEventListener('input', (e) => { if (e.target.closest('[data-invalid]')) check(e.target); });
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const inputs = $$('input, textarea', form);
+    const bad = inputs.filter((i) => !check(i));
+    if (bad.length) { bad[0].focus(); return; }
+    const data = new FormData(form);
+    $('[data-name]', done).textContent = String(data.get('name')).trim().split(/\s+/)[0] + '.';
+    $('[data-date]', done).textContent = new Date(`${data.get('date')}T12:00:00`).toLocaleDateString('pt-BR', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+    card.classList.add('is-sent');
+    done.focus();
+    if (window.ScrollTrigger) ScrollTrigger.refresh();
+  });
+}
+
+/* --------------------------------------------------- Static / fallback */
+function initStatic() {
+  const btn = $('#play-tour');
+  video.controls = false;
+  btn.addEventListener('click', () => {
+    video.controls = true;
+    btn.hidden = true;
+    video.currentTime = 0;
+    video.play().catch(() => {});
+  });
+  $$('.hotspot').forEach((h) => h.classList.add('is-active'));
+}
+
+/* ------------------------------------------------------------------ Boot */
+async function boot() {
+  root.classList.add('is-loading');
+  initForm();
+  initReveal();
+  initMotionToggle();
+
+  if (!ENHANCED) {
+    // Reduced motion or no GSAP: load lightly, no pin/scrub
+    video.preload = 'metadata';
+    video.src = CONFIG.VIDEO_SRC;
+    video.addEventListener('error', () => { video.src = CONFIG.VIDEO_FALLBACK; }, { once: true });
+    initStatic();
+    await Loader.finish();
+    return;
+  }
+
+  if (lenisReady()) lenis.stop();
+
+  try {
+    // 1) Canvas + frame sequence (preferred): reveal after the coarse pass, keep streaming the rest.
+    if (/[?&]video\b/.test(location.search)) throw new Error('?video: forced <video> renderer');
+    await Frames.load(Loader.set);
+    state.mode = 'frames';
+    state.duration = (CONFIG.FRAMES.count - 1) / CONFIG.FRAMES.fps;
+    state.ready = true;
+    root.classList.add('is-canvas');
+    video.removeAttribute('preload');
+    Painter.resize();
+    Painter.draw(0);
+  } catch (err) {
+    // 2) Fallback: seek the all-intra <video>
+    console.warn('[skyline] frame sequence unavailable, falling back to <video>.', err);
+    const ok = await loadVideo(Loader.set);
+    if (ok) {
+      await new Promise((r) => (video.readyState >= 1 ? r() : video.addEventListener('loadedmetadata', r, { once: true })));
+      state.duration = video.duration || 8;
+      video.pause();
+      video.currentTime = 0;
+      state.ready = true;
+      // iOS/Android: a muted play/pause on the first touch "unlocks" frame rendering for later seeks.
+      window.addEventListener('touchstart', () => {
+        const p = video.play();
+        if (p && p.then) p.then(() => video.pause()).catch(() => {});
+      }, { once: true, passive: true });
+    } else {
+      console.warn('[skyline] video unavailable: showing poster only. Set CONFIG.VIDEO_SRC to an absolute URL.');
+    }
+  }
+  hud.dur.textContent = fmt(Math.round(state.duration));
+  placeTicks();
+  initHero();
+  startScrubLoop();
+  render(0);
+
+  await Loader.finish();
+  if (lenis) lenis.start();
+  ScrollTrigger.refresh();
+}
+
+// Header gains a solid backdrop once the walkthrough is behind us
+const head = $('.site-head');
+const onScroll = () => {
+  const r = $('#residence').getBoundingClientRect().top;
+  head.classList.toggle('is-solid', r < 80);
+};
+window.addEventListener('scroll', onScroll, { passive: true });
+onScroll();
+
+function lenisReady() { if (!lenis) initLenis(); return !!lenis; }
+initAnchors();
+boot();
+</script>
+</body>
+</html>
