@@ -348,7 +348,8 @@ export class ScrubVideo {
       v.preload = 'auto';
       v.load();
     };
-    if (location.protocol === 'file:' || !('fetch' in window)) { loadNatively(); return; }
+    // oilumi.com.br serves a CSP with media-src lacking blob:, so blob playback is blocked: stream natively (Range works).
+    if (location.protocol === 'file:' || !('fetch' in window) || v.dataset.noBlob !== undefined) { loadNatively(); return; }
     const candidates = [];
     const portrait = v.dataset.portraitSrc;
     const portraitMq = v.dataset.portraitMedia || '(max-aspect-ratio: 5/8)';
