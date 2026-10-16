@@ -95,14 +95,15 @@ export async function primeVideo(video) {
 /* =====================================================================
  * Image-sequence footage (60fps WebP frames) for the canvas renderer.
  *
- * Memory strategy (476 frames; fully decoded 1600x900 would be ~2.7 GB):
- *  - every encoded WebP is kept as a Blob (~46 MB desktop / ~15 MB mobile set);
+ * Memory strategy (476 frames; fully decoding the whole 1280x720 set would be ~1.7 GB):
+ *  - every encoded WebP is kept as a Blob (~29 MB desktop / ~15 MB mobile set);
  *  - "keyframes" (1 in 8, + the last) are decoded once at <=640px wide and kept for the
- *    session (~61 x 0.9 MB ~ 56 MB): they are the instant fallback anywhere on the timeline;
- *  - full-resolution bitmaps are kept only in a window around the scroll position
- *    (desktop +-18 frames ~ 37 x 5.8 MB ~ 210 MB; mobile/low-memory set +-24 frames at
- *    800x450 ~ 49 x 1.4 MB ~ 70 MB). Frames leaving the window (+6 hysteresis) are
- *    bitmap.close()d and re-decoded from their Blob on demand.
+ *    session (~61 x 0.9 MB ~ 56 MB): the instant fallback anywhere on the timeline;
+ *  - full-resolution bitmaps live in a budget (desktop 72 x 3.5 MB ~ 250 MB; mobile /
+ *    low-memory set 80 x 1.4 MB ~ 115 MB) filled *predictively*: the frames the playhead is
+ *    about to show, in the direction of travel, spaced by how many frames one display tick
+ *    skips at the current speed. Over budget, the frame farthest behind the playhead is
+ *    bitmap.close()d (it can be re-decoded from its Blob).
  *  - narrow screens (<=820px) or navigator.deviceMemory <= 4 use the 800x450 set.
  * ===================================================================== */
 
@@ -110,8 +111,8 @@ export function pickFrameSet(isMobile) {
   const mem = navigator.deviceMemory;
   const lowMem = typeof mem === 'number' && mem <= 4;
   return isMobile || lowMem
-    ? { dir: 'assets/frames-m/', hiRadius: 24, tier: isMobile ? 'mobile' : 'low-memory' }
-    : { dir: 'assets/frames/', hiRadius: 18, tier: 'desktop' };
+    ? { dir: 'assets/frames-m/', hiBudget: 80, tier: isMobile ? 'mobile' : 'low-memory' }
+    : { dir: 'assets/frames/', hiBudget: 72, tier: 'desktop' };
 }
 
 export async function loadManifest(url) {
@@ -137,9 +138,9 @@ async function decode(blob, opts) {
 export function createFrameStore(manifest, base, {
   coarseStep = 8,
   lowWidth = 640,
-  hiRadius = 18,
+  hiBudget = 72,
   fetchConcurrency = 6,
-  decodeConcurrency = 3,
+  decodeConcurrency = Math.min(4, Math.max(2, (navigator.hardwareConcurrency || 4) - 2)),
   onFrame = null,
 } = {}) {
   const n = manifest.count;
@@ -148,21 +149,29 @@ export function createFrameStore(manifest, base, {
   const lowOpts = width > lowWidth
     ? { resizeWidth: lowWidth, resizeHeight: Math.round((lowWidth * height) / width), resizeQuality: 'medium' }
     : null;
-  const evictAt = hiRadius + 6;
+  const clampI = (i) => (i < 0 ? 0 : i > n - 1 ? n - 1 : i);
 
   const blobs = new Array(n);
   const fetchState = new Uint8Array(n); // 0 idle, 1 in flight, 2 done, 3 failed
   const decState = new Uint8Array(n);   // 0 idle, 1 decoding, 2 failed
   const lo = new Array(n);
   const hi = new Array(n);
+  const wanted = new Uint8Array(n);     // 1 = in the current decode plan
+  let plan = [];
+  let planKey = '';
   let hiCount = 0;
   let bytes = 0;
   let fetched = 0;
   let inflight = 0;
   let decInflight = 0;
+  let decodes = 0;
+  let evictions = 0;
   let background = false;
   let focus = 0;
-  let lastC = -1;
+  let vel = 0;     // playhead speed, frames per second (smoothed)
+  let dir = 1;     // last direction of travel
+  let lastT = 0;
+  let lastPos = 0;
 
   const anchors = [];
   for (let i = 0; i < n; i += coarseStep) anchors.push(i);
@@ -187,13 +196,33 @@ export function createFrameStore(manifest, base, {
     }
   }
 
+  /** over budget: close the resident frame least likely to be shown next (farthest behind first) */
+  function evict() {
+    while (hiCount > hiBudget) {
+      let worst = -1;
+      let worstCost = -1;
+      for (let i = 0; i < n; i++) {
+        if (!hi[i] || wanted[i]) continue;
+        const d = (i - focus) * dir;
+        const cost = d >= 0 ? d : -d * 3;
+        if (cost > worstCost) { worstCost = cost; worst = i; }
+      }
+      if (worst < 0) return; // everything resident is wanted: let the budget stretch a little
+      hi[worst].close();
+      hi[worst] = null;
+      hiCount--;
+      evictions++;
+    }
+  }
+
   async function decodeHi(i) {
     decState[i] = 1;
     decInflight++;
     try {
       const bmp = await decode(blobs[i]);
-      if (hi[i] || Math.abs(i - focus) > evictAt) bmp.close(); // scrolled away meanwhile
-      else { hi[i] = bmp; hiCount++; if (onFrame) onFrame(i); }
+      decodes++;
+      if (hi[i]) bmp.close();
+      else { hi[i] = bmp; hiCount++; evict(); if (hi[i] && onFrame) onFrame(i); }
       decState[i] = 0;
     } catch (_) {
       decState[i] = 2;
@@ -203,36 +232,70 @@ export function createFrameStore(manifest, base, {
     }
   }
 
-  function evict() {
-    for (let i = 0; i < n; i++) {
-      if (hi[i] && Math.abs(i - focus) > evictAt) { hi[i].close(); hi[i] = null; hiCount--; }
+  /**
+   * Decode plan: the frames the playhead is about to show, in order.
+   * floor/ceil of the playhead first, then the path ahead in the direction of travel, spaced by
+   * the number of frames one 60Hz tick skips at the current speed (decoding frames that will be
+   * jumped over is wasted work), with a few frames behind interleaved for small reversals.
+   */
+  function replan() {
+    const a = clampI(Math.floor(focus));
+    const speed = Math.abs(vel);
+    const stride = speed > 260 ? 4 : speed > 170 ? 3 : speed > 85 ? 2 : 1;
+    const key = `${a}|${stride}|${dir}`;
+    if (key === planKey) return;
+    planKey = key;
+    for (let k = 0; k < plan.length; k++) wanted[plan[k]] = 0;
+    plan = [];
+    const cap = Math.max(8, hiBudget - 8);
+    const add = (i) => { if (i >= 0 && i < n && !wanted[i] && plan.length < cap) { wanted[i] = 1; plan.push(i); } };
+    // Slow: the frames on screen come first. Fast: those are gone before a decode (~30-60 ms)
+    // could finish, so start where the playhead will be by then.
+    const lead = stride > 1 ? Math.round(speed * 0.05) : 0;
+    if (!lead) { add(a); add(a + 1); }
+    const start = (dir > 0 ? a + 1 : a) + dir * lead;
+    let behind = 1;
+    for (let d = stride, k = 0; plan.length < cap; d += stride, k++) {
+      const i = start + dir * d;
+      const out = i < 0 || i >= n;
+      if (!out) add(i);
+      if (k % 3 === 2 && behind <= 10) { add(dir > 0 ? a - behind : a + 1 + behind); behind++; }
+      if (out && (behind > 10 || d > n)) break;
     }
-  }
-
-  /** nearest index to c (searching outward up to maxD) that satisfies pred */
-  function nearest(c, maxD, pred) {
-    for (let d = 0; d <= maxD; d++) {
-      if (c - d >= 0 && pred(c - d)) return c - d;
-      if (d && c + d < n && pred(c + d)) return c + d;
-    }
-    return -1;
   }
 
   function pump() {
     if (!background) return; // during the keyframe pass nothing else competes for the network
-    const c = Math.round(focus);
-    // 1) background download: nearest missing frame first
+    // 1) decode the plan, in order
+    for (let k = 0; k < plan.length && decInflight < decodeConcurrency; k++) {
+      const i = plan[k];
+      if (blobs[i] && !hi[i] && decState[i] === 0) decodeHi(i);
+    }
+    // 2) download: planned frames first, then the nearest missing frame (ahead of the playhead first)
+    for (let k = 0; k < plan.length && inflight < fetchConcurrency; k++) {
+      const i = plan[k];
+      if (fetchState[i] === 0) fetchOne(i);
+    }
+    const c = clampI(Math.round(focus));
     while (inflight < fetchConcurrency) {
-      const i = nearest(c, n, (k) => fetchState[k] === 0);
+      let i = -1;
+      for (let d = 0; d <= n && i < 0; d++) {
+        const f = c + dir * d;
+        const b = c - dir * d;
+        if (f >= 0 && f < n && fetchState[f] === 0) i = f;
+        else if (d && b >= 0 && b < n && fetchState[b] === 0) i = b;
+        if (f < 0 && b < 0) break;
+        if (f >= n && b >= n) break;
+      }
       if (i < 0) break;
       fetchOne(i);
     }
-    // 2) full-res decode window around the playhead
-    while (decInflight < decodeConcurrency) {
-      const i = nearest(c, hiRadius, (k) => blobs[k] && !hi[k] && decState[k] === 0);
-      if (i < 0) break;
-      decodeHi(i);
-    }
+  }
+
+  /** nearest index at or beyond `from`, stepping by `step`, within maxD, that has a bitmap in `arr` */
+  function scan(arr, from, step, maxD) {
+    for (let d = 0, i = from; d <= maxD && i >= 0 && i < n; d++, i += step) if (arr[i]) return i;
+    return -1;
   }
 
   return {
@@ -244,47 +307,83 @@ export function createFrameStore(manifest, base, {
     /** Pass 1: keyframes only. Resolves once the timeline is fully covered (low-res). */
     async loadCoarse(onProgress) {
       const queue = anchors.slice();
+      const decodes = [];
       let done = 0;
+      // downloads never wait for decodes: each worker hands its blob to the decoder and fetches on
+      const lowDecode = async (i) => {
+        if (blobs[i]) {
+          try { lo[i] = await decode(blobs[i], lowOpts); } catch (_) { /* counted below */ }
+        }
+        done++;
+        if (onProgress) onProgress(done / anchors.length, bytes, done, anchors.length);
+      };
       const worker = async () => {
         while (queue.length) {
           const i = queue.shift();
           await fetchOne(i);
-          if (blobs[i]) {
-            try { lo[i] = await decode(blobs[i], lowOpts); } catch (_) { /* counted below */ }
-          }
-          done++;
-          if (onProgress) onProgress(done / anchors.length, bytes, done, anchors.length);
+          decodes.push(lowDecode(i));
         }
       };
       await Promise.all(Array.from({ length: fetchConcurrency }, worker));
+      await Promise.all(decodes);
       const ok = anchors.filter((i) => lo[i]).length;
       if (!lo[0] || ok < anchors.length * 0.9) throw new Error(`keyframes failed (${ok}/${anchors.length})`);
       await decodeHi(0); // opening shot sharp from the first paint
     },
 
-    /** Pass 2: fill the remaining frames in the background, nearest to the playhead first. */
-    startBackground() { background = true; pump(); },
+    /** Pass 2: fill the remaining frames in the background, along the predicted path first. */
+    startBackground() { background = true; replan(); pump(); },
 
-    /** current fractional frame position (drives priorities and the decode window) */
+    /** current fractional frame position (drives the speed estimate, the plan and priorities) */
     setFocus(pos) {
+      const now = performance.now();
+      const dt = lastT ? (now - lastT) / 1000 : 0;
+      lastT = now;
+      if (dt > 0.2) vel = 0;
+      else if (dt > 0.001) vel += ((pos - lastPos) / dt - vel) * Math.min(1, dt * 12);
+      lastPos = pos;
       focus = pos;
-      const c = Math.round(pos);
-      if (c !== lastC) { lastC = c; evict(); pump(); }
+      if (Math.abs(vel) > 3 && Math.sign(vel) !== dir) dir = Math.sign(vel);
+      const before = planKey;
+      replan();
+      if (planKey !== before) { evict(); pump(); }
     },
 
-    /** best bitmap available for frame i: full-res, else a full-res neighbour (+-3), else nearest keyframe */
+    /**
+     * What to draw for fractional position pos: { A, B, t } meaning "draw A, then B on top at
+     * alpha t". Uses the two nearest frames around pos that are resident (full-res if one is at
+     * least as close as the nearest keyframe, else the low-res keyframe), so the picture keeps
+     * moving continuously even while frames are still decoding: no step back to a keyframe.
+     */
+    pair(pos) {
+      const a = clampI(Math.floor(pos));
+      const f = pos - a;
+      const b = f > 0.002 ? clampI(a + 1) : a;
+      const li = scan(hi, a, -1, coarseStep);
+      const ui = scan(hi, b, 1, coarseStep);
+      const la = scan(lo, a, -1, n);
+      const ua = scan(lo, b, 1, n);
+      let lower = -1; let lowerBmp = null;
+      if (li >= 0 && (la < 0 || li >= la)) { lower = li; lowerBmp = hi[li]; } else if (la >= 0) { lower = la; lowerBmp = lo[la]; }
+      let upper = -1; let upperBmp = null;
+      if (ui >= 0 && (ua < 0 || ui <= ua)) { upper = ui; upperBmp = hi[ui]; } else if (ua >= 0) { upper = ua; upperBmp = lo[ua]; }
+      if (!lowerBmp && !upperBmp) return null;
+      if (!lowerBmp) return { A: upperBmp, B: null, t: 0 };
+      if (!upperBmp || upper === lower) return { A: lowerBmp, B: null, t: 0 };
+      return { A: lowerBmp, B: upperBmp, t: (pos - lower) / (upper - lower) };
+    },
+
+    /** best single bitmap for frame i (kept for compatibility) */
     get(i) {
-      if (hi[i]) return hi[i];
-      const h = nearest(i, 3, (k) => hi[k]);
-      if (h >= 0) return hi[h];
-      const l = nearest(i, n, (k) => lo[k]);
-      return l >= 0 ? lo[l] : null;
+      const p = this.pair(i);
+      return p ? p.A : null;
     },
 
     get stats() {
       return {
         fetched, total: n, mb: +(bytes / 1048576).toFixed(1), hi: hiCount,
         lo: anchors.filter((i) => lo[i]).length, inflight, decoding: decInflight,
+        decodes, evictions, vel: Math.round(vel), plan: plan.length,
         decodedMB: Math.round((hiCount * width * height * 4 + anchors.length * (lowOpts ? lowOpts.resizeWidth * lowOpts.resizeHeight : width * height) * 4) / 1048576),
       };
     },

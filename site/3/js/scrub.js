@@ -112,28 +112,23 @@ export function createCanvasRenderer(canvas, store, { fps = 60 } = {}) {
 
   function draw(pos) {
     const t0 = performance.now();
-    const a = Math.floor(pos);
-    const f = pos - a;
-    const b = Math.min(a + 1, n - 1);
-    const A = store.get(a);
-    if (!A) return false;
+    // the two nearest resident frames around pos (full-res, or low-res keyframes while decoding)
+    const P = store.pair(pos);
+    if (!P) return false;
     ctx.globalAlpha = 1;
-    cover(A);
-    if (f > 0.002 && b !== a) {
-      const B = store.get(b);
-      if (B && B !== A) {
-        ctx.globalAlpha = f;
-        cover(B);
-        ctx.globalAlpha = 1;
-        stats.blends++;
-      }
+    cover(P.A);
+    if (P.B && P.B !== P.A && P.t > 0.002) {
+      ctx.globalAlpha = P.t;
+      cover(P.B);
+      ctx.globalAlpha = 1;
+      stats.blends++;
     }
     const ms = performance.now() - t0;
     stats.draws++;
     stats.last = ms;
     stats.avg = stats.draws === 1 ? ms : stats.avg * 0.95 + ms * 0.05;
     if (ms > stats.max) stats.max = ms;
-    stats.frac = f;
+    stats.frac = P.t;
     return true;
   }
 
@@ -152,7 +147,7 @@ export function createCanvasRenderer(canvas, store, { fps = 60 } = {}) {
       if (draw(pos)) { lastPos = pos; dirty = false; }
     },
     /** a better bitmap for frame i just arrived: redraw if it is on screen */
-    invalidate(i) { if (lastPos < 0 || Math.abs(i - lastPos) <= 4) dirty = true; },
+    invalidate(i) { if (lastPos < 0 || Math.abs(i - lastPos) <= 9) dirty = true; },
     get frame() { return lastPos < 0 ? 0 : Math.round(lastPos); },
     frames: n,
     fps,

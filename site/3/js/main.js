@@ -75,7 +75,9 @@ function boot() {
   }
 
   /* ---------- scrub + hud ---------- */
-  const scrub = createScrubber({ smoothTime: 0.16, reduced });
+  // Lenis already smooths the wheel; the spring only has to round off touch/scrollbar input,
+  // so keep it short (lag ~ speed x 0.1s) instead of stacking a second long ease on top.
+  const scrub = createScrubber({ smoothTime: 0.1, reduced });
   const hud = createHud(hudEl, { fps: VIDEO_FPS });
   let footage = 'pending'; // 'frames' | 'video' | 'stills'
   let store = null;
@@ -282,7 +284,7 @@ function boot() {
     const manifest = await loadManifest(`${set.dir}manifest.json`);
     if (framesAborted) throw new Error('frame pass aborted');
     const st = store = createFrameStore(manifest, set.dir, {
-      hiRadius: set.hiRadius,
+      hiBudget: set.hiBudget,
       onFrame: (i) => renderer && renderer.invalidate(i),
     });
     await st.loadCoarse((ratio, bytes, done, total) => {
