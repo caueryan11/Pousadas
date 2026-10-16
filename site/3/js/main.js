@@ -267,6 +267,12 @@ function boot() {
   gsap.set(heroMeta, { autoAlpha: 0 });
 
   const t0 = performance.now();
+  const qp = new URLSearchParams(location.search);
+  const FAILSAFE_MS = Math.max(0, Number(qp.get('failsafe')) || 7000); // ?failsafe=1000 to test
+  const FIRST_PASS_TIMEOUT_MS = 12000;
+  let framesAborted = false;
+  let revealStarted = false;
+  let released = false;
   const mb = (b) => (b / 1048576).toFixed(1).replace('.', ',');
 
   // 1st choice: 60fps WebP sequence on <canvas>. The preloader only waits for the keyframe pass.
@@ -274,14 +280,16 @@ function boot() {
     if (typeof createImageBitmap !== 'function' || !canvas || !canvas.getContext) throw new Error('no ImageBitmap/canvas');
     const set = pickFrameSet(isMobile);
     const manifest = await loadManifest(`${set.dir}manifest.json`);
-    store = createFrameStore(manifest, set.dir, {
+    if (framesAborted) throw new Error('frame pass aborted');
+    const st = store = createFrameStore(manifest, set.dir, {
       hiRadius: set.hiRadius,
       onFrame: (i) => renderer && renderer.invalidate(i),
     });
-    await store.loadCoarse((ratio, bytes, done, total) => {
-      realLoad = ratio * 0.96;
+    await st.loadCoarse((ratio, bytes, done, total) => {
+      realLoad = ratio;
       plBytes.textContent = `${mb(bytes)} MB · ${done}/${total} CHAVE`;
     });
+    if (framesAborted) { store = null; throw new Error('frame pass aborted'); }
     renderer = createCanvasRenderer(canvas, store, { fps: store.fps });
     scrub.use(renderer);
     store.startBackground();
@@ -306,13 +314,23 @@ function boot() {
     plStatus.textContent = method === 'blob' ? 'SINAL TRAVADO · MP4' : 'SINAL TRAVADO · STREAM';
   }
 
-  startFrames()
+  // First pass (keyframes) must finish within FIRST_PASS_TIMEOUT_MS, otherwise use the fallback chain.
+  const firstPass = Promise.race([
+    startFrames(),
+    new Promise((_, reject) => setTimeout(() => {
+      framesAborted = true;
+      reject(new Error('keyframe pass timeout'));
+    }, FIRST_PASS_TIMEOUT_MS)),
+  ]);
+
+  firstPass
     .catch((err) => {
       console.warn('[expedition] frame sequence unavailable, video fallback:', err && err.message);
       return startVideo();
     })
     .catch((err) => {
       console.warn('[expedition] footage unavailable, still-frame mode:', err && err.message);
+      if (footage === 'frames' || footage === 'video') return;
       footage = 'stills';
       body.classList.add('no-video');
       stills.forEach((img) => { img.src = img.dataset.src; });
@@ -320,32 +338,55 @@ function boot() {
     })
     .finally(() => {
       realLoad = 1;
-      const wait = Math.max(0, (reduced ? 200 : 1600) - (performance.now() - t0));
-      setTimeout(reveal, wait + (reduced ? 0 : 450));
+      // frames are ready: release the scene right away (short beat so the counter shows 100)
+      const wait = Math.max(0, (reduced ? 200 : 700) - (performance.now() - t0));
+      setTimeout(reveal, wait);
     });
 
+  // Idempotent release: works even if gsap/requestAnimationFrame never tick (hidden tab, throttled).
+  let revealTl = null;
+  function release() {
+    if (released) return;
+    released = true;
+    preloading = false;
+    try { if (revealTl) revealTl.kill(); } catch (_) { /* noop */ }
+    try {
+      plPct.textContent = '100';
+      gsap.set(heroLines, { yPercent: 0 });
+      gsap.set(heroMeta, { autoAlpha: 1 });
+      gsap.set(media, { scale: 1.12 });
+    } catch (_) { /* noop */ }
+    preloader.style.pointerEvents = 'none';
+    preloader.style.visibility = 'hidden';
+    preloader.remove();
+    body.classList.remove('is-loading');
+    try { if (lenis) lenis.start(); } catch (_) { /* noop */ }
+    try { buildStory(); } catch (err) { console.warn('[expedition] story build failed:', err && err.message); }
+  }
+
+  function forceRelease() { if (!released) { console.warn('[expedition] fail-safe release'); release(); } }
+
   function reveal() {
+    if (revealStarted || released) return;
+    revealStarted = true;
     preloading = false;
     plPct.textContent = '100';
     plRing.style.strokeDashoffset = '0';
     plSr.textContent = 'Imagens carregadas';
     window.scrollTo(0, 0);
+    // if the animation cannot progress (rAF paused), release anyway shortly after
+    setTimeout(forceRelease, 4500);
 
-    const done = () => {
-      preloader.remove();
-      body.classList.remove('is-loading');
-      if (lenis) lenis.start();
-      buildStory();
-    };
+    const done = () => release();
 
     if (reduced) {
       gsap.set(heroLines, { yPercent: 0 });
       gsap.set(heroMeta, { autoAlpha: 1 });
-      gsap.to(preloader, { autoAlpha: 0, duration: 0.3, onComplete: done });
+      revealTl = gsap.to(preloader, { autoAlpha: 0, duration: 0.3, onComplete: done });
       return;
     }
 
-    gsap.timeline({ onComplete: done })
+    revealTl = gsap.timeline({ onComplete: done })
       .to('.radar', { scale: 2.4, autoAlpha: 0, duration: 1.1, ease: 'expo.in' })
       .to('.preloader__meta, .preloader__pct', { autoAlpha: 0, y: 12, duration: 0.5, ease: 'power2.in' }, 0.2)
       .to(preloader, { autoAlpha: 0, duration: 0.9, ease: 'power2.inOut' }, 0.85)
@@ -353,6 +394,13 @@ function boot() {
       .to(heroLines, { yPercent: 0, duration: 1.5, stagger: 0.1, ease: 'expo.out' }, 1.1)
       .to(heroMeta, { autoAlpha: 1, duration: 1.1, stagger: 0.12, ease: 'power2.out' }, 1.5);
   }
+
+  // Fail-safe: never stay stuck on the preloader.
+  setTimeout(forceRelease, FAILSAFE_MS);
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState !== 'visible' || released) return;
+    if (revealStarted || performance.now() - t0 >= FAILSAFE_MS) forceRelease();
+  });
 
   // debugging/verification handle
   window.__expedition = {
