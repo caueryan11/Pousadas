@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>A Série Expedition · Norvane NV-8 Tideline (Conceito)</title>
+  <meta name="description" content="Uma descida guiada pela rolagem, dos rochedos no mar até uma estrada costeira talhada na falésia. Norvane NV-8 Tideline, um conceito fictício de SUV de expedição.">
+  <meta name="theme-color" content="#040908">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,200..700,0..100;1,9..144,200..700,0..100&family=JetBrains+Mono:wght@200;300;400&display=swap">
+  <link rel="preload" as="image" href="assets/poster.jpg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="is-loading">
+
+  <!-- ============ PRELOADER ============ -->
+  <div class="preloader" id="preloader" role="status" aria-live="polite">
+    <div class="preloader__grid" aria-hidden="true"></div>
+    <div class="radar" aria-hidden="true">
+      <svg viewBox="0 0 200 200" class="radar__svg">
+        <circle cx="100" cy="100" r="96" />
+        <circle cx="100" cy="100" r="72" />
+        <circle cx="100" cy="100" r="48" />
+        <circle cx="100" cy="100" r="24" />
+        <line x1="100" y1="2" x2="100" y2="198" />
+        <line x1="2" y1="100" x2="198" y2="100" />
+        <circle class="radar__progress" cx="100" cy="100" r="96" pathLength="1" />
+      </svg>
+      <div class="radar__sweep"></div>
+      <span class="radar__blip radar__blip--a"></span>
+      <span class="radar__blip radar__blip--b"></span>
+    </div>
+    <div class="preloader__meta mono">
+      <p class="preloader__line"><span>SIS</span> NORVANE / DIVISÃO EXPEDITION</p>
+      <p class="preloader__line"><span>ENLACE</span> <b id="pl-status">ADQUIRINDO IMAGENS</b></p>
+      <p class="preloader__line"><span>CARGA</span> <b id="pl-bytes">0,0 / -- MB</b></p>
+    </div>
+    <div class="preloader__pct" aria-hidden="true"><span id="pl-pct">000</span><small>%</small></div>
+    <span class="visually-hidden" id="pl-sr">Carregando imagens</span>
+  </div>
+
+  <!-- ============ MASTHEAD ============ -->
+  <header class="masthead">
+    <a class="masthead__brand" href="#top" data-scroll-to="0" aria-label="Norvane, voltar ao topo">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 20 12 4l9 16M7.5 13h9" fill="none" stroke="currentColor" stroke-width="1.3"/></svg>
+      <span>NORVANE</span>
+    </a>
+    <nav class="masthead__nav mono" aria-label="Capítulos">
+      <a href="#top" data-scroll-to="0" class="is-active"><i>00</i><span>Prólogo</span></a>
+      <a href="#ch-1" data-scroll-to="ch1"><i>01</i><span>Horizontes</span></a>
+      <a href="#ch-2" data-scroll-to="ch2"><i>02</i><span>Engenharia</span></a>
+      <a href="#ch-3" data-scroll-to="ch3"><i>03</i><span>Liberdade</span></a>
+      <a href="#specs" data-scroll-to="specs"><i>04</i><span>Ficha</span></a>
+    </nav>
+    <span class="masthead__tag mono">Conceito 01 · Não está à venda</span>
+    <div class="masthead__progress" aria-hidden="true"><span id="page-progress"></span></div>
+  </header>
+
+  <main id="top">
+    <!-- ============ STAGE (video scrub) ============ -->
+    <section class="stage" id="stage" aria-label="A descida: um drone acompanha o NV-8 Tideline por uma estrada costeira na falésia">
+      <div class="stage__sticky">
+        <div class="stage__media" id="stage-media">
+          <img class="stage__poster" src="assets/poster.jpg" alt="" width="1920" height="1080" decoding="async">
+          <div class="stage__stills" id="stage-stills" aria-hidden="true">
+            <img data-src="assets/poster.jpg" alt="">
+            <img data-src="assets/frame-25.jpg" alt="">
+            <img data-src="assets/frame-50.jpg" alt="">
+            <img data-src="assets/frame-75.jpg" alt="">
+            <img data-src="assets/frame-end.jpg" alt="">
+          </div>
+          <video class="stage__video" id="scrub-video" muted playsinline preload="auto"
+                 disablepictureinpicture disableremoteplayback aria-hidden="true" tabindex="-1"
+                 data-src-desktop="assets/scrub.mp4" data-src-mobile="assets/scrub-mobile.mp4"></video>
+          <canvas class="stage__canvas" id="scrub-canvas" aria-hidden="true"></canvas>
+        </div>
+        <div class="stage__grade" aria-hidden="true"></div>
+        <div class="stage__shade stage__shade--left" id="shade-left" aria-hidden="true"></div>
+        <div class="stage__shade stage__shade--right" id="shade-right" aria-hidden="true"></div>
+        <div class="stage__grain" aria-hidden="true"></div>
+        <div class="stage__frame" aria-hidden="true">
+          <span class="corner corner--tl"></span><span class="corner corner--tr"></span>
+          <span class="corner corner--bl"></span><span class="corner corner--br"></span>
+        </div>
+
+        <!-- HERO -->
+        <div class="hero" id="hero">
+          <p class="hero__eyebrow mono"><span class="dot"></span>Norvane NV-8 Tideline &mdash; conceito de design</p>
+          <h1 class="hero__title">
+            <span class="line"><span class="line__in">A</span></span>
+            <span class="line"><span class="line__in">Série</span></span>
+            <span class="line"><span class="line__in"><em>Expedition</em></span></span>
+          </h1>
+          <p class="hero__lede">Cento e quarenta metros acima das ondas, uma estrada corta a falésia. Em algum ponto dela, algo escuro se move. Role para descer.</p>
+          <button class="scroll-cue" type="button" data-magnetic data-scroll-to="ch1" aria-label="Role para descer">
+            <svg viewBox="0 0 120 120" class="scroll-cue__ring" aria-hidden="true">
+              <defs><path id="cue-circle" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>
+              <text><textPath href="#cue-circle" textLength="286" lengthAdjust="spacing">ROLE PARA DESCER · ROLE PARA DESCER · </textPath></text>
+            </svg>
+            <span class="scroll-cue__core" data-magnetic-inner><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></span>
+          </button>
+        </div>
+
+        <!-- CHAPTERS -->
+        <article class="chapter chapter--left" id="ch-1" data-chapter="1">
+          <p class="chapter__index mono"><span>01</span> / Mar a bombordo</p>
+          <h2 class="chapter__title" data-split>Horizontes Inexplorados</h2>
+          <p class="chapter__body">Rochedos no mar de um lado, basalto molhado do outro e uma única fita de asfalto entre eles. O drone atravessa a neblina e se posiciona atrás do Tideline, que costura a falésia.</p>
+        </article>
+
+        <article class="chapter chapter--right" id="ch-2" data-chapter="2">
+          <p class="chapter__index mono"><span>02</span> / Na curva, rumo ao sol</p>
+          <h2 class="chapter__title" data-split>Engenharia de Precisão</h2>
+          <p class="chapter__body">Sol baixo, um raio que se fecha, uma mureta e, depois dela, só água. A suspensão a ar preditiva lê a inclinação da pista uma curva à frente, e as quatro rodas esterçantes mantêm a trajetória tão precisa quanto o fotógrafo deseja.</p>
+        </article>
+
+        <article class="chapter chapter--left chapter--low" id="ch-3" data-chapter="3">
+          <p class="chapter__index mono"><span>03</span> / Mar aberto, estrada aberta</p>
+          <h2 class="chapter__title" data-split>Liberdade Absoluta</h2>
+          <p class="chapter__body">A estrada se alinha, as falésias recuam e a baía se abre em turquesa. Sem horário e sem destino na tela, só o próximo promontório.</p>
+        </article>
+
+        <!-- HUD -->
+        <aside class="hud mono" id="hud" aria-label="Telemetria simulada">
+          <div class="hud__head">
+            <span class="hud__rec"></span> <span>AO VIVO · SIMULADO</span>
+            <span class="hud__tc" id="hud-tc">00:00:00</span>
+          </div>
+          <div class="hud__compass" aria-hidden="true">
+            <svg viewBox="0 0 100 100" class="compass">
+              <circle cx="50" cy="50" r="46" class="compass__ring"/>
+              <g class="compass__rose" id="hud-rose">
+                <g class="compass__ticks"></g>
+                <text x="50" y="16" class="compass__n">N</text>
+                <text x="86" y="53" >L</text>
+                <text x="50" y="91">S</text>
+                <text x="14" y="53">O</text>
+              </g>
+              <path d="M50 26 L54 50 L50 46 L46 50 Z" class="compass__needle"/>
+            </svg>
+            <div class="hud__heading"><b id="hud-hdg">312</b>&deg; <span id="hud-card">NO</span></div>
+          </div>
+          <dl class="hud__grid">
+            <div><dt>LAT</dt><dd id="hud-lat">--</dd></div>
+            <div><dt>LON</dt><dd id="hud-lon">--</dd></div>
+            <div><dt>ALT · DRONE</dt><dd><b id="hud-alt">140</b> m</dd><span class="hud__bar"><i id="hud-alt-bar"></i></span></div>
+            <div><dt>VEL · NV-8</dt><dd><b id="hud-spd">--</b> km/h</dd><span class="hud__bar"><i id="hud-spd-bar"></i></span></div>
+            <div><dt>ALVO</dt><dd id="hud-target" class="hud__target">ADQUIRINDO</dd></div>
+            <div><dt>QUADRO</dt><dd id="hud-frame">000 / 192</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ SPECS ============ -->
+    <section class="specs" id="specs" aria-labelledby="specs-title">
+      <div class="specs__veil" aria-hidden="true"></div>
+      <div class="specs__inner">
+        <header class="specs__head">
+          <p class="mono eyebrow"><span>04</span> / Ficha técnica · números do conceito</p>
+          <h2 id="specs-title" class="specs__title">NV-8 <em>Tideline</em></h2>
+          <p class="specs__lede">O carro no fim da estrada. Cada número abaixo é uma meta de projeto para um veículo que não existe.</p>
+        </header>
+
+        <div class="dash glass" id="dash">
+          <div class="dash__tabs mono" role="tablist" aria-label="Categorias da ficha técnica">
+            <button role="tab" id="tab-perf" aria-controls="panel-perf" aria-selected="true" tabindex="0">Desempenho</button>
+            <button role="tab" id="tab-design" aria-controls="panel-design" aria-selected="false" tabindex="-1">Design</button>
+            <button role="tab" id="tab-aero" aria-controls="panel-aero" aria-selected="false" tabindex="-1">Aerodinâmica</button>
+            <span class="dash__ink" aria-hidden="true"></span>
+          </div>
+
+          <div class="dash__body">
+            <div class="gauge" aria-hidden="true">
+              <svg viewBox="0 0 200 200">
+                <circle cx="100" cy="100" r="84" class="gauge__track" pathLength="1"/>
+                <circle cx="100" cy="100" r="84" class="gauge__fill" id="gauge-fill" pathLength="1"/>
+                <g class="gauge__ticks"></g>
+              </svg>
+              <div class="gauge__label">
+                <b id="gauge-val">0</b>
+                <span class="mono" id="gauge-cap">kW de potência do sistema</span>
+              </div>
+            </div>
+
+            <div class="dash__panels">
+              <div role="tabpanel" id="panel-perf" aria-labelledby="tab-perf" class="panel is-active" data-gauge="0.82" data-gauge-val="450" data-gauge-cap="kW de potência do sistema">
+                <ul class="metrics">
+                  <li><span class="metric__k mono">0&ndash;100 km/h</span><span class="metric__v"><b data-count="3.9" data-decimals="1">0</b><small>s</small></span></li>
+                  <li><span class="metric__k mono">Torque</span><span class="metric__v"><b data-count="890">0</b><small>Nm</small></span></li>
+                  <li><span class="metric__k mono">Autonomia, est.</span><span class="metric__v"><b data-count="540">0</b><small>km</small></span></li>
+                  <li><span class="metric__k mono">Recarga 10&ndash;80%</span><span class="metric__v"><b data-count="18">0</b><small>min</small></span></li>
+                </ul>
+                <p class="panel__note">Motor duplo, bateria de 112&nbsp;kWh e vetorização de torque no eixo traseiro. Calibrado para subidas longas e para a descida de volta.</p>
+              </div>
+              <div role="tabpanel" id="panel-design" aria-labelledby="tab-design" class="panel" hidden data-gauge="0.64" data-gauge-val="3060" data-gauge-cap="mm de entre-eixos">
+                <ul class="metrics">
+                  <li><span class="metric__k mono">Comprimento</span><span class="metric__v"><b data-count="5020">0</b><small>mm</small></span></li>
+                  <li><span class="metric__k mono">Vão livre do solo, máx.</span><span class="metric__v"><b data-count="290">0</b><small>mm</small></span></li>
+                  <li><span class="metric__k mono">Profundidade de vau</span><span class="metric__v"><b data-count="750">0</b><small>mm</small></span></li>
+                  <li><span class="metric__k mono">Teto panorâmico</span><span class="metric__v"><b data-count="2.4" data-decimals="1">0</b><small>m&sup2;</small></span></li>
+                </ul>
+                <p class="panel__note">Um teto de vidro de ponta a ponta, dividido por uma única viga de carbono: o mesmo teto que o drone enxerga lá de cima durante quase todo o filme.</p>
+              </div>
+              <div role="tabpanel" id="panel-aero" aria-labelledby="tab-aero" class="panel" hidden data-gauge="0.27" data-gauge-val="0.27" data-gauge-decimals="2" data-gauge-cap="coeficiente de arrasto, Cd">
+                <ul class="metrics">
+                  <li><span class="metric__k mono">Superfícies ativas</span><span class="metric__v"><b data-count="4">0</b><small>abas</small></span></li>
+                  <li><span class="metric__k mono">Rebaixamento em velocidade</span><span class="metric__v"><b data-count="40">0</b><small>mm</small></span></li>
+                  <li><span class="metric__k mono">Ruído na cabine, 100 km/h</span><span class="metric__v"><b data-count="61">0</b><small>dB</small></span></li>
+                  <li><span class="metric__k mono">Assoalho, vedado</span><span class="metric__v"><b data-count="92">0</b><small>%</small></span></li>
+                </ul>
+                <p class="panel__note">As venezianas da entrada de ar inferior se fecham acima de 70&nbsp;km/h e a carroceria desce 40&nbsp;mm, o que faz toda a diferença em estradas costeiras longas e retas.</p>
+              </div>
+            </div>
+          </div>
+          <p class="dash__foot mono">Dados ilustrativos de conceito &middot; não homologado &middot; não é um veículo de produção</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="finale" id="contact">
+      <div class="finale__inner">
+        <p class="mono eyebrow"><span>05</span> / O próximo promontório</p>
+        <h2 class="finale__title">Deixe o <em>mapa</em> para trás.</h2>
+
+        <svg class="signature" viewBox="0 0 420 90" aria-hidden="true">
+          <path d="M8 62c18-30 34-44 44-40 12 5-10 46-2 48 10 3 22-38 34-38 9 0 2 30 10 30 9 0 16-22 26-22 8 0 4 18 12 18 12 0 20-26 32-26 10 0 0 26 10 26 14 0 22-30 38-30 9 0 6 22 16 22 18 0 30-18 50-20 26-3 56 6 100 0"/>
+        </svg>
+        <p class="finale__sig mono">Norvane Atelier &middot; Divisão Expedition</p>
+
+        <div class="finale__actions">
+          <a class="mag-btn mag-btn--solid" href="mailto:atelier@norvane.example?subject=NV-8%20Tideline%20pr%C3%A9-estreia%20privada" data-magnetic>
+            <span data-magnetic-inner>Agende uma pré-estreia privada</span>
+          </a>
+          <button class="mag-btn" type="button" id="replay" data-magnetic>
+            <span data-magnetic-inner>Test-drive virtual <i aria-hidden="true">&#8634;</i></span>
+          </button>
+        </div>
+
+        <div class="locale">
+          <p class="locale__label mono" id="locale-label">Ateliê mais próximo</p>
+          <div class="locale__opts mono" role="radiogroup" aria-labelledby="locale-label">
+            <button role="radio" aria-checked="true" data-tz="Europe/Lisbon" data-city="Lisboa" data-coast="Costa atlântica">Lisboa</button>
+            <button role="radio" aria-checked="false" data-tz="Africa/Johannesburg" data-city="Cidade do Cabo" data-coast="Oceanos Atlântico e Índico">Cidade do Cabo</button>
+            <button role="radio" aria-checked="false" data-tz="America/Vancouver" data-city="Vancouver" data-coast="Noroeste do Pacífico">Vancouver</button>
+            <button role="radio" aria-checked="false" data-tz="America/Sao_Paulo" data-city="S&atilde;o Paulo" data-coast="Atlântico Sul">S&atilde;o Paulo</button>
+            <button role="radio" aria-checked="false" data-tz="Australia/Sydney" data-city="Sydney" data-coast="Mar da Tasmânia">Sydney</button>
+          </div>
+          <p class="locale__out" aria-live="polite"><b id="locale-city">Lisboa</b> <span id="locale-coast">Costa atlântica</span> <span class="mono" id="locale-time">--:--</span> <span class="mono">horário local &middot; mediante agendamento</span></p>
+        </div>
+
+        <div class="finale__legal mono">
+          <span>&copy; Norvane, marca fictícia criada para esta página de conceito.</span>
+          <span>Imagens: sequência aérea gerada. A telemetria é simulada.</span>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
