@@ -591,30 +591,9 @@ if (hasGSAP) gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 if (reduced) document.documentElement.classList.add('is-reduced');
 
 /* ============================================================
-   MÓDULO: carregamento de assets com progresso real
+   MÓDULO: carregamento de imagens
    ============================================================ */
 const Loader = {
-  async fetchWithProgress(url, onProgress) {
-    const res = await fetch(url);
-    if (!res.ok) throw new Error(`HTTP ${res.status} em ${url}`);
-    const total = Number(res.headers.get('content-length')) || 0;
-    if (!res.body || !total) {
-      const blob = await res.blob();
-      onProgress(1, blob.size, blob.size);
-      return blob;
-    }
-    const reader = res.body.getReader();
-    const chunks = [];
-    let loaded = 0;
-    for (;;) {
-      const { done, value } = await reader.read();
-      if (done) break;
-      chunks.push(value);
-      loaded += value.length;
-      onProgress(loaded / total, loaded, total);
-    }
-    return new Blob(chunks, { type: 'video/mp4' });
-  },
   loadImage(src) {
     return new Promise((resolve) => {
       const img = new Image();
@@ -625,66 +604,131 @@ const Loader = {
 };
 
 /* ============================================================
-   MÓDULO: vídeo (fonte + fallback)
+   MÓDULO: vídeo (streaming + fallback)
+   - Carrega por HTTP direto (Range/206), sem fetch+blob: o Chrome
+     Android rejeita blob: em <video> ("URL safety check") e o iOS
+     não precisa baixar o arquivo inteiro antes de mostrar algo.
+   - Lentidão nunca é erro: só o evento 'error' de cada fonte conta.
+   - Ordem: fontes do breakpoint (mp4 → webm) e, no mobile, as de
+     desktop como último recurso. Poster fica até o 1º frame.
    ============================================================ */
 const Video = {
   el: $('#video'),
   frame: $('#frame'),
   duration: 8,
-  ready: false,
+  ready: false,     // metadados ok: dá para buscar (currentTime)
+  hasFrame: false,  // 1º frame decodificado
+  failed: false,
 
   sources() {
-    const list = mqMobile.matches ? CONFIG.video.mobile : CONFIG.video.desktop;
-    // ordena pelo que o navegador declara suportar (H.264 primeiro)
-    const ok = (u) => this.el.canPlayType(u.endsWith('.webm') ? 'video/webm; codecs="vp9"' : 'video/mp4; codecs="avc1.640028"');
-    return [...list.filter(ok), ...list.filter((u) => !ok(u))];
+    const can = (u) => this.el.canPlayType(u.endsWith('.webm') ? 'video/webm; codecs="vp9"' : 'video/mp4; codecs="avc1.64001f"') !== '';
+    const order = (l) => [...l.filter(can), ...l.filter((u) => !can(u))];
+    const primary = mqMobile.matches ? CONFIG.video.mobile : CONFIG.video.desktop;
+    const backup = mqMobile.matches ? CONFIG.video.desktop : [];
+    return [...order(primary), ...order(backup)];
   },
 
-  waitFor(event, ms = 10000) {
+  // resolve com metadados; rejeita apenas com erro real de mídia (sem timeout)
+  tryOne(url) {
+    const el = this.el;
     return new Promise((resolve, reject) => {
-      const t = setTimeout(() => reject(new Error(`timeout: ${event}`)), ms);
-      this.el.addEventListener(event, () => { clearTimeout(t); resolve(); }, { once: true });
-      this.el.addEventListener('error', () => { clearTimeout(t); reject(new Error('erro de mídia')); }, { once: true });
+      const done = () => { el.removeEventListener('loadedmetadata', onMeta); el.removeEventListener('error', onErr); };
+      const onMeta = () => { done(); resolve(); };
+      const onErr = () => {
+        done();
+        const e = el.error;
+        reject(new Error(`erro de mídia${e ? ` ${e.code}${e.message ? ` (${e.message})` : ''}` : ''}`));
+      };
+      el.addEventListener('loadedmetadata', onMeta);
+      el.addEventListener('error', onErr);
+      el.src = url;
+      el.load();
     });
   },
 
-  async tryOne(url, onProgress) {
-    try {
-      // Blob em memória: seek instantâneo, ideal para scrubbing.
-      const blob = await Loader.fetchWithProgress(url, onProgress);
-      this.el.src = URL.createObjectURL(blob);
-    } catch (err) {
-      // file:// ou servidor sem fetch: tenta carregar direto.
-      console.warn('[chale] fetch falhou, usando src direto:', err.message);
-      this.el.src = url;
-    }
-    this.el.load();
-    await this.waitFor('loadeddata');
+  // iOS (inclusive Low Power Mode) só decodifica/bufferiza após play() ou gesto
+  warm() {
+    if (this.hasFrame || !this.ready) return;
+    const p = this.el.play();
+    if (p && p.then) p.then(() => this.el.pause()).catch(() => {});
   },
 
-  async load(onProgress) {
-    let lastErr;
-    for (const url of this.sources()) {
-      try {
-        await this.tryOne(url, onProgress);
-        this.duration = this.el.duration || 8;
-        this.el.pause();
-        this.el.currentTime = 0;
-        this.ready = true;
-        $('#fpsMeta').textContent = `${CONFIG.fps} fps · ${this.el.videoWidth} × ${this.el.videoHeight}`;
-        break;
-      } catch (err) {
-        lastErr = err;
-        console.warn(`[chale] falhou ${url}:`, err.message);
-      }
+  // Servidor sem Range (ex.: python -m http.server) deixa seekable vazio e o
+  // scrub trava. Só nesse caso tenta blob em memória; se o navegador recusar
+  // blob (Chrome Android), mantém o streaming. Nunca dispara o fallback.
+  async ensureSeekable(url) {
+    const el = this.el;
+    await new Promise((r) => (el.readyState >= 4 ? r() : el.addEventListener('canplaythrough', r, { once: true })));
+    const s = el.seekable;
+    if (s.length && s.end(s.length - 1) >= this.duration - 0.1) return;
+    try {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const obj = URL.createObjectURL(await res.blob());
+      const probe = document.createElement('video');
+      probe.muted = true;
+      await new Promise((ok, ko) => { probe.onloadedmetadata = ok; probe.onerror = () => ko(new Error('blob recusado')); probe.src = obj; });
+      probe.removeAttribute('src'); probe.load();
+      const t = el.currentTime;
+      el.src = obj;
+      el.load();
+      await new Promise((ok) => el.addEventListener('loadedmetadata', ok, { once: true }));
+      el.currentTime = t;
+    } catch (err) {
+      console.warn('[chale] servidor sem Range; scrub limitado ao streaming:', err.message);
     }
-    if (!this.ready) this.fail(lastErr);
-    onProgress(1, 0, 0);
+  },
+
+  // onProgress(p, label) – p em 0..1. Retorna { meta, frame } (promises).
+  load(onProgress) {
+    const el = this.el;
+    const report = () => {
+      const d = el.duration;
+      if (!d || !isFinite(d) || !el.buffered.length) return;
+      const end = el.buffered.end(el.buffered.length - 1);
+      onProgress(Math.min(1, end / d), `${end.toFixed(1)} / ${d.toFixed(1)} s`);
+    };
+    el.addEventListener('progress', report);
+    el.addEventListener('loadeddata', () => { this.hasFrame = true; report(); });
+
+    const frame = new Promise((resolve) => {
+      el.addEventListener('loadeddata', resolve, { once: true });
+      el.addEventListener('canplay', resolve, { once: true });
+    });
+
+    const meta = (async () => {
+      let lastErr;
+      for (const url of this.sources()) {
+        try {
+          await this.tryOne(url);
+          this.duration = (isFinite(el.duration) && el.duration) || 8;
+          this.ready = true;
+          $('#fpsMeta').textContent = `${CONFIG.fps} fps · ${el.videoWidth} × ${el.videoHeight}`;
+          report();
+          this.warm();
+          this.ensureSeekable(url);
+          return true;
+        } catch (err) {
+          lastErr = err;
+          console.warn(`[chale] falhou ${url}:`, err.message);
+        }
+      }
+      this.fail(lastErr);
+      return false;
+    })();
+
+    // primeiro toque destrava o decoder no iOS, se ainda não houver frame
+    const unlock = () => { this.warm(); if (this.hasFrame || this.failed) off(); };
+    const off = () => ['touchstart', 'pointerdown', 'keydown'].forEach((e) => window.removeEventListener(e, unlock));
+    ['touchstart', 'pointerdown', 'keydown'].forEach((e) => window.addEventListener(e, unlock, { passive: true }));
+
+    return { meta, frame };
   },
 
   fail(err) {
     console.warn('[chale] vídeo indisponível, exibindo poster:', err && err.message);
     this.ready = false;
+    this.failed = true;
     this.el.removeAttribute('src');
     this.el.style.opacity = '0';
     document.documentElement.classList.add('is-fallback');
@@ -725,14 +769,23 @@ const Preloader = {
     const update = () => this.setTarget(vidP * 0.8 + (imgDone / CONFIG.images.length) * 0.2);
 
     const images = Promise.all(CONFIG.images.map((src) => Loader.loadImage(src).then(() => { imgDone++; update(); })));
-    const video = Video.load((p, loaded) => {
+    const vid = Video.load((p, label) => {
       vidP = p; update();
-      if (loaded) $('#loadBytes').textContent = `${(loaded / 1048576).toFixed(1)} MB`;
+      const out = $('#loadBytes'); // some depois do reveal; o streaming continua
+      if (label && out) out.textContent = label;
     });
+    // nunca prende o preloader por rede lenta: espera metadados + 1º frame
+    // (ou falha real) por no máximo 6 s; depois segue com o poster e o
+    // vídeo continua carregando em streaming por trás.
+    const softCap = (ms) => new Promise((r) => setTimeout(r, ms));
+    const video = Promise.race([
+      vid.meta.then((ok) => (ok ? Promise.race([vid.frame, softCap(2500)]) : null)),
+      softCap(6000),
+    ]);
     const fonts = document.fonts ? document.fonts.ready : Promise.resolve();
 
-    await Promise.all([images, video, fonts]);
-    $('#loadLabel').textContent = Video.ready ? 'Pronto · Chalé 01' : 'Vídeo indisponível · poster';
+    await Promise.all([images, video, Promise.race([fonts, softCap(3000)])]);
+    $('#loadLabel').textContent = Video.failed ? 'Vídeo indisponível · poster' : 'Pronto · Chalé 01';
     this.setTarget(1);
 
     await new Promise((r) => { const w = () => (this.shown.v >= 1 ? r() : requestAnimationFrame(w)); w(); });
