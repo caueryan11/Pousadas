@@ -1,6 +1,6 @@
-# Lumi (Farol Hospeda)
+# Farol Hospeda
 
-> Site, SEO e GEO para pequenos negócios e pousadas, e a Lumi, atendente de WhatsApp para pousadas. Criamos o site que mostra o que o negócio vende e leva o cliente para o WhatsApp, ajustamos o Google (SEO) e organizamos as informações para as respostas das IAs (GEO).
+> Site, SEO e GEO para pequenos negócios e pousadas. Criamos o site que mostra o que o negócio vende e leva o cliente para o WhatsApp, ajustamos o Google (SEO) e organizamos as informações para as respostas das IAs (GEO). A Farol Hospeda também é a empresa por trás da Lumi, atendente de WhatsApp para pousadas.
 
 ## Site + SEO + GEO
 - Site + SEO + GEO inicial: R$ 1.800 (valor único).
@@ -17,4 +17,4 @@
 
 ## Contato
 - WhatsApp: (48) 98468-3798
-- Empresa: Farol Hospeda, https://farolhospeda.com.br
+- Site da empresa: https://farolhospeda.com.br
