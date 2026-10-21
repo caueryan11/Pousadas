@@ -1,0 +1,823 @@
+<!doctype html>
+<html lang="pt-BR" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lumi · Site, SEO e GEO para pousadas</title>
+<meta name="description" content="Site que mostra seus apartamentos e leva a reserva para o WhatsApp, mais SEO e GEO para a sua pousada aparecer quando o hóspede busca. R$ 1.800 para começar e R$ 490 por mês.">
+<link rel="canonical" href="https://oilumi.com.br/pousadas/">
+<meta property="og:title" content="Quem aparece, reserva. Site, SEO e GEO para pousadas">
+<meta property="og:description" content="Site + SEO + GEO para pousadas: R$ 1.800 para começar e R$ 490 por mês para manter.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0d0d0b">
+<link rel="icon" type="image/png" sizes="32x32" href="/icone-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/icone-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/icone-180.png">
+<meta property="og:url" content="https://oilumi.com.br/pousadas/">
+<script>document.documentElement.classList.replace('no-js', 'js');</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;800;900&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Lumi",
+  "parentOrganization": { "@type": "Organization", "name": "Farol Hospeda", "url": "https://farolhospeda.com.br" },
+  "description": "Criação de site com reserva pelo WhatsApp, SEO e GEO para pousadas e hospedagens pequenas.",
+  "areaServed": "BR",
+  "url": "https://oilumi.com.br/pousadas/",
+  "makesOffer": [
+    { "@type": "Offer", "name": "Site + SEO + GEO inicial", "priceCurrency": "BRL", "price": "1800.00" },
+    { "@type": "Offer", "name": "Manutenção mensal", "priceCurrency": "BRL",
+      "priceSpecification": { "@type": "UnitPriceSpecification", "price": "490.00", "priceCurrency": "BRL", "billingDuration": "P1M", "unitCode": "MON" } }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Já tenho Booking e Airbnb. Preciso de site?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Os anúncios ajudam, mas o site é o único lugar que é seu. Ele mostra os apartamentos lado a lado, o preço de partida e leva a reserva direto para o seu WhatsApp. No levantamento da Praia da Gamboa, 7 das 8 hospedagens com mais de 100 avaliações no Google têm site próprio."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Vocês garantem o primeiro lugar no Google?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Não. A posição depende da concorrência da sua cidade e leva tempo. O que fazemos é colocar a sua pousada na categoria certa, com site, fotos e dados conferidos, e acompanhar os resultados todo mês."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O que é GEO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SEO é aparecer no Google. GEO é aparecer nas respostas das IAs, como ChatGPT, Gemini e Perplexity. Deixamos as informações da sua pousada claras, completas e organizadas para essas ferramentas entenderem o que você faz e poderem citar você. Nenhuma ferramenta garante citação, e as respostas das IAs mudam com o tempo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "E fora do verão, o site ajuda?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ajuda a ser encontrado. As buscas por pousada em Garopaba caem para cerca de mil por mês no inverno, e é nessa faixa que um pacote para a temporada das baleias (julho a novembro) ajuda a encher a casa."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Preciso ter fotos prontas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fotos reais dos apartamentos vendem mais que qualquer imagem de banco. Se você ainda não tem, dizemos quais fotos pedir ao fotógrafo ou tirar com o celular."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Como funciona o pagamento?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "São R$ 1.800 para criar o site, o SEO e o GEO iniciais, e R$ 490 por mês de manutenção. As formas de pagamento combinamos na conversa pelo WhatsApp."
+      }
+    }
+  ]
+}
+</script>
+
+<style>
+  :root {
+    --ink: #0d0d0b;
+    --ink-2: #1a1a17;
+    --paper: #efe9df;
+    --paper-dim: rgba(239,233,223,.74);
+    --paper-faint: rgba(239,233,223,.18);
+    --accent: #ff5a2c;
+    --sea: #7fc4c8;
+    --glass: rgba(20,20,18,.42);
+    --font-sans: "Inter Tight", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --font-serif: "Instrument Serif", "Times New Roman", serif;
+    --font-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+    --gutter: clamp(18px, 3.4vw, 52px);
+    --fs-mono: clamp(10px, .76vw, 12px);
+    --fs-body: clamp(16px, 1.15vw, 19px);
+    --fs-hero: clamp(52px, 11.4vw, 200px);
+    --fs-h2: clamp(38px, 6.4vw, 108px);
+    --fs-h3: clamp(30px, 4.6vw, 76px);
+    --ease: cubic-bezier(.22,1,.36,1);
+    color-scheme: dark;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { background: var(--ink); color: var(--paper); font-family: var(--font-sans); font-size: var(--fs-body); line-height: 1.55; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+  a { color: inherit; text-decoration: none; }
+  ul, ol { list-style: none; margin: 0; padding: 0; }
+  h1, h2, h3, p, dl, dd, blockquote, figure { margin: 0; }
+  em { font-family: var(--font-serif); font-style: italic; font-weight: 400; }
+  ::selection { background: var(--accent); color: var(--ink); }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 6px; }
+  .skip { position: fixed; top: 12px; left: 12px; z-index: 200; padding: 10px 16px; border-radius: 999px; background: var(--paper); color: var(--ink); font-weight: 600; transform: translateY(-160%); transition: transform .3s var(--ease); }
+  .skip:focus { transform: none; }
+  .eyebrow { font-family: var(--font-mono); font-size: var(--fs-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--paper-dim); }
+
+  /* Botões */
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 12px; min-height: 52px; padding: 14px 26px; border-radius: 999px; border: 1px solid transparent; font-family: var(--font-sans); font-weight: 600; font-size: 1rem; cursor: pointer; transition: background-color .25s var(--ease), color .25s var(--ease), border-color .25s var(--ease); }
+  .btn-main { background: var(--accent); color: var(--ink); }
+  .btn-main:hover { background: var(--paper); }
+  .btn-line { border-color: var(--paper-faint); color: var(--paper); background: var(--glass); backdrop-filter: blur(8px); }
+  .btn-line:hover { border-color: var(--paper); }
+  .btn .ar { transition: transform .25s var(--ease); }
+  .btn:hover .ar { transform: translateX(4px); }
+
+  /* Carregamento */
+  #loader { position: fixed; inset: 0; z-index: 300; background: var(--ink); display: grid; place-items: center; transition: opacity .8s var(--ease), visibility .8s; }
+  #loader.done { opacity: 0; visibility: hidden; }
+  .no-js #loader { display: none; }
+  .ld { width: min(520px, 84vw); }
+  .ld-top { font-family: var(--font-mono); font-size: var(--fs-mono); letter-spacing: .18em; text-transform: uppercase; color: var(--paper-dim); margin-bottom: 18px; }
+  .ld-n { font-family: var(--font-serif); font-size: clamp(88px, 18vw, 180px); line-height: .9; text-align: center; }
+  .ld-n sup { font-family: var(--font-mono); font-size: 14px; color: var(--accent); vertical-align: top; margin-left: 4px; }
+  .ld-bar { height: 1px; background: var(--paper-faint); margin-top: 22px; }
+  .ld-bar i { display: block; height: 100%; width: 0; background: var(--paper); }
+  .ld-foot { display: flex; justify-content: space-between; margin-top: 12px; font-family: var(--font-mono); font-size: var(--fs-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--paper-dim); }
+
+  /* Topo */
+  .site-header { position: fixed; top: 0; left: 0; right: 0; z-index: 90; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 18px var(--gutter); }
+  .brand { display: inline-flex; align-items: center; gap: 12px; font-weight: 800; font-size: 1.15rem; letter-spacing: -.02em; }
+  .brand-mark { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 10px; background: var(--paper); color: var(--ink); font-family: var(--font-serif); font-style: italic; font-size: 1.3rem; font-weight: 400; }
+  .site-nav { display: flex; align-items: center; gap: clamp(14px, 2.4vw, 34px); font-family: var(--font-mono); font-size: var(--fs-mono); letter-spacing: .12em; text-transform: uppercase; }
+  .site-nav a.l { color: var(--paper-dim); transition: color .2s; }
+  .site-nav a.l:hover { color: var(--paper); }
+  .site-header .btn { min-height: 42px; padding: 10px 20px; font-size: .92rem; font-family: var(--font-sans); letter-spacing: 0; text-transform: none; }
+  @media (max-width: 720px) { .site-nav a.l { display: none; } }
+  .brand, .site-header .btn { white-space: nowrap; }
+  @media (max-width: 520px) { .brand { font-size: .98rem; gap: 9px; } .brand-mark { width: 30px; height: 30px; } .site-header { padding: 14px var(--gutter); } .site-header .btn { padding: 8px 14px; font-size: .86rem; min-height: 40px; } }
+
+  /* Cena */
+  .scene { position: relative; }
+  .stage { position: relative; height: 100vh; height: 100svh; overflow: hidden; background: var(--ink); isolation: isolate; }
+  #sky, #vid { position: absolute; inset: 0; width: 100%; height: 100%; }
+  #vid { display: none; }
+  .veil { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(13,13,11,.45) 0%, rgba(13,13,11,0) 30%, rgba(13,13,11,0) 55%, rgba(13,13,11,.82) 100%); pointer-events: none; }
+  .grain { position: absolute; inset: 0; opacity: .12; pointer-events: none; mix-blend-mode: overlay; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+  .layer { position: absolute; inset: 0; padding: 96px var(--gutter) 84px; display: flex; flex-direction: column; justify-content: flex-end; pointer-events: none; }
+  .layer a, .layer button { pointer-events: auto; }
+
+  .hero .eyebrow { margin-bottom: clamp(14px, 2.4vw, 28px); display: flex; flex-wrap: wrap; gap: 4px 12px; }
+  .hero h1 { font-size: var(--fs-hero); line-height: .88; letter-spacing: -.045em; font-weight: 900; }
+  .hero h1 .ln { display: block; overflow: hidden; padding-bottom: .08em; }
+  .hero h1 .ln > span { display: block; }
+  .hero h1 em { letter-spacing: -.02em; color: var(--accent); }
+  .hero-foot { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 22px 40px; margin-top: clamp(20px, 3vw, 40px); }
+  .hero-lede { max-width: 46ch; color: var(--paper-dim); font-size: clamp(16px, 1.3vw, 21px); }
+  .hero-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
+  .cue { display: flex; align-items: center; gap: 14px; font-family: var(--font-mono); font-size: var(--fs-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--paper-dim); }
+  .cue-track { position: relative; width: 1px; height: 54px; background: var(--paper-faint); overflow: hidden; }
+  .cue-thumb { position: absolute; left: 0; top: 0; width: 1px; height: 40%; background: var(--paper); animation: cue 2.2s var(--ease) infinite; }
+  @keyframes cue { 0% { transform: translateY(-100%); } 100% { transform: translateY(260%); } }
+  @media (max-width: 720px) { .cue { display: none; } }
+
+  .chapters { padding: 0; justify-content: center; }
+  .chapter { position: absolute; left: var(--gutter); right: var(--gutter); top: clamp(84px, 14vh, 150px); transform: none; max-width: 640px; opacity: 0; visibility: hidden; }
+  .chapter.right { left: auto; margin-left: auto; }
+  .chapter.center { left: 50%; right: auto; transform: translateX(-50%); text-align: center; max-width: 880px; width: calc(100% - 2 * var(--gutter)); }
+  .chapter::before { content: ""; position: absolute; inset: -60px -70px; z-index: -1; pointer-events: none; background: radial-gradient(ellipse at 35% 50%, rgba(8,9,12,.78) 0%, rgba(8,9,12,.5) 45%, rgba(8,9,12,0) 72%); }
+  .chapter .eyebrow { margin-bottom: 18px; color: var(--accent); }
+  .chapter h2 { font-size: var(--fs-h3); line-height: .98; letter-spacing: -.035em; font-weight: 800; }
+  .chapter p.b { margin-top: 20px; color: var(--paper-dim); max-width: 46ch; }
+  .chapter.center p.b { margin-left: auto; margin-right: auto; }
+  .metrics { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 24px 48px; }
+  .metric { display: flex; flex-direction: column; }
+  .metric dt { font-family: var(--font-mono); font-size: var(--fs-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--paper-dim); margin-top: 6px; order: 2; max-width: 22ch; }
+  .metric dd { font-size: clamp(44px, 6.4vw, 96px); font-weight: 800; letter-spacing: -.04em; line-height: 1; order: 1; }
+  .chip { display: inline-flex; align-items: center; gap: 14px; margin-top: 28px; padding: 14px 20px; border-radius: 16px; background: var(--glass); border: 1px solid var(--paper-faint); backdrop-filter: blur(10px); text-align: left; }
+  .chip .dot { width: 10px; height: 10px; border-radius: 50%; background: #3ddc84; box-shadow: 0 0 0 6px rgba(61,220,132,.18); flex: none; }
+  .chip b { display: block; font-size: 1.02rem; }
+  .chip span { display: block; font-size: .88rem; color: var(--paper-dim); }
+  .note-ill { margin-top: 14px; font-family: var(--font-mono); font-size: var(--fs-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--paper-dim); }
+
+  .hud { position: absolute; left: var(--gutter); right: var(--gutter); bottom: 22px; display: flex; align-items: center; gap: 16px; font-family: var(--font-mono); font-size: var(--fs-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--paper-dim); pointer-events: none; }
+  .hud-bar { flex: 1; height: 1px; background: var(--paper-faint); position: relative; }
+  .hud-fill { position: absolute; left: 0; top: -.5px; height: 2px; width: 0; background: var(--accent); }
+  .hud-time { min-width: 5ch; text-align: right; color: var(--paper); }
+
+  /* Modo estático (sem cena fixa) */
+  html:not(.is-scrub) .stage { height: auto; min-height: 100svh; overflow: visible; display: flex; flex-direction: column; }
+  html:not(.is-scrub) .layer { position: relative; inset: auto; padding-top: 120px; }
+  html:not(.is-scrub) .hero { min-height: 100svh; }
+  html:not(.is-scrub) .chapters { padding: 40px var(--gutter) 60px; gap: 56px; display: flex; flex-direction: column; background: linear-gradient(180deg, rgba(13,13,11,0), rgba(13,13,11,.78)); }
+  html:not(.is-scrub) .chapter { position: relative; left: auto; right: auto; top: auto; transform: none; opacity: 1; visibility: visible; max-width: 640px; margin: 0; }
+  html:not(.is-scrub) .chapter.center { transform: none; text-align: left; width: auto; }
+  html:not(.is-scrub) .hud { display: none; }
+
+  /* Seções */
+  section.s { padding: clamp(84px, 11vw, 180px) var(--gutter); position: relative; }
+  .s-head { max-width: 1400px; margin: 0 auto 56px; }
+  .s-head h2 { font-size: var(--fs-h2); line-height: .94; letter-spacing: -.045em; font-weight: 900; max-width: 14ch; }
+  .s-in { max-width: 1400px; margin: 0 auto; }
+  .rule { border-top: 1px solid var(--paper-faint); }
+
+  .inc-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(20px, 3vw, 44px); }
+  @media (max-width: 860px) { .inc-grid { grid-template-columns: 1fr; } }
+  .inc { border: 1px solid var(--paper-faint); border-radius: 22px; padding: clamp(24px, 3vw, 44px); background: linear-gradient(180deg, rgba(239,233,223,.04), rgba(239,233,223,0)); }
+  .inc .tag { font-family: var(--font-mono); font-size: var(--fs-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); }
+  .inc h3 { margin: 14px 0 22px; font-size: clamp(24px, 2.4vw, 38px); line-height: 1.04; letter-spacing: -.03em; font-weight: 800; }
+  .inc li { display: grid; grid-template-columns: 18px 1fr; gap: 14px; padding: 13px 0; border-top: 1px solid var(--paper-faint); color: var(--paper-dim); }
+  .inc li::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); margin-top: .62em; }
+
+  .calc-box { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(28px, 6vw, 96px); align-items: center; }
+  @media (max-width: 860px) { .calc-box { grid-template-columns: 1fr; } }
+  .calc label { display: block; font-weight: 600; margin-bottom: 14px; }
+  .big { font-size: clamp(64px, 11vw, 168px); font-weight: 900; letter-spacing: -.05em; line-height: .9; }
+  .big small { font-family: var(--font-mono); font-size: var(--fs-mono); letter-spacing: .1em; font-weight: 400; color: var(--paper-dim); margin-right: 8px; }
+  input[type=range] { width: 100%; height: 44px; accent-color: var(--accent); margin-top: 16px; background: transparent; }
+  .out { border: 1px solid var(--paper-faint); border-radius: 22px; padding: clamp(22px, 3vw, 40px); }
+  .out .row { padding: 18px 0; border-bottom: 1px solid var(--paper-faint); display: flex; align-items: baseline; gap: 18px; }
+  .out .row:last-of-type { border-bottom: 0; }
+  .out b { font-size: clamp(40px, 5vw, 76px); font-weight: 900; letter-spacing: -.04em; color: var(--accent); line-height: 1; min-width: 1.6ch; }
+  .out span { color: var(--paper-dim); }
+  .out .fine { margin-top: 12px; font-size: .88rem; color: var(--paper-dim); }
+
+  .price-grid { display: grid; grid-template-columns: 1.15fr 1fr; gap: clamp(18px, 3vw, 40px); }
+  @media (max-width: 860px) { .price-grid { grid-template-columns: 1fr; } }
+  .plan { border: 1px solid var(--paper-faint); border-radius: 26px; padding: clamp(26px, 3.4vw, 52px); display: flex; flex-direction: column; min-height: 420px; }
+  .plan.main { background: var(--paper); color: var(--ink); border-color: var(--paper); }
+  .plan .for { font-family: var(--font-mono); font-size: var(--fs-mono); letter-spacing: .14em; text-transform: uppercase; opacity: .7; }
+  .plan .amt { font-size: clamp(56px, 8.4vw, 138px); font-weight: 900; letter-spacing: -.055em; line-height: .9; margin: 22px 0 10px; white-space: nowrap; }
+  .plan .amt small { font-size: clamp(14px, 1.3vw, 20px); font-weight: 500; letter-spacing: 0; opacity: .65; }
+  .plan p { max-width: 36ch; }
+  .plan:not(.main) p { color: var(--paper-dim); }
+  .plan .btn { margin-top: auto; align-self: flex-start; }
+  .plan.main .btn-main { background: var(--ink); color: var(--paper); }
+  .plan.main .btn-main:hover { background: var(--accent); color: var(--ink); }
+  .total { margin-top: 30px; font-family: var(--font-mono); font-size: var(--fs-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--paper-dim); }
+  .total b { color: var(--paper); }
+
+  .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(20px, 3vw, 44px); counter-reset: s; }
+  @media (max-width: 860px) { .steps { grid-template-columns: 1fr; } }
+  .steps li { counter-increment: s; padding-top: 22px; border-top: 1px solid var(--paper); }
+  .steps li::before { content: "Passo " counter(s); font-family: var(--font-mono); font-size: var(--fs-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); display: block; margin-bottom: 14px; }
+  .steps strong { display: block; font-size: clamp(22px, 2vw, 32px); letter-spacing: -.025em; line-height: 1.1; margin-bottom: 10px; }
+  .steps span { color: var(--paper-dim); }
+  .proof { margin-top: 56px; padding-top: 28px; border-top: 1px solid var(--paper-faint); color: var(--paper-dim); max-width: 70ch; }
+  .proof b { color: var(--paper); font-weight: 600; }
+
+  .faq { max-width: 900px; border-top: 1px solid var(--paper-faint); }
+  details { border-bottom: 1px solid var(--paper-faint); }
+  summary { cursor: pointer; padding: 24px 0; font-weight: 700; font-size: clamp(19px, 1.6vw, 26px); letter-spacing: -.02em; list-style: none; display: flex; justify-content: space-between; gap: 20px; }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: "+"; font-family: var(--font-mono); font-size: 1.6rem; line-height: 1; color: var(--accent); transition: transform .3s var(--ease); }
+  details[open] summary::after { transform: rotate(45deg); }
+  details p { color: var(--paper-dim); padding-bottom: 22px; max-width: 62ch; }
+
+  .footer { padding: clamp(84px, 11vw, 180px) var(--gutter) 32px; position: relative; overflow: hidden; border-top: 1px solid var(--paper-faint); }
+  .footer h2 { font-size: var(--fs-h2); line-height: .92; letter-spacing: -.045em; font-weight: 900; max-width: 12ch; }
+  .footer h2 em { color: var(--accent); letter-spacing: -.02em; }
+  .footer .sub { margin-top: 24px; color: var(--paper-dim); max-width: 46ch; }
+  form.lead { margin-top: 44px; display: grid; grid-template-columns: 1fr 1fr auto; gap: 16px; align-items: end; max-width: 980px; }
+  @media (max-width: 760px) { form.lead { grid-template-columns: 1fr; } }
+  label.f { display: grid; gap: 8px; font-family: var(--font-mono); font-size: var(--fs-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--paper-dim); }
+  label.f input { font: inherit; font-family: var(--font-sans); font-size: 1.05rem; letter-spacing: 0; text-transform: none; color: var(--paper); background: transparent; border: 1px solid var(--paper-faint); border-radius: 14px; min-height: 54px; padding: 12px 16px; width: 100%; }
+  label.f input:focus { border-color: var(--paper); outline: none; }
+  .fmsg { grid-column: 1 / -1; margin: 0; display: none; color: var(--accent); font-weight: 600; font-size: .95rem; }
+  .f-grid { margin-top: 90px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; border-top: 1px solid var(--paper-faint); padding-top: 28px; font-size: .95rem; color: var(--paper-dim); }
+  @media (max-width: 760px) { .f-grid { grid-template-columns: 1fr; } }
+  .f-grid .l { display: block; font-family: var(--font-mono); font-size: var(--fs-mono); letter-spacing: .14em; text-transform: uppercase; margin-bottom: 8px; }
+  .f-grid a { color: var(--paper); }
+  .f-base { margin-top: 40px; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-size: .85rem; color: var(--paper-dim); }
+  .giant { margin-top: 30px; font-size: clamp(90px, 25vw, 420px); font-weight: 900; letter-spacing: -.07em; line-height: .78; color: rgba(239,233,223,.06); white-space: nowrap; user-select: none; }
+
+  .fab { position: fixed; right: 16px; bottom: 16px; z-index: 95; width: 58px; height: 58px; border-radius: 50%; display: grid; place-items: center; background: var(--accent); color: var(--ink); box-shadow: 0 10px 30px rgba(0,0,0,.45); transition: opacity .3s; }
+  .fab svg { width: 30px; height: 30px; }
+  html.is-scrub.on-scene .fab { opacity: 0; pointer-events: none; }
+
+  @media (prefers-reduced-motion: reduce) { .cue-thumb { animation: none; } * { transition: none !important; } }
+</style>
+</head>
+
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+<div id="loader" role="status" aria-live="polite">
+  <div class="ld">
+    <p class="ld-top">Lumi · Site, SEO e GEO para pousadas</p>
+    <div class="ld-n"><span id="ld-n">0</span><sup>%</sup></div>
+    <div class="ld-bar"><i id="ld-bar"></i></div>
+    <div class="ld-foot"><span>Acendendo o farol</span><span>Online</span></div>
+  </div>
+</div>
+
+<header class="site-header">
+  <a class="brand" href="#topo" aria-label="Lumi, voltar ao topo"><span class="brand-mark" aria-hidden="true">L</span><span data-brand>Lumi</span></a>
+  <nav class="site-nav" aria-label="Principal">
+    <a class="l" href="#inclui">O que inclui</a>
+    <a class="l" href="#preco">Preço</a>
+    <a class="l" href="#duvidas">Dúvidas</a>
+    <a class="btn btn-main wa" data-where="topo" href="#contato">Diagnóstico grátis</a>
+  </nav>
+</header>
+
+<main id="conteudo">
+
+<section class="scene" id="topo" aria-label="Apresentação">
+  <div class="stage" id="stage">
+    <canvas id="sky" aria-hidden="true"></canvas>
+    <video id="vid" muted playsinline preload="auto" aria-hidden="true" tabindex="-1"></video>
+    <div class="veil"></div>
+    <div class="grain"></div>
+
+    <div class="layer hero" id="hero">
+      <p class="eyebrow"><span>Site + SEO + GEO para pousadas</span></p>
+      <h1>
+        <span class="ln"><span>Quem aparece</span></span>
+        <span class="ln"><span><em>reserva.</em></span></span>
+      </h1>
+      <div class="hero-foot">
+        <div>
+          <p class="hero-lede">Criamos o site que mostra seus apartamentos e leva a reserva para o seu WhatsApp. E ajustamos o Google e as respostas das IAs, como ChatGPT e Gemini, para a sua pousada aparecer quando o hóspede procura.</p>
+          <div class="hero-cta">
+            <a class="btn btn-main wa" data-where="hero" href="#contato">Pedir diagnóstico grátis <span class="ar" aria-hidden="true">→</span></a>
+            <a class="btn btn-line" href="#preco">R$ 1.800 + R$ 490/mês</a>
+          </div>
+        </div>
+        <div class="cue"><span class="cue-track" aria-hidden="true"><span class="cue-thumb"></span></span><span>Role para acender o farol</span></div>
+      </div>
+    </div>
+
+    <div class="layer chapters" id="chapters">
+      <article class="chapter" data-r="0.17,0.40">
+        <p class="eyebrow">01 / A busca</p>
+        <h2>O hóspede procura de noite.</h2>
+        <p class="b">As buscas por “pousada garopaba” no Google sobem de setembro a janeiro. É nessa subida que o hóspede escolhe onde perguntar.</p>
+        <dl class="metrics">
+          <div class="metric"><dd><span data-count="3600">3.600</span></dd><dt>buscas em setembro</dt></div>
+          <div class="metric"><dd><span data-count="8100">8.100</span></dd><dt>buscas em janeiro</dt></div>
+        </dl>
+        <p class="note-ill">Google Ads via DataForSEO, set/2025 a ago/2026</p>
+      </article>
+
+      <article class="chapter right" data-r="0.42,0.64">
+        <p class="eyebrow">02 / A sombra</p>
+        <h2>Sua pousada está lá. O Google não vê.</h2>
+        <p class="b">Num estudo de uma pousada real de Garopaba, nota 4,9, ela não aparecia nas buscas por pousada. O Google a tratava como aluguel de temporada, e o site que o Facebook indicava não abria.</p>
+        <p class="b">Entre as hospedagens da Praia da Gamboa com mais de 100 avaliações, 7 de 8 têm site próprio.</p>
+      </article>
+
+      <article class="chapter" data-r="0.66,0.84">
+        <p class="eyebrow">03 / O farol</p>
+        <h2>Site, SEO e GEO acendem a pousada.</h2>
+        <p class="b">Site com os apartamentos lado a lado, ficha do Google como pousada, fotos conferidas e SEO para as buscas do seu destino, como “pousada na Gamboa”. E GEO: informação organizada para as IAs, como ChatGPT e Gemini, entenderem a sua pousada.</p>
+      </article>
+
+      <article class="chapter center" data-r="0.86,1.02">
+        <p class="eyebrow">04 / A reserva</p>
+        <h2>Um clique no WhatsApp, e a conversa já começa pronta.</h2>
+        <div class="chip" role="img" aria-label="Ilustração de uma mensagem de reserva chegando no WhatsApp"><span class="dot"></span><div><b>Olá! Vi o site e quero saber a disponibilidade.</b><span>Mensagem de reserva já escrita no botão</span></div></div>
+        <p class="note-ill">Ilustração</p>
+      </article>
+    </div>
+
+    <div class="hud" aria-hidden="true">
+      <span id="hud-label">00 — Entardecer</span>
+      <span class="hud-bar"><span class="hud-fill" id="hud-fill"></span></span>
+      <span class="hud-time" id="hud-time">18:00</span>
+    </div>
+  </div>
+</section>
+
+<section class="s" id="inclui">
+  <div class="s-head">
+    <p class="eyebrow" style="margin-bottom:18px">O que inclui</p>
+    <h2>Para ser encontrada. E para continuar sendo.</h2>
+    <p style="margin-top:24px;color:var(--paper-dim);max-width:56ch">SEO é aparecer no Google. GEO é aparecer nas respostas das IAs, como ChatGPT, Gemini e Perplexity. Fazemos os dois.</p>
+  </div>
+  <div class="s-in inc-grid">
+    <div class="inc">
+      <span class="tag">Site + SEO + GEO inicial</span>
+      <h3>Para a pousada ser encontrada e reservada</h3>
+      <ul>
+        <li>Site com os apartamentos lado a lado: fotos, o que cada um tem e preço de partida</li>
+        <li>Botão de WhatsApp em toda a página, com a mensagem de reserva já escrita</li>
+        <li>Ficha do Google ajustada: categoria de pousada e fotos e dados conferidos</li>
+        <li>SEO da página para as buscas do seu destino, como “pousada na Gamboa”</li>
+        <li>GEO: informações da pousada organizadas e marcadas para as IAs, como ChatGPT, Gemini e Perplexity, entenderem e poderem citar</li>
+        <li>Medição dos cliques no WhatsApp, para você ver o que traz reserva</li>
+      </ul>
+    </div>
+    <div class="inc">
+      <span class="tag">Manutenção mensal</span>
+      <h3>Para continuar aparecendo depois do dia da entrega</h3>
+      <ul>
+        <li>Site no ar e atualizado: preços, fotos e ofertas de temporada</li>
+        <li>Acompanhamento das buscas, da ficha do Google e das respostas das IAs sobre a sua pousada</li>
+        <li>Relatório mensal de visitas e cliques no WhatsApp</li>
+        <li>Ajuda para pedir avaliação a cada hóspede, que é o que faz a nota crescer</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="s rule calc" id="conta">
+  <div class="s-head">
+    <p class="eyebrow" style="margin-bottom:18px">A conta</p>
+    <h2>Quantas diárias pagam o site?</h2>
+  </div>
+  <div class="s-in calc-box">
+    <div>
+      <label for="diaria">Quanto você cobra, em média, por diária?</label>
+      <div class="big"><small>R$</small><span id="v-diaria">250</span></div>
+      <input id="diaria" type="range" min="100" max="1500" step="10" value="250" aria-describedby="calc-fine">
+    </div>
+    <div class="out" aria-live="polite">
+      <div class="row"><b id="o-site">8</b><span>diárias pagam o site, o SEO e o GEO iniciais (R$ 1.800)</span></div>
+      <div class="row"><b id="o-ano">31</b><span>diárias cobrem o primeiro ano inteiro (R$ 7.680, com a manutenção)</span></div>
+      <p class="fine" id="calc-fine">Conta simples de aritmética para você medir o investimento. Não é promessa de quantidade de reservas.</p>
+    </div>
+  </div>
+</section>
+
+<section class="s rule" id="preco">
+  <div class="s-head">
+    <p class="eyebrow" style="margin-bottom:18px">Investimento</p>
+    <h2>Dois valores, sem letra miúda.</h2>
+  </div>
+  <div class="s-in">
+    <div class="price-grid">
+      <div class="plan main">
+        <span class="for">Para começar</span>
+        <div class="amt">R$ 1.800</div>
+        <p><strong>Site + SEO + GEO inicial.</strong> Um valor para criar o site, ajustar a ficha do Google, preparar o GEO e deixar a reserva a um clique do WhatsApp.</p>
+        <a class="btn btn-main wa" data-where="preco-site" href="#contato" style="margin-top:32px">Quero começar <span class="ar" aria-hidden="true">→</span></a>
+      </div>
+      <div class="plan">
+        <span class="for">Para manter</span>
+        <div class="amt">R$ 490<small> /mês</small></div>
+        <p><strong>Manutenção.</strong> O site continua atualizado e a pousada continua sendo acompanhada no Google.</p>
+        <a class="btn btn-line wa" data-where="preco-manut" href="#contato" style="margin-top:32px">Tirar dúvidas <span class="ar" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+    <p class="total"><b>Primeiro ano: R$ 7.680</b> (R$ 1.800 + 12 meses de R$ 490) · formas de pagamento combinadas na conversa</p>
+  </div>
+</section>
+
+<section class="s rule" id="como">
+  <div class="s-head">
+    <p class="eyebrow" style="margin-bottom:18px">Como funciona</p>
+    <h2>Do diagnóstico ao ar.</h2>
+  </div>
+  <div class="s-in">
+    <ol class="steps">
+      <li><strong>Você manda o nome da pousada e a cidade</strong><span>Montamos o diagnóstico com dados do Google: onde você aparece hoje e onde está a oportunidade.</span></li>
+      <li><strong>A gente cria o site com as suas fotos</strong><span>Apartamentos lado a lado, preço de partida e botão de WhatsApp. Você aprova antes de ir ao ar.</span></li>
+      <li><strong>Publicamos e acompanhamos todo mês</strong><span>Ajustamos a ficha do Google e o GEO, e olhamos os cliques no WhatsApp, para saber o que está funcionando.</span></li>
+    </ol>
+    <p class="proof"><b>A Farol Hospeda, que está por trás da Lumi, já cuida do site e do Google</b> do Refúgio da Silveira e do Hostel Vale do Rosa.</p>
+  </div>
+</section>
+
+<section class="s rule" id="duvidas">
+  <div class="s-head">
+    <p class="eyebrow" style="margin-bottom:18px">Dúvidas</p>
+    <h2>O que todo dono pergunta.</h2>
+  </div>
+  <div class="s-in">
+    <div class="faq">
+      <details><summary>Já tenho Booking e Airbnb. Preciso de site?</summary>
+        <p>Os anúncios ajudam, mas o site é o único lugar que é seu. Ele mostra os apartamentos lado a lado, o preço de partida e leva a reserva direto para o seu WhatsApp. No levantamento da Praia da Gamboa, 7 das 8 hospedagens com mais de 100 avaliações no Google têm site próprio.</p></details>
+      <details><summary>O que é GEO?</summary>
+        <p>SEO é aparecer no Google. GEO é aparecer nas respostas das IAs, como ChatGPT, Gemini e Perplexity. Deixamos as informações da sua pousada claras, completas e organizadas para essas ferramentas entenderem o que você faz e poderem citar você. Nenhuma ferramenta garante citação, e as respostas das IAs mudam com o tempo.</p></details>
+      <details><summary>Vocês garantem o primeiro lugar no Google?</summary>
+        <p>Não. A posição depende da concorrência da sua cidade e leva tempo. O que fazemos é colocar a sua pousada na categoria certa, com site, fotos e dados conferidos, e acompanhar os resultados todo mês.</p></details>
+      <details><summary>E fora do verão, o site ajuda?</summary>
+        <p>Ajuda a ser encontrado. As buscas por pousada em Garopaba caem para cerca de mil por mês no inverno, e é nessa faixa que um pacote para a temporada das baleias (julho a novembro) ajuda a encher a casa.</p></details>
+      <details><summary>Preciso ter fotos prontas?</summary>
+        <p>Fotos reais dos apartamentos vendem mais que qualquer imagem de banco. Se você ainda não tem, dizemos quais fotos pedir ao fotógrafo ou tirar com o celular.</p></details>
+      <details><summary>Como funciona o pagamento?</summary>
+        <p>São R$ 1.800 para criar o site, o SEO e o GEO iniciais, e R$ 490 por mês de manutenção. As formas de pagamento combinamos na conversa pelo WhatsApp.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="footer" id="contato">
+  <h2>Vamos acender a <em>sua</em> pousada?</h2>
+  <p class="sub">Diga o nome da pousada e a cidade. A gente responde pelo WhatsApp com o diagnóstico grátis.</p>
+  <form class="lead" id="lead" novalidate>
+    <label class="f">Nome da pousada <input id="l-nome" type="text" autocomplete="organization" required></label>
+    <label class="f">Cidade <input id="l-cidade" type="text" autocomplete="address-level2" required></label>
+    <button class="btn btn-main" type="submit">Pedir pelo WhatsApp <span class="ar" aria-hidden="true">→</span></button>
+    <p class="fmsg" id="fmsg" role="alert"></p>
+  </form>
+  <div class="f-grid">
+    <div><span class="l">Lumi</span>Site, SEO e GEO para pousadas e hospedagens pequenas.</div>
+    <div><span class="l">WhatsApp</span><a class="wa" data-where="rodape" href="#contato" id="foot-wa">fale com a gente</a></div>
+    <div><span class="l">Conheça também</span><a href="/">Site + SEO + GEO para outros negócios</a><br><a href="/assistente/">Lumi, a atendente de WhatsApp da pousada</a></div>
+  </div>
+  <div class="f-base"><span>© <span id="yr">2026</span> Lumi · Farol Hospeda</span><a href="#topo">Voltar ao topo ↑</a></div>
+  <p class="giant" aria-hidden="true">Lumi</p>
+</section>
+
+</main>
+
+<a class="fab wa" data-where="flutuante" href="#contato" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 1.9 17.8L.5 23.5l5.8-1.5a11.8 11.8 0 0 0 5.7 1.5A11.8 11.8 0 0 0 20.5 3.5ZM12 21.3a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.4.9.9-3.3-.2-.4a9.8 9.8 0 1 1 8.1 4.4Zm5.4-7.3c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-.9 1.1-.3.2-.6.1a8 8 0 0 1-2.4-1.5 9 9 0 0 1-1.6-2c-.2-.3 0-.5.1-.6l.4-.5.3-.5a.6.6 0 0 0 0-.5c-.1-.1-.7-1.7-.9-2.3s-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4 14.6 14.6 0 0 0 5.6 4.9c2.1.9 2.9.9 3.4.8a2.9 2.9 0 0 0 1.9-1.3 2.4 2.4 0 0 0 .2-1.3c-.1-.1-.3-.2-.6-.3Z"/></svg>
+</a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
+
+<script defer>
+window.addEventListener("DOMContentLoaded", function () {
+  /* ========== CONFIGURAÇÃO (EDITAR) ========== */
+  var BRAND = "Lumi";
+  var WHATSAPP = "5548984683798";          // DDI + DDD + número, só dígitos
+  var VIDEO_SRC = "";                      // opcional: caminho de um vídeo que avança com a rolagem (ex.: "assets/scene.mp4")
+
+  var root = document.documentElement;
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches || /[?&]static\b/.test(location.search);
+  var $ = function (s) { return document.querySelector(s); };
+  var gsap = window.gsap, ScrollTrigger = window.ScrollTrigger, Lenis = window.Lenis;
+  var validWa = /^\d{12,13}$/.test(WHATSAPP);
+
+  document.querySelectorAll("[data-brand]").forEach(function (e) { e.textContent = BRAND; });
+  $("#yr").textContent = new Date().getFullYear();
+
+  /* ========== WHATSAPP, FORMULÁRIO, CALCULADORA ========== */
+  function waLink(t) { return "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(t); }
+  function track(w) { if (window.gtag) gtag("event", "whatsapp_click", { local: w }); if (window.fbq) fbq("track", "Contact", { local: w }); }
+  document.querySelectorAll("a.wa").forEach(function (a) { a.addEventListener("click", function () { track(a.getAttribute("data-where") || "geral"); }); });
+  var fw = $("#foot-wa");
+  if (validWa) { fw.href = waLink("Olá! Vi o site e quero o diagnóstico grátis da minha pousada."); fw.target = "_blank"; fw.rel = "noopener"; fw.textContent = WHATSAPP.replace(/^55(\d{2})(\d{4,5})(\d{4})$/, "($1) $2-$3"); }
+  $("#lead").addEventListener("submit", function (e) {
+    e.preventDefault();
+    var n = $("#l-nome").value.trim(), c = $("#l-cidade").value.trim(), m = $("#fmsg");
+    m.style.display = "none";
+    if (!n || !c) { m.textContent = "Preencha o nome da pousada e a cidade para abrir o WhatsApp."; m.style.display = "block"; return; }
+    if (!validWa) { m.textContent = "Falta configurar o número de WhatsApp no código da página (variável WHATSAPP)."; m.style.display = "block"; return; }
+    track("formulario");
+    window.open(waLink("Olá! Tenho a pousada " + n + " em " + c + " e quero o diagnóstico grátis, o site, o SEO e o GEO."), "_blank", "noopener");
+  });
+  var range = $("#diaria");
+  function calc() { var d = +range.value; $("#v-diaria").textContent = d; $("#o-site").textContent = Math.ceil(1800 / d); $("#o-ano").textContent = Math.ceil(7680 / d); }
+  range.addEventListener("input", calc); calc();
+
+  /* ========== CARREGAMENTO ========== */
+  var loader = $("#loader"), ldN = $("#ld-n"), ldBar = $("#ld-bar");
+  function runLoader(done) {
+    if (reduce || !loader) { if (loader) loader.classList.add("done"); done(); return; }
+    var start = performance.now(), dur = 1700, fontsOk = false, finished = false;
+    setTimeout(function () { if (!finished) { finished = true; ldN.textContent = 100; ldBar.style.width = "100%"; loader.classList.add("done"); done(); } }, 3600);
+    (document.fonts && document.fonts.ready ? document.fonts.ready : Promise.resolve()).then(function () { fontsOk = true; });
+    (function tick(now) {
+      var t = Math.min(1, (now - start) / dur);
+      var v = Math.round(t * (fontsOk || t < .9 ? 100 : 90));
+      ldN.textContent = v; ldBar.style.width = v + "%";
+      if (finished) return;
+      if (t >= 1 && (fontsOk || now - start > 3000)) {
+        if (!finished) { finished = true; ldN.textContent = 100; ldBar.style.width = "100%"; setTimeout(function () { loader.classList.add("done"); done(); }, 250); }
+        return;
+      }
+      requestAnimationFrame(tick);
+    })(start);
+  }
+
+  /* ========== CENA DESENHADA: NOITE NA COSTA ========== */
+  var cv = $("#sky"), ctx = cv.getContext("2d"), stage = $("#stage");
+  var W = 0, H = 0, DPR = 1;
+  function mulberry(a) { return function () { a |= 0; a = a + 0x6D2B79F5 | 0; var t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+  var lerp = function (a, b, t) { return a + (b - a) * t; };
+  var clamp01 = function (x) { return Math.max(0, Math.min(1, x)); };
+  var sm = function (a, b, x) { var t = clamp01((x - a) / (b - a)); return t * t * (3 - 2 * t); };
+  function mix(c1, c2, t) { return "rgb(" + Math.round(lerp(c1[0], c2[0], t)) + "," + Math.round(lerp(c1[1], c2[1], t)) + "," + Math.round(lerp(c1[2], c2[2], t)) + ")"; }
+
+  var stars = [], houses = [], sparks = [];
+  var HOR = 0.58, HILL0 = 0.56, HSPAN = 0.28;
+  function hillY(u) { return HILL0 + HSPAN * sm(0, 0.62, u); }
+  function build() {
+    var r = mulberry(7);
+    stars = []; for (var i = 0; i < 170; i++) stars.push({ x: r(), y: r() * HOR * 0.95, s: 0.4 + r() * 1.3, p: r() * 6.28, a: 0.3 + r() * 0.7 });
+    houses = [];
+    var n = 9, mine = 4, dark = { 4: 1, 7: 1 };
+    for (var k = 0; k < n; k++) {
+      var u = 0.05 + k * 0.058 + (r() - .5) * 0.012;
+      houses.push({ u: u, w: 0.034 + r() * 0.012, h: 0.04 + r() * 0.014, mine: k === mine, lit: !dark[k], ph: r() * 6.28 });
+    }
+    sparks = []; for (var s = 0; s < 34; s++) sparks.push({ ph: r(), sp: 0.07 + r() * 0.08, tgt: r(), sx: 0.6 + r() * 0.4, sy: r() * 0.25 });
+  }
+  function resize() {
+    DPR = Math.min(window.devicePixelRatio || 1, 2);
+    W = stage.clientWidth || window.innerWidth; H = stage.clientHeight || window.innerHeight;
+    var portrait = H > W * 1.1; HOR = portrait ? 0.64 : 0.58; HILL0 = portrait ? 0.7 : 0.56; HSPAN = portrait ? 0.18 : 0.28;
+    cv.width = Math.round(W * DPR); cv.height = Math.round(H * DPR);
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    build();
+  }
+
+  var useVideo = false, vid = $("#vid"), lastSeek = -1;
+  function drawScene(p, t) {
+    var w = W, h = H;
+    ctx.clearRect(0, 0, w, h);
+    if (useVideo && vid.readyState >= 2 && vid.duration) {
+      var tt = p * (vid.duration - 0.05);
+      if (!vid.seeking && Math.abs(tt - lastSeek) > 0.03) { vid.currentTime = tt; lastSeek = tt; }
+      var vr = vid.videoWidth / vid.videoHeight, cr = w / h, sw, sh, sx, sy;
+      if (vr > cr) { sh = vid.videoHeight; sw = sh * cr; sx = (vid.videoWidth - sw) / 2; sy = 0; } else { sw = vid.videoWidth; sh = sw / cr; sx = 0; sy = (vid.videoHeight - sh) / 2; }
+      ctx.drawImage(vid, sx, sy, sw, sh, 0, 0, w, h);
+      return;
+    }
+    var pan = (p - 0.5) * 0.02 * w;
+    var night = sm(0.0, 0.34, p);
+    var g = ctx.createLinearGradient(0, 0, 0, h * HOR);
+    g.addColorStop(0, mix([34, 30, 64], [4, 7, 18], night));
+    g.addColorStop(0.55, mix([122, 58, 86], [9, 15, 36], night));
+    g.addColorStop(1, mix([255, 138, 76], [24, 38, 74], night));
+    ctx.fillStyle = g; ctx.fillRect(0, 0, w, h * HOR + 2);
+    var sa = sm(0.05, 0.4, p);
+    for (var i = 0; i < stars.length; i++) {
+      var s = stars[i], tw = 0.65 + 0.35 * Math.sin(t * 1.4 + s.p);
+      ctx.globalAlpha = sa * s.a * tw; ctx.fillStyle = "#fff";
+      ctx.fillRect(s.x * w + pan * 0.2, s.y * h, s.s, s.s);
+    }
+    ctx.globalAlpha = 1;
+    var sunA = 1 - sm(0, 0.22, p);
+    if (sunA > 0.01) {
+      var sg = ctx.createRadialGradient(w * 0.46, h * HOR, 0, w * 0.46, h * HOR, h * 0.42);
+      sg.addColorStop(0, "rgba(255,190,110," + (0.8 * sunA) + ")"); sg.addColorStop(1, "rgba(255,120,60,0)");
+      ctx.fillStyle = sg; ctx.fillRect(0, 0, w, h * HOR + 2);
+    }
+    var moonA = sm(0.12, 0.45, p), mx = w * 0.7, my = h * 0.2, mr = Math.min(w, h) * 0.045;
+    if (moonA > 0.01) {
+      var mg = ctx.createRadialGradient(mx, my, mr * .4, mx, my, mr * 6);
+      mg.addColorStop(0, "rgba(220,235,255," + (0.28 * moonA) + ")"); mg.addColorStop(1, "rgba(220,235,255,0)");
+      ctx.fillStyle = mg; ctx.fillRect(mx - mr * 6, my - mr * 6, mr * 12, mr * 12);
+      ctx.fillStyle = "rgba(240,246,255," + moonA + ")"; ctx.beginPath(); ctx.arc(mx, my, mr, 0, 6.283); ctx.fill();
+    }
+    var sg2 = ctx.createLinearGradient(0, h * HOR, 0, h);
+    sg2.addColorStop(0, mix([70, 60, 80], [10, 22, 42], night)); sg2.addColorStop(1, "#02050b");
+    ctx.fillStyle = sg2; ctx.fillRect(0, h * HOR, w, h - h * HOR);
+    var r2 = mulberry(21);
+    for (var j = 0; j < 90; j++) {
+      var yy = h * HOR + Math.pow(r2(), 1.6) * (h - h * HOR), xx = (r2() * w + Math.sin(t * .6 + j) * 6);
+      var near = Math.exp(-Math.pow((xx - mx) / (w * 0.09), 2)) * moonA;
+      var warm = Math.exp(-Math.pow((xx - w * .46) / (w * 0.12), 2)) * sunA;
+      var a = 0.05 + near * 0.55 + warm * 0.5;
+      ctx.fillStyle = warm > near ? "rgba(255,170,100," + a + ")" : "rgba(190,215,245," + a + ")";
+      ctx.fillRect(xx, yy, 8 + r2() * 26 * (yy / h), 1.2);
+    }
+    ctx.fillStyle = mix([40, 30, 48], [6, 10, 20], night);
+    ctx.beginPath(); ctx.moveTo(w * 0.62, h * HOR + 1);
+    ctx.bezierCurveTo(w * 0.7, h * (HOR - 0.045), w * 0.84, h * (HOR - 0.03), w, h * (HOR - 0.07)); ctx.lineTo(w, h * HOR + 1); ctx.fill();
+
+    var lx = w * 0.865 + pan * 0.5, base = h * 0.78, top = h * 0.5, lw = Math.max(14, w * 0.018);
+    ctx.fillStyle = "#050810";
+    ctx.beginPath(); ctx.moveTo(w * 0.74 + pan * .5, h); ctx.quadraticCurveTo(w * 0.8 + pan * .5, base - 4, lx - lw * 1.6, base); ctx.lineTo(lx + lw * 1.8, base); ctx.quadraticCurveTo(w * 0.97, base + 20, w, base + 10); ctx.lineTo(w, h); ctx.fill();
+    ctx.beginPath(); ctx.moveTo(lx - lw, base); ctx.lineTo(lx - lw * 0.62, top); ctx.lineTo(lx + lw * 0.62, top); ctx.lineTo(lx + lw, base); ctx.fill();
+    ctx.fillRect(lx - lw * 0.9, top - lw * 0.55, lw * 1.8, lw * 0.55);
+    ctx.beginPath(); ctx.moveTo(lx - lw * 0.8, top - lw * 0.55); ctx.lineTo(lx, top - lw * 1.5); ctx.lineTo(lx + lw * 0.8, top - lw * 0.55); ctx.fill();
+    var lampY = top - lw * 0.3, beamA = sm(0.52, 0.68, p);
+    if (beamA > 0.01) {
+      var th = Math.PI - 0.06 + 0.3 * Math.sin(p * 9 + t * 0.35), spread = 0.085, L = w * 1.4;
+      var bg = ctx.createLinearGradient(lx, lampY, lx + Math.cos(th) * L, lampY + Math.sin(th) * L);
+      bg.addColorStop(0, "rgba(255,238,190," + (0.62 * beamA) + ")"); bg.addColorStop(0.6, "rgba(255,238,190," + (0.12 * beamA) + ")"); bg.addColorStop(1, "rgba(255,238,190,0)");
+      ctx.save(); ctx.globalCompositeOperation = "lighter"; ctx.fillStyle = bg;
+      ctx.beginPath(); ctx.moveTo(lx, lampY);
+      ctx.lineTo(lx + Math.cos(th - spread) * L, lampY + Math.sin(th - spread) * L);
+      ctx.lineTo(lx + Math.cos(th + spread) * L, lampY + Math.sin(th + spread) * L); ctx.fill(); ctx.restore();
+    }
+    var lg = ctx.createRadialGradient(lx, lampY, 0, lx, lampY, lw * 7);
+    lg.addColorStop(0, "rgba(255,240,200," + (0.15 + 0.85 * beamA) + ")"); lg.addColorStop(1, "rgba(255,200,120,0)");
+    ctx.save(); ctx.globalCompositeOperation = "lighter"; ctx.fillStyle = lg; ctx.fillRect(lx - lw * 7, lampY - lw * 7, lw * 14, lw * 14); ctx.restore();
+
+    var hx = pan;
+    ctx.fillStyle = "#04060c"; ctx.beginPath(); ctx.moveTo(-10, h);
+    for (var u = 0; u <= 0.66; u += 0.01) ctx.lineTo(u * w + hx, hillY(u) * h);
+    ctx.lineTo(0.7 * w + hx, h); ctx.fill();
+    var mineLit = sm(0.64, 0.78, p);
+    for (var k = 0; k < houses.length; k++) {
+      var o = houses[k], bx = o.u * w + hx, by = hillY(o.u) * h + 2, bw = o.w * w, bh = o.h * h * (o.mine ? 1.25 : 1);
+      ctx.fillStyle = "#070a14"; ctx.fillRect(bx, by - bh, bw, bh);
+      ctx.beginPath(); ctx.moveTo(bx - bw * .08, by - bh); ctx.lineTo(bx + bw / 2, by - bh - bh * 0.46); ctx.lineTo(bx + bw * 1.08, by - bh); ctx.fill();
+      var lit = o.mine ? mineLit : (o.lit ? 1 : 0), fl = 0.88 + 0.12 * Math.sin(t * 2 + o.ph);
+      var amt = lit * fl * (0.3 + 0.7 * night);
+      if (amt > 0.01) {
+        var col = o.mine ? "255,170,70" : "255,196,120", rad = bw * (o.mine ? 4.4 : 2.4);
+        var gg = ctx.createRadialGradient(bx + bw / 2, by - bh * .5, 0, bx + bw / 2, by - bh * .5, rad);
+        gg.addColorStop(0, "rgba(" + col + "," + (0.5 * amt) + ")"); gg.addColorStop(1, "rgba(" + col + ",0)");
+        ctx.save(); ctx.globalCompositeOperation = "lighter"; ctx.fillStyle = gg; ctx.fillRect(bx - rad, by - bh * .5 - rad, rad * 2 + bw, rad * 2); ctx.restore();
+        ctx.fillStyle = "rgba(" + col + "," + (0.95 * amt) + ")";
+        ctx.fillRect(bx + bw * .16, by - bh * .72, bw * .24, bh * .26); ctx.fillRect(bx + bw * .6, by - bh * .72, bw * .24, bh * .26);
+      }
+      if (o.mine && mineLit > 0.5) {
+        var pa = sm(0.5, 1, mineLit), px = bx + bw / 2, py = by - bh * 1.7;
+        ctx.globalAlpha = pa; ctx.strokeStyle = "#ff5a2c"; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.moveTo(px, py + 6); ctx.lineTo(px, by - bh * 1.5); ctx.stroke();
+        ctx.fillStyle = "#ff5a2c"; ctx.beginPath(); ctx.arc(px, py, 5, 0, 6.283); ctx.fill();
+        ctx.font = "500 " + Math.max(10, Math.round(w * 0.0085)) + "px 'JetBrains Mono', monospace"; ctx.fillStyle = "#efe9df"; ctx.textAlign = "center";
+        ctx.fillText("SUA POUSADA", px, py - 12); ctx.globalAlpha = 1;
+      }
+    }
+    var sparkA = sm(0.12, 0.3, p);
+    var cand = houses.filter(function (hh) { return hh.lit || (hh.mine && mineLit > 0.7); });
+    for (var q = 0; q < sparks.length; q++) {
+      var sp = sparks[q], ph = (sp.ph + t * sp.sp) % 1;
+      var tg = cand[Math.floor(sp.tgt * cand.length) % cand.length];
+      var tx = tg.u * w + hx + tg.w * w / 2, ty = hillY(tg.u) * h - tg.h * h * .5;
+      var x0 = sp.sx * w, y0 = sp.sy * h, e = ph * ph * (3 - 2 * ph);
+      var cx = lerp(x0, tx, e), cy = lerp(y0, ty, e) - Math.sin(e * Math.PI) * h * 0.08;
+      var a2 = sparkA * Math.sin(ph * Math.PI) * (tg.mine ? 1 : 0.65);
+      ctx.fillStyle = tg.mine ? "rgba(255,90,44," + a2 + ")" : "rgba(239,233,223," + a2 * 0.7 + ")";
+      ctx.beginPath(); ctx.arc(cx, cy, tg.mine ? 2.6 : 1.8, 0, 6.283); ctx.fill();
+    }
+  }
+
+  /* Vídeo opcional: se existir assets/scene.mp4, ele substitui o desenho */
+  if (VIDEO_SRC) fetch(VIDEO_SRC, { method: "HEAD" }).then(function (r) {
+    if (r.ok) { vid.src = VIDEO_SRC; vid.addEventListener("loadeddata", function () { useVideo = true; }); vid.load(); }
+  }).catch(function () {});
+
+  /* ========== PROGRESSO, CAPÍTULOS E HUD ========== */
+  var chapters = [].slice.call(document.querySelectorAll(".chapter")).map(function (el) {
+    var r = el.getAttribute("data-r").split(",").map(Number); return { el: el, a: r[0], b: r[1], counted: false };
+  });
+  var hero = $("#hero"), hudLabel = $("#hud-label"), hudFill = $("#hud-fill"), hudTime = $("#hud-time");
+  var labels = [[0, "00 — Entardecer"], [0.17, "01 — A busca"], [0.42, "02 — A sombra"], [0.66, "03 — O farol"], [0.86, "04 — A reserva"]];
+  function countUp(el) {
+    var end = +el.getAttribute("data-count"), t0 = performance.now(), dur = 1400;
+    (function f(n) { var k = clamp01((n - t0) / dur), e = 1 - Math.pow(1 - k, 3); el.textContent = Math.round(end * e).toLocaleString("pt-BR"); if (k < 1) requestAnimationFrame(f); })(t0);
+  }
+  var cur = 0, target = 0, scrubOn = false;
+  function win(p, a, b) { var f = (b - a) * 0.2; if (p < a || p > b) return 0; return Math.min(sm(a, a + f, p), 1 - sm(b - f, b, p)); }
+  function layout(p) {
+    var ha = 1 - sm(0.05, 0.16, p);
+    hero.style.opacity = ha; hero.style.visibility = ha < 0.02 ? "hidden" : "visible";
+    chapters.forEach(function (c) {
+      var a = win(p, c.a, c.b), vis = a > 0.02;
+      c.el.style.opacity = a; c.el.style.visibility = vis ? "visible" : "hidden";
+      var ty = (a < 1 ? (p < (c.a + c.b) / 2 ? 1 - a : -(1 - a)) * 34 : 0);
+      c.el.style.transform = c.el.classList.contains("center") ? "translate(-50%, " + ty + "px)" : "translateY(" + ty + "px)";
+      if (vis && a > 0.5 && !c.counted) { c.counted = true; c.el.querySelectorAll("[data-count]").forEach(countUp); }
+    });
+    var lab = labels[0][1]; labels.forEach(function (l) { if (p >= l[0]) lab = l[1]; });
+    hudLabel.textContent = lab; hudFill.style.width = (p * 100) + "%";
+    var mins = Math.round(18 * 60 + p * 5.9 * 60), hh = Math.floor(mins / 60) % 24, mm = mins % 60;
+    hudTime.textContent = String(hh).padStart(2, "0") + ":" + String(mm).padStart(2, "0");
+  }
+  var running = false, tStart = performance.now();
+  function frame(now) {
+    if (!running) return;
+    if (!cv.width || Math.abs(W - (stage.clientWidth || W)) > 1 || Math.abs(H - (stage.clientHeight || H)) > 1) resize();
+    cur += (target - cur) * 0.14; if (Math.abs(target - cur) < 0.0004) cur = target;
+    layout(cur); drawScene(cur, (now - tStart) / 1000);
+    requestAnimationFrame(frame);
+  }
+
+  /* ========== INICIAR ========== */
+  resize();
+  window.addEventListener("resize", function () { resize(); if (!scrubOn) drawScene(0.74, 0); if (ScrollTrigger && scrubOn) ScrollTrigger.refresh(); });
+
+  if (!gsap || !ScrollTrigger || reduce) {
+    root.classList.remove("is-scrub"); drawScene(0.74, 0);
+    runLoader(function () {});
+  } else {
+    gsap.registerPlugin(ScrollTrigger); root.classList.add("is-scrub"); scrubOn = true;
+    var lenis = null;
+    if (Lenis) {
+      lenis = new Lenis({ lerp: 0.1, smoothWheel: true, wheelMultiplier: 0.9 });
+      lenis.on("scroll", ScrollTrigger.update);
+      gsap.ticker.add(function (t) { lenis.raf(t * 1000); }); gsap.ticker.lagSmoothing(0);
+    }
+    var st = ScrollTrigger.create({
+      trigger: ".scene", start: "top top", end: function () { return "+=" + Math.round(innerHeight * (innerWidth < 720 ? 4.6 : 5.6)); },
+      pin: "#stage", pinSpacing: true, invalidateOnRefresh: true,
+      onUpdate: function (s) { target = s.progress; },
+      onToggle: function (s) { root.classList.toggle("on-scene", s.isActive); }
+    });
+    running = true; requestAnimationFrame(frame);
+    gsap.set("#hero h1 .ln > span", { yPercent: 115 }); gsap.set("#hero .eyebrow, #hero .hero-foot", { autoAlpha: 0, y: 20 });
+    runLoader(function () {
+      gsap.to("#hero h1 .ln > span", { yPercent: 0, duration: 1.3, ease: "expo.out", stagger: 0.12 });
+      gsap.to("#hero .eyebrow, #hero .hero-foot", { autoAlpha: 1, y: 0, duration: 1, ease: "power3.out", stagger: 0.12, delay: 0.4 });
+    });
+    document.addEventListener("click", function (e) {
+      var a = e.target.closest('a[href^="#"]'); if (!a) return;
+      var hs = a.getAttribute("href"), el = hs.length > 1 ? document.querySelector(hs) : null; if (!el && hs !== "#topo") return;
+      e.preventDefault(); var y = hs === "#topo" ? 0 : el.getBoundingClientRect().top + window.scrollY;
+      if (lenis) lenis.scrollTo(y, { duration: 1.6 }); else window.scrollTo({ top: y, behavior: "smooth" });
+      if (el) { if (!el.hasAttribute("tabindex")) el.setAttribute("tabindex", "-1"); el.focus({ preventScroll: true }); }
+    });
+    window.addEventListener("load", function () { ScrollTrigger.refresh(); });
+    window.__farol = { st: st, set: function (p) { target = cur = p; } };
+  }
+});
+</script>
+<noscript><style>#loader{display:none}.chapter{opacity:1!important;visibility:visible!important;position:relative!important;transform:none!important}</style></noscript>
+</body>
+</html>

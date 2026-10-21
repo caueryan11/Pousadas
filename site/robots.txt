@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Rastreadores de IA (ChatGPT, Gemini, Perplexity, Claude): liberados
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+
+Sitemap: https://oilumi.com.br/sitemap.xml

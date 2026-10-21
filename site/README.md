@@ -11,7 +11,10 @@ Cópias:
 - Railway (projeto `pousadas-site`, serviço `recepcao-24h`): https://recepcao-24h-production.up.railway.app
 - Deploy automático a cada push na branch `claude/prospeccao-whatsapp-pousadas-k0akrw` (pasta `site/`, servida pelo `index.html`).
 - Domínio próprio: **oilumi.com.br** (registrado em 08/10/2026 no registro.br, titular Caue). `www.oilumi.com.br` aponta por CNAME para o Railway; o domínio sem www depende de DNS com CNAME flattening (ver pendência abaixo).
-- `/`: landing da Lumi para pousadas (fonte: `../lumi-pousadas/index.html` na pasta do projeto). Desde 08/10/2026 fica na raiz; `/lumi/` redireciona para `/`.
+- `/`: página de venda de **site + SEO + GEO** para qualquer negócio (R$ 1.800 + R$ 490/mês). Desde 21/10/2026 fica na raiz.
+- `/pousadas/`: a mesma página de venda, com exemplos e dados de pousadas.
+- `/assistente/`: landing da Lumi, atendente de WhatsApp para pousadas (era a raiz até 21/10/2026; usa `<base href="/assistente/">`). `/lumi/` redireciona para `/assistente/`.
+- `robots.txt`, `llms.txt` e `sitemap.xml` na raiz (SEO e GEO do próprio site).
 - `/mira/`: landing da Mira, tour em vídeo da pousada (fonte: `../tour-pousada/index.html`). Vídeos em `mira/media/`. `/tour/` redireciona para `/mira/`.
 - `/negocios/`: landing genérica da Lumi (salão, barbearia, corretor, clínica, loja); fonte: `../lumi-site/index.html`.
 - A página antiga continua em `/recepcao-24h-whatsapp.html` (nome e preços antigos).
