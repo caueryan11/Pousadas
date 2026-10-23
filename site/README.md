@@ -14,6 +14,7 @@ Cópias:
 - `/`: página de venda de **site + SEO + GEO** para qualquer negócio (R$ 1.800 + R$ 490/mês). Desde 21/10/2026 fica na raiz.
 - `/pousadas/`: a mesma página de venda, com exemplos e dados de pousadas.
 - `/assistente/`: landing da Lumi, atendente de WhatsApp para pousadas (era a raiz até 21/10/2026; usa `<base href="/assistente/">`). `/lumi/` redireciona para `/assistente/`.
+- `/menta/`: página de links de afiliado do canal Menta 3D (@omenta3d), com fotos dos anúncios do Mercado Livre. Marca separada da Farol Hospeda; fica fora do sitemap.
 - `robots.txt`, `llms.txt` e `sitemap.xml` na raiz (SEO e GEO do próprio site).
 - `/mira/`: landing da Mira, tour em vídeo da pousada (fonte: `../tour-pousada/index.html`). Vídeos em `mira/media/`. `/tour/` redireciona para `/mira/`.
 - `/negocios/`: landing genérica da Lumi (salão, barbearia, corretor, clínica, loja); fonte: `../lumi-site/index.html`.
