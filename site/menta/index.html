@@ -110,6 +110,33 @@ a{color:inherit;text-decoration:none} h1,h2,h3,p,blockquote{margin:0} em{font-fa
 .js .reveal{opacity:0;transform:translateY(26px);transition:opacity .8s var(--ease),transform .8s var(--ease)} .js .reveal.in{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto} .hero::before,.ticker div,.swatch svg.glow{animation:none} .js .reveal{opacity:1;transform:none;transition:none} *{transition:none!important}}
 </style>
+<style>
+.ck{position:fixed;left:16px;bottom:16px;z-index:60;max-width:380px;padding:16px 18px;border-radius:16px;background:var(--ink);color:var(--paper);border:1px solid var(--faint);box-shadow:0 18px 50px rgba(0,0,0,.5);font-size:.9rem;line-height:1.45}
+.ck[hidden]{display:none}
+.ck p{margin:0 0 12px;color:var(--dim)}
+.ck div{display:flex;gap:10px}
+.ck button{font:600 .86rem/1 var(--sans,inherit);padding:11px 16px;border-radius:999px;cursor:pointer;border:1px solid var(--faint);background:transparent;color:var(--paper)}
+.ck button.ok{background:var(--accent);color:var(--ink);border-color:var(--accent)}
+@media(max-width:520px){.ck{left:12px;right:12px;bottom:12px;max-width:none}}
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2CS9S91Q1M"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
+var saved='';try{saved=localStorage.getItem('menta_ck')||''}catch(e){}
+gtag('consent','default',{analytics_storage:saved==='ok'?'granted':'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:400});
+gtag('js',new Date());
+(function(){
+  var q=new URLSearchParams(location.search),v=(q.get('v')||'').toLowerCase().replace(/[^a-z0-9_-]/g,'').slice(0,60),
+      m={yt:'youtube',ig:'instagram',tt:'tiktok'},cfg={};
+  if(v){
+    var i=v.lastIndexOf('-'),suf=i>0?v.slice(i+1):'',vid=v,rede='';
+    if(m[suf]){vid=v.slice(0,i);rede=suf}
+    window.__mv=vid;window.__mr=rede;
+    cfg={campaign_source:rede?m[rede]:'outro',campaign_medium:'social',campaign_name:'menta',campaign_content:vid};
+  }
+  gtag('config','G-2CS9S91Q1M',cfg);
+})();
+</script>
 </head>
 <body>
 <a class="skip" href="#links">Ir para os links</a>
@@ -470,7 +497,7 @@ a{color:inherit;text-decoration:none} h1,h2,h3,p,blockquote{margin:0} em{font-fa
 
   /* rastreio dos cliques nos links de afiliado */
   document.addEventListener('click',function(e){var a=e.target.closest('a.buy');if(!a)return;var n=a.getAttribute('data-item');
-    if(window.gtag)gtag('event','link_afiliado',{item:n}); if(window.fbq)fbq('trackCustom','LinkAfiliado',{item:n});});
+    if(window.gtag)gtag('event','link_afiliado',{item:n,secao:(a.closest('section')||{}).id||'',video:window.__mv||'',rede:window.__mr||''}); if(window.fbq)fbq('trackCustom','LinkAfiliado',{item:n});});
 
   /* minha lista */
   var sel={}, bar=$('#lista'), nEl=$('#lista-n'), tEl=$('#lista-t');
@@ -482,5 +509,15 @@ a{color:inherit;text-decoration:none} h1,h2,h3,p,blockquote{margin:0} em{font-fa
     function ok(){b.textContent='Copiado!';setTimeout(function(){b.textContent='Copiar lista'},1600)}
     (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(ok).catch(function(){var a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();try{document.execCommand('copy');ok()}catch(x){}document.body.removeChild(a)});});
 })();
+</script>
+<div class="ck" id="ck" role="dialog" aria-label="Aviso de cookies" hidden>
+  <p>Uso cookies de estatística para saber de onde vêm as visitas e quais links são mais clicados. Não uso para anúncios.</p>
+  <div><button type="button" class="ok" id="ck-ok">Aceitar</button><button type="button" id="ck-no">Recusar</button></div>
+</div>
+<script>
+(function(){var b=document.getElementById('ck'),s='';try{s=localStorage.getItem('menta_ck')||''}catch(e){}
+if(!s)b.hidden=false;
+function set(v){try{localStorage.setItem('menta_ck',v)}catch(e){}b.hidden=true;if(v==='ok')gtag('consent','update',{analytics_storage:'granted'})}
+document.getElementById('ck-ok').onclick=function(){set('ok')};document.getElementById('ck-no').onclick=function(){set('no')};})();
 </script>
 </body></html>
